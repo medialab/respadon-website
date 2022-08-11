@@ -1,0 +1,31 @@
+// Page layout:
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  header,
+  footer {
+    flex-shrink: 0;
+  }
+  main {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+// Navigation bar:
+.nav-link {
+  font-family: $font-family-sans-serif-headings;
+
+  color: $primary !important;
+  &:hover,
+  &:focus {
+    color: $primary-light !important;
+  }
+}
+
+.contact-block {
+  background: $gray-100;
+  padding-bottom: 6em !important;
+}

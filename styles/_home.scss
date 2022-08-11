@@ -1,0 +1,70 @@
+.banner {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    background-image: url(/home-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: sepia(1);
+  }
+
+  .container {
+    position: relative;
+    min-height: 460px;
+  }
+
+  h1 {
+    max-width: 60%;
+
+    span {
+      background: white;
+    }
+  }
+}
+
+.text-block {
+  position: relative;
+  background: $gray-100;
+  padding: 2em;
+}
+
+.info-block {
+  position: relative;
+  background: $primary;
+  color: $white;
+  padding: 1.4em;
+  align-self: end;
+  width: 450px;
+  max-width: 100%;
+  margin-right: 30px;
+  margin-top: -30px;
+}
+
+@include media-breakpoint-up(lg) {
+  .text-block {
+    padding-right: 370px;
+  }
+  .info-block-right {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    max-width: 370px;
+    right: -20px;
+    margin-right: 0;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .text-block {
+    padding: 1em;
+  }
+  .info-block {
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+// Utils classes:
+.underlined {
+  position: relative;
+
+  &::after {
+    content: ' ';
+    height: 2px;
+    background: $yellow;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    position: absolute;
+  }
+}
+
+.yellow-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  background: $yellow;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: $yellow;
+}
+a.link-unstyled {
+  text-decoration: none !important;
+}

@@ -1,0 +1,33 @@
+/**
+ * Typography
+ */
+$font-family-sans-serif-headings: Sligoil, mono;
+$font-family-sans-serif: Barlow, sans-serif;
+$font-family-serif: Georgia, serif;
+
+$font-size-base: 1.35rem;
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2.5;
+
+/**
+ * Colors:
+ */
+$blue: #000174;
+$blue: #000174 !default;
+$pink: #f4dbd1;
+$pink: #f4dbd1 !default;
+$yellow: #ffc800;
+$yellow: #ffc800 !default;
+
+$light-opacity: 0.7;
+$primary: $blue;
+$primary-light: rgba($primary, $light-opacity);
+$secondary: $yellow !default;
+
+$body-color: $black;
+$link-color: $black;
+$link-color: $black !default;
+$headings-color: $primary;
+$link-hover-color: $gray-600;
+
+$headings-font-family: $font-family-sans-serif-headings !default;
