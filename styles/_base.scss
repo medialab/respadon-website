@@ -22,6 +22,11 @@
   background: $yellow;
 }
 
+.text-white-deep,
+.text-white-deep * {
+  color: $white !important;
+}
+
 a {
   text-decoration-line: underline;
   text-decoration-thickness: 2px;

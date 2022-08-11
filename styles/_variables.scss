@@ -21,6 +21,7 @@ $yellow: #ffc800 !default;
 
 $light-opacity: 0.7;
 $primary: $blue;
+$primary: $blue !default;
 $primary-light: rgba($primary, $light-opacity);
 $secondary: $yellow !default;
 

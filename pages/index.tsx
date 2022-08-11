@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 import Layout from '../components/Layout';
+import { STORY_1_COLOR, STORY_2_COLOR, STORY_3_COLOR, STORY_4_COLOR } from '../lib/consts';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,8 @@ const Home: NextPage = () => {
       </Head>
 
       <Layout>
-        <div className="banner mb-4">
+        {/* TITLE AND BANNER */}
+        <div className="banner mb-1">
           <div className="container d-flex flex-column justify-content-center">
             <h1>
               <span>
@@ -22,11 +24,16 @@ const Home: NextPage = () => {
             </h1>
           </div>
         </div>
+        <div className="container text-end mb-4">
+          <a className="small" href="https://twitter.com/mleroyterquem/status/1512451629315993603">
+            © Mélanie Leroy-Terquem, BnF.
+          </a>
+        </div>
 
         {/* INTRO TEXT BLOCKS */}
         <div className="container pt-4">
           <div className="row d-flex flex-column">
-            <h2>Le datasprint</h2>
+            <h2 className="text-white">Le datasprint</h2>
             <div className="text-block">
               <p>
                 Du 4 au 8 avril 2022, s’est déroulé à Paris au BnF DataLab, le DataSprint ResPaDon.
@@ -60,7 +67,7 @@ const Home: NextPage = () => {
 
         <div className="container pt-4">
           <div className="row d-flex flex-column position-relative">
-            <h2>Les projets</h2>
+            <h2 className="text-white">Les projets</h2>
             <div className="text-block">
               <ul className="list-unstyled">
                 <li className="mb-4">
@@ -164,6 +171,152 @@ const Home: NextPage = () => {
                 eleonora.moiraghi<strong className="px-1">at</strong>sciencespo
                 <strong className="px-1">dot</strong>fr
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* STORY BLOCKS */}
+        <div className="story text-white-deep" style={{ background: STORY_1_COLOR }}>
+          <div className="container py-4">
+            <div className="row align-items-center position-relative">
+              <div className="col-3">
+                <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
+                <div className="text-end">
+                  <a className="small" href="https://picsum.photos/">
+                    © Picsum.photos
+                  </a>
+                </div>
+              </div>
+              <div className="col-9">
+                <h2>Story blabla</h2>
+                <p>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus
+                  eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in
+                  ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat.
+                  Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel
+                  pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.{' '}
+                </p>
+              </div>
+              <span className="position-absolute text-end bottom-0 end-0 w-auto">
+                <a className="" href="#">
+                  En savoir plus →
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="story text-white-deep" style={{ background: STORY_2_COLOR }}>
+          <div className="container py-4">
+            <div className="row align-items-center position-relative">
+              <div className="col-3">
+                <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
+                <div className="text-end">
+                  <a className="small" href="https://picsum.photos/">
+                    © Picsum.photos
+                  </a>
+                </div>
+              </div>
+              <div className="col-9">
+                <h2>Story blabla</h2>
+                <p>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus
+                  eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in
+                  ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat.
+                  Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel
+                  pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.{' '}
+                </p>
+              </div>
+              <span className="position-absolute text-end bottom-0 end-0 w-auto">
+                <a className="" href="#">
+                  En savoir plus →
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="story text-white-deep" style={{ background: STORY_3_COLOR }}>
+          <div className="container py-4">
+            <div className="row align-items-center position-relative">
+              <div className="col-3">
+                <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
+                <div className="text-end">
+                  <a className="small" href="https://picsum.photos/">
+                    © Picsum.photos
+                  </a>
+                </div>
+              </div>
+              <div className="col-9">
+                <h2>Story blabla</h2>
+                <p>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus
+                  eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in
+                  ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat.
+                  Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel
+                  pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.{' '}
+                </p>
+              </div>
+              <span className="position-absolute text-end bottom-0 end-0 w-auto">
+                <a className="" href="#">
+                  En savoir plus →
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="story text-white-deep" style={{ background: STORY_4_COLOR }}>
+          <div className="container py-4">
+            <div className="row align-items-center position-relative">
+              <div className="col-3">
+                <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
+                <div className="text-end">
+                  <a className="small" href="https://picsum.photos/">
+                    © Picsum.photos
+                  </a>
+                </div>
+              </div>
+              <div className="col-9">
+                <h2>Story blabla</h2>
+                <p>
+                  {' '}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus
+                  eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in
+                  ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat.
+                  Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel
+                  pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.{' '}
+                </p>
+              </div>
+              <span className="position-absolute text-end bottom-0 end-0 w-auto">
+                <a className="" href="#">
+                  En savoir plus →
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* STORY BLOCKS */}
+        <div className="container py-4">
+          <div className="method-block text-center p-5 my-4">
+            <h2>Méthodologie</h2>
+            <p>
+              Texte Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+              veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+              commodo consequat. Duis autem vel eum iriure.
+            </p>
+            <div className="pb-4">
+              <a href="#" className="link-unstyled h5">
+                Lire la suite →
+              </a>
+            </div>
+            <div>
+              <button className="btn btn-primary">Télécharger le document ↓</button>
             </div>
           </div>
         </div>
