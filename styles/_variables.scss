@@ -1,34 +1,31 @@
 /**
  * Typography
  */
-$font-family-sans-serif-headings: Sligoil, mono;
-$font-family-sans-serif: Barlow, sans-serif;
-$font-family-serif: Georgia, serif;
+$font-family-sans-serif-headings: Sligoil, mono !default;
+$font-family-sans-serif: Barlow, sans-serif !default;
+$font-family-serif: Georgia, serif !default;
 
-$font-size-base: 1.35rem;
-$h1-font-size: $font-size-base * 3.5;
-$h2-font-size: $font-size-base * 2.5;
+$font-size-base: 1.35rem !default;
+$h1-font-size: $font-size-base * 3.5 !default;
+$h2-font-size: $font-size-base * 2.5 !default;
 
 /**
  * Colors:
  */
-$blue: #000174;
 $blue: #000174 !default;
-$pink: #f4dbd1;
 $pink: #f4dbd1 !default;
-$yellow: #ffc800;
 $yellow: #ffc800 !default;
+$black: #000000 !default;
+$gray-100: #fafafa !default;
 
-$light-opacity: 0.7;
-$primary: $blue;
+$light-opacity: 0.7 !default;
 $primary: $blue !default;
-$primary-light: rgba($primary, $light-opacity);
+$primary-light: rgba($primary, $light-opacity) !default;
 $secondary: $yellow !default;
 
-$body-color: $black;
-$link-color: $black;
+$body-color: $black !default;
 $link-color: $black !default;
-$headings-color: $primary;
-$link-hover-color: $gray-600;
+$headings-color: $primary !default;
+$link-hover-color: rgba($black, $light-opacity) !default;
 
 $headings-font-family: $font-family-sans-serif-headings !default;
