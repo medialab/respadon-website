@@ -13,7 +13,7 @@ import Carousel from '../components/Carousel';
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <Layout page="home">
       <Head>
         <title>Respadon | Accueil</title>
         <meta name="description" content="Respadon | Accueil" />

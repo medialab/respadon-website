@@ -3,6 +3,25 @@ export const STORY_2_COLOR = '#CF4D27';
 export const STORY_3_COLOR = '#2A7799';
 export const STORY_4_COLOR = '#325A6E';
 
+export const NAV_PAGES = [
+  { id: 'home', path: '/', label: 'Accueil' },
+  { id: 'context', path: '/context', label: 'Contexte' },
+  { id: 'stories', path: '/stories', label: 'Stories' },
+  { id: 'method', path: '/method', label: 'Méthodologie' },
+  { id: 'making-of', path: '/making-of', label: 'Making-of' },
+] as const;
+
+export const FOOTER_PAGES = [
+  { id: 'credits', path: '/credits', label: 'Crédits' },
+  { id: 'legals', path: '/legals', label: 'Mentions légales' },
+] as const;
+
+export type FooterPage = typeof FOOTER_PAGES[number]['id'];
+
+export type NavPage = typeof NAV_PAGES[number]['id'];
+
+export type Page = NavPage | FooterPage;
+
 export const PICTURES = [
   [
     'IMG_9130',

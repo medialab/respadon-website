@@ -1,7 +1,10 @@
 import { FC, ReactNode, useRef, useState } from 'react';
 import cx from 'classnames';
+import Link from 'next/link';
 
-const Header: FC = () => {
+import { FOOTER_PAGES, NAV_PAGES, Page } from '../lib/consts';
+
+const Header: FC<{ page?: Page }> = ({ page }) => {
   const menu = useRef<HTMLDivElement>(null);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -23,31 +26,15 @@ const Header: FC = () => {
             ref={menu}
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  <span className="pb-1 underlined">Accueil</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span className="pb-1">Contexte</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span className="pb-1">Stories</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span className="pb-1">Méthodologie</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span className="pb-1">Making-of</span>
-                </a>
-              </li>
+              {NAV_PAGES.map(({ id, path, label }) => (
+                <li className="nav-item" key={id}>
+                  <Link href={path}>
+                    <a className={cx('nav-link', id === page && 'active')}>
+                      <span className={cx('pb-1', id === page && 'underlined')}>{label}</span>
+                    </a>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -56,66 +43,40 @@ const Header: FC = () => {
   );
 };
 
-const Footer: FC = () => (
+const Footer: FC<{ page?: Page }> = ({ page }) => (
   <footer className="container mt-4 pt-4">
     <div className="row">
       <div className="col-3 p-3">
-        <div>
-          <a className="link-unstyled" href="#">
-            Accueil
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Stories
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Méthodologie
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Making-of
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Crédits
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Mentions légales
-          </a>
-        </div>
+        {NAV_PAGES.map(({ id, path, label }) => (
+          <div key={id}>
+            <Link href={path}>
+              <a className={cx('link-unstyled', id === page && 'underlined')}>{label}</a>
+            </Link>
+          </div>
+        ))}
+      </div>
+      <div className="col-3 p-3">
+        {FOOTER_PAGES.map(({ id, path, label }) => (
+          <div key={id}>
+            <Link href={path}>
+              <a className={cx('link-unstyled', id === page && 'underlined')}>{label}</a>
+            </Link>
+          </div>
+        ))}
       </div>
       <div className="col-3 p-3">
         <div>
-          <a className="link-unstyled" href="#">
-            Crédits
-          </a>
-        </div>
-        <div>
-          <a className="link-unstyled" href="#">
-            Mentions légales
-          </a>
-        </div>
-      </div>
-      <div className="col-3 p-3">
-        <div>
-          <a className="link-unstyled" href="#">
+          <a className="link-unstyled" href="https://twitter.com/respadon_projet">
             Twitter
           </a>
         </div>
         <div>
-          <a className="link-unstyled" href="#">
+          <a className="link-unstyled" href="https://respadon.hypotheses.org/">
             Carnets Hypothèses
           </a>
         </div>
         <div>
-          <a className="link-unstyled" href="#">
+          <a className="link-unstyled" href="https://www.collexpersee.eu/">
             CollEx-Persée
           </a>
         </div>
@@ -133,11 +94,11 @@ const Footer: FC = () => (
   </footer>
 );
 
-const Layout: FC<{ children?: ReactNode }> = ({ children }) => (
+const Layout: FC<{ children?: ReactNode; page?: Page }> = ({ children, page }) => (
   <div id="root">
-    <Header />
+    <Header page={page} />
     <main>{children}</main>
-    <Footer />
+    <Footer page={page} />
   </div>
 );
 
