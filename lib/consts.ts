@@ -1,3 +1,6 @@
+import { StaticImageData } from 'next/image';
+
+// Load images:
 import IMG_9130 from '../public/pictures/IMG_9130.jpg';
 import IMG_9140 from '../public/pictures/IMG_9140.jpg';
 import IMG_9271 from '../public/pictures/IMG_9271.jpg';
@@ -21,7 +24,6 @@ import IMG_Presentation_GpeCOVID from '../public/pictures/Presentation_GpeCOVID.
 import IMG_0188 from '../public/pictures/IMG_0188.jpg';
 import IMG_0185 from '../public/pictures/IMG_0185.jpg';
 import IMG_20220405_155535 from '../public/pictures/20220405_155535.jpg';
-import { StaticImageData } from 'next/image';
 
 export const STORIES = [
   {
