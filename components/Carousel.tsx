@@ -8,9 +8,6 @@ const Carousel: FC<{ pictures: { src: string; alt: string }[] }> = ({ pictures }
           <img className="img-fluid" key={i} src={src} alt={alt} />
         ))}
       </div>
-      <div className="container">
-        <div className="scrollbar"></div>
-      </div>
     </div>
   );
 };

@@ -240,7 +240,7 @@ const Home: NextPage = () => {
             <a href="#">En voir plus →</a>
           </div>
         </div>
-        <Carousel pictures={PICTURES} />
+        <Carousel pictures={PICTURES.slice(0, 10)} />
       </div>
     </Layout>
   );
