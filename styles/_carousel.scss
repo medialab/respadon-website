@@ -1,0 +1,14 @@
+.carousel {
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: hidden;
+    padding: 50px 0;
+  }
+
+  img {
+    max-width: 400px;
+    margin: 0 30px;
+  }
+}

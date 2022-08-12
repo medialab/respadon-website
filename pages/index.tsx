@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import { STORY_1_COLOR, STORY_2_COLOR, STORY_3_COLOR, STORY_4_COLOR } from '../lib/consts';
+import Carousel from '../components/Carousel';
 
 const Home: NextPage = () => {
   return (
@@ -300,7 +301,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        {/* STORY BLOCKS */}
+        {/* METHOD BLOCK */}
         <div className="container py-4">
           <div className="method-block text-center p-5 my-4">
             <h2>Méthodologie</h2>
@@ -319,6 +320,37 @@ const Home: NextPage = () => {
               <button className="btn btn-primary">Télécharger le document ↓</button>
             </div>
           </div>
+        </div>
+
+        {/* MAKING-OF BLOCK */}
+        <div className="making-of py-5 my-4">
+          <div className="container my-3">
+            <h2>Making-of</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+              veniam, quis nostrud exerci tation.
+            </p>
+            <div className="h5">
+              <a href="#">En voir plus →</a>
+            </div>
+          </div>
+          <Carousel
+            pictures={[
+              { src: 'https://picsum.photos/800/600', alt: '800x600 placeholder image' },
+              { src: 'https://picsum.photos/700/400', alt: '700x400 placeholder image' },
+              { src: 'https://picsum.photos/1200/800', alt: '1200x800 placeholder image' },
+              { src: 'https://picsum.photos/400/400', alt: '400x400 placeholder image' },
+              { src: 'https://picsum.photos/800/600', alt: '800x600 placeholder image' },
+              { src: 'https://picsum.photos/700/400', alt: '700x400 placeholder image' },
+              { src: 'https://picsum.photos/1200/800', alt: '1200x800 placeholder image' },
+              { src: 'https://picsum.photos/400/400', alt: '400x400 placeholder image' },
+              { src: 'https://picsum.photos/800/600', alt: '800x600 placeholder image' },
+              { src: 'https://picsum.photos/700/400', alt: '700x400 placeholder image' },
+              { src: 'https://picsum.photos/1200/800', alt: '1200x800 placeholder image' },
+              { src: 'https://picsum.photos/400/400', alt: '400x400 placeholder image' },
+            ]}
+          />
         </div>
       </Layout>
     </div>

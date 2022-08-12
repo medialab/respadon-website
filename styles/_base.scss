@@ -35,3 +35,22 @@ a {
 a.link-unstyled {
   text-decoration: none !important;
 }
+
+.custom-scrollbar {
+  scrollbar-color: $primary;
+  scrollbar-width: auto;
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $primary;
+  }
+}
