@@ -76,3 +76,12 @@
 .making-of {
   background: $yellow;
 }
+
+.story-block {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  height: 100vh;
+}

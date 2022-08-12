@@ -1,7 +1,62 @@
-export const STORY_1_COLOR = '#FF9591';
-export const STORY_2_COLOR = '#CF4D27';
-export const STORY_3_COLOR = '#2A7799';
-export const STORY_4_COLOR = '#325A6E';
+export const STORIES = [
+  {
+    id: 'spectacles',
+    path: '/stories/spectacles',
+    color: '#FF9591',
+    title: 'Cartographie de la critique en ligne des arts du spectacle',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    image: {
+      path: "https://picsum.photos/400/700",
+      alt: "400x700 image placeholder",
+      credit: "© Picsum.photos",
+      creditPath: "https://picsum.photos/"
+    }
+  },
+  {
+    id: 'covid',
+    path: '/stories/covid',
+    color: '#CF4D27',
+    title: 'Crise de la COVID-19 : positionnement des acteurs du web par rapport aux institutions',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    image: {
+      path: "https://picsum.photos/500/700",
+      alt: "500x700 image placeholder",
+      credit: "© Picsum.photos",
+      creditPath: "https://picsum.photos/"
+    }
+  },
+  {
+    id: 'politique',
+    path: '/stories/politique',
+    color: '#2A7799',
+    title:
+      'Structuration des communautés politiques autour des candidats aux élections présidentielles (exemple du candidat Jean-Luc Mélenchon)',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    image: {
+      path: "https://picsum.photos/400/600",
+      alt: "400x600 image placeholder",
+      credit: "© Picsum.photos",
+      creditPath: "https://picsum.photos/"
+    }
+  },
+  {
+    id: 'genome',
+    path: '/stories/genome',
+    color: '#325A6E',
+    title: 'La notion de « génome » dans les archives électorales BnF',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    image: {
+      path: "https://picsum.photos/700/700",
+      alt: "700x700 image placeholder",
+      credit: "© Picsum.photos",
+      creditPath: "https://picsum.photos/"
+    }
+  },
+] as const;
 
 export const NAV_PAGES = [
   { id: 'home', path: '/', label: 'Accueil' },

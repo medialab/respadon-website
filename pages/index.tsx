@@ -1,15 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import {
-  PICTURES,
-  STORY_1_COLOR,
-  STORY_2_COLOR,
-  STORY_3_COLOR,
-  STORY_4_COLOR,
-} from '../lib/consts';
 import Carousel from '../components/Carousel';
+import { PICTURES, STORIES } from '../lib/consts';
 
 const Home: NextPage = () => {
   return (
@@ -181,128 +176,34 @@ const Home: NextPage = () => {
       </div>
 
       {/* STORY BLOCKS */}
-      <div className="story text-white-deep" style={{ background: STORY_1_COLOR }}>
-        <div className="container py-4">
-          <div className="row align-items-center position-relative">
-            <div className="col-3">
-              <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
-              <div className="text-end">
-                <a className="small" href="https://picsum.photos/">
-                  © Picsum.photos
-                </a>
+      <div>
+        {STORIES.map((story) => (
+          <div
+            key={story.id}
+            className="story-block text-white-deep"
+            style={{ background: story.color }}
+          >
+            <div className="container py-4">
+              <div className="row align-items-center position-relative">
+                <div className="col-3">
+                  <img className="img-fluid" src={story.image.path} alt={story.image.alt} />
+                  <div className="text-end">
+                    <a className="small" href={story.image.creditPath}>
+                      {story.image.credit}
+                    </a>
+                  </div>
+                </div>
+                <div className="col-9">
+                  <h2>{story.title}</h2>
+                  <p>{story.description}</p>
+                </div>
+                <span className="position-absolute text-end bottom-0 end-0 w-auto">
+                  <Link href={story.path}>En savoir plus →</Link>
+                </span>
               </div>
             </div>
-            <div className="col-9">
-              <h2>Story blabla</h2>
-              <p>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget
-                placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a
-                libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae
-                leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus.
-                Morbi pulvinar nibh non tristique commodo.{' '}
-              </p>
-            </div>
-            <span className="position-absolute text-end bottom-0 end-0 w-auto">
-              <a className="" href="#">
-                En savoir plus →
-              </a>
-            </span>
           </div>
-        </div>
-      </div>
-
-      <div className="story text-white-deep" style={{ background: STORY_2_COLOR }}>
-        <div className="container py-4">
-          <div className="row align-items-center position-relative">
-            <div className="col-3">
-              <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
-              <div className="text-end">
-                <a className="small" href="https://picsum.photos/">
-                  © Picsum.photos
-                </a>
-              </div>
-            </div>
-            <div className="col-9">
-              <h2>Story blabla</h2>
-              <p>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget
-                placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a
-                libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae
-                leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus.
-                Morbi pulvinar nibh non tristique commodo.{' '}
-              </p>
-            </div>
-            <span className="position-absolute text-end bottom-0 end-0 w-auto">
-              <a className="" href="#">
-                En savoir plus →
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div className="story text-white-deep" style={{ background: STORY_3_COLOR }}>
-        <div className="container py-4">
-          <div className="row align-items-center position-relative">
-            <div className="col-3">
-              <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
-              <div className="text-end">
-                <a className="small" href="https://picsum.photos/">
-                  © Picsum.photos
-                </a>
-              </div>
-            </div>
-            <div className="col-9">
-              <h2>Story blabla</h2>
-              <p>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget
-                placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a
-                libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae
-                leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus.
-                Morbi pulvinar nibh non tristique commodo.{' '}
-              </p>
-            </div>
-            <span className="position-absolute text-end bottom-0 end-0 w-auto">
-              <a className="" href="#">
-                En savoir plus →
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div className="story text-white-deep" style={{ background: STORY_4_COLOR }}>
-        <div className="container py-4">
-          <div className="row align-items-center position-relative">
-            <div className="col-3">
-              <img className="img-fluid" src="https://picsum.photos/400/700" alt="" />
-              <div className="text-end">
-                <a className="small" href="https://picsum.photos/">
-                  © Picsum.photos
-                </a>
-              </div>
-            </div>
-            <div className="col-9">
-              <h2>Story blabla</h2>
-              <p>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget
-                placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a
-                libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae
-                leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus.
-                Morbi pulvinar nibh non tristique commodo.{' '}
-              </p>
-            </div>
-            <span className="position-absolute text-end bottom-0 end-0 w-auto">
-              <a className="" href="#">
-                En savoir plus →
-              </a>
-            </span>
-          </div>
-        </div>
+        ))}
       </div>
 
       {/* METHOD BLOCK */}
