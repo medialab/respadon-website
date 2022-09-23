@@ -1,0 +1,11 @@
+$color-spectacles: #ff9591;
+$color-covid: #cf4d27;
+$color-politique: #2a7799;
+$color-genome: #325a6e;
+
+:export {
+  spectacles: $color-spectacles;
+  covid: $color-covid;
+  politique: $color-politique;
+  genome: $color-genome;
+}

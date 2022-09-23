@@ -1,6 +1,7 @@
 import { FC } from 'react';
-import Layout from '../components/Layout';
 import Head from 'next/head';
+
+import Layout from '../components/Layout';
 
 const Context: FC = () => (
   <Layout page="context">
@@ -46,9 +47,9 @@ const Context: FC = () => (
         Certains de ces groupes de travail engagent une démarche expérimentale, d’autres nourrissent
         une réflexion professionnelle commune dont les résultats seront partagés entre tous (
         <a href="https://respadon.hypotheses.org/113">pour en savoir plus</a>). L’expérimentation
-        dont rend compte ce site a été menée dans le cadre du groupe de travail 4 "Expérimentation
-        autour de la constitution et du traitement de corpus web issus des archives de l’internet,
-        en lien avec le web vivant".
+        dont rend compte ce site a été menée dans le cadre du groupe de travail 4
+        &quot;Expérimentation autour de la constitution et du traitement de corpus web issus des
+        archives de l’internet, en lien avec le web vivant&quot;.
       </p>
       <p>
         Piloté par la Direction des ressources et de l’information scientifique de Sciences Po, le
@@ -59,8 +60,8 @@ const Context: FC = () => (
         l’internet. Il s’agit ainsi de déterminer si des logiciels d’analyse utilisés sur le web
         vivant sont opérants sur les corpus d’archives du web de la BnF, d’expérimenter des méthodes
         d’investigation des questions de recherche sur un corpus constitué d’archives du web et de
-        rendre possibles des approches comparatives avec le web "vivant". C’est dans cette optique
-        que s’est tenu le datasprint ResPaDon en avril 2022.
+        rendre possibles des approches comparatives avec le web &quot;vivant&quot;. C’est dans cette
+        optique que s’est tenu le datasprint ResPaDon en avril 2022.
       </p>
       <br />
       <h2 className="h3">Le datasprint Respadon : intérêt et méthode</h2>
@@ -74,11 +75,11 @@ const Context: FC = () => (
       </p>
       <h4 className="h5">2. Apprendre à travailler avec des données numériques</h4>
       <p>
-        La "data" est une opportunité, mais aussi une contrainte forte. Les problèmes auxquels on
-        doit faire face sont à la fois pratiques et méthodologiques. Un datasprint est l’occasion de
-        découvrir ou de renforcer ses compétences relatives aux données (parsing, diagnostic,
-        nettoyage…) et de réfléchir à plusieurs associations possibles entre les données et les
-        questions de recherche.
+        La &quot;data&quot; est une opportunité, mais aussi une contrainte forte. Les problèmes
+        auxquels on doit faire face sont à la fois pratiques et méthodologiques. Un datasprint est
+        l’occasion de découvrir ou de renforcer ses compétences relatives aux données (parsing,
+        diagnostic, nettoyage…) et de réfléchir à plusieurs associations possibles entre les données
+        et les questions de recherche.
       </p>
       <h4 className="h5">3. Dégager une narration à plusieurs</h4>
       <p>
@@ -137,9 +138,9 @@ const Context: FC = () => (
       <h4 className="h5">2. Intercompréhension entre les disciplines et méthodes de partage</h4>
       <p>
         La dimension expérimentale, parfois chaotique, est inhérente au datasprint. Cela peut
-        provoquer des situations "d'ingénuité réciproque" entre participants qui, si elles peuvent
-        être surprenantes, sont intéressantes. Le datasprint est une occasion de cultiver une
-        curiosité mutuelle pour d’autres approches.
+        provoquer des situations &quot;d&apos;ingénuité réciproque&quot; entre participants qui, si
+        elles peuvent être surprenantes, sont intéressantes. Le datasprint est une occasion de
+        cultiver une curiosité mutuelle pour d’autres approches.
       </p>
       <p>
         Pour faciliter ce processus d’intercompréhension, des outils techniques et des procédures
@@ -155,8 +156,9 @@ const Context: FC = () => (
         des tâches effectuées en doublon ou des “angles morts”. Pour faire face à ce défi, de
         nombreux outils sont mis à disposition pour documenter progressivement le travail effectué à
         l’intérieur des groupes, et des points d’étapes en plénière sont organisés tout au long de
-        l'événement pour partager les avancées. Par ailleurs, des visites informelles régulières
-        entre les groupes permettent de mutualiser certaines tâches avec l’aide des facilitateurs.
+        l&apos;événement pour partager les avancées. Par ailleurs, des visites informelles
+        régulières entre les groupes permettent de mutualiser certaines tâches avec l’aide des
+        facilitateurs.
       </p>
       <h4 className="h5">4. Produire et partager les travaux</h4>
       <p>
@@ -165,7 +167,7 @@ const Context: FC = () => (
         hauteur des efforts fournis sur le temps court. Le temps du datasprint est ainsi à la fois
         un temps d’exploration et d’enquête, et un temps de production de résultats. Les
         participants gardent en tête les tâches nécessaires pour arriver à un résultat publiable
-        dans le temps de l'événement.
+        dans le temps de l&apos;événement.
       </p>
       <br />
       <h2 className="h3">Les archives web et les collectes de la BnF</h2>
@@ -190,7 +192,7 @@ const Context: FC = () => (
         Les premiers sites web archivés à la BnF datent de 1996 grâce à une acquisition de sites
         archivés auprès de la fondation américaine Internet Archive. En raison de la masse de
         données disponibles sur le web, à la différence du dépôt légal des documents imprimés ou sur
-        support, le dépôt légal du web vise à la représentativité et non pas à l'exhaustivité.
+        support, le dépôt légal du web vise à la représentativité et non pas à l&apos;exhaustivité.
       </p>
       <p>
         Afin de constituer des échantillons représentatifs du web français, les collectes de la BnF
@@ -238,20 +240,21 @@ const Context: FC = () => (
       <br />
       <h2 className="h3">Le crawler Hyphe et la curation de corpus</h2>
       <p>
-        Publié sous la forme d'un{' '}
+        Publié sous la forme d&apos;un{' '}
         <a href="https://github.com/medialab/hyphe">logiciel libre publié sur GitHub</a>, Hyphe a
         été conçu pour offrir aux chercheurs et étudiants un outil de création et nettoyage de
         corpus web reposant sur un crawler orienté pour la recherche. Les utilisateurs sont
         accompagnés par une méthodologie pour construire leur corpus web de manière à la fois
         granulaire et flexible avec des principes de curation simples. Plutôt que de traiter de
-        "sites web", Hyphe manipule des "Web Entités", qui peuvent être définies tout aussi bien
-        comme de simples pages, un sous-domaine, une combinaison de sites, etc. Les pages résidant
-        sous ces Web Entités sont ensuite crawlées, afin de collecter les liens sortants et les
-        contenus textuels. Les entités les plus citées peuvent ensuite être prospectées manuellement
-        afin d'enrichir le corpus avant de le visualiser sous la forme d'un réseau et de l'exporter
-        pour nettoyage dans d’autres outils tel que Gephi. Hyphe a été adapté aux archives web de la
-        BnF pour les besoins du datasprint ResPaDon et permet désormais la curation des corpus web
-        archivés (BnF et Internet Archive) aussi bien que ceux du web vivant.
+        &quot;sites web&quot;, Hyphe manipule des &quot;Web Entités&quot;, qui peuvent être définies
+        tout aussi bien comme de simples pages, un sous-domaine, une combinaison de sites, etc. Les
+        pages résidant sous ces Web Entités sont ensuite crawlées, afin de collecter les liens
+        sortants et les contenus textuels. Les entités les plus citées peuvent ensuite être
+        prospectées manuellement afin d&apos;enrichir le corpus avant de le visualiser sous la forme
+        d&apos;un réseau et de l&apos;exporter pour nettoyage dans d’autres outils tel que Gephi.
+        Hyphe a été adapté aux archives web de la BnF pour les besoins du datasprint ResPaDon et
+        permet désormais la curation des corpus web archivés (BnF et Internet Archive) aussi bien
+        que ceux du web vivant.
       </p>
       <p>
         En savoir plus sur Hyphe :{' '}

@@ -54,3 +54,20 @@ a.link-unstyled {
     background-color: $primary;
   }
 }
+
+.maxw-50 {
+  max-width: 50% !important;
+}
+.maxw-75 {
+  max-width: 75% !important;
+}
+.maxw-100 {
+  max-width: 100% !important;
+}
+
+.maxw-400 {
+  max-width: 400px !important;
+}
+.maxw-800 {
+  max-width: 800px !important;
+}

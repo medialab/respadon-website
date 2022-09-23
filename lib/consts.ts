@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import { keyBy } from 'lodash';
 
 // Load images:
 import IMG_9130 from '../public/pictures/IMG_9130.jpg';
@@ -24,66 +25,121 @@ import IMG_Presentation_GpeCOVID from '../public/pictures/Presentation_GpeCOVID.
 import IMG_0188 from '../public/pictures/IMG_0188.jpg';
 import IMG_0185 from '../public/pictures/IMG_0185.jpg';
 import IMG_20220405_155535 from '../public/pictures/20220405_155535.jpg';
+import { ComponentType } from 'react';
+import Spectacles from '../components/stories/Spectacles';
+import Covid from '../components/stories/Covid';
+import Politique from '../components/stories/Politique';
+import Genome from '../components/stories/Genome';
 
-export const STORIES = [
+export interface Author {
+  name: string;
+  org?: string;
+}
+export interface Image {
+  path: string;
+  alt: string;
+  credit: string;
+  creditPath: string;
+}
+export interface StoryType {
+  id: string;
+  path: string;
+  color: string;
+  title: string;
+  description: string;
+  image: Image;
+  authors: Author[];
+}
+export const STORIES: StoryType[] = [
   {
     id: 'spectacles',
     path: '/stories/spectacles',
-    color: '#FF9591',
-    title: 'Cartographie de la critique en ligne des arts du spectacle',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    color: '#ff9591',
+    title: 'Pour une cartographie de la critique en ligne des arts du spectacle',
+    description: 'Recherche exploratoire à partir de Hyphe et des archives du web de la Bnf',
     image: {
       path: 'https://picsum.photos/400/700',
       alt: '400x700 image placeholder',
       credit: '© Picsum.photos',
       creditPath: 'https://picsum.photos/',
     },
+    authors: [
+      { name: 'Béatrice Mazoyer', org: 'Sciences Po' },
+      { name: 'Guillaume Plique', org: 'Sciences Po' },
+      { name: 'Antoine De Sacy', org: 'BnF, Huma-Num' },
+      { name: 'Cristina Tosetto', org: 'Université Sorbonne Nouvelle' },
+      { name: 'Clara Wiatrowski', org: 'BnF' },
+    ],
   },
   {
     id: 'covid',
     path: '/stories/covid',
-    color: '#CF4D27',
-    title: 'Crise de la COVID-19 : positionnement des acteurs du web par rapport aux institutions',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    color: '#cf4d27',
+    title: 'Vers une cartographie de la crise de la Covid-19',
+    description: 'Positionnement des acteurs du web par rapport aux institutions',
     image: {
       path: 'https://picsum.photos/500/700',
       alt: '500x700 image placeholder',
       credit: '© Picsum.photos',
       creditPath: 'https://picsum.photos/',
     },
+    authors: [
+      { name: 'Leslie Bellony', org: 'BnF' },
+      { name: 'Guillaume Brioudes', org: 'médialab, Sciences Po' },
+      { name: 'Isabelle Degrange', org: 'BnF' },
+      { name: 'Alexandre Faye' },
+      { name: 'Alexis Jacomy', org: 'OuestWare' },
+      { name: 'Kevin Locoh-Donou', org: 'BnF' },
+      { name: 'Caroline Sala', org: 'Univ. Strasbourg' },
+    ],
   },
   {
     id: 'politique',
     path: '/stories/politique',
-    color: '#2A7799',
+    color: '#2a7799',
     title:
-      'Structuration des communautés politiques autour des candidats aux élections présidentielles (exemple du candidat Jean-Luc Mélenchon)',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+      'La structuration des communautés politiques autour des candidats à l’élection présidentielle',
+    description: 'L’exemple de Jean-Luc Mélenchon, 2012-2022',
     image: {
       path: 'https://picsum.photos/400/600',
       alt: '400x600 image placeholder',
       credit: '© Picsum.photos',
       creditPath: 'https://picsum.photos/',
     },
+    authors: [
+      { name: 'Fabienne Greffet', org: 'IRENEE, Univ. Lorraine' },
+      { name: 'Sara Aubry', org: 'BnF' },
+      { name: 'Cyril Heude', org: 'DRIS, Sciences Po' },
+      { name: 'Robin de Mourat', org: 'médialab, Sciences Po' },
+      { name: 'Benjamin Ooghe - Tabanou', org: 'médialab, Sciences Po' },
+    ],
   },
   {
     id: 'genome',
     path: '/stories/genome',
-    color: '#325A6E',
-    title: 'La notion de « génome » dans les archives électorales BnF',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas tellus eget placerat condimentum. Fusce eget congue enim, nec maximus velit. Donec in ligula a libero posuere molestie ac et nibh. Maecenas porta fermentum consequat. Morbi vitae leo non dolor iaculis auctor eu nec metus. Ut commodo sapien vel pharetra rhoncus. Morbi pulvinar nibh non tristique commodo.',
+    color: '#325a6e',
+    title: 'TODO: La notion de « génome » dans les archives électorales BnF',
+    description: 'TODO',
     image: {
       path: 'https://picsum.photos/700/700',
       alt: '700x700 image placeholder',
       credit: '© Picsum.photos',
       creditPath: 'https://picsum.photos/',
     },
+    authors: [],
   },
-] as const;
+];
+export const STORIES_INDICES: Record<string, number> = STORIES.reduce(
+  (iter, story, i) => ({ ...iter, [story.id]: i }),
+  {}
+);
+
+export const STORY_COMPONENTS: Record<string, ComponentType> = {
+  spectacles: Spectacles,
+  covid: Covid,
+  politique: Politique,
+  genome: Genome,
+};
 
 export const NAV_PAGES = [
   { id: 'home', path: '/', label: 'Accueil' },
@@ -263,7 +319,7 @@ export const PICTURES = (
     [
       '20220405_155535',
       '/pictures/20220405_155535.jpg',
-      'Le groupe "Théâtre" en train de séléctionner des données',
+      'Le groupe "Théâtre" en train de sélectionner des données',
       'Sciences Po',
       IMG_20220405_155535,
     ],

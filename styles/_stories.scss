@@ -1,0 +1,27 @@
+.story-banner {
+  min-height: 400px;
+  padding: 5em 0;
+}
+
+.sections {
+  section {
+    margin: 6em auto;
+  }
+
+  @include media-breakpoint-up(lg) {
+    section:not(.large) {
+      margin-left: 0;
+      width: 75%;
+
+      &:nth-child(2n) {
+        margin-left: 25%;
+      }
+    }
+  }
+}
+
+.figure-container {
+  background: #f8f8f8;
+  margin: 3em auto;
+  padding: 3em 0;
+}
