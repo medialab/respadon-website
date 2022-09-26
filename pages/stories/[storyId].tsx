@@ -16,17 +16,15 @@ const Story: FC<{ story: StoryType; prev: StoryType; next: StoryType }> = ({
   return (
     <Layout page="stories">
       <Head>
-        <title>
-          Respadon | Story {'>'} {story.title}
-        </title>
+        <title>{`Respadon | Story > ${story.title}`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* TITLE AND BANNER */}
-      <div className="mb-4" style={{ background: story.color }}>
+      <div className={cx('mb-4', `bg-${story.id}`)}>
         <div className="container d-flex flex-column justify-content-center story-banner">
-          <div className="h4">Story</div>
-          <h1>{story.title}</h1>
+          <div className={cx('h4', `text-${story.id}-2`)}>Story</div>
+          <h1 className={`text-${story.id}-2`}>{story.title}</h1>
         </div>
       </div>
 
@@ -55,13 +53,19 @@ const Story: FC<{ story: StoryType; prev: StoryType; next: StoryType }> = ({
 
       <Component />
 
-      <div className="container">
-        <div className="row">
-          <div className="d-flex flex-row justify-content-center justify-content-md-between align-items-center">
-            <a href={prev.path} className={cx('btn rounded-pill me-2', `btn-${prev.id}`)}>
+      <div className="container mt-4 pt-4">
+        <div className="row mt-4 pt-4">
+          <div className="d-flex flex-row justify-content-center justify-content-md-between align-items-center mt-4 pt-4">
+            <a
+              href={prev.path}
+              className={cx('btn rounded-pill me-2', `btn-${prev.id}`, `text-${prev.id}-2`)}
+            >
               <AiOutlineArrowLeft />
             </a>
-            <a href={next.path} className={cx('btn rounded-pill fs-5', `btn-${next.id}`)}>
+            <a
+              href={next.path}
+              className={cx('btn rounded-pill px-4 fs-5', `btn-${next.id}`, `text-${next.id}-2`)}
+            >
               Lire la story suivante <AiOutlineArrowRight />
             </a>
           </div>

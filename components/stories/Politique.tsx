@@ -318,7 +318,353 @@ const StoryComponent: FC = () => {
         </section>
       </div>
 
-      <h1 className="text-center text-danger">TODO: Le reste des contenus du document</h1>
+      <div className="figure-container">
+        <div className="container">
+          <div className="row">
+            <figure className="text-center">
+              <figcaption className="h6 text-black">
+                Part des formes éditoriales des web entités entre 2012 et 2022
+              </figcaption>
+              <img
+                src="/pictures/story-politique/chart-edito.png"
+                className="figure-img img-fluid w-100"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large">
+          <p>
+            Les web entités sont catégorisées dans les trois corpus en suivant deux typologies, une
+            typologie d’acteurs et une typologie caractérisant les formes éditoriales. L’histogramme
+            ci-dessus compare la part des web entités qui sont des réseaux sociaux, des blogs ou
+            bien des sites web. On note un net changement entre 2012 et 2017 avec une diminution
+            très forte de la proportion de blogs et le développement massif des réseaux sociaux,
+            notamment Twitter. Cette organisation se renforce en 2022 avec toute une partie de la
+            campagne électorale qui se déplace vers les réseaux sociaux Twitter, Instagram, TikTok,
+            etc.
+          </p>
+        </section>
+      </div>
+
+      <div className="figure-container">
+        <div className="container">
+          <div className="row">
+            <p className="text-center h5 text-black">
+              Répartition des web entités par forme éditoriale
+            </p>
+          </div>
+          <div className="row">
+            <figure className="text-center col-12 col-lg-4">
+              <figcaption className="h6 text-black">en 2012</figcaption>
+              <img
+                src="/pictures/story-politique/network-edito-2012.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black">en 2017</figcaption>
+              <img
+                src="/pictures/story-politique/network-edito-2017.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black">en 2022</figcaption>
+              <img
+                src="/pictures/story-politique/network-edito-2022.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large">
+          <p>
+            La figure ci-dessus montre les trois graphes issus des trois corpus de 2012, 2017 et
+            2022 caractérisés par leur forme éditoriale.
+          </p>
+
+          <p>
+            A gauche, le graphe de 2012 est très concentré. On ne distingue pas vraiment de
+            communautés. Au centre, le graphe de 2017 montre bien l’apparition des comptes Twitter.
+          </p>
+        </section>
+      </div>
+
+      <div className="figure-container">
+        <div className="container">
+          <div className="row">
+            <figure className="text-center">
+              <figcaption className="h6 text-black">
+                Histogramme comparatif des acteurs entre 2012 et 2017
+              </figcaption>
+              <img
+                src="/pictures/story-politique/chart-actors.png"
+                className="figure-img img-fluid w-100"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large">
+          <p>
+            Les résultats concernant le type d’acteurs présents sur le web soutenant Jean-Luc
+            Mélenchon permettent de confirmer certains éléments propres au contexte français et de
+            mettre en perspective les acquis de la littérature internationale sur les campagnes
+            numériques :
+          </p>
+
+          <ul>
+            <li>
+              La “professionnalisation” des campagnes numériques semble se renforcer : les supports
+              de campagne, développés spécialement pour l’élection présidentielle, sont
+              proportionnellement plus nombreux et très connectés à l’univers de soutien au
+              candidat. Ce qui signifie que, dans le cas de Jean-Luc Mélenchon au moins, son équipe
+              dispose des ressources lui permettant de créer des supports spécifiques et des liens
+              communautaires dans un délai relativement court (environ un an avant l’élection).
+            </li>
+            <li>
+              Sur les trois dernières échéances présidentielles, le poids de la présence personnelle
+              du candidat et de sa campagne se renforce nettement, au détriment des formations
+              politiques. Cela peut apparaître comme logique au regard du fait que le Front de
+              gauche de 2012 était un large rassemblement de partis, chaque parti disposant de
+              supports de communication ; alors que ce nombre d’organisations était plus restreint
+              en 2017 avec l’émergence de La France insoumise. Néanmoins, en 2022, le passage
+              désormais institutionnalisé au “parti plateforme” n’entraîne pas (ou pas encore) de
+              refocalisation des supports de communication autour d’une organisation politique
+              renouvelée et de son label. Cela peut apparaître comme logique au regard de “l’hyper
+              leadership” des partis plateformes, mais mériterait d’être ré-examiné dans l’hypothèse
+              d’un retrait de Jean-Luc Mélenchon après 2022.
+            </li>
+            <li>
+              Contrairement à ce qui est généralement pointé depuis la campagne Obama, le poids des
+              internautes engagés est de moins en moins perceptible d’une élection à l’autre : les
+              supports militants sont de moins en moins repérables. Cela peut-être dû à des limites
+              méthodologiques de l’étude et/ou à une migration de la bataille présidentielle vers
+              les réseaux sociaux (cf. plus bas)
+            </li>
+            <li>
+              Il est très intéressant et significatif de voir émerger en 2022 la catégorie “média
+              ami” (avec Lemedia.fr). Dans un contexte de désaffection à l’égard de la forme parti,
+              les acteurs politiques et les organisations investissent d’autres formes : celle du
+              mouvement citoyen, celle du média.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div className="figure-container">
+        <div className="container">
+          <div className="row">
+            <p className="text-center h5 text-black">
+              Répartition des web entités par type d’acteur
+            </p>
+          </div>
+          <div className="row">
+            <figure className="text-center col-12 col-lg-4">
+              <figcaption className="h6 text-black">en 2012</figcaption>
+              <img
+                src="/pictures/story-politique/network-actors-2012.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black">en 2017</figcaption>
+              <img
+                src="/pictures/story-politique/network-actors-2017.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black">en 2022</figcaption>
+              <img
+                src="/pictures/story-politique/network-actors-2022.png"
+                className="figure-img img-fluid w-100 maxw-800"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large">
+          <p>
+            Les différentes visualisations présentées ci-dessus et issues des crawls faits avec
+            Hyphe montrent bien comment l’espace numérique de soutien à Jean-Luc Mélenchon s’est
+            restructuré sur dix ans, autour :
+          </p>
+
+          <ul>
+            <li>
+              des réseaux sociaux au détriment des sites (qui restent présents) et blogs ; avec une
+              transition très perceptible dans les résultats 2017 par rapport à 2012 ;
+            </li>
+            <li>
+              des sites personnels de Jean-Luc Mélenchon, de ses sites de campagne et du site de La
+              France Insoumise, au détriment des partis plus institutionnalisés (PCF, PG) ;
+            </li>
+            <li>
+              de la personnalisation de la communication (ce point est à nuancer car c’est peut-être
+              un phénomène propre à l’élection présidentielle), au détriment des militants et des
+              partis ;
+            </li>
+            <li>
+              de l’apparition en 2022 de “médias amis” qui montrent l’investissement par La France
+              Insoumise de la forme propres aux sites de médias.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+            Cette expérimentation a permis de confirmer le poids des réseaux sociaux comme étant des
+            lieux de mobilisation électorale, ainsi que l’émergence du “parti plateforme” dans un
+            rôle pivot, ainsi que la désinstitutionnalisation des organisations partisanes, au
+            détriment des partis traditionnels. En revanche, il n’a pas été possible de tester la
+            troisième hypothèse de l’affaiblissement éventuel des communautés numériques de gauche
+            en ligne par rapport à celles de droite.
+          </p>
+        </section>
+
+        <section>
+          <p>
+            Plusieurs phénomènes visibles dans les résultats obtenus sont étonnants, notamment :
+          </p>
+          <ul>
+            <li>l’arrivée de la “forme média” en 2022 ;</li>
+            <li>la place finalement faible des sites/blogs/comptes militants.</li>
+          </ul>
+          <p>
+            Attention cependant, ces premiers résultats d’expérimentation, bien qu’encourageants,
+            sont à prendre avec prudence car il faudrait pouvoir les retravailler sur un temps plus
+            long.
+          </p>
+        </section>
+      </div>
+
+      <div className="container sections">
+        <section className="large">
+          <h2 className="text-politique">4. Points d’attention</h2>
+
+          <p>
+            D’un point de vue méthodologique, les points d’attention que soulève cette
+            expérimentation sont les suivants :
+          </p>
+
+          <ul>
+            <li>
+              Dans un objectif de comparaison longitudinale, il est important de bien appliquer la
+              même méthodologie de création et curation des corpus web pour chaque occurrence
+              (points de départ, paramètres de crawl, critères de sélection des entités IN, etc.).
+              Concernant les points de départ, il peut être difficile de trouver une source
+              cohérente et pérenne à travers le temps ; les pages wikipedia dédiées au sujet se sont
+              avérées en conséquence un bon compromis.
+            </li>
+            <li>
+              Crawler les archives du web ajoute de nouvelles contraintes relatives à la précision
+              temporelle : l’idéal pour ce cas d’étude aurait été d’accéder au web correspondant
+              précisément aux semaines ayant précédé la campagne en 2012 et 2017. Cependant, comme
+              de nombreux sites ne sont archivés qu’une fois par an à une date potentiellement trop
+              en amont ou en aval de l’événement considéré, il a été nécessaire d’élargir beaucoup
+              la fenêtre, avec pour conséquence de récolter parfois de nombreux éléments en réalité
+              décorrélés de la campagne.
+            </li>
+            <li>
+              Le contrôle qualité des web entités collectées, important lors de collectes sur le web
+              vivant, s’avère critique pour un travail qualitatif de collecte sur les archives du
+              web. En effet, les évolutions de nombreux sites web, parfois toujours existants mais
+              sans avoir aucunement évolué depuis de longues années, parfois disparus, parfois
+              devenus des “parkings de liens publicitaires”, rendent indispensable la vérification
+              une à une de chaque entité pour chaque tranche temporelle car elles encourent le
+              risque de récolter un grand nombre de faux positifs.
+            </li>
+            <li>
+              De plus, l’évolution de certains réseaux sociaux vers des technologies problématiques
+              pour les collectes automatiques (sites passés ces dernières années en javascript
+              intégral notamment pour Facebook et Twitter par exemple) cause un effet inverse en
+              provoquant la disparition artificielle de nombreux liens issus de ces plateformes vers
+              le reste des corpus.
+            </li>
+            <li>
+              Enfin, comparer des réseaux constitués de listes de nœuds différentes deux à deux est
+              un travail complexe qui nécessite le développement de nouveaux instruments d’analyse
+              visuelle et statistique.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <hr />
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large small">
+          <h3>Références</h3>
+          <ul>
+            <li>
+              Valérie Beaudouin, Zeynep Pehlivan. Cartographie de la Grande Guerre sur le Web :
+              Rapport final de la phase 2 du projet « Le devenir en ligne du patrimoine numérisé :
+              l’exemple de la Grande Guerre ». [Rapport de recherche] Bibliothèque nationale de
+              France; Bibliothèque de documentation internationale contemporaine; Télécom ParisTech.
+              2017. ffhal-01425600f.{' '}
+              <a href="https://hal.archives-ouvertes.fr/hal-01425600/document">Lire</a>.
+            </li>
+            <li>
+              Cardon D., Fouetillou G., Lerondeau C. et Prieur C. « Esquisse de géographie de la
+              blogosphère politique (2007-2009) » in Greffet, F. (dir),{' '}
+              <a href="https://www.Continuerlalutte.com">Continuerlalutte.com</a>, Paris, Presses de
+              Sciences Po, 2011, pp. 73-94.
+            </li>
+            <li>
+              David Chavalarias, Noe Gaumont, Maziyar Panahi. Hostilité et prosélytisme des
+              communautés politiques : Le militantisme politique à l’ère des réseaux sociaux.
+              Réseaux : communication, technologie, société, Lavoisier, La Découverte, 2019,
+              Enquêter à partir des traces textuelles du web, pp.67. ff10.3917/res.214.0067ff.
+              ffhal-02429929f.{' '}
+              <a href="https://hal.archives-ouvertes.fr/hal-02429929/document">Lire</a>.
+            </li>
+            <li>
+              Gerbaudo, Paulo (2019), The Digital Party, Political Organisation and Online
+              Democracy, Pluto Press.
+            </li>
+            <li>
+              Gibson, Rachel K., When the Nerds Go Marching In: How Digital Technology Moved from
+              the Margins to the Mainstream of Political Campaigns, OXFORD STUDIES DIGITAL POLITICS
+              SERIES (New York, 2020; online edn, Oxford Academic, 20 Aug. 2020),
+              <a href="https://doi.org/10.1093/oso/9780195397789.001.0001">
+                https://doi.org/10.1093/oso/9780195397789.001.0001
+              </a>
+              , accessed 16 Sept. 2022.
+            </li>
+            <li>
+              Stromer-Galley, Jennifer, Presidential Campaigning in the Internet Age, Oxford Studies
+              in Digital Politics (2014; online edn, Oxford Academic, 16 Apr. 2014),
+              <a href="https://doi.org/10.1093/acprof:oso/9780199731930.001.0001">
+                https://doi.org/10.1093/acprof:oso/9780199731930.001.0001
+              </a>
+              , accessed 17 Sept. 2022.
+            </li>
+          </ul>
+        </section>
+      </div>
     </>
   );
 };
