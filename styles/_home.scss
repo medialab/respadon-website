@@ -6,7 +6,7 @@
     position: absolute;
     inset: 0;
 
-    background-image: url(/home-banner.jpg);
+    background-image: url('#{$BASE_PATH}/home-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

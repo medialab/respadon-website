@@ -31,6 +31,8 @@ import Covid from '../components/stories/Covid';
 import Politique from '../components/stories/Politique';
 import Genome from '../components/stories/Genome';
 
+export const BASE_PATH = require('../next.config').basePath;
+
 export interface Author {
   name: string;
   org?: string;
@@ -53,12 +55,12 @@ export interface StoryType {
 export const STORIES: StoryType[] = [
   {
     id: 'spectacles',
-    path: '/stories/spectacles',
+    path: BASE_PATH + '/stories/spectacles',
     color: '#ff9591',
     title: 'Pour une cartographie de la critique en ligne des arts du spectacle',
     description: 'Recherche exploratoire à partir de Hyphe et des archives du web de la Bnf',
     image: {
-      path: '/pictures/illustrationGpeCritiqueSpectacle.jpg',
+      path: BASE_PATH + '/pictures/illustrationGpeCritiqueSpectacle.jpg',
       alt: 'TODO: Alt',
       credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
@@ -73,12 +75,12 @@ export const STORIES: StoryType[] = [
   },
   {
     id: 'covid',
-    path: '/stories/covid',
+    path: BASE_PATH + '/stories/covid',
     color: '#cf4d27',
     title: 'Vers une cartographie de la crise de la Covid-19',
     description: 'Positionnement des acteurs du web par rapport aux institutions',
     image: {
-      path: '/pictures/illustrationGpeCovid.jpg',
+      path: BASE_PATH + '/pictures/illustrationGpeCovid.jpg',
       alt: 'TODO: Alt',
       credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
@@ -95,13 +97,13 @@ export const STORIES: StoryType[] = [
   },
   {
     id: 'politique',
-    path: '/stories/politique',
+    path: BASE_PATH + '/stories/politique',
     color: '#2a7799',
     title:
       'La structuration des communautés politiques autour des candidats à l’élection présidentielle',
     description: 'L’exemple de Jean-Luc Mélenchon, 2012-2022',
     image: {
-      path: '/pictures/illustrationGpeCommunautesPol.jpg',
+      path: BASE_PATH + '/pictures/illustrationGpeCommunautesPol.jpg',
       alt: 'TODO: Alt',
       credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
@@ -116,12 +118,12 @@ export const STORIES: StoryType[] = [
   },
   {
     id: 'genome',
-    path: '/stories/genome',
+    path: BASE_PATH + '/stories/genome',
     color: '#325a6e',
     title: 'TODO: La notion de « génome » dans les archives électorales BnF',
     description: 'TODO',
     image: {
-      path: '/pictures/illustrationGpeGenome.jpg',
+      path: BASE_PATH + '/pictures/illustrationGpeGenome.jpg',
       alt: 'TODO: Alt',
       credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
@@ -142,16 +144,16 @@ export const STORY_COMPONENTS: Record<string, ComponentType> = {
 };
 
 export const NAV_PAGES = [
-  { id: 'home', path: '/', label: 'Accueil' },
-  { id: 'context', path: '/context', label: 'Contexte' },
-  { id: 'stories', path: '/stories', label: 'Stories' },
-  { id: 'method', path: '/method', label: 'Méthodologie' },
-  { id: 'making-of', path: '/making-of', label: 'Making-of' },
+  { id: 'home', path: BASE_PATH + '/', label: 'Accueil' },
+  { id: 'context', path: BASE_PATH + '/context', label: 'Contexte' },
+  { id: 'stories', path: BASE_PATH + '/stories', label: 'Stories' },
+  { id: 'method', path: BASE_PATH + '/method', label: 'Méthodologie' },
+  { id: 'making-of', path: BASE_PATH + '/making-of', label: 'Making-of' },
 ] as const;
 
 export const FOOTER_PAGES = [
-  { id: 'credits', path: '/credits', label: 'Crédits' },
-  { id: 'legals', path: '/legals', label: 'Mentions légales' },
+  { id: 'credits', path: BASE_PATH + '/credits', label: 'Crédits' },
+  { id: 'legals', path: BASE_PATH + '/legals', label: 'Mentions légales' },
 ] as const;
 
 export type FooterPage = typeof FOOTER_PAGES[number]['id'];
@@ -326,7 +328,7 @@ export const PICTURES = (
   ] as [string, string, string, string, StaticImageData][]
 ).map((row) => ({
   id: row[0],
-  src: row[1],
+  src: BASE_PATH + row[1],
   alt: row[2],
   author: row[3],
   image: row[4],

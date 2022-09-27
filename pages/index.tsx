@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 import Layout from '../components/Layout';
 import Carousel from '../components/Carousel';
-import { PICTURES, STORIES } from '../lib/consts';
+import { BASE_PATH, PICTURES, STORIES } from '../lib/consts';
 
 const Home: NextPage = () => {
   return (
@@ -238,7 +238,7 @@ const Home: NextPage = () => {
             quis nostrud exerci tation.
           </p>
           <div className="h5">
-            <a href={'/making-of'}>En voir plus →</a>
+            <a href={BASE_PATH + '/making-of'}>En voir plus →</a>
           </div>
         </div>
         <Carousel pictures={PICTURES.slice(0, 10)} />

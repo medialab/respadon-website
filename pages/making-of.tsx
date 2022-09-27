@@ -4,7 +4,7 @@ import Masonry from 'react-masonry-css';
 import { HiHome } from 'react-icons/hi';
 
 import Layout from '../components/Layout';
-import { PICTURES } from '../lib/consts';
+import {BASE_PATH, PICTURES} from '../lib/consts';
 import FullscreenPicture from '../components/FullscreenPicture';
 
 const Legals: FC = () => (
@@ -50,7 +50,7 @@ const Legals: FC = () => (
         </div>
 
         <div className="pb-4 mb-4">
-          <a href={'/'} className="btn btn-primary rounded-pill d-inline font-headings mb-4">
+          <a href={BASE_PATH + '/'} className="btn btn-primary rounded-pill d-inline font-headings mb-4">
             {'<'} <HiHome />
           </a>
         </div>
