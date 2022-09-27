@@ -1,4 +1,5 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
+import StoryPicture from '../StoryPicture';
 
 const StoryComponent: FC = () => {
   return (
@@ -87,24 +88,43 @@ const StoryComponent: FC = () => {
             <ul>
               <li>
                 la page consacrée à{' '}
-                <a href="https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon">
+                <a
+                  className="link-politique fw-bold"
+                  href="https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+                >
                   Jean-Luc Mélenchon
                 </a>
                 ,
               </li>
               <li>
                 la page dédiée à son parti (
-                <a href="https://fr.wikipedia.org/wiki/Parti_de_gauche_(France)">Parti de gauche</a>
+                <a
+                  className="link-politique fw-bold"
+                  href="https://fr.wikipedia.org/wiki/Parti_de_gauche_(France)"
+                >
+                  Parti de gauche
+                </a>
                 ),
               </li>
               <li>
                 la page consacrée à la coalition qui le soutient (
-                <a href="https://fr.wikipedia.org/wiki/Front_de_gauche_(France)">Front de gauche</a>{' '}
+                <a
+                  className="link-politique fw-bold"
+                  href="https://fr.wikipedia.org/wiki/Front_de_gauche_(France)"
+                >
+                  Front de gauche
+                </a>{' '}
                 en 2012),
               </li>
               <li>
                 et la page dédiée à son parti{' '}
-                <a href="https://fr.wikipedia.org/wiki/La_France_insoumise">La France Insoumise</a>.
+                <a
+                  className="link-politique fw-bold"
+                  href="https://fr.wikipedia.org/wiki/La_France_insoumise"
+                >
+                  La France Insoumise
+                </a>
+                .
               </li>
             </ul>
 
@@ -190,20 +210,20 @@ const StoryComponent: FC = () => {
         <div className="container">
           <div className="row">
             <figure className="text-center col-12 col-lg-6">
-              <img
+              <StoryPicture
+                top
+                story="politique"
                 src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
-                className="figure-img img-fluid w-100"
-                alt=""
               />
               <figcaption className="h6 text-black">
                 Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022
               </figcaption>
             </figure>
             <figure className="text-center col-12 col-lg-6 mt-4 mt-lg-0">
-              <img
+              <StoryPicture
+                top
+                story="politique"
                 src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
-                className="figure-img img-fluid w-100"
-                alt=""
               />
               <figcaption className="h6 text-black">
                 Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les
@@ -235,10 +255,10 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Exploration et recherche pour comparer graphiquement plusieurs réseaux de liens
               </figcaption>
-              <img
+              <StoryPicture
+                story="politique"
+                className="maxw-800 m-auto"
                 src="/pictures/story-politique/IMG_9449.jpg"
-                className="figure-img img-fluid maxw-800"
-                alt=""
               />
             </figure>
           </div>
@@ -264,10 +284,9 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Présence des web entités entre 2012 et 2017
               </figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/2012%20to%202017.png"
-                className="figure-img img-fluid w-100"
-                alt=""
               />
             </figure>
           </div>
@@ -295,10 +314,9 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Présence des web entités entre 2017 et 2022
               </figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/2017%20to%202022.png"
-                className="figure-img img-fluid w-100"
-                alt=""
               />
             </figure>
           </div>
@@ -325,11 +343,7 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Part des formes éditoriales des web entités entre 2012 et 2022
               </figcaption>
-              <img
-                src="/pictures/story-politique/chart-edito.png"
-                className="figure-img img-fluid w-100"
-                alt=""
-              />
+              <StoryPicture story="politique" src="/pictures/story-politique/chart-edito.png" />
             </figure>
           </div>
         </div>
@@ -360,26 +374,23 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center col-12 col-lg-4">
               <figcaption className="h6 text-black">en 2012</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-edito-2012.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2017</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-edito-2017.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2022</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-edito-2022.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
           </div>
@@ -407,11 +418,7 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Histogramme comparatif des acteurs entre 2012 et 2017
               </figcaption>
-              <img
-                src="/pictures/story-politique/chart-actors.png"
-                className="figure-img img-fluid w-100"
-                alt=""
-              />
+              <StoryPicture story="politique" src="/pictures/story-politique/chart-actors.png" />
             </figure>
           </div>
         </div>
@@ -475,26 +482,23 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center col-12 col-lg-4">
               <figcaption className="h6 text-black">en 2012</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-actors-2012.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2017</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-actors-2017.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2022</figcaption>
-              <img
+              <StoryPicture
+                story="politique"
                 src="/pictures/story-politique/network-actors-2022.png"
-                className="figure-img img-fluid w-100 maxw-800"
-                alt=""
               />
             </figure>
           </div>
@@ -617,50 +621,80 @@ const StoryComponent: FC = () => {
 
       <div className="container sections">
         <section className="large small">
-          <h3>Références</h3>
+          <h3 className="text-politique">Références</h3>
           <ul>
             <li>
-              Valérie Beaudouin, Zeynep Pehlivan. Cartographie de la Grande Guerre sur le Web :
-              Rapport final de la phase 2 du projet « Le devenir en ligne du patrimoine numérisé :
-              l’exemple de la Grande Guerre ». [Rapport de recherche] Bibliothèque nationale de
-              France; Bibliothèque de documentation internationale contemporaine; Télécom ParisTech.
-              2017. ffhal-01425600f.{' '}
-              <a href="https://hal.archives-ouvertes.fr/hal-01425600/document">Lire</a>.
+              Valérie Beaudouin, Zeynep Pehlivan.{' '}
+              <em>
+                Cartographie de la Grande Guerre sur le Web : Rapport final de la phase 2 du projet
+                « Le devenir en ligne du patrimoine numérisé : l’exemple de la Grande Guerre »
+              </em>
+              . [Rapport de recherche] Bibliothèque nationale de France; Bibliothèque de
+              documentation internationale contemporaine; Télécom ParisTech. 2017. ffhal-01425600f.{' '}
+              <a
+                className="link-politique fw-bold"
+                href="https://hal.archives-ouvertes.fr/hal-01425600/document"
+              >
+                Lire
+              </a>
+              .
             </li>
             <li>
-              Cardon D., Fouetillou G., Lerondeau C. et Prieur C. « Esquisse de géographie de la
-              blogosphère politique (2007-2009) » in Greffet, F. (dir),{' '}
-              <a href="https://www.Continuerlalutte.com">Continuerlalutte.com</a>, Paris, Presses de
-              Sciences Po, 2011, pp. 73-94.
+              Cardon D., Fouetillou G., Lerondeau C. et Prieur C.{' '}
+              <em>« Esquisse de géographie de la blogosphère politique (2007-2009) »</em> in
+              Greffet, F. (dir),{' '}
+              <a className="link-politique fw-bold" href="https://www.Continuerlalutte.com">
+                Continuerlalutte.com
+              </a>
+              , Paris, Presses de Sciences Po, 2011, pp. 73-94.
             </li>
             <li>
-              David Chavalarias, Noe Gaumont, Maziyar Panahi. Hostilité et prosélytisme des
-              communautés politiques : Le militantisme politique à l’ère des réseaux sociaux.
-              Réseaux : communication, technologie, société, Lavoisier, La Découverte, 2019,
+              David Chavalarias, Noe Gaumont, Maziyar Panahi.{' '}
+              <em>
+                Hostilité et prosélytisme des communautés politiques : Le militantisme politique à
+                l’ère des réseaux sociaux
+              </em>
+              . Réseaux : communication, technologie, société, Lavoisier, La Découverte, 2019,
               Enquêter à partir des traces textuelles du web, pp.67. ff10.3917/res.214.0067ff.
               ffhal-02429929f.{' '}
-              <a href="https://hal.archives-ouvertes.fr/hal-02429929/document">Lire</a>.
-            </li>
-            <li>
-              Gerbaudo, Paulo (2019), The Digital Party, Political Organisation and Online
-              Democracy, Pluto Press.
-            </li>
-            <li>
-              Gibson, Rachel K., When the Nerds Go Marching In: How Digital Technology Moved from
-              the Margins to the Mainstream of Political Campaigns, OXFORD STUDIES DIGITAL POLITICS
-              SERIES (New York, 2020; online edn, Oxford Academic, 20 Aug. 2020),
-              <a href="https://doi.org/10.1093/oso/9780195397789.001.0001">
-                https://doi.org/10.1093/oso/9780195397789.001.0001
+              <a
+                className="link-politique fw-bold"
+                href="https://hal.archives-ouvertes.fr/hal-02429929/document"
+              >
+                Lire
               </a>
-              , accessed 16 Sept. 2022.
+              .
             </li>
             <li>
-              Stromer-Galley, Jennifer, Presidential Campaigning in the Internet Age, Oxford Studies
-              in Digital Politics (2014; online edn, Oxford Academic, 16 Apr. 2014),
-              <a href="https://doi.org/10.1093/acprof:oso/9780199731930.001.0001">
-                https://doi.org/10.1093/acprof:oso/9780199731930.001.0001
+              Gerbaudo, Paulo (2019),{' '}
+              <em>The Digital Party, Political Organisation and Online Democracy</em>, Pluto Press.
+            </li>
+            <li>
+              Gibson, Rachel K.,{' '}
+              <em>
+                When the Nerds Go Marching In: How Digital Technology Moved from the Margins to the
+                Mainstream of Political Campaigns
+              </em>
+              , OXFORD STUDIES DIGITAL POLITICS SERIES (New York, 2020; online edn, Oxford Academic,
+              20 Aug. 2020),{' '}
+              <a
+                className="link-politique fw-bold"
+                href="https://doi.org/10.1093/oso/9780195397789.001.0001"
+              >
+                Lire
               </a>
-              , accessed 17 Sept. 2022.
+              .
+            </li>
+            <li>
+              Stromer-Galley, Jennifer, <em>Presidential Campaigning in the Internet Age</em>,
+              Oxford Studies in Digital Politics (2014; online edn, Oxford Academic, 16 Apr. 2014),{' '}
+              <a
+                className="link-politique fw-bold"
+                href="https://doi.org/10.1093/acprof:oso/9780199731930.001.0001"
+              >
+                Lire
+              </a>
+              .
             </li>
           </ul>
         </section>
