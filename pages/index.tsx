@@ -222,7 +222,7 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div>
-            <button className="btn btn-primary">Télécharger le document ↓</button>
+            <button className="btn btn-primary rounded-pill font-headings px-4">Télécharger le document ↓</button>
           </div>
         </div>
       </div>

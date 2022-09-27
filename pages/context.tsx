@@ -11,8 +11,8 @@ const Context: FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="container">
-      <h1 className="h2">Contexte</h1>
+    <div className="container mt-4 pt-4">
+      <h1 className="h2 my-4 py-4">Contexte</h1>
       <p>
         Le projet{' '}
         <a href="https://webtv.univ-lille.fr/video/11455/presentation-du-projet-respadon-">
