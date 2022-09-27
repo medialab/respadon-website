@@ -1,6 +1,5 @@
 import { FC, ReactNode, useRef, useState } from 'react';
 import cx from 'classnames';
-import Link from 'next/link';
 
 import { FOOTER_PAGES, NAV_PAGES, Page } from '../lib/consts';
 
@@ -28,11 +27,9 @@ const Header: FC<{ page?: Page }> = ({ page }) => {
             <ul className="navbar-nav">
               {NAV_PAGES.map(({ id, path, label }) => (
                 <li className="nav-item" key={id}>
-                  <Link href={path}>
-                    <a className={cx('nav-link', id === page && 'active')}>
-                      <span className={cx('pb-1', id === page && 'underlined')}>{label}</span>
-                    </a>
-                  </Link>
+                  <a href={path} className={cx('nav-link', id === page && 'active')}>
+                    <span className={cx('pb-1', id === page && 'underlined')}>{label}</span>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -49,18 +46,18 @@ const Footer: FC<{ page?: Page }> = ({ page }) => (
       <div className="col-3 p-3">
         {NAV_PAGES.map(({ id, path, label }) => (
           <div key={id}>
-            <Link href={path}>
-              <a className={cx('link-unstyled', id === page && 'underlined')}>{label}</a>
-            </Link>
+            <a href={path} className={cx('link-unstyled', id === page && 'underlined')}>
+              {label}
+            </a>
           </div>
         ))}
       </div>
       <div className="col-3 p-3">
         {FOOTER_PAGES.map(({ id, path, label }) => (
           <div key={id}>
-            <Link href={path}>
-              <a className={cx('link-unstyled', id === page && 'underlined')}>{label}</a>
-            </Link>
+            <a href={path} className={cx('link-unstyled', id === page && 'underlined')}>
+              {label}
+            </a>
           </div>
         ))}
       </div>

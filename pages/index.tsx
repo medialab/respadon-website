@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
 import cx from 'classnames';
 
 import Layout from '../components/Layout';
@@ -196,9 +195,9 @@ const Home: NextPage = () => {
                   <p className="fs-5">{story.description}</p>
                 </div>
                 <span className="position-absolute text-end bottom-0 end-0 w-auto">
-                  <Link href={story.path}>
-                    <a className={`link-${story.id}-2`}>En savoir plus →</a>
-                  </Link>
+                  <a href={story.path} className={`link-${story.id}-2`}>
+                    En savoir plus →
+                  </a>
                 </span>
               </div>
             </div>
@@ -222,7 +221,9 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div>
-            <button className="btn btn-primary rounded-pill font-headings px-4">Télécharger le document ↓</button>
+            <button className="btn btn-primary rounded-pill font-headings px-4">
+              Télécharger le document ↓
+            </button>
           </div>
         </div>
       </div>
@@ -237,7 +238,7 @@ const Home: NextPage = () => {
             quis nostrud exerci tation.
           </p>
           <div className="h5">
-            <Link href="/making-of">En voir plus →</Link>
+            <a href={'/making-of'}>En voir plus →</a>
           </div>
         </div>
         <Carousel pictures={PICTURES.slice(0, 10)} />

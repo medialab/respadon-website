@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import Masonry from 'react-masonry-css';
 import { HiHome } from 'react-icons/hi';
 
@@ -51,11 +50,9 @@ const Legals: FC = () => (
         </div>
 
         <div className="pb-4 mb-4">
-          <Link href={'/'}>
-            <a className="btn btn-primary rounded-pill d-inline font-headings mb-4">
-              {'<'} <HiHome />
-            </a>
-          </Link>
+          <a href={'/'} className="btn btn-primary rounded-pill d-inline font-headings mb-4">
+            {'<'} <HiHome />
+          </a>
         </div>
       </div>
     </div>
