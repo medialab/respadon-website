@@ -22,3 +22,11 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## About the **base path**
+
+If at some point the site's base path (here `/respadon-website`) needs to be updated (for instance if the site is deployed on `https://respadon.com/` or whatever), the base path needs to be updated in multiple parts of the code:
+
+1. This very `README.md`
+2. In `next.config.js`, for both the `"basePath"` and `"assetPrefix"` entries
+3. In `styles/_variables.scss`, in the `$BASE_PATH` variable declaration
