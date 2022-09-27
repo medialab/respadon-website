@@ -23,6 +23,9 @@ jobs:
       - name: Build
         run: npm run build && npm run export
 
+      - name: Tell GitHub that this site is not Jekyll based
+        run: touch out/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
