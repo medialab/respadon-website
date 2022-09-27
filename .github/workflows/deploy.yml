@@ -23,13 +23,10 @@ jobs:
       - name: Build
         run: npm run build && npm run export
 
-      - name: Rename ./out as ./public
-        run: mv public source_public && mv out public
-
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: build
+          build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
