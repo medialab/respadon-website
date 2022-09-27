@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build && npm export
+        run: npm run build && npm run export
 
       - name: Rename ./out as ./public
         run: npm run build && npm export
