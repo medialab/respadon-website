@@ -72,10 +72,13 @@ a.link-unstyled {
   max-width: 800px !important;
 }
 
-.link-spectacles,
-.link-covid,
-.link-politique,
-.link-genome {
-  font-weight: 800 !important;
-  text-decoration: none !important;
+@each $color, $value in $custom-theme-colors {
+  .link-#{$color} {
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+}
+
+.font-headings {
+  font-family: $font-family-sans-serif-headings !important;
 }

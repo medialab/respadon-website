@@ -1,0 +1,16 @@
+.masonry {
+  $gutter: 30px;
+
+  display: flex;
+  margin-left: -$gutter;
+  width: auto;
+
+  .masonry-col {
+    padding-left: $gutter;
+    background-clip: padding-box;
+
+    & > div {
+      margin-bottom: $gutter;
+    }
+  }
+}

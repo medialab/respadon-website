@@ -58,15 +58,15 @@ const Story: FC<{ story: StoryType; prev: StoryType; next: StoryType }> = ({
           <div className="d-flex flex-row justify-content-center justify-content-md-between align-items-center mt-4 pt-4">
             <a
               href={prev.path}
-              className={cx('btn rounded-pill me-2', `btn-${prev.id}`, `text-${prev.id}-2`)}
+              className={cx('btn rounded-pill me-2 px-3 font-headings', `btn-${prev.id}`, `text-${prev.id}-2`)}
             >
-              <AiOutlineArrowLeft />
+              {'<'}
             </a>
             <a
               href={next.path}
-              className={cx('btn rounded-pill px-4 fs-5', `btn-${next.id}`, `text-${next.id}-2`)}
+              className={cx('btn rounded-pill px-4 font-headings', `btn-${next.id}`, `text-${next.id}-2`)}
             >
-              Lire la story suivante <AiOutlineArrowRight />
+              Lire la story suivante {'>'}
             </a>
           </div>
         </div>

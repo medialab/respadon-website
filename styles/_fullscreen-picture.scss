@@ -1,0 +1,66 @@
+.picture-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .bg {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.fullscreen-picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: $zindex-modal-backdrop;
+
+  & > .bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.9;
+  }
+
+  & > .content {
+    position: absolute;
+    inset: 2em;
+    top: 5em;
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+    & > .img-wrapper {
+      flex-grow: 1;
+      flex-shrink: 1;
+      position: relative;
+
+      & > img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  & > .btn-close {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+}

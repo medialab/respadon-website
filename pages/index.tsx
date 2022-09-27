@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import cx from 'classnames';
 
 import Layout from '../components/Layout';
 import Carousel from '../components/Carousel';
@@ -178,27 +179,26 @@ const Home: NextPage = () => {
       {/* STORY BLOCKS */}
       <div>
         {STORIES.map((story) => (
-          <div
-            key={story.id}
-            className="story-block text-white-deep"
-            style={{ background: story.color }}
-          >
+          <div key={story.id} className={cx('story-block', `bg-${story.id}`, `text-${story.id}-2`)}>
             <div className="container py-4">
-              <div className="row align-items-center position-relative">
+              <div className="row position-relative pb-4">
                 <div className="col-3">
                   <img className="img-fluid" src={story.image.path} alt={story.image.alt} />
-                  <div className="text-end">
-                    <a className="small" href={story.image.creditPath}>
+                  <div>
+                    <a className={`small link-${story.id}-2`} href={story.image.creditPath}>
                       {story.image.credit}
                     </a>
                   </div>
                 </div>
                 <div className="col-9">
-                  <h2>{story.title}</h2>
-                  <p>{story.description}</p>
+                  <p className="fs-5 story-title">Story</p>
+                  <h2 className={`text-${story.id}-2`}>{story.title}</h2>
+                  <p className="fs-5">{story.description}</p>
                 </div>
                 <span className="position-absolute text-end bottom-0 end-0 w-auto">
-                  <Link href={story.path}>En savoir plus →</Link>
+                  <Link href={story.path}>
+                    <a className={`link-${story.id}-2`}>En savoir plus →</a>
+                  </Link>
                 </span>
               </div>
             </div>
@@ -237,7 +237,7 @@ const Home: NextPage = () => {
             quis nostrud exerci tation.
           </p>
           <div className="h5">
-            <a href="#">En voir plus →</a>
+            <Link href="/making-of">En voir plus →</Link>
           </div>
         </div>
         <Carousel pictures={PICTURES.slice(0, 10)} />

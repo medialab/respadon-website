@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import StoryPicture from '../StoryPicture';
+import FullscreenPicture from '../FullscreenPicture';
 
 const StoryComponent: FC = () => {
   return (
@@ -210,22 +210,24 @@ const StoryComponent: FC = () => {
         <div className="container">
           <div className="row">
             <figure className="text-center col-12 col-lg-6">
-              <StoryPicture
-                top
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
+                caption="Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022"
               />
-              <figcaption className="h6 text-black">
+              <figcaption className="h6 text-black mt-3">
                 Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022
               </figcaption>
             </figure>
             <figure className="text-center col-12 col-lg-6 mt-4 mt-lg-0">
-              <StoryPicture
-                top
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
+                caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
               />
-              <figcaption className="h6 text-black">
+              <figcaption className="h6 text-black mt-3">
                 Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les
                 3 corpus en 2012, 2017 et 2022
               </figcaption>
@@ -255,10 +257,12 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Exploration et recherche pour comparer graphiquement plusieurs réseaux de liens
               </figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 className="maxw-800 m-auto"
                 src="/pictures/story-politique/IMG_9449.jpg"
+                caption="Exploration et recherche pour comparer graphiquement plusieurs réseaux de liens"
               />
             </figure>
           </div>
@@ -284,9 +288,11 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Présence des web entités entre 2012 et 2017
               </figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/2012%20to%202017.png"
+                caption="Présence des web entités entre 2012 et 2017"
               />
             </figure>
           </div>
@@ -314,9 +320,11 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Présence des web entités entre 2017 et 2022
               </figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/2017%20to%202022.png"
+                caption="Présence des web entités entre 2017 et 2022"
               />
             </figure>
           </div>
@@ -343,7 +351,12 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Part des formes éditoriales des web entités entre 2012 et 2022
               </figcaption>
-              <StoryPicture story="politique" src="/pictures/story-politique/chart-edito.png" />
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                story="politique"
+                src="/pictures/story-politique/chart-edito.png"
+                caption="Part des formes éditoriales des web entités entre 2012 et 2022"
+              />
             </figure>
           </div>
         </div>
@@ -374,23 +387,29 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center col-12 col-lg-4">
               <figcaption className="h6 text-black">en 2012</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-edito-2012.png"
+                caption="Répartition des web entités par forme éditoriale en 2012"
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2017</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-edito-2017.png"
+                caption="Répartition des web entités par forme éditoriale en 2017"
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2022</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-edito-2022.png"
+                caption="Répartition des web entités par forme éditoriale en 2022"
               />
             </figure>
           </div>
@@ -418,7 +437,12 @@ const StoryComponent: FC = () => {
               <figcaption className="h6 text-black">
                 Histogramme comparatif des acteurs entre 2012 et 2017
               </figcaption>
-              <StoryPicture story="politique" src="/pictures/story-politique/chart-actors.png" />
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                story="politique"
+                src="/pictures/story-politique/chart-actors.png"
+                caption="Histogramme comparatif des acteurs entre 2012 et 2017"
+              />
             </figure>
           </div>
         </div>
@@ -482,23 +506,29 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center col-12 col-lg-4">
               <figcaption className="h6 text-black">en 2012</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-actors-2012.png"
+                caption="Répartition des web entités par type d’acteur en 2012"
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2017</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-actors-2017.png"
+                caption="Répartition des web entités par type d’acteur en 2017"
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black">en 2022</figcaption>
-              <StoryPicture
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
                 story="politique"
                 src="/pictures/story-politique/network-actors-2022.png"
+                caption="Répartition des web entités par type d’acteur en 2022"
               />
             </figure>
           </div>

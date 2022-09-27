@@ -44,7 +44,7 @@ const Header: FC<{ page?: Page }> = ({ page }) => {
 };
 
 const Footer: FC<{ page?: Page }> = ({ page }) => (
-  <footer className="container mt-4 pt-4">
+  <footer className="container mt-4 pt-4 mb-4 pt-4">
     <div className="row">
       <div className="col-3 p-3">
         {NAV_PAGES.map(({ id, path, label }) => (

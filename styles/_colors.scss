@@ -1,19 +1,10 @@
-$color-spectacles: #ff9591;
-$color-spectacles-2: #193f51;
-$color-covid: #cf4d27;
-$color-covid-2: #f5e6d2;
-$color-politique: #2a7799;
-$color-politique-2: #c8f0e6;
-$color-genome: #325a6e;
-$color-genome-2: #f4dbd1;
-
-:export {
-  spectacles: $color-spectacles;
-  spectacles-2: $color-spectacles-2;
-  covid: $color-covid;
-  covid-2: $color-covid-2;
-  politique: $color-politique;
-  politique-2: $color-politique-2;
-  genome: $color-genome;
-  genome-2: $color-genome-2;
-}
+$custom-theme-colors: (
+  'spectacles': #ff9591,
+  'spectacles-2': #193f51,
+  'covid': #cf4d27,
+  'covid-2': #f5e6d2,
+  'politique': #2a7799,
+  'politique-2': #c8f0e6,
+  'genome': #325a6e,
+  'genome-2': #f4dbd1,
+);

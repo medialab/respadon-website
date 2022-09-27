@@ -58,9 +58,9 @@ export const STORIES: StoryType[] = [
     title: 'Pour une cartographie de la critique en ligne des arts du spectacle',
     description: 'Recherche exploratoire à partir de Hyphe et des archives du web de la Bnf',
     image: {
-      path: 'https://picsum.photos/400/700',
-      alt: '400x700 image placeholder',
-      credit: '© Picsum.photos',
+      path: '/pictures/illustrationGpeCritiqueSpectacle.jpg',
+      alt: 'TODO: Alt',
+      credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
     },
     authors: [
@@ -78,9 +78,9 @@ export const STORIES: StoryType[] = [
     title: 'Vers une cartographie de la crise de la Covid-19',
     description: 'Positionnement des acteurs du web par rapport aux institutions',
     image: {
-      path: 'https://picsum.photos/500/700',
-      alt: '500x700 image placeholder',
-      credit: '© Picsum.photos',
+      path: '/pictures/illustrationGpeCovid.jpg',
+      alt: 'TODO: Alt',
+      credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
     },
     authors: [
@@ -101,9 +101,9 @@ export const STORIES: StoryType[] = [
       'La structuration des communautés politiques autour des candidats à l’élection présidentielle',
     description: 'L’exemple de Jean-Luc Mélenchon, 2012-2022',
     image: {
-      path: 'https://picsum.photos/400/600',
-      alt: '400x600 image placeholder',
-      credit: '© Picsum.photos',
+      path: '/pictures/illustrationGpeCommunautesPol.jpg',
+      alt: 'TODO: Alt',
+      credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
     },
     authors: [
@@ -121,9 +121,9 @@ export const STORIES: StoryType[] = [
     title: 'TODO: La notion de « génome » dans les archives électorales BnF',
     description: 'TODO',
     image: {
-      path: 'https://picsum.photos/700/700',
-      alt: '700x700 image placeholder',
-      credit: '© Picsum.photos',
+      path: '/pictures/illustrationGpeGenome.jpg',
+      alt: 'TODO: Alt',
+      credit: '@ Crédits (TODO)',
       creditPath: 'https://picsum.photos/',
     },
     authors: [],
