@@ -3,6 +3,21 @@ import React, { FC } from 'react';
 import FullscreenPicture from '../FullscreenPicture';
 import { BASE_PATH } from '../../lib/consts';
 
+const actorsColors = [
+  { color: '#0265fa', label: 'militant' },
+  { color: '#b6abff', label: 'candidat' },
+  { color: '#e7de00', label: 'professionnel de la politique' },
+  { color: '#69ffe4', label: 'campagne' },
+  { color: '#009f70', label: 'formation politique' },
+  { color: '#ff6516', label: 'autre' },
+  { color: '#ff4bc8', label: 'association' },
+];
+const editorialColors = [
+  { color: '#d05744', label: 'site' },
+  { color: '#984db8', label: 'blog' },
+  { color: '#97c654', label: 'réseau social' },
+];
+
 const StoryComponent: FC = () => {
   return (
     <>
@@ -356,7 +371,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/chart-edito.png'}
+                src={BASE_PATH + '/pictures/story-politique/part_formes_editoriales.svg'}
                 caption="Part des formes éditoriales des web entités entre 2012 et 2022"
               />
             </figure>
@@ -392,8 +407,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-edito-2012.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2012_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2012"
+                legendData={editorialColors}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -401,8 +417,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-edito-2017.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2017_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2017"
+                legendData={editorialColors}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -410,8 +427,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-edito-2022.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2022_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2022"
+                legendData={editorialColors}
               />
             </figure>
           </div>
@@ -442,7 +460,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/chart-actors.png'}
+                src={BASE_PATH + '/pictures/story-politique/acteurs.svg'}
                 caption="Histogramme comparatif des acteurs entre 2012 et 2017"
               />
             </figure>
@@ -511,8 +529,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-actors-2012.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2012_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2012"
+                legendData={actorsColors}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -520,8 +539,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-actors-2017.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2017_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2017"
+                legendData={actorsColors}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -529,8 +549,9 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/network-actors-2022.png'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2022_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2022"
+                legendData={actorsColors}
               />
             </figure>
           </div>
