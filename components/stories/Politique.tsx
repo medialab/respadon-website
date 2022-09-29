@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
+
 import FullscreenPicture from '../FullscreenPicture';
+import { BASE_PATH } from '../../lib/consts';
 
 const StoryComponent: FC = () => {
   return (
@@ -213,7 +215,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
+                src={BASE_PATH + '/pictures/story-politique/nombre_web_entites_par_annee.svg'}
                 caption="Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022"
               />
               <figcaption className="h6 text-black mt-3">
@@ -224,7 +226,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/nombre_web_entites_par_annee.svg"
+                src={BASE_PATH + '/pictures/story-politique/nombre_web_entites_par_annee.svg'}
                 caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
               />
               <figcaption className="h6 text-black mt-3">
@@ -261,7 +263,7 @@ const StoryComponent: FC = () => {
                 imgClassName="img-fluid w-100"
                 story="politique"
                 className="maxw-800 m-auto"
-                src="/pictures/story-politique/IMG_9449.jpg"
+                src={BASE_PATH + '/pictures/story-politique/IMG_9449.jpg'}
                 caption="Exploration et recherche pour comparer graphiquement plusieurs réseaux de liens"
               />
             </figure>
@@ -291,7 +293,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/2012%20to%202017.png"
+                src={BASE_PATH + '/pictures/story-politique/2012%20to%202017.png'}
                 caption="Présence des web entités entre 2012 et 2017"
               />
             </figure>
@@ -323,7 +325,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/2017%20to%202022.png"
+                src={BASE_PATH + '/pictures/story-politique/2017%20to%202022.png'}
                 caption="Présence des web entités entre 2017 et 2022"
               />
             </figure>
@@ -354,7 +356,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/chart-edito.png"
+                src={BASE_PATH + '/pictures/story-politique/chart-edito.png'}
                 caption="Part des formes éditoriales des web entités entre 2012 et 2022"
               />
             </figure>
@@ -390,7 +392,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-edito-2012.png"
+                src={BASE_PATH + '/pictures/story-politique/network-edito-2012.png'}
                 caption="Répartition des web entités par forme éditoriale en 2012"
               />
             </figure>
@@ -399,7 +401,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-edito-2017.png"
+                src={BASE_PATH + '/pictures/story-politique/network-edito-2017.png'}
                 caption="Répartition des web entités par forme éditoriale en 2017"
               />
             </figure>
@@ -408,7 +410,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-edito-2022.png"
+                src={BASE_PATH + '/pictures/story-politique/network-edito-2022.png'}
                 caption="Répartition des web entités par forme éditoriale en 2022"
               />
             </figure>
@@ -440,7 +442,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/chart-actors.png"
+                src={BASE_PATH + '/pictures/story-politique/chart-actors.png'}
                 caption="Histogramme comparatif des acteurs entre 2012 et 2017"
               />
             </figure>
@@ -509,7 +511,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-actors-2012.png"
+                src={BASE_PATH + '/pictures/story-politique/network-actors-2012.png'}
                 caption="Répartition des web entités par type d’acteur en 2012"
               />
             </figure>
@@ -518,7 +520,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-actors-2017.png"
+                src={BASE_PATH + '/pictures/story-politique/network-actors-2017.png'}
                 caption="Répartition des web entités par type d’acteur en 2017"
               />
             </figure>
@@ -527,7 +529,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src="/pictures/story-politique/network-actors-2022.png"
+                src={BASE_PATH + '/pictures/story-politique/network-actors-2022.png'}
                 caption="Répartition des web entités par type d’acteur en 2022"
               />
             </figure>
