@@ -12,7 +12,8 @@ const FullscreenPicture: FC<{
   alt?: string;
   className?: string;
   imgClassName?: string;
-}> = ({ src, srcXL, className, imgClassName, story, alt, title, caption, author }) => {
+  legendData?: { color: string; label: string }[];
+}> = ({ src, srcXL, className, imgClassName, story, alt, title, caption, author, legendData }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const textClassName = story ? `text-${story}-2` : 'text-white';
 
@@ -48,6 +49,16 @@ const FullscreenPicture: FC<{
             <div className="img-wrapper">
               <img src={srcXL || src} alt={alt || ''} />
             </div>
+            {legendData && (
+              <div className={cx('legend', textClassName)}>
+                {legendData.map(({ color, label }) => (
+                  <div key={color} className="legend-item">
+                    <div className="legend-color" style={{ backgroundColor: color }} />
+                    <div className="legend-item-label">{label}</div>
+                  </div>
+                ))}
+              </div>
+            )}
             {(caption || author) && (
               <p className="text-center mt-4">
                 {caption && <span className={cx('h6 d-inline', textClassName)}>{caption}</span>}

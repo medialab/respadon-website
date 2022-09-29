@@ -58,6 +58,25 @@
         object-fit: contain;
       }
     }
+    .legend {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+      .legend-item{ 
+        display: flex;
+        align-items: baseline;
+        width: fit-content;
+        margin-left: 1rem;
+        .legend-color {
+          width: 0.8rem;
+          height:0.8rem;
+        }
+        .legend-item-label {
+          margin-left: 0.5rem;
+        }
+      }
+    }
   }
 
   & > .btn-close {
