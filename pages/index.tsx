@@ -5,6 +5,7 @@ import cx from 'classnames';
 import Layout from '../components/Layout';
 import Carousel from '../components/Carousel';
 import { BASE_PATH, PICTURES, STORIES } from '../lib/consts';
+import { StoriesBlock } from '../components/stories/StoriesBlocks';
 
 const Home: NextPage = () => {
   return (
@@ -176,34 +177,7 @@ const Home: NextPage = () => {
       </div>
 
       {/* STORY BLOCKS */}
-      <div>
-        {STORIES.map((story) => (
-          <div key={story.id} className={cx('story-block', `bg-${story.id}`, `text-${story.id}-2`)}>
-            <div className="container py-4">
-              <div className="row position-relative pb-4">
-                <div className="col-3">
-                  <img className="img-fluid" src={story.image.path} alt={story.image.alt} />
-                  <div>
-                    <a className={`small link-${story.id}-2`} href={story.image.creditPath}>
-                      {story.image.credit}
-                    </a>
-                  </div>
-                </div>
-                <div className="col-9">
-                  <p className="fs-5 story-title">Story</p>
-                  <h2 className={`text-${story.id}-2`}>{story.title}</h2>
-                  <p className="fs-5">{story.description}</p>
-                </div>
-                <span className="position-absolute text-end bottom-0 end-0 w-auto">
-                  <a href={story.path} className={`link-${story.id}-2`}>
-                    En savoir plus →
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <StoriesBlock />
 
       {/* METHOD BLOCK */}
       <div className="container py-4">
