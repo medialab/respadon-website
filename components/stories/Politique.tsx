@@ -226,7 +226,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/nombre_web_entites_par_annee.svg'}
+                src={BASE_PATH + '/pictures/story-politique/nombre_pages_liens_par_annee.svg'}
                 caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
               />
               <figcaption className="h6 text-black mt-3">
