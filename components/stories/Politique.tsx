@@ -254,7 +254,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             On observe que le corpus crawlé en 2017 à partir de l’archive BnF contient beaucoup de
             liens. Cela est dû au type de sites archivés.
@@ -287,7 +287,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             Après avoir exploré différentes pistes (cf photo ci-dessus), un script sur mesure est
             développé pour visualiser des réseaux en “triptyque” permettant de comparer les données
@@ -317,7 +317,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             À gauche, en rouge, on voit les communautés (web entités) présentes seulement en 2012. À
             droite, en vert, on voit celles présentes uniquement en 2017. Au centre du triptyque, en
@@ -349,7 +349,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             On observe par ailleurs des différences quantitatives entre les graphes de 2012 (80
             nœuds) et 2017 (112 nœuds). En conséquence, le graphe de la transition entre 2017 et
@@ -380,7 +380,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             Les web entités sont catégorisées dans les trois corpus en suivant deux typologies, une
             typologie d’acteurs et une typologie caractérisant les formes éditoriales. L’histogramme
@@ -437,7 +437,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             La figure ci-dessus montre les trois graphes issus des trois corpus de 2012, 2017 et
             2022 caractérisés par leur forme éditoriale.
@@ -469,7 +469,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             Les résultats concernant le type d’acteurs présents sur le web soutenant Jean-Luc
             Mélenchon permettent de confirmer certains éléments propres au contexte français et de
@@ -559,7 +559,7 @@ const StoryComponent: FC = () => {
       </div>
 
       <div className="container sections">
-        <section className="large">
+        <section>
           <p>
             Les différentes visualisations présentées ci-dessus et issues des crawls faits avec
             Hyphe montrent bien comment l’espace numérique de soutien à Jean-Luc Mélenchon s’est
@@ -585,9 +585,7 @@ const StoryComponent: FC = () => {
               Insoumise de la forme propres aux sites de médias.
             </li>
           </ul>
-        </section>
 
-        <section>
           <p>
             Cette expérimentation a permis de confirmer le poids des réseaux sociaux comme étant des
             lieux de mobilisation électorale, ainsi que l’émergence du “parti plateforme” dans un
@@ -596,9 +594,7 @@ const StoryComponent: FC = () => {
             troisième hypothèse de l’affaiblissement éventuel des communautés numériques de gauche
             en ligne par rapport à celles de droite.
           </p>
-        </section>
 
-        <section>
           <p>
             Plusieurs phénomènes visibles dans les résultats obtenus sont étonnants, notamment :
           </p>
@@ -612,10 +608,8 @@ const StoryComponent: FC = () => {
             long.
           </p>
         </section>
-      </div>
 
-      <div className="container sections">
-        <section className="large">
+        <section>
           <h2 className="text-politique">4. Points d’attention</h2>
 
           <p>

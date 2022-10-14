@@ -70,7 +70,7 @@ const Home: NextPage = () => {
       <div className="container pt-4">
         <div className="row d-flex flex-column position-relative">
           <h2 className="text-white">Les projets</h2>
-          <div className="text-block">
+          <div className="text-block mb-md-5">
             <ul className="list-unstyled">
               <li className="mb-4">
                 <div className="fw-bold">
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
 
-          <div className="info-block info-block-right text-center small">
+          <div className="info-block info-block-right text-center small mb-5">
             <div className="fw-bold">Informations</div>
             <div>Carnet Hypothèses :</div>
             <div>

@@ -46,6 +46,11 @@ const FullscreenPicture: FC<{
           />
           <div className="content">
             {title && <p className={cx('h4 mb-4 text-center', textClassName)}>{title}</p>}
+            {caption && (
+              <p className="text-center mt-4">
+                {caption && <span className={cx('h6 d-inline', textClassName)}>{caption}</span>}
+              </p>
+            )}
             <div className="img-wrapper">
               <img src={srcXL || src} alt={alt || ''} />
             </div>
@@ -59,10 +64,13 @@ const FullscreenPicture: FC<{
                 ))}
               </div>
             )}
-            {(caption || author) && (
-              <p className="text-center mt-4">
-                {caption && <span className={cx('h6 d-inline', textClassName)}>{caption}</span>}
-                {author && <span className={cx('h6 d-inline', textClassName)}>@{author}</span>}
+            {author && (
+              <p className="text-center mt-2">
+                {author && (
+                  <span className={cx('font-headings small d-inline', textClassName)}>
+                    <small>@{author}</small>
+                  </span>
+                )}
               </p>
             )}
           </div>

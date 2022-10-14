@@ -11,10 +11,10 @@ const Method: FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="container mt-4">
+    <div className="container mt-4 pt-4">
       <div className="row text-center justify-content-center my-4 py-4">
-        <h1 className="h2 mt-4 pt-4">Méthodologie</h1>
-        <p className="h4 text-black font-serif col-lg-8 my-4">
+        <h1 className="h2 my-4 py-4">Méthodologie</h1>
+        <p className="fs-4 fw-bold text-black col-lg-9 my-4">
           Texte Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
           euismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim
           veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
@@ -28,42 +28,40 @@ const Method: FC = () => (
       </div>
 
       <div className="row">
-        <h2 className="h4 mt-4">Sous-titre</h2>
-        <p>
-          Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim ad
-          minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-          ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-          molestie conse- quat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac-
-          cumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-          dolore te feugait nulla facilisi.
-        </p>
-      </div>
+        <div className="col-xl-9">
+          <h2 className="h4 mt-5 pt-4">Sous-titre</h2>
+          <p>
+            Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim
+            ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie conse- quat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et ac- cumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi.
+          </p>
 
-      <div className="row">
-        <h2 className="h4 mt-4">Sous-titre</h2>
-        <p>
-          Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim ad
-          minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-          ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-          molestie conse- quat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac-
-          cumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-          dolore te feugait nulla facilisi.
-        </p>
-      </div>
+          <h2 className="h4 mt-5 pt-4">Sous-titre</h2>
+          <p>
+            Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim
+            ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie conse- quat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et ac- cumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi.
+          </p>
 
-      <div className="row">
-        <h2 className="h4 mt-4">Sous-titre</h2>
-        <p>
-          Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim ad
-          minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-          ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-          molestie conse- quat, vel illum dolore eu feugiat nulla facilisis at vero eros et ac-
-          cumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-          dolore te feugait nulla facilisi.
-        </p>
+          <h2 className="h4 mt-5 pt-4">Sous-titre</h2>
+          <p>
+            Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim
+            ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie conse- quat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et ac- cumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi.
+          </p>
+        </div>
       </div>
     </div>
   </Layout>

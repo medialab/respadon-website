@@ -10,8 +10,8 @@ const Credits: FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="container">
-      <h1 className="h2">Crédits</h1>
+    <div className="container mt-4 pt-4">
+      <h1 className="h2 my-4 py-4">Crédits</h1>
 
       <div className="row">
         <h2 className="h4 mt-4">Partenaires du projet ResPaDon</h2>

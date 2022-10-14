@@ -31,6 +31,7 @@ a {
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: $yellow;
+  text-underline-offset: 3px;
 }
 a.link-unstyled {
   text-decoration: none !important;
@@ -70,13 +71,6 @@ a.link-unstyled {
 }
 .maxw-800 {
   max-width: 800px !important;
-}
-
-@each $color, $value in $custom-theme-colors {
-  .link-#{$color} {
-    font-weight: 800 !important;
-    text-decoration: none !important;
-  }
 }
 
 .font-headings {

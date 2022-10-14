@@ -5,7 +5,7 @@ import { STORIES } from '../../lib/consts';
 
 export const StoriesBlock: FC = () => {
   return (
-    <div>
+    <div className="mt-5">
       {STORIES.map((story) => (
         <div key={story.id} className={cx('story-block', `bg-${story.id}`, `text-${story.id}-2`)}>
           <div className="container py-4">
@@ -13,7 +13,7 @@ export const StoriesBlock: FC = () => {
               <div className="col-3">
                 <img className="img-fluid" src={story.image.path} alt={story.image.alt} />
                 <div>
-                  <a className={`small link-${story.id}-2`} href={story.image.creditPath}>
+                  <a className={`small text-decoration-none link-${story.id}-2`} href={story.image.creditPath}>
                     {story.image.credit}
                   </a>
                 </div>
@@ -24,7 +24,7 @@ export const StoriesBlock: FC = () => {
                 <p className="fs-5">{story.description}</p>
               </div>
               <span className="position-absolute text-end bottom-0 end-0 w-auto">
-                <a href={story.path} className={`link-${story.id}-2`}>
+                <a href={story.path} className={`font-headings text-decoration-none link-${story.id}-2`}>
                   En savoir plus →
                 </a>
               </span>
