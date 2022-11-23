@@ -462,7 +462,7 @@ const StoryComponent: FC = () => {
                 legendData={editorialColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1//#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&c=t&s=r&sa[]=s&sa[]=r&ca[]=t&ca[]=c&r.min=5',
+                  src: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf',
                 }}
               />
             </figure>

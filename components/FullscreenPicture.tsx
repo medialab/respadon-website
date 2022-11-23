@@ -59,15 +59,15 @@ const FullscreenPicture: FC<{
             onClick={() => setIsFullScreen(false)}
           />
           <div className="content">
-            {title && <p className={cx('h4 mb-4 text-center', textClassName)}>{title}</p>}
+            {title && <p className={cx('h4 mb-2 text-center', textClassName)}>{title}</p>}
             {caption && (
-              <p className="text-center mt-4">
+              <p className="text-center">
                 <span className={cx('h6 d-inline', textClassName)}>{caption}</span>
               </p>
             )}
             {targetXL?.type === 'iframe' ? (
               <div className="iframe-wrapper">
-                <iframe src={targetXL.src} />
+                <iframe allowFullScreen src={targetXL.src} />
               </div>
             ) : (
               <div className="img-wrapper">

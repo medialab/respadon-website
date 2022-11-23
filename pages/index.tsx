@@ -216,7 +216,7 @@ const Home: NextPage = () => {
             <a href={BASE_PATH + '/making-of'}>En voir plus →</a>
           </div>
         </div>
-        <Carousel pictures={PICTURES.slice(0, 10)} />
+        <Carousel pictures={PICTURES.slice(0, 8)} />
       </div>
     </Layout>
   );
