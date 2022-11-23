@@ -207,9 +207,10 @@ const Home: NextPage = () => {
         <div className="container my-3">
           <h2>Making-of</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation.
+            Ces quelques photos prises sur le vif pendant le datasprint ResPaDon en avril 2022
+            illustrent les dynamiques des différents groupes, leur composition, témoignent de leurs
+            temps forts ainsi que les divers outils mis en œuvre dans le cadre de cette
+            expérimentation.
           </p>
           <div className="h5">
             <a href={BASE_PATH + '/making-of'}>En voir plus →</a>

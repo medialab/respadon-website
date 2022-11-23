@@ -41,7 +41,7 @@ export interface Image {
   path: string;
   alt: string;
   credit: string;
-  creditPath: string;
+  creditPath?: string;
 }
 export interface StoryType {
   id: string;
@@ -54,16 +54,36 @@ export interface StoryType {
 }
 export const STORIES: StoryType[] = [
   {
+    id: 'politique',
+    path: BASE_PATH + '/stories/politique',
+    color: '#2a7799',
+    title: 'Structuration des communautés politiques',
+    description:
+      'Étudier les transformations au fil du temps des communautés politiques de soutien aux candidats à l’élection présidentielle en particulier des communautés de soutien à Jean-Luc Mélenchon.',
+    image: {
+      path: BASE_PATH + '/pictures/illustrationGpeCommunautesPol.jpg',
+      alt: '',
+      credit: '@ Caroline Maufroid, Sciences Po',
+    },
+    authors: [
+      { name: 'Fabienne Greffet', org: 'IRENEE, Univ. Lorraine' },
+      { name: 'Sara Aubry', org: 'BnF' },
+      { name: 'Cyril Heude', org: 'DRIS, Sciences Po' },
+      { name: 'Robin de Mourat', org: 'médialab, Sciences Po' },
+      { name: 'Benjamin Ooghe - Tabanou', org: 'médialab, Sciences Po' },
+    ],
+  },
+  {
     id: 'spectacles',
     path: BASE_PATH + '/stories/spectacles',
     color: '#ff9591',
-    title: 'Pour une cartographie de la critique en ligne des arts du spectacle',
-    description: 'Recherche exploratoire à partir de Hyphe et des archives du web de la Bnf',
+    title: 'Cartographie de la critique en ligne des arts du spectacle',
+    description:
+      'Proposer une cartographie générale des sites de critique des arts du spectacle et analyser leurs liens potentiels notamment avec les sites institutionnels et le monde du spectacle vivant.',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCritiqueSpectacle.jpg',
-      alt: 'TODO: Alt',
-      credit: '@ Crédits (TODO)',
-      creditPath: 'https://picsum.photos/',
+      alt: '',
+      credit: '@ Caroline Maufroid, Sciences Po',
     },
     authors: [
       { name: 'Béatrice Mazoyer', org: 'Sciences Po' },
@@ -77,13 +97,13 @@ export const STORIES: StoryType[] = [
     id: 'covid',
     path: BASE_PATH + '/stories/covid',
     color: '#cf4d27',
-    title: 'Vers une cartographie de la crise de la Covid-19',
-    description: 'Positionnement des acteurs du web par rapport aux institutions',
+    title: 'Cartographie de la crise de la Covid-19',
+    description:
+      'Réaliser une cartographie des discours afin d’explorer le positionnement entre les acteurs du web et les sites institutionnels qui traitent de la crise de la covid-19.',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCovid.jpg',
-      alt: 'TODO: Alt',
-      credit: '@ Crédits (TODO)',
-      creditPath: 'https://picsum.photos/',
+      alt: '',
+      credit: '@ Caroline Maufroid, Sciences Po',
     },
     authors: [
       { name: 'Leslie Bellony', org: 'BnF' },
@@ -96,37 +116,16 @@ export const STORIES: StoryType[] = [
     ],
   },
   {
-    id: 'politique',
-    path: BASE_PATH + '/stories/politique',
-    color: '#2a7799',
-    title:
-      'La structuration des communautés politiques autour des candidats à l’élection présidentielle',
-    description: 'L’exemple de Jean-Luc Mélenchon, 2012-2022',
-    image: {
-      path: BASE_PATH + '/pictures/illustrationGpeCommunautesPol.jpg',
-      alt: 'TODO: Alt',
-      credit: '@ Crédits (TODO)',
-      creditPath: 'https://picsum.photos/',
-    },
-    authors: [
-      { name: 'Fabienne Greffet', org: 'IRENEE, Univ. Lorraine' },
-      { name: 'Sara Aubry', org: 'BnF' },
-      { name: 'Cyril Heude', org: 'DRIS, Sciences Po' },
-      { name: 'Robin de Mourat', org: 'médialab, Sciences Po' },
-      { name: 'Benjamin Ooghe - Tabanou', org: 'médialab, Sciences Po' },
-    ],
-  },
-  {
     id: 'genome',
     path: BASE_PATH + '/stories/genome',
     color: '#325a6e',
-    title: 'TODO: La notion de « génome » dans les archives électorales BnF',
-    description: 'TODO',
+    title: 'Genome',
+    description:
+      'Comprendre ce que représente le génome dans l’internet politique français au début des années 2000.',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeGenome.jpg',
-      alt: 'TODO: Alt',
-      credit: '@ Crédits (TODO)',
-      creditPath: 'https://picsum.photos/',
+      alt: '',
+      credit: '@ Caroline Maufroid, Sciences Po',
     },
     authors: [],
   },

@@ -1,10 +1,11 @@
 import React, { FC, useEffect, useState } from 'react';
 import cx from 'classnames';
 import { BsArrowsAngleExpand } from 'react-icons/bs';
+import { AiOutlineCloudDownload } from 'react-icons/ai';
 
 const FullscreenPicture: FC<{
   src: string;
-  srcXL?: string;
+  targetXL?: { type: 'img' | 'iframe'; src: string };
   story?: string;
   title?: string;
   caption?: string;
@@ -13,7 +14,20 @@ const FullscreenPicture: FC<{
   className?: string;
   imgClassName?: string;
   legendData?: { color: string; label: string }[];
-}> = ({ src, srcXL, className, imgClassName, story, alt, title, caption, author, legendData }) => {
+  downloadLink?: { text: string; href: string };
+}> = ({
+  src,
+  targetXL,
+  className,
+  imgClassName,
+  story,
+  alt,
+  title,
+  caption,
+  author,
+  legendData,
+  downloadLink,
+}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const textClassName = story ? `text-${story}-2` : 'text-white';
 
@@ -48,12 +62,18 @@ const FullscreenPicture: FC<{
             {title && <p className={cx('h4 mb-4 text-center', textClassName)}>{title}</p>}
             {caption && (
               <p className="text-center mt-4">
-                {caption && <span className={cx('h6 d-inline', textClassName)}>{caption}</span>}
+                <span className={cx('h6 d-inline', textClassName)}>{caption}</span>
               </p>
             )}
-            <div className="img-wrapper">
-              <img src={srcXL || src} alt={alt || ''} />
-            </div>
+            {targetXL?.type === 'iframe' ? (
+              <div className="iframe-wrapper">
+                <iframe src={targetXL.src} />
+              </div>
+            ) : (
+              <div className="img-wrapper">
+                <img src={targetXL?.src || src} alt={alt || ''} />
+              </div>
+            )}
             {legendData && (
               <div className={cx('legend', textClassName)}>
                 {legendData.map(({ color, label }) => (
@@ -66,11 +86,16 @@ const FullscreenPicture: FC<{
             )}
             {author && (
               <p className="text-center mt-2">
-                {author && (
-                  <span className={cx('font-headings small d-inline', textClassName)}>
-                    <small>@{author}</small>
-                  </span>
-                )}
+                <span className={cx('font-headings small d-inline', textClassName)}>
+                  <small>@{author}</small>
+                </span>
+              </p>
+            )}
+            {downloadLink && (
+              <p className="text-center mt-2">
+                <a href={downloadLink.href} className="text-white">
+                  <AiOutlineCloudDownload /> {downloadLink.text}
+                </a>
               </p>
             )}
           </div>

@@ -11,15 +11,6 @@ $font-size-base: 1.35rem !default;
 $h1-font-size: $font-size-base * 3.5 !default;
 $h2-font-size: $font-size-base * 2.5 !default;
 
-/**
- * Colors:
- */
-$blue: #000174 !default;
-$pink: #f4dbd1 !default;
-$yellow: #ffc800 !default;
-$black: #000000 !default;
-$gray-100: #f6f6f6 !default;
-
 $light-opacity: 0.7 !default;
 $primary: $blue !default;
 $primary-light: rgba($primary, $light-opacity) !default;

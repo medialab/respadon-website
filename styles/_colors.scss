@@ -1,4 +1,11 @@
+$blue: #000174 !default;
+$pink: #f4dbd1 !default;
+$yellow: #ffc800 !default;
+$black: #000000 !default;
+$gray-100: #f6f6f6 !default;
+
 $custom-theme-colors: (
+  // Story colors:
   'spectacles': #ff9591,
   'spectacles-2': #193f51,
   'covid': #cf4d27,
@@ -7,4 +14,7 @@ $custom-theme-colors: (
   'politique-2': #c8f0e6,
   'genome': #325a6e,
   'genome-2': #f4dbd1,
+
+  // Other colors:
+  'yellow': $yellow
 );

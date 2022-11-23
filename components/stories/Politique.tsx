@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 
 import FullscreenPicture from '../FullscreenPicture';
 import { BASE_PATH } from '../../lib/consts';
+import Note from '../Note';
 
 const actorsColors = [
   { color: '#0265fa', label: 'militant' },
@@ -243,6 +244,10 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/nombre_pages_liens_par_annee.svg'}
                 caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
+                downloadLink={{
+                  text: 'Télécharger les données',
+                  href: BASE_PATH + '/data/story-politique/comparaison-corpus.csv',
+                }}
               />
               <figcaption className="h6 text-black mt-3">
                 Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les
@@ -261,8 +266,33 @@ const StoryComponent: FC = () => {
           </p>
 
           <p>
-            L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles formes
-            de représentation graphique non disponibles dans Hyphe ou dans des outils traditionnels.
+            <Note>
+              <>
+                L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles
+                formes de représentation graphique non disponibles dans Hyphe ou dans des outils
+                traditionnels.
+              </>
+              <>
+                Visualisations dynamiques de réseaux disponibles en ligne via l'outil Nansi :
+                <ul>
+                  <li>
+                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf">
+                      corpus 2012
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf">
+                      corpus 2017
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf">
+                      corpus 2022
+                    </a>
+                  </li>
+                </ul>
+              </>
+            </Note>
           </p>
         </section>
       </div>
@@ -430,6 +460,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2022_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2022"
                 legendData={editorialColors}
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1//#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&c=t&s=r&sa[]=s&sa[]=r&ca[]=t&ca[]=c&r.min=5',
+                }}
               />
             </figure>
           </div>

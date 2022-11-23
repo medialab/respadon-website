@@ -13,18 +13,32 @@ export const StoriesBlock: FC = () => {
               <div className="col-3">
                 <img className="img-fluid" src={story.image.path} alt={story.image.alt} />
                 <div>
-                  <a className={`small text-decoration-none link-${story.id}-2`} href={story.image.creditPath}>
+                  <a
+                    className={`small text-decoration-none link-${story.id}-2`}
+                    href={story.image.creditPath}
+                  >
                     {story.image.credit}
                   </a>
                 </div>
               </div>
               <div className="col-9">
                 <p className="fs-5 story-title">Story</p>
-                <h2 className={`text-${story.id}-2`}>{story.title}</h2>
-                <p className="fs-5">{story.description}</p>
+                <h2 className={`text-${story.id}-2`}>
+                  <a href={story.path} className={`text-decoration-none text-${story.id}-2`}>
+                    {story.title}
+                  </a>
+                </h2>
+                <p className="fs-5">
+                  <a href={story.path} className={`text-decoration-none text-${story.id}-2`}>
+                    {story.description}
+                  </a>
+                </p>
               </div>
               <span className="position-absolute text-end bottom-0 end-0 w-auto">
-                <a href={story.path} className={`font-headings text-decoration-none link-${story.id}-2`}>
+                <a
+                  href={story.path}
+                  className={`font-headings text-decoration-none link-${story.id}-2`}
+                >
                   En savoir plus →
                 </a>
               </span>

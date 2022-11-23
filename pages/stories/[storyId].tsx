@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, Fragment } from 'react';
 import Head from 'next/head';
 import cx from 'classnames';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
@@ -44,7 +44,7 @@ const Story: FC<{ story: StoryType; prev: StoryType; next: StoryType }> = ({
                 );
                 if (i === a.length - 1) return display;
                 if (i === a.length - 2) return <>{display} et </>;
-                return <>{display}, </>;
+                return <Fragment key={i}>{display}, </Fragment>;
               })}
             </p>
           )}
@@ -58,13 +58,21 @@ const Story: FC<{ story: StoryType; prev: StoryType; next: StoryType }> = ({
           <div className="d-flex flex-row justify-content-center justify-content-md-between align-items-center mt-4 pt-4">
             <a
               href={prev.path}
-              className={cx('btn rounded-pill me-2 px-3 font-headings', `btn-${prev.id}`, `text-${prev.id}-2`)}
+              className={cx(
+                'btn rounded-pill me-2 px-3 font-headings',
+                `btn-${prev.id}`,
+                `text-${prev.id}-2`
+              )}
             >
               {'<'}
             </a>
             <a
               href={next.path}
-              className={cx('btn rounded-pill px-4 font-headings', `btn-${next.id}`, `text-${next.id}-2`)}
+              className={cx(
+                'btn rounded-pill px-4 font-headings',
+                `btn-${next.id}`,
+                `text-${next.id}-2`
+              )}
             >
               Lire la story suivante {'>'}
             </a>

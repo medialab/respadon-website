@@ -45,12 +45,14 @@
       flex-grow: 0;
       flex-shrink: 0;
     }
+    & > .iframe-wrapper,
     & > .img-wrapper {
       flex-grow: 1;
       flex-shrink: 1;
       position: relative;
 
-      & > img {
+      & > img,
+      & > iframe {
         position: absolute;
         inset: 0;
         width: 100%;
@@ -62,15 +64,15 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      
-      .legend-item{ 
+
+      .legend-item {
         display: flex;
         align-items: baseline;
         width: fit-content;
         margin-left: 1rem;
         .legend-color {
           width: 0.8rem;
-          height:0.8rem;
+          height: 0.8rem;
         }
         .legend-item-label {
           margin-left: 0.5rem;
