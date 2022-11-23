@@ -80,11 +80,15 @@ const Footer: FC<{ page?: Page }> = ({ page }) => (
       </div>
       <div className="col-3 contact-block p-3">
         <div>Pour en savoir plus, contactez :</div>
-        <div className="fw-bold">
-          <a href="mailto:audrey.baneyx@sciencespo.fr">Audrey Baneyx</a>
+        <div className="fw-bold">Audrey Baneyx</div>
+        <div className="smaller">
+          audrey.baneyx<strong className="px-1">at</strong>sciencespo
+          <strong className="px-1">dot</strong>fr
         </div>
-        <div className="fw-bold">
-          <a href="mailto:eleonora.moiraghi@sciencespo.fr">Eleonora Moiraghi</a>
+        <div className="fw-bold">Eleonora Moiraghi</div>
+        <div className="smaller">
+          eleonora.moiraghi<strong className="px-1">at</strong>sciencespo
+          <strong className="px-1">dot</strong>fr
         </div>
       </div>
     </div>

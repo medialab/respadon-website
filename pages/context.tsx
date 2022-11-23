@@ -11,10 +11,15 @@ const Context: FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="container mt-4 pt-4">
-      <div className="row">
-        <div className="col-xl-9">
-          <h1 className="h2 my-4 py-4">Contexte</h1>
+    <div className="container sections mt-4 pt-4">
+      <h1 className="h2">Contexte</h1>
+
+      <div />
+
+      <section>
+        <div className="content">
+          <h2 className="h3 mb-4">Le projet ResPaDon</h2>
+
           <p>
             Le projet{' '}
             <a href="https://webtv.univ-lille.fr/video/11455/presentation-du-projet-respadon-">
@@ -66,17 +71,26 @@ const Context: FC = () => (
             web &quot;vivant&quot;. C’est dans cette optique que s’est tenu le datasprint ResPaDon
             en avril 2022.
           </p>
-          <br />
-          <h2 className="h3">Le datasprint Respadon : intérêt et méthode</h2>
-          <h3 className="h4 text-black">Qu’attendre d’un datasprint ?</h3>
-          <h4 className="h5">1. Découvrir une nouvelle méthode de travail</h4>
+        </div>
+      </section>
+
+      <section>
+        <div className="content">
+          <h2 className="h3 mb-4">Le datasprint Respadon : intérêt et méthode</h2>
+          <h3 className="h4 mb-4 py-2 text-black">Qu’attendre d’un datasprint ?</h3>
+
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            1. Découvrir une nouvelle méthode de travail
+          </h4>
           <p>
             Un datasprint c’est à la fois un travail d’équipe et une contrainte temporelle forte. Il
             faut apprendre à travailler à plusieurs dans un temps très court. La clé de la réussite
             se trouve dans l’écoute et le partage de compétences différentes qui permettent
             d’aborder les problèmes sous plusieurs angles à la fois.
           </p>
-          <h4 className="h5">2. Apprendre à travailler avec des données numériques</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            2. Apprendre à travailler avec des données numériques
+          </h4>
           <p>
             La &quot;data&quot; est une opportunité, mais aussi une contrainte forte. Les problèmes
             auxquels on doit faire face sont à la fois pratiques et méthodologiques. Un datasprint
@@ -84,7 +98,9 @@ const Context: FC = () => (
             (parsing, diagnostic, nettoyage…) et de réfléchir à plusieurs associations possibles
             entre les données et les questions de recherche.
           </p>
-          <h4 className="h5">3. Dégager une narration à plusieurs</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            3. Dégager une narration à plusieurs
+          </h4>
           <p>
             Le cadre particulier du datasprint permet, par la discussion collective, de sélectionner
             les pistes interprétatives qui font sens ensemble et de les organiser en une narration
@@ -92,7 +108,9 @@ const Context: FC = () => (
             à de nouvelles formes de récits d’expérimentation, qui racontent autant le résultat (la
             connaissance produite) que le processus mis en œuvre pour y parvenir.
           </p>
-          <h4 className="h5">4. Pratiques interprétatives multimodales</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            4. Pratiques interprétatives multimodales
+          </h4>
           <p>
             Des outils, des images, des données… La nécessité d’être passeur de sens dans un temps
             très court encourage la mobilisation d’autres moyens que l’écriture d’un texte. Dans un
@@ -106,8 +124,10 @@ const Context: FC = () => (
             pratiques de connaissance et d’initier des réflexions méthodologiques fécondes et
             innovantes.
           </p>
+
           <br />
-          <h3 className="h4">Méthode de travail</h3>
+
+          <h3 className="h4 mb-4 py-2 text-black">Méthode de travail</h3>
           <p>
             Les participants se répartissent en petits groupes de travail, selon leurs affinités
             mais aussi leurs compétences. Dans l’idéal, chaque groupe met en jeu les rôles suivants
@@ -133,14 +153,18 @@ const Context: FC = () => (
             réapproprié et mobilisé dans le site web présentant les résultats.
           </p>
           <br />
-          <h3 className="h4">Les défis clé du datasprint</h3>
-          <h4 className="h5">1. Mettre les mains dans le cambouis</h4>
+          <h3 className="h4 mb-4 py-2 text-black">Les défis clé du datasprint</h3>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            1. Mettre les mains dans le cambouis
+          </h4>
           <p>
             La diversité des compétences des participants implique de remettre à plat la répartition
             des tâches. Ainsi, chacun pourra être amené à suggérer des pistes de recherche,
             manipuler les données, et se pencher sur l’analyse et la mise en forme des résultats.
           </p>
-          <h4 className="h5">2. Intercompréhension entre les disciplines et méthodes de partage</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            2. Intercompréhension entre les disciplines et méthodes de partage
+          </h4>
           <p>
             La dimension expérimentale, parfois chaotique, est inhérente au datasprint. Cela peut
             provoquer des situations &quot;d&apos;ingénuité réciproque&quot; entre participants qui,
@@ -154,7 +178,9 @@ const Context: FC = () => (
             L’utilisation des espaces d’affichage du lieu permet d’afficher les productions en cours
             et ainsi les rendre visibles aux autres équipes sans interruptions inopportunes.
           </p>
-          <h4 className="h5">3. Mutualiser entre les équipes durant l’événement</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">
+            3. Mutualiser entre les équipes durant l’événement
+          </h4>
           <p>
             Les séances de travail du datasprint provoquent parfois un “effet bulle” dans lequel
             chaque équipe peut rapidement se déconnecter du travail effectué par les autres,
@@ -165,7 +191,7 @@ const Context: FC = () => (
             ailleurs, des visites informelles régulières entre les groupes permettent de mutualiser
             certaines tâches avec l’aide des facilitateurs.
           </p>
-          <h4 className="h5">4. Produire et partager les travaux</h4>
+          <h4 className="h6 font-sans-serif fw-bolder mt-4">4. Produire et partager les travaux</h4>
           <p>
             L’un des intérêts du format datasprint est de favoriser une unité de temps et de lieu
             pour le travail interdisciplinaire. Cette intensité appelle cependant une valorisation à
@@ -174,8 +200,12 @@ const Context: FC = () => (
             participants gardent en tête les tâches nécessaires pour arriver à un résultat publiable
             dans le temps de l&apos;événement.
           </p>
-          <br />
-          <h2 className="h3">Les archives web et les collectes de la BnF</h2>
+        </div>
+      </section>
+
+      <section>
+        <div className="content">
+          <h2 className="h3 mb-4">Les archives web et les collectes de la BnF</h2>
           <p>
             Depuis le 1er août 2006, la Bibliothèque nationale de France (BnF) et l’Institut
             national de l’audiovisuel (INA) ont pour mission d’archiver les sites internet français
@@ -244,8 +274,12 @@ const Context: FC = () => (
           <div>
             <a href="https://webcorpora.hypotheses.org">webcorpora.hypotheses.org</a>
           </div>
-          <br />
-          <h2 className="h3">Le crawler Hyphe et la curation de corpus</h2>
+        </div>
+      </section>
+
+      <section>
+        <div className="content">
+          <h2 className="h3 mb-4">Le crawler Hyphe et la curation de corpus</h2>
           <p>
             Publié sous la forme d&apos;un{' '}
             <a href="https://github.com/medialab/hyphe">logiciel libre publié sur GitHub</a>, Hyphe
@@ -268,7 +302,7 @@ const Context: FC = () => (
             <a href="https://hyphe.medialab.sciences-po.fr/">hyphe.medialab.sciences-po.fr</a>
           </p>
         </div>
-      </div>
+      </section>
     </div>
   </Layout>
 );

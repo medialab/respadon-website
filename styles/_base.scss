@@ -76,6 +76,13 @@ a.link-unstyled {
 .font-headings {
   font-family: $font-family-sans-serif-headings !important;
 }
+.font-sans-serif {
+  font-family: $font-family-sans-serif !important;
+}
 .font-serif {
   font-family: $font-family-serif !important;
+}
+
+.smaller {
+  font-size: 0.75em;
 }

@@ -1,0 +1,14 @@
+.note-tooltip {
+  border-radius: $border-radius;
+  background: white;
+  border: $border-width $border-style $border-color;
+  box-shadow: $box-shadow-lg;
+  padding: 2em 1em 1em;
+  position: relative;
+
+  .btn-close {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+  }
+}
