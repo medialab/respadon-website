@@ -12,6 +12,7 @@ const actorsColors = [
   { color: '#009f70', label: 'formation politique' },
   { color: '#ff6516', label: 'autre' },
   { color: '#ff4bc8', label: 'association' },
+  { color: '#ff005a', label: 'média ami' },
 ];
 const editorialColors = [
   { color: '#d05744', label: 'site' },
