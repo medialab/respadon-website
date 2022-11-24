@@ -279,7 +279,9 @@ const Context: FC = () => (
 
       <section>
         <div className="content">
-          <h2 className="h3 mb-4">Le crawler Hyphe et la curation de corpus</h2>
+          <h2 className="h3 mb-4" id="hyphe-curation-corpus">
+            Le crawler Hyphe et la curation de corpus
+          </h2>
           <p>
             Publié sous la forme d&apos;un{' '}
             <a href="https://github.com/medialab/hyphe">logiciel libre publié sur GitHub</a>, Hyphe

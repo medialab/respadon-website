@@ -79,7 +79,7 @@ export const STORIES: StoryType[] = [
     color: '#ff9591',
     title: 'Cartographie de la critique en ligne des arts du spectacle',
     description:
-      'Proposer une cartographie générale des sites de critique des arts du spectacle et analyser leurs liens potentiels notamment avec les sites institutionnels et le monde du spectacle vivant.',
+      'Recherche exploratoire à partir de Hyphe et des archives du web de la Bnf via une collecte ciblée',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCritiqueSpectacle.jpg',
       alt: '',
