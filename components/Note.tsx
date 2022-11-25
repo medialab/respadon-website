@@ -1,8 +1,12 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
+import classNames from 'classnames';
+import React, { CSSProperties, FC, useEffect, useRef, useState } from 'react';
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 import TetherComponent from 'react-tether';
 
-const Note: FC<{ children: [JSX.Element, JSX.Element] }> = ({ children }) => {
+const Note: FC<{ children: [JSX.Element, JSX.Element]; style?: CSSProperties }> = ({
+  children,
+  style,
+}) => {
   const [target, tooltip] = children;
   const dom = useRef<HTMLDivElement>(null);
   const [show, setShow] = useState(false);
@@ -26,7 +30,7 @@ const Note: FC<{ children: [JSX.Element, JSX.Element] }> = ({ children }) => {
       constraints={[{ to: 'window', attachment: 'together', pin: true }]}
       renderTarget={(ref) => (
         <a
-          className="note"
+          className={classNames('note', show && 'opened')}
           ref={ref}
           href="#"
           onClick={(e) => {
@@ -41,7 +45,7 @@ const Note: FC<{ children: [JSX.Element, JSX.Element] }> = ({ children }) => {
         show && (
           // We use two divs here to allow having "two refs":
           <div ref={ref}>
-            <div ref={dom} className="note-tooltip">
+            <div ref={dom} className="note-tooltip" style={style}>
               {tooltip}
               <button
                 type="button"
