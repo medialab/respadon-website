@@ -97,9 +97,8 @@ export const STORIES: StoryType[] = [
     id: 'covid',
     path: BASE_PATH + '/stories/covid',
     color: '#cf4d27',
-    title: 'Cartographie de la crise de la Covid-19',
-    description:
-      'Réaliser une cartographie des discours afin d’explorer le positionnement entre les acteurs du web et les sites institutionnels qui traitent de la crise de la covid-19.',
+    title: 'Vers une cartographie de la crise de la Covid-19',
+    description: 'Positionnement des acteurs du web par rapport aux institutions',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCovid.jpg',
       alt: '',
