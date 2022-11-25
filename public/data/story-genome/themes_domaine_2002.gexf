@@ -1,0 +1,1222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-11-25">
+    <creator>Gephi 0.9.3</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="weighted indegree" title="Degré Entrant Pondéré" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Degré Sortant Pondéré" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Degré pondéré" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="total" title="total" type="integer"/>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="chretien" label="chretien">
+        <attvalues>
+          <attvalue for="weighted indegree" value="243364.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="243364.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="243749"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="44.235092"/>
+        <viz:position x="-1136.954" y="156.69765"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="vache_folle" label="vache_folle">
+        <attvalues>
+          <attvalue for="weighted indegree" value="159108.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="159108.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="159688"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="30.359276"/>
+        <viz:position x="-977.27155" y="-264.60086"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="ladepeche.com" label="ladepeche.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="147790.0"/>
+          <attvalue for="weighted degree" value="147790.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="147795"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="28.396118"/>
+        <viz:position x="-1288.9711" y="-144.3882"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="genes" label="genes">
+        <attvalues>
+          <attvalue for="weighted indegree" value="122189.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="122189.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="122620"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="24.24052"/>
+        <viz:position x="-1182.7906" y="-354.7989"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="avortement" label="avortement">
+        <attvalues>
+          <attvalue for="weighted indegree" value="88287.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="88287.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="88533"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="18.613834"/>
+        <viz:position x="-837.82764" y="9.257776"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="chiennesdegarde.org" label="chiennesdegarde.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="88395.0"/>
+          <attvalue for="weighted degree" value="88395.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="88401"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="18.592045"/>
+        <viz:position x="-1166.8475" y="-104.88688"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="topchretien.com" label="topchretien.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="86307.0"/>
+          <attvalue for="weighted degree" value="86307.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="86307"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="18.246391"/>
+        <viz:position x="-1228.6113" y="91.18231"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="brevets" label="brevets">
+        <attvalues>
+          <attvalue for="weighted indegree" value="62709.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="62709.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="63095"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="14.4148245"/>
+        <viz:position x="-874.13086" y="-517.8208"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="bioethique" label="bioethique">
+        <attvalues>
+          <attvalue for="weighted indegree" value="45437.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="45437.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="45776"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="11.5560055"/>
+        <viz:position x="-1172.937" y="-975.264"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="pcf.fr" label="pcf.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="44814.0"/>
+          <attvalue for="weighted degree" value="44814.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="44814"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="11.39721"/>
+        <viz:position x="-1306.0192" y="-530.4274"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="clonage" label="clonage">
+        <attvalues>
+          <attvalue for="weighted indegree" value="40612.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="40612.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="41016"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="10.770281"/>
+        <viz:position x="-1328.7875" y="33.739136"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="souches" label="souches">
+        <attvalues>
+          <attvalue for="weighted indegree" value="38784.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="38784.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="39037"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="10.443609"/>
+        <viz:position x="-873.7613" y="163.56862"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="gauchestory.com" label="gauchestory.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="38211.0"/>
+          <attvalue for="weighted degree" value="38211.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="38219"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="10.308584"/>
+        <viz:position x="-1093.4105" y="25.039473"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="vouzemoi.net" label="vouzemoi.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="36158.0"/>
+          <attvalue for="weighted degree" value="36158.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="36158"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.968378"/>
+        <viz:position x="-1006.91583" y="104.24269"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="chiracaveclafrance.net" label="chiracaveclafrance.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="34475.0"/>
+          <attvalue for="weighted degree" value="34475.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="34475"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.690567"/>
+        <viz:position x="-855.564" y="-188.423"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="chevenement2002.com" label="chevenement2002.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="32714.0"/>
+          <attvalue for="weighted degree" value="32714.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="32714"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.399883"/>
+        <viz:position x="-1056.8387" y="-61.499348"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="parti-socialiste.fr" label="parti-socialiste.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="32644.0"/>
+          <attvalue for="weighted degree" value="32644.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="32644"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.388327"/>
+        <viz:position x="-905.66077" y="-161.42818"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="presidentielles.net" label="presidentielles.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="31955.0"/>
+          <attvalue for="weighted degree" value="31955.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="31955"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.274595"/>
+        <viz:position x="-943.9442" y="15.321965"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="bayrou.net" label="bayrou.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="31321.0"/>
+          <attvalue for="weighted degree" value="31321.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="31321"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.169941"/>
+        <viz:position x="-961.8864" y="-114.454666"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="adn" label="adn">
+        <attvalues>
+          <attvalue for="weighted indegree" value="30340.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="30340.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="30446"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="9.025508"/>
+        <viz:position x="-1027.1063" y="236.42566"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="embryon" label="embryon">
+        <attvalues>
+          <attvalue for="weighted indegree" value="27989.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="27989.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="28303"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="8.671765"/>
+        <viz:position x="-1534.5538" y="-385.7468"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="FIV" label="FIV">
+        <attvalues>
+          <attvalue for="weighted indegree" value="23880.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="23880.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="24216"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="7.9971313"/>
+        <viz:position x="-1448.9006" y="-479.65134"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="transgenetique" label="transgenetique">
+        <attvalues>
+          <attvalue for="weighted indegree" value="23663.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="23663.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="23864"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="7.9390273"/>
+        <viz:position x="-1607.9054" y="-147.9668"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="largeur.com" label="largeur.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="19074.0"/>
+          <attvalue for="weighted degree" value="19074.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="19082"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="7.14967"/>
+        <viz:position x="-685.3242" y="81.9266"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="genome" label="genome">
+        <attvalues>
+          <attvalue for="weighted indegree" value="18814.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="18814.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="18962"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="7.129862"/>
+        <viz:position x="-1879.0234" y="-492.43283"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="voixdujura.fr" label="voixdujura.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="18522.0"/>
+          <attvalue for="weighted degree" value="18522.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="18524"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="7.0575624"/>
+        <viz:position x="-1145.5669" y="303.61615"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="telethon" label="telethon">
+        <attvalues>
+          <attvalue for="weighted indegree" value="17679.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="17679.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="17787"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.9359064"/>
+        <viz:position x="-1493.233" y="-180.84319"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="u-m-p.org" label="u-m-p.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="16433.0"/>
+          <attvalue for="weighted degree" value="16433.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="16437"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.713064"/>
+        <viz:position x="-710.094" y="-105.08637"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="senat.fr" label="senat.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="15247.0"/>
+          <attvalue for="weighted degree" value="15247.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="15247"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.516632"/>
+        <viz:position x="-1116.9521" y="-571.44135"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="derstandard.at" label="derstandard.at">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="12540.0"/>
+          <attvalue for="weighted degree" value="12540.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="12540"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.0697927"/>
+        <viz:position x="-1996.8876" y="-441.82343"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="lcr-rouge.org" label="lcr-rouge.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="12449.0"/>
+          <attvalue for="weighted degree" value="12449.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="12449"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.0547714"/>
+        <viz:position x="-1117.6392" y="-193.03566"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="udf.org" label="udf.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="12437.0"/>
+          <attvalue for="weighted degree" value="12437.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="12437"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.05279"/>
+        <viz:position x="-1118.0154" y="-885.5596"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="demlib.com" label="demlib.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="12284.0"/>
+          <attvalue for="weighted degree" value="12284.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="12284"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="6.027535"/>
+        <viz:position x="-1379.8948" y="-649.2131"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="assemblee-nationale.fr" label="assemblee-nationale.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="10697.0"/>
+          <attvalue for="weighted degree" value="10697.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="10697"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.765571"/>
+        <viz:position x="-1059.7382" y="-725.82886"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="generation-ecologie.com" label="generation-ecologie.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="10652.0"/>
+          <attvalue for="weighted degree" value="10652.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="10652"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.7581434"/>
+        <viz:position x="-1473.3687" y="18.464468"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="lafrancehumaine.net" label="lafrancehumaine.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="10487.0"/>
+          <attvalue for="weighted degree" value="10487.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="10487"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.7309065"/>
+        <viz:position x="-712.18994" y="-213.68886"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="les-verts.org" label="les-verts.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="10034.0"/>
+          <attvalue for="weighted degree" value="10034.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="10034"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.6561313"/>
+        <viz:position x="-1436.2693" y="-295.15857"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="democratie-continue.org" label="democratie-continue.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="9922.0"/>
+          <attvalue for="weighted degree" value="9922.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="9938"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.6402845"/>
+        <viz:position x="-1215.8314" y="-799.2958"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="e1789.com" label="e1789.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="9745.0"/>
+          <attvalue for="weighted degree" value="9745.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="9745"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.6084266"/>
+        <viz:position x="-1401.3552" y="183.70592"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="levillage.org" label="levillage.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="8684.0"/>
+          <attvalue for="weighted degree" value="8684.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="8684"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.433289"/>
+        <viz:position x="-877.1574" y="359.82703"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="free.fr" label="free.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="8207.0"/>
+          <attvalue for="weighted degree" value="8207.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="8207"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.3545513"/>
+        <viz:position x="-1083.9786" y="-1066.3552"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="cef.fr" label="cef.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="7577.0"/>
+          <attvalue for="weighted degree" value="7577.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="7593"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.2531996"/>
+        <viz:position x="-1179.6866" y="383.7281"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="eu.org" label="eu.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="7532.0"/>
+          <attvalue for="weighted degree" value="7532.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="7532"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.24313"/>
+        <viz:position x="-911.4078" y="-842.0662"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="mhr-viandes.com" label="mhr-viandes.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="6960.0"/>
+          <attvalue for="weighted degree" value="6960.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="6968"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.1500316"/>
+        <viz:position x="-740.17413" y="-392.7757"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="teaser.fr" label="teaser.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="6308.0"/>
+          <attvalue for="weighted degree" value="6308.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="6308"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.0410867"/>
+        <viz:position x="-2095.06" y="-178.00478"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="m-n-r.com" label="m-n-r.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="6246.0"/>
+          <attvalue for="weighted degree" value="6246.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="6246"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="5.0308523"/>
+        <viz:position x="-676.0545" y="280.64618"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="eugenisme" label="eugenisme">
+        <attvalues>
+          <attvalue for="weighted indegree" value="5859.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="5859.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="5989"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.98843"/>
+        <viz:position x="-349.03427" y="219.56804"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="premier-ministre.gouv.fr" label="premier-ministre.gouv.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="5388.0"/>
+          <attvalue for="weighted degree" value="5388.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="5394"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.8902135"/>
+        <viz:position x="-744.7976" y="-877.21075"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="journaldunet.com" label="journaldunet.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="5390.0"/>
+          <attvalue for="weighted degree" value="5390.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="5390"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.8895535"/>
+        <viz:position x="-1618.0973" y="-730.58453"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="wanadoo.fr" label="wanadoo.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="4845.0"/>
+          <attvalue for="weighted degree" value="4845.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="4851"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.8005815"/>
+        <viz:position x="-538.23114" y="-512.9851"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="bayer" label="bayer">
+        <attvalues>
+          <attvalue for="weighted indegree" value="4419.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="4419.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="4499"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.7424774"/>
+        <viz:position x="-2254.3464" y="-297.47437"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="ogm" label="ogm">
+        <attvalues>
+          <attvalue for="weighted indegree" value="4380.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="4380.0"/>
+          <attvalue for="type" value="theme"/>
+          <attvalue for="total" value="4498"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.7423124"/>
+        <viz:position x="-1925.4883" y="12.882341"/>
+        <viz:color r="117" g="181" b="255"/>
+      </node>
+      <node id="lioneljospin.net" label="lioneljospin.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="4401.0"/>
+          <attvalue for="weighted degree" value="4401.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="4401"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.726301"/>
+        <viz:position x="-1806.1024" y="-602.5248"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="mei-fr.org" label="mei-fr.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3908.0"/>
+          <attvalue for="weighted degree" value="3908.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="3908"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.644922"/>
+        <viz:position x="-1749.704" y="-234.45581"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="jean-francoismattei.com" label="jean-francoismattei.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3734.0"/>
+          <attvalue for="weighted degree" value="3734.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="3734"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.6162004"/>
+        <viz:position x="-944.7822" y="-969.49225"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="samizdat.net" label="samizdat.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3247.0"/>
+          <attvalue for="weighted degree" value="3247.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="3261"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.5381227"/>
+        <viz:position x="-421.3751" y="-591.40137"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="planeteradicale.org" label="planeteradicale.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3035.0"/>
+          <attvalue for="weighted degree" value="3035.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="3035"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.5008173"/>
+        <viz:position x="-1259.5365" y="673.13214"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="corinne-lepage.com" label="corinne-lepage.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2972.0"/>
+          <attvalue for="weighted degree" value="2972.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2972"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.490418"/>
+        <viz:position x="-559.5905" y="-694.23627"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="lapolitique.com" label="lapolitique.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2971.0"/>
+          <attvalue for="weighted degree" value="2971.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2971"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.490253"/>
+        <viz:position x="-1010.0351" y="-1214.1189"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="reforme.net" label="reforme.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2678.0"/>
+          <attvalue for="weighted degree" value="2678.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2678"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.441888"/>
+        <viz:position x="-1262.1592" y="310.1396"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="roberthue2002.net" label="roberthue2002.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2622.0"/>
+          <attvalue for="weighted degree" value="2622.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2622"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.4326444"/>
+        <viz:position x="-1253.1635" y="-1072.8035"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="lemonde.fr" label="lemonde.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2397.0"/>
+          <attvalue for="weighted degree" value="2397.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2405"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.396825"/>
+        <viz:position x="-455.0384" y="-141.78873"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="fluctuat.net" label="fluctuat.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2107.0"/>
+          <attvalue for="weighted degree" value="2107.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2122"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.35011"/>
+        <viz:position x="14.348661" y="-293.1627"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="chiracvsjospin.com" label="chiracvsjospin.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="2084.0"/>
+          <attvalue for="weighted degree" value="2084.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="2093"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.345323"/>
+        <viz:position x="-1598.876" y="-1019.27783"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="nicematin.fr" label="nicematin.fr">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1981.0"/>
+          <attvalue for="weighted degree" value="1981.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1998"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.3296413"/>
+        <viz:position x="-1240.7883" y="422.03766"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="2002pourlafrance.net" label="2002pourlafrance.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1983.0"/>
+          <attvalue for="weighted degree" value="1983.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1997"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.3294764"/>
+        <viz:position x="-213.09207" y="-333.29913"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="independent.co.uk" label="independent.co.uk">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1691.0"/>
+          <attvalue for="weighted degree" value="1691.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1691"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.2789655"/>
+        <viz:position x="-1451.5841" y="-807.1002"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="actupp.org" label="actupp.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1677.0"/>
+          <attvalue for="weighted degree" value="1677.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1677"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.2766547"/>
+        <viz:position x="-430.1911" y="-909.64526"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="routard.com" label="routard.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1447.0"/>
+          <attvalue for="weighted degree" value="1447.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1470"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.242486"/>
+        <viz:position x="-1322.5513" y="549.6964"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="skynet.be" label="skynet.be">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1370.0"/>
+          <attvalue for="weighted degree" value="1370.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1372"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.2263083"/>
+        <viz:position x="-1176.8472" y="629.8327"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="temps-reels.net" label="temps-reels.net">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1271.0"/>
+          <attvalue for="weighted degree" value="1271.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1284"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.211783"/>
+        <viz:position x="-318.05417" y="-937.7881"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="laicite-republique.org" label="laicite-republique.org">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1036.0"/>
+          <attvalue for="weighted degree" value="1036.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="1044"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.172166"/>
+        <viz:position x="-1110.225" y="537.42206"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+      <node id="centrefrance.com" label="centrefrance.com">
+        <attvalues>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="632.0"/>
+          <attvalue for="weighted degree" value="632.0"/>
+          <attvalue for="type" value="domaine"/>
+          <attvalue for="total" value="632"/>
+          <attvalue for="componentnumber" value="0"/>
+        </attvalues>
+        <viz:size value="4.104158"/>
+        <viz:position x="-1048.0203" y="497.237"/>
+        <viz:color r="63" g="177" b="125"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="vouzemoi.net" target="adn" weight="17449.0"/>
+      <edge id="2" source="vouzemoi.net" target="genes" weight="4271.0"/>
+      <edge id="3" source="vouzemoi.net" target="chretien" weight="3544.0"/>
+      <edge id="4" source="vouzemoi.net" target="brevets" weight="1209.0"/>
+      <edge id="6" source="vouzemoi.net" target="clonage" weight="2457.0"/>
+      <edge id="8" source="vouzemoi.net" target="vache_folle" weight="3844.0"/>
+      <edge id="9" source="vouzemoi.net" target="avortement" weight="1013.0"/>
+      <edge id="11" source="vouzemoi.net" target="souches" weight="1217.0"/>
+      <edge id="12" source="chiennesdegarde.org" target="adn" weight="5350.0"/>
+      <edge id="15" source="chiennesdegarde.org" target="FIV" weight="3554.0"/>
+      <edge id="16" source="chiennesdegarde.org" target="genes" weight="15177.0"/>
+      <edge id="17" source="chiennesdegarde.org" target="chretien" weight="9747.0"/>
+      <edge id="19" source="chiennesdegarde.org" target="embryon" weight="7184.0"/>
+      <edge id="20" source="chiennesdegarde.org" target="clonage" weight="3763.0"/>
+      <edge id="22" source="chiennesdegarde.org" target="transgenetique" weight="1171.0"/>
+      <edge id="24" source="chiennesdegarde.org" target="vache_folle" weight="21028.0"/>
+      <edge id="25" source="chiennesdegarde.org" target="avortement" weight="19315.0"/>
+      <edge id="27" source="chiennesdegarde.org" target="souches" weight="1330.0"/>
+      <edge id="28" source="ladepeche.com" target="adn" weight="2056.0"/>
+      <edge id="30" source="ladepeche.com" target="genome" weight="1173.0"/>
+      <edge id="31" source="ladepeche.com" target="FIV" weight="4543.0"/>
+      <edge id="32" source="ladepeche.com" target="genes" weight="16930.0"/>
+      <edge id="33" source="ladepeche.com" target="chretien" weight="36794.0"/>
+      <edge id="34" source="ladepeche.com" target="brevets" weight="7778.0"/>
+      <edge id="35" source="ladepeche.com" target="embryon" weight="1422.0"/>
+      <edge id="36" source="ladepeche.com" target="clonage" weight="4392.0"/>
+      <edge id="37" source="ladepeche.com" target="ogm" weight="1387.0"/>
+      <edge id="38" source="ladepeche.com" target="bayer" weight="621.0"/>
+      <edge id="39" source="ladepeche.com" target="transgenetique" weight="11749.0"/>
+      <edge id="40" source="ladepeche.com" target="telethon" weight="14232.0"/>
+      <edge id="41" source="ladepeche.com" target="vache_folle" weight="36126.0"/>
+      <edge id="42" source="ladepeche.com" target="avortement" weight="4063.0"/>
+      <edge id="44" source="ladepeche.com" target="souches" weight="4271.0"/>
+      <edge id="45" source="levillage.org" target="adn" weight="1140.0"/>
+      <edge id="47" source="levillage.org" target="chretien" weight="1066.0"/>
+      <edge id="50" source="levillage.org" target="clonage" weight="1104.0"/>
+      <edge id="51" source="levillage.org" target="vache_folle" weight="1936.0"/>
+      <edge id="52" source="levillage.org" target="avortement" weight="1340.0"/>
+      <edge id="53" source="levillage.org" target="souches" weight="1812.0"/>
+      <edge id="54" source="chevenement2002.com" target="adn" weight="609.0"/>
+      <edge id="58" source="chevenement2002.com" target="genes" weight="4861.0"/>
+      <edge id="59" source="chevenement2002.com" target="chretien" weight="7821.0"/>
+      <edge id="60" source="chevenement2002.com" target="brevets" weight="4059.0"/>
+      <edge id="61" source="chevenement2002.com" target="embryon" weight="1340.0"/>
+      <edge id="62" source="chevenement2002.com" target="clonage" weight="2391.0"/>
+      <edge id="66" source="chevenement2002.com" target="vache_folle" weight="2821.0"/>
+      <edge id="67" source="chevenement2002.com" target="avortement" weight="3101.0"/>
+      <edge id="69" source="chevenement2002.com" target="souches" weight="4825.0"/>
+      <edge id="72" source="pcf.fr" target="genome" weight="2914.0"/>
+      <edge id="73" source="pcf.fr" target="FIV" weight="1618.0"/>
+      <edge id="74" source="pcf.fr" target="genes" weight="6539.0"/>
+      <edge id="75" source="pcf.fr" target="chretien" weight="1615.0"/>
+      <edge id="76" source="pcf.fr" target="brevets" weight="5225.0"/>
+      <edge id="77" source="pcf.fr" target="embryon" weight="2900.0"/>
+      <edge id="78" source="pcf.fr" target="clonage" weight="3027.0"/>
+      <edge id="81" source="pcf.fr" target="transgenetique" weight="796.0"/>
+      <edge id="83" source="pcf.fr" target="vache_folle" weight="2794.0"/>
+      <edge id="85" source="pcf.fr" target="bioethique" weight="14945.0"/>
+      <edge id="86" source="pcf.fr" target="souches" weight="1069.0"/>
+      <edge id="90" source="topchretien.com" target="FIV" weight="982.0"/>
+      <edge id="91" source="topchretien.com" target="genes" weight="1392.0"/>
+      <edge id="92" source="topchretien.com" target="chretien" weight="76211.0"/>
+      <edge id="94" source="topchretien.com" target="embryon" weight="1180.0"/>
+      <edge id="95" source="topchretien.com" target="clonage" weight="1480.0"/>
+      <edge id="101" source="topchretien.com" target="avortement" weight="2351.0"/>
+      <edge id="103" source="topchretien.com" target="souches" weight="865.0"/>
+      <edge id="108" source="generation-ecologie.com" target="genes" weight="1771.0"/>
+      <edge id="109" source="generation-ecologie.com" target="chretien" weight="1112.0"/>
+      <edge id="110" source="generation-ecologie.com" target="brevets" weight="680.0"/>
+      <edge id="112" source="generation-ecologie.com" target="clonage" weight="975.0"/>
+      <edge id="115" source="generation-ecologie.com" target="transgenetique" weight="1273.0"/>
+      <edge id="116" source="generation-ecologie.com" target="vache_folle" weight="1828.0"/>
+      <edge id="119" source="generation-ecologie.com" target="souches" weight="1117.0"/>
+      <edge id="121" source="teaser.fr" target="genome" weight="772.0"/>
+      <edge id="123" source="teaser.fr" target="genes" weight="1080.0"/>
+      <edge id="124" source="teaser.fr" target="chretien" weight="526.0"/>
+      <edge id="127" source="teaser.fr" target="clonage" weight="690.0"/>
+      <edge id="128" source="teaser.fr" target="ogm" weight="668.0"/>
+      <edge id="129" source="teaser.fr" target="bayer" weight="1216.0"/>
+      <edge id="137" source="senat.fr" target="FIV" weight="1571.0"/>
+      <edge id="138" source="senat.fr" target="genes" weight="2300.0"/>
+      <edge id="139" source="senat.fr" target="chretien" weight="996.0"/>
+      <edge id="140" source="senat.fr" target="brevets" weight="2450.0"/>
+      <edge id="141" source="senat.fr" target="embryon" weight="883.0"/>
+      <edge id="147" source="senat.fr" target="vache_folle" weight="3355.0"/>
+      <edge id="148" source="senat.fr" target="avortement" weight="662.0"/>
+      <edge id="149" source="senat.fr" target="bioethique" weight="601.0"/>
+      <edge id="152" source="derstandard.at" target="genome" weight="8068.0"/>
+      <edge id="154" source="derstandard.at" target="genes" weight="897.0"/>
+      <edge id="156" source="derstandard.at" target="embryon" weight="1109.0"/>
+      <edge id="158" source="derstandard.at" target="bayer" weight="1282.0"/>
+      <edge id="159" source="derstandard.at" target="transgenetique" weight="698.0"/>
+      <edge id="161" source="presidentielles.net" target="eugenisme" weight="912.0"/>
+      <edge id="162" source="presidentielles.net" target="FIV" weight="532.0"/>
+      <edge id="163" source="presidentielles.net" target="genes" weight="5825.0"/>
+      <edge id="164" source="presidentielles.net" target="chretien" weight="2289.0"/>
+      <edge id="165" source="presidentielles.net" target="brevets" weight="955.0"/>
+      <edge id="167" source="presidentielles.net" target="clonage" weight="5401.0"/>
+      <edge id="169" source="presidentielles.net" target="vache_folle" weight="3280.0"/>
+      <edge id="170" source="presidentielles.net" target="avortement" weight="7101.0"/>
+      <edge id="172" source="presidentielles.net" target="souches" weight="5417.0"/>
+      <edge id="176" source="assemblee-nationale.fr" target="FIV" weight="961.0"/>
+      <edge id="177" source="assemblee-nationale.fr" target="genes" weight="1490.0"/>
+      <edge id="178" source="assemblee-nationale.fr" target="chretien" weight="595.0"/>
+      <edge id="179" source="assemblee-nationale.fr" target="brevets" weight="1870.0"/>
+      <edge id="180" source="assemblee-nationale.fr" target="embryon" weight="676.0"/>
+      <edge id="186" source="assemblee-nationale.fr" target="vache_folle" weight="1893.0"/>
+      <edge id="187" source="assemblee-nationale.fr" target="avortement" weight="581.0"/>
+      <edge id="188" source="assemblee-nationale.fr" target="bioethique" weight="891.0"/>
+      <edge id="203" source="mei-fr.org" target="genes" weight="1080.0"/>
+      <edge id="210" source="mei-fr.org" target="transgenetique" weight="1027.0"/>
+      <edge id="211" source="mei-fr.org" target="vache_folle" weight="697.0"/>
+      <edge id="218" source="samizdat.net" target="genes" weight="738.0"/>
+      <edge id="219" source="samizdat.net" target="chretien" weight="566.0"/>
+      <edge id="220" source="samizdat.net" target="brevets" weight="774.0"/>
+      <edge id="233" source="mhr-viandes.com" target="genes" weight="812.0"/>
+      <edge id="241" source="mhr-viandes.com" target="vache_folle" weight="4458.0"/>
+      <edge id="248" source="lcr-rouge.org" target="genes" weight="1460.0"/>
+      <edge id="249" source="lcr-rouge.org" target="chretien" weight="1667.0"/>
+      <edge id="250" source="lcr-rouge.org" target="brevets" weight="1333.0"/>
+      <edge id="255" source="lcr-rouge.org" target="transgenetique" weight="1001.0"/>
+      <edge id="257" source="lcr-rouge.org" target="vache_folle" weight="2838.0"/>
+      <edge id="258" source="lcr-rouge.org" target="avortement" weight="1672.0"/>
+      <edge id="263" source="journaldunet.com" target="FIV" weight="1412.0"/>
+      <edge id="266" source="journaldunet.com" target="brevets" weight="896.0"/>
+      <edge id="267" source="journaldunet.com" target="embryon" weight="1520.0"/>
+      <edge id="272" source="journaldunet.com" target="vache_folle" weight="514.0"/>
+      <edge id="279" source="largeur.com" target="genes" weight="622.0"/>
+      <edge id="280" source="largeur.com" target="chretien" weight="993.0"/>
+      <edge id="287" source="largeur.com" target="vache_folle" weight="1078.0"/>
+      <edge id="288" source="largeur.com" target="avortement" weight="15239.0"/>
+      <edge id="295" source="eu.org" target="genes" weight="1026.0"/>
+      <edge id="297" source="eu.org" target="brevets" weight="2510.0"/>
+      <edge id="301" source="eu.org" target="vache_folle" weight="706.0"/>
+      <edge id="303" source="eu.org" target="bioethique" weight="1764.0"/>
+      <edge id="309" source="les-verts.org" target="genes" weight="2420.0"/>
+      <edge id="310" source="les-verts.org" target="chretien" weight="556.0"/>
+      <edge id="311" source="les-verts.org" target="brevets" weight="796.0"/>
+      <edge id="316" source="les-verts.org" target="transgenetique" weight="1724.0"/>
+      <edge id="317" source="les-verts.org" target="vache_folle" weight="2484.0"/>
+      <edge id="318" source="les-verts.org" target="avortement" weight="529.0"/>
+      <edge id="334" source="fluctuat.net" target="vache_folle" weight="614.0"/>
+      <edge id="342" source="wanadoo.fr" target="genes" weight="752.0"/>
+      <edge id="344" source="wanadoo.fr" target="brevets" weight="522.0"/>
+      <edge id="351" source="wanadoo.fr" target="vache_folle" weight="1497.0"/>
+      <edge id="361" source="actupp.org" target="brevets" weight="883.0"/>
+      <edge id="385" source="chiracaveclafrance.net" target="genes" weight="5535.0"/>
+      <edge id="386" source="chiracaveclafrance.net" target="chretien" weight="5752.0"/>
+      <edge id="387" source="chiracaveclafrance.net" target="brevets" weight="5564.0"/>
+      <edge id="391" source="chiracaveclafrance.net" target="vache_folle" weight="10962.0"/>
+      <edge id="392" source="chiracaveclafrance.net" target="avortement" weight="3590.0"/>
+      <edge id="394" source="chiracaveclafrance.net" target="souches" weight="2070.0"/>
+      <edge id="431" source="free.fr" target="chretien" weight="677.0"/>
+      <edge id="432" source="free.fr" target="brevets" weight="531.0"/>
+      <edge id="439" source="free.fr" target="vache_folle" weight="690.0"/>
+      <edge id="441" source="free.fr" target="bioethique" weight="4618.0"/>
+      <edge id="468" source="demlib.com" target="genome" weight="735.0"/>
+      <edge id="469" source="demlib.com" target="FIV" weight="802.0"/>
+      <edge id="470" source="demlib.com" target="genes" weight="2035.0"/>
+      <edge id="471" source="demlib.com" target="chretien" weight="752.0"/>
+      <edge id="472" source="demlib.com" target="brevets" weight="1307.0"/>
+      <edge id="473" source="demlib.com" target="embryon" weight="1071.0"/>
+      <edge id="474" source="demlib.com" target="clonage" weight="824.0"/>
+      <edge id="478" source="demlib.com" target="vache_folle" weight="2215.0"/>
+      <edge id="479" source="demlib.com" target="avortement" weight="672.0"/>
+      <edge id="480" source="demlib.com" target="bioethique" weight="1097.0"/>
+      <edge id="484" source="gauchestory.com" target="genes" weight="759.0"/>
+      <edge id="485" source="gauchestory.com" target="chretien" weight="26843.0"/>
+      <edge id="491" source="gauchestory.com" target="vache_folle" weight="9545.0"/>
+      <edge id="521" source="u-m-p.org" target="eugenisme" weight="712.0"/>
+      <edge id="524" source="u-m-p.org" target="genes" weight="2898.0"/>
+      <edge id="525" source="u-m-p.org" target="chretien" weight="2854.0"/>
+      <edge id="526" source="u-m-p.org" target="brevets" weight="1663.0"/>
+      <edge id="530" source="u-m-p.org" target="vache_folle" weight="4482.0"/>
+      <edge id="531" source="u-m-p.org" target="avortement" weight="2216.0"/>
+      <edge id="532" source="u-m-p.org" target="souches" weight="1050.0"/>
+      <edge id="575" source="temps-reels.net" target="brevets" weight="765.0"/>
+      <edge id="597" source="nicematin.fr" target="chretien" weight="1199.0"/>
+      <edge id="612" source="reforme.net" target="chretien" weight="1890.0"/>
+      <edge id="634" source="laicite-republique.org" target="chretien" weight="766.0"/>
+      <edge id="661" source="premier-ministre.gouv.fr" target="genes" weight="682.0"/>
+      <edge id="663" source="premier-ministre.gouv.fr" target="brevets" weight="701.0"/>
+      <edge id="669" source="premier-ministre.gouv.fr" target="vache_folle" weight="1217.0"/>
+      <edge id="671" source="premier-ministre.gouv.fr" target="bioethique" weight="722.0"/>
+      <edge id="783" source="routard.com" target="chretien" weight="827.0"/>
+      <edge id="897" source="democratie-continue.org" target="genes" weight="4906.0"/>
+      <edge id="903" source="democratie-continue.org" target="bioethique" weight="4892.0"/>
+      <edge id="1014" source="lemonde.fr" target="brevets" weight="692.0"/>
+      <edge id="1016" source="lemonde.fr" target="clonage" weight="880.0"/>
+      <edge id="1038" source="chiracvsjospin.com" target="genes" weight="737.0"/>
+      <edge id="1058" source="udf.org" target="genes" weight="615.0"/>
+      <edge id="1059" source="udf.org" target="chretien" weight="706.0"/>
+      <edge id="1064" source="udf.org" target="vache_folle" weight="1099.0"/>
+      <edge id="1066" source="udf.org" target="bioethique" weight="8091.0"/>
+      <edge id="1072" source="m-n-r.com" target="chretien" weight="1376.0"/>
+      <edge id="1077" source="m-n-r.com" target="vache_folle" weight="1606.0"/>
+      <edge id="1078" source="m-n-r.com" target="avortement" weight="900.0"/>
+      <edge id="1079" source="m-n-r.com" target="souches" weight="786.0"/>
+      <edge id="1104" source="jean-francoismattei.com" target="genes" weight="1090.0"/>
+      <edge id="1105" source="jean-francoismattei.com" target="brevets" weight="1088.0"/>
+      <edge id="1110" source="jean-francoismattei.com" target="bioethique" weight="1090.0"/>
+      <edge id="1113" source="bayrou.net" target="genes" weight="7187.0"/>
+      <edge id="1114" source="bayrou.net" target="chretien" weight="5974.0"/>
+      <edge id="1115" source="bayrou.net" target="brevets" weight="2823.0"/>
+      <edge id="1116" source="bayrou.net" target="embryon" weight="604.0"/>
+      <edge id="1119" source="bayrou.net" target="vache_folle" weight="8313.0"/>
+      <edge id="1120" source="bayrou.net" target="avortement" weight="2254.0"/>
+      <edge id="1122" source="bayrou.net" target="souches" weight="3568.0"/>
+      <edge id="1143" source="lapolitique.com" target="vache_folle" weight="709.0"/>
+      <edge id="1145" source="lapolitique.com" target="bioethique" weight="988.0"/>
+      <edge id="1156" source="lafrancehumaine.net" target="genes" weight="2486.0"/>
+      <edge id="1157" source="lafrancehumaine.net" target="chretien" weight="1730.0"/>
+      <edge id="1158" source="lafrancehumaine.net" target="brevets" weight="1025.0"/>
+      <edge id="1160" source="lafrancehumaine.net" target="vache_folle" weight="3092.0"/>
+      <edge id="1161" source="lafrancehumaine.net" target="avortement" weight="686.0"/>
+      <edge id="1163" source="lafrancehumaine.net" target="souches" weight="1244.0"/>
+      <edge id="1168" source="cef.fr" target="chretien" weight="6662.0"/>
+      <edge id="1382" source="lioneljospin.net" target="genome" weight="657.0"/>
+      <edge id="1383" source="lioneljospin.net" target="genes" weight="765.0"/>
+      <edge id="1387" source="lioneljospin.net" target="telethon" weight="777.0"/>
+      <edge id="1388" source="lioneljospin.net" target="vache_folle" weight="723.0"/>
+      <edge id="1398" source="independent.co.uk" target="genes" weight="1237.0"/>
+      <edge id="1417" source="roberthue2002.net" target="bioethique" weight="561.0"/>
+      <edge id="1430" source="parti-socialiste.fr" target="genes" weight="6186.0"/>
+      <edge id="1431" source="parti-socialiste.fr" target="chretien" weight="5288.0"/>
+      <edge id="1432" source="parti-socialiste.fr" target="brevets" weight="5874.0"/>
+      <edge id="1434" source="parti-socialiste.fr" target="clonage" weight="776.0"/>
+      <edge id="1437" source="parti-socialiste.fr" target="vache_folle" weight="3945.0"/>
+      <edge id="1438" source="parti-socialiste.fr" target="avortement" weight="9042.0"/>
+      <edge id="1442" source="corinne-lepage.com" target="genes" weight="702.0"/>
+      <edge id="1444" source="corinne-lepage.com" target="brevets" weight="578.0"/>
+      <edge id="1449" source="corinne-lepage.com" target="vache_folle" weight="1046.0"/>
+      <edge id="1456" source="skynet.be" target="chretien" weight="676.0"/>
+      <edge id="1489" source="planeteradicale.org" target="chretien" weight="600.0"/>
+      <edge id="1657" source="2002pourlafrance.net" target="vache_folle" weight="754.0"/>
+      <edge id="1712" source="e1789.com" target="genes" weight="1741.0"/>
+      <edge id="1713" source="e1789.com" target="chretien" weight="976.0"/>
+      <edge id="1716" source="e1789.com" target="clonage" weight="3283.0"/>
+      <edge id="1718" source="e1789.com" target="vache_folle" weight="1645.0"/>
+      <edge id="1719" source="e1789.com" target="avortement" weight="917.0"/>
+      <edge id="1721" source="e1789.com" target="souches" weight="505.0"/>
+      <edge id="1724" source="voixdujura.fr" target="chretien" weight="17052.0"/>
+      <edge id="1730" source="voixdujura.fr" target="vache_folle" weight="858.0"/>
+      <edge id="2465" source="centrefrance.com" target="chretien" weight="632.0"/>
+    </edges>
+  </graph>
+</gexf>

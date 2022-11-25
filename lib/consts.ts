@@ -118,15 +118,22 @@ export const STORIES: StoryType[] = [
     id: 'genome',
     path: BASE_PATH + '/stories/genome',
     color: '#325a6e',
-    title: 'Genome',
+    title:
+      'Caractériser les représentations politiques du vivant “génomique” dans les archives du web français',
     description:
-      'Comprendre ce que représente le génome dans l’internet politique français au début des années 2000.',
+      'Constitution d’un corpus autour des représentations politiques du vivant entre 2000 et 2004',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeGenome.jpg',
       alt: '',
       credit: '@ Caroline Maufroid, Sciences Po',
     },
-    authors: [],
+    authors: [
+      { name: ' Dorothée Benhamou-Suesser', org: 'BnF' },
+      { name: 'Paul Girard', org: 'OuestWare' },
+      { name: 'Guillaume Levrier', org: 'Sciences Po' },
+      { name: 'Jennifer Morival', org: 'Université de Lille' },
+      { name: 'Zeynep Pehlivan', org: 'INA' },
+    ],
   },
 ];
 export const STORIES_INDICES: Record<string, number> = STORIES.reduce(
