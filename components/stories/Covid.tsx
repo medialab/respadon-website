@@ -480,21 +480,26 @@ const StoryComponent: FC = () => {
         </section>
         <section>
           <h2 className="text-covid">4. Points d'attention</h2>
-          <p>
-            Les collectes sur le web à un instant T, qu’elles soient destinées aux archives de la
-            BnF ou bien à l’exploration dans Hyphe, ne peuvent se départir de la structure en
-            couches du web. Ainsi, même dans l’exploration de la collecte consacrée à la première
-            vague de l’épidémie de covid-19 faite par la BnF, les hyperliens entre ou vers les sites
-            institutionnels peuvent préexister à l’épidémie. Par conséquent, les sites collectés sur
-            une période ne reflètent pas que des contenus publiés à cette date.
-          </p>
-          <p>
-            Les hyperliens entre sites ou les ruptures de ces hyperliens entre sites dans Hyphe sont
-            à remettre systématiquement en contexte. En effet, il est difficile d’établir si une
-            citation vaut accord ou contradiction, de qualifier la valeur des hyperliens, d’autant
-            plus lorsque l’on travaille sur un corpus massif. On ne peut donc inférer la raison de
-            la présence d’un hyperlien de manière automatique.
-          </p>
+          <ul>
+            <li>
+              Les collectes sur le web à un instant T, qu’elles soient destinées aux archives de la
+              BnF ou bien à l’exploration dans Hyphe, ne peuvent se départir de la structure en
+              couches du web. Ainsi, même dans l’exploration de la collecte consacrée à la première
+              vague de l’épidémie de covid-19 faite par la BnF, les hyperliens entre ou vers les
+              sites institutionnels peuvent préexister à l’épidémie. Par conséquent, les sites
+              collectés sur une période ne reflètent pas que des contenus publiés à cette date.
+            </li>
+            <li>
+              Les hyperliens entre sites ou les ruptures de ces hyperliens entre sites dans Hyphe
+              sont à remettre systématiquement en contexte. En effet, il est difficile d’établir si
+              une citation vaut accord ou contradiction, de qualifier la valeur des hyperliens,
+              d’autant plus lorsque l’on travaille sur un corpus massif. On ne peut donc inférer la
+              raison de la présence d’un hyperlien de manière automatique.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 className="text-covid">Conclusion</h2>
           <p>
             D’un point de vue méthodologique, cette expérimentation sur le coronavirus a permis de
             travailler sur les questions de cohérence et de pérennité, tant au niveau de la
