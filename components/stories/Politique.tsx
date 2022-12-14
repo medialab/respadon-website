@@ -221,6 +221,11 @@ const StoryComponent: FC = () => {
               vision synthétique des contenus des corpus et de faire un bref contrôle qualité des
               données crawlées à partir de l’archive de la BnF.
             </p>
+            
+            <p>
+              On observe que le corpus crawlé en 2017 à partir de l’archive BnF contient beaucoup de
+              liens. Cela est dû au type de sites archivés.
+            </p>
           </div>
         </section>
       </div>
@@ -261,12 +266,28 @@ const StoryComponent: FC = () => {
 
       <div className="container sections">
         <section>
-          <p>
-            On observe que le corpus crawlé en 2017 à partir de l’archive BnF contient beaucoup de
-            liens. Cela est dû au type de sites archivés.
-          </p>
 
           <p>
+            Les réseaux produits pour chaque campagne sont accessible et explorables à l'aide de l'outil Nansi :  
+            <ul>
+              <li>
+                <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf">
+                  corpus 2012
+                </a>
+              </li>
+              <li>
+                <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf">
+                  corpus 2017
+                </a>
+              </li>
+              <li>
+                <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf">
+                  corpus 2022
+                </a>
+              </li>
+            </ul>
+          </p>
+<!--
             <Note>
               <>
                 L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles
@@ -294,6 +315,11 @@ const StoryComponent: FC = () => {
                 </ul>
               </>
             </Note>
+-->
+          <p>
+            L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles
+            formes de représentation graphique non disponibles dans Hyphe ou dans des outils
+            traditionnels.
           </p>
         </section>
       </div>
