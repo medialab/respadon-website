@@ -42,7 +42,7 @@ const StoryComponent: FC = () => {
             </p>
             <ul>
               <li>
-                l’émergence de “partis plateformes” (Gerbaudo, 2019), c’est-à-dire des organisations
+                l’émergence de “partis plateformes” (Gerbaudo, 2019<sup><a id="ref_4" href="#biblio">[ref]</a></sup>), c’est-à-dire des organisations
                 politiques labiles, constituées autour de plateformes numériques, structurées autour
                 d’un leader et d’une masse de sympathisants ;
               </li>
@@ -703,7 +703,7 @@ const StoryComponent: FC = () => {
 
       <div className="container sections">
         <section className="large small">
-          <h3 className="text-politique">Références</h3>
+          <h3 id="biblio" className="text-politique">Références</h3>
           <ul>
             <li>
               Valérie Beaudouin, Zeynep Pehlivan.{' '}
@@ -747,7 +747,7 @@ const StoryComponent: FC = () => {
               </a>
               .
             </li>
-            <li>
+            <li><a href="#ref_4">↑</a>
               Gerbaudo, Paulo (2019),{' '}
               <em>The Digital Party, Political Organisation and Online Democracy</em>, Pluto Press.
             </li>
