@@ -45,6 +45,9 @@
       flex-grow: 0;
       flex-shrink: 0;
     }
+    & > .iframe-wrapper {
+      background-color: #E9E9ED;
+    }
     & > .iframe-wrapper,
     & > .img-wrapper {
       flex-grow: 1;
