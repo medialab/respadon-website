@@ -110,7 +110,7 @@ const StoryComponent: FC = () => {
                 story="genome"
                 className="maxw-800 m-auto"
                 src={BASE_PATH + '/pictures/story-genome/hypertext_webentites.png'}
-                caption="Réseaux hyphe pénom* - corpus Elections 2002"
+                caption="Réseaux hyphe génom* - corpus Elections 2002"
                 legendData={domaineThemeLegend}
                 downloadLink={{
                   text: 'Télécharger le réseau au format GEXF',
