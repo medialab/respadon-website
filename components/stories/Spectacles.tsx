@@ -588,7 +588,7 @@ const StoryComponent: FC = () => {
             </p>
             <p>
               L’évolution des liens entre critiques montre une augmentation des liens entre les
-              sites de critique sur n-2 et n-1. Cette tendance a infléchi sur n 0 et n-1 (pendant la
+              sites de critique sur n-2 et n-1. Cette tendance a infléchi sur n0 et n-1 (pendant la
               pandémie).
             </p>
           </div>
