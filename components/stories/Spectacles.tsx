@@ -81,13 +81,6 @@ const StoryComponent: FC = () => {
                     structuration disciplinaire au sein des arts du spectacle ?
                   </li>
                   <li>
-                    Hypothèse étatique et gouvernementale : On sait que le théâtre entretient des
-                    relations avec les puissances publiques. Quel est le rôle de la puissance
-                    publique ? Quel est le rôle des institutions étatiques ? Peut-on voir une
-                    différence entre les théâtres publics et les théâtres privés dans la relation
-                    entre les critiques et ces théâtres ?
-                  </li>
-                  <li>
                     Hypothèse académique : Est-ce que la critique académique parvient à se
                     positionner comme un acteur intérieur au réseau de la critique ou bien
                     reste-t-elle en marge de ce réseau ?
