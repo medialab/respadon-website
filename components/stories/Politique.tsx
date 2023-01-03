@@ -539,7 +539,7 @@ const StoryComponent: FC = () => {
               internautes engagés est de moins en moins perceptible d’une élection à l’autre : les
               supports militants sont de moins en moins repérables. Cela peut-être dû à des limites
               méthodologiques de l’étude et/ou à une migration de la bataille présidentielle vers
-              les réseaux sociaux (cf. plus bas)
+              les réseaux sociaux.
             </li>
             <li>
               Il est très intéressant et significatif de voir émerger en 2022 la catégorie “média
