@@ -321,6 +321,14 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/2012%20to%202017.png'}
                 caption="Présence des web entités entre 2012 et 2017"
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Ftriptyque_2012_to_2017_noverlapped.gexf&s=o&sa[]=o&sa[]=r&ca[]=ig-s&ca[]=f&ca[]=a&ca[]=pe&ca[]=ca%20&st[]=f&st[]=a&st[]=pe&nr=0.659&er=0.591&ec=o&ed=d&lt=2.216&ds=1'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/triptyque_2012_to_2017_noverlapped.gexf'
+                }}
               />
             </figure>
           </div>
@@ -353,6 +361,14 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/2017%20to%202022.png'}
                 caption="Présence des web entités entre 2017 et 2022"
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Ftriptyque_2017_to_2022_noverlapped.gexf&s=o&sa[]=o&sa[]=r&ca[]=ig-s&ca[]=f&ca[]=a&ca[]=pe&ca[]=ca%20&st[]=f&st[]=a&st[]=pe&nr=0.659&er=0.591&ec=o&ed=d&lt=2.216&ds=1'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/triptyque_2017_to_2022_noverlapped.gexf'
+                }}
               />
             </figure>
           </div>
