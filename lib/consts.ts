@@ -59,7 +59,7 @@ export const STORIES: StoryType[] = [
     color: '#2a7799',
     title: 'Structuration des communautés politiques',
     description:
-      'Étudier les transformations au fil du temps des communautés politiques de soutien aux candidats à l’élection présidentielle en particulier des communautés de soutien à Jean-Luc Mélenchon.',
+      'Étudier les transformations au fil du temps des communautés politiques de soutien aux candidats à l’élection présidentielle en particulier des communautés de soutien à Jean-Luc Mélenchon',
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCommunautesPol.jpg',
       alt: '',
