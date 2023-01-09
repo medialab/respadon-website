@@ -188,7 +188,7 @@ const Home: NextPage = () => {
             commodo consequat. Duis autem vel eum iriure.
           </p>
           <div className="pb-4">
-            <a href="#" className="link-unstyled h5">
+            <a href={BASE_PATH + '/methodo'} className="link-unstyled h5">
               Lire la suite →
             </a>
           </div>
