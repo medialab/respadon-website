@@ -79,16 +79,14 @@ const Footer: FC<{ page?: Page }> = ({ page }) => (
         </div>
       </div>
       <div className="col-3 contact-block p-3">
-        <div>Pour en savoir plus, contactez :</div>
+        <div>Pour en savoir plus, contactez&nbsp;:</div>
         <div className="fw-bold">Audrey Baneyx</div>
         <div className="smaller">
-          audrey.baneyx<strong className="px-1">at</strong>sciencespo
-          <strong className="px-1">dot</strong>fr
+          audrey.baneyx at sciencespo point fr
         </div>
         <div className="fw-bold">Eleonora Moiraghi</div>
         <div className="smaller">
-          eleonora.moiraghi<strong className="px-1">at</strong>sciencespo
-          <strong className="px-1">dot</strong>fr
+          eleonora.moiraghi at sciencespo point fr
         </div>
       </div>
     </div>

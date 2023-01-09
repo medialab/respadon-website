@@ -161,16 +161,14 @@ const Home: NextPage = () => {
               </a>
             </div>
             <br />
-            <div>Pour en savoir plus, contactez :</div>
+            <div>Pour en savoir plus, contactez&nbsp;:</div>
             <div className="fw-bold">Audrey Baneyx</div>
             <div>
-              audrey.baneyx<strong className="px-1">at</strong>sciencespo
-              <strong className="px-1">dot</strong>fr
+              audrey.baneyx at sciencespo point fr
             </div>
             <div className="fw-bold">Eleonora Moiraghi</div>
             <div>
-              eleonora.moiraghi<strong className="px-1">at</strong>sciencespo
-              <strong className="px-1">dot</strong>fr
+              eleonora.moiraghi at sciencespo point fr
             </div>
           </div>
         </div>
