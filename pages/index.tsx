@@ -69,7 +69,7 @@ const Home: NextPage = () => {
 
       <div className="container pt-4">
         <div className="row d-flex flex-column position-relative">
-          <h2 className="text-white">Les projets</h2>
+          <h2>Les projets</h2>
           <div className="text-block mb-md-5">
             <ul className="list-unstyled">
               <li className="mb-4">
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
                   2022. Un focus est fait sur l’impact de la pandémie et les restructurations
                   potentielles qu’elle a pu impliquer entre les différents acteurs de ce réseau.
                 </div>
-                <div className="small">
+                <div className="small participants">
                   Béatrice Mazoyer (Sciences&nbsp;Po), Guillaume Plique (Sciences&nbsp;Po), Antoine De Sacy
                   (BnF, Huma-Num), Cristina Tosetto (Université Sorbonne Nouvelle), Clara Wiatrowski
                   (BnF).
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
                   d’explorer le positionnement entre les acteurs du web et les sites institutionnels
                   qui traitent de la crise de la covid-19 entre décembre 2019 et avril 2022.
                 </div>
-                <div className="small">
+                <div className="small participants">
                   Leslie Bellony (BnF), Guillaume Brioudes (Sciences&nbsp;Po), Isabelle Degrange (BnF),
                   Alexandre Faye (BnF), Alexis Jacomy (Ouestware), Kevin Locoh-Donou (BnF,
                   Université de Lyon), Caroline Sala (Unistra).
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
                   plateformes en 2012, 2017 et 2022 ainsi que l’évolution des formes éditoriales que
                   prennent ces sites dans le temps.
                 </div>
-                <div className="small">
+                <div className="small participants">
                   Sara Aubry (BnF), Fabienne Greffet (Université de Nancy), Cyril Heude (Sciences
                   Po), Robin De Mourat (Sciences&nbsp;Po), Benjamin Ooghe-Tabanou (Sciences&nbsp;Po).
                 </div>
@@ -138,16 +138,16 @@ const Home: NextPage = () => {
                   politiques, et les types d’acteurs qui mobilisent le champ lexical de cette
                   notion.
                 </div>
-                <div className="small">
+                <div className="small participants">
                   Dorothée Benhamou-Suesser (BnF), Paul Girard (Ouestware), Guillaume Levrier
-                  (Sciences Po), Jennifer Morival (Université de Lille), Zeynep Pehlivan (INA).
+                  (Sciences&nbsp;Po), Jennifer Morival (Université de Lille), Zeynep Pehlivan (INA).
                 </div>
               </li>
             </ul>
           </div>
 
           <div className="info-block info-block-right text-center small mb-5">
-            <div className="fw-bold">Informations</div>
+            <div className="fw-bold">INFORMATIONS</div>
             <div>Carnet Hypothèses :</div>
             <div>
               <a className="text-white" href="https://respadon.hypotheses.org/">

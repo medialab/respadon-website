@@ -46,6 +46,10 @@
   margin-bottom: 30px;
 }
 
+.participants {
+  padding-top: 0.35em;
+}
+
 @include media-breakpoint-up(lg) {
   .text-block {
     padding-right: 370px;
