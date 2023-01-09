@@ -240,7 +240,7 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/nombre_web_entites_par_annee.svg'}
                 caption="Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022"
                 downloadLink={{
-                  text: 'Consulter les données',
+                  text: 'Consulter et télécharger les données',
                   href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=937479108'
                 }}
               />
@@ -255,7 +255,7 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/nombre_pages_liens_par_annee.svg'}
                 caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
                 downloadLink={{
-                  text: 'Consulter les données',
+                  text: 'Consulter et télécharger les données',
                   href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=0'
                 }}
               />
@@ -385,7 +385,7 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/part_formes_editoriales.svg'}
                 caption="Part des formes éditoriales des web entités entre 2012 et 2022"
                 downloadLink={{
-                  text: 'Consulter les données',
+                  text: 'Consulter et télécharger les données',
                   href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=1365370115'
                 }}
               />
@@ -490,7 +490,7 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/acteurs.svg'}
                 caption="Histogramme comparatif des acteurs entre 2012 et 2017"
                 downloadLink={{
-                  text: 'Consulter les données',
+                  text: 'Consulter et télécharger les données',
                   href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=929478153'
                 }}
               />
