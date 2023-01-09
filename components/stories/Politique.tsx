@@ -700,7 +700,6 @@ const StoryComponent: FC = () => {
                 imgClassName="img-fluid w-100"
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2017_bw.png'}
-                caption="Répartition des web entités par forme éditoriale en 2017"
                 caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2017"
                 targetXL={{
                   type: 'iframe',
