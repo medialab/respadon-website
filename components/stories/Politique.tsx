@@ -777,7 +777,7 @@ const StoryComponent: FC = () => {
               </a>
               .
             </li>
-            <li><a class="refnote" href="#ref_2">↑</a>
+            <li><a className="refnote" href="#ref_2">↑</a>
               Cardon D., Fouetillou G., Lerondeau C. et Prieur C.{' '}
               <em>« Esquisse de géographie de la blogosphère politique (2007-2009) »</em> in
               Greffet, F. (dir),{' '}
@@ -786,7 +786,7 @@ const StoryComponent: FC = () => {
               </a>
               , Paris, Presses de Sciences Po, 2011, pp. 73-94.
             </li>
-            <li><a class="refnote" href="#ref_3">↑</a>
+            <li><a className="refnote" href="#ref_3">↑</a>
               David Chavalarias, Noe Gaumont, Maziyar Panahi.{' '}
               <em>
                 Hostilité et prosélytisme des communautés politiques : Le militantisme politique à
@@ -803,11 +803,11 @@ const StoryComponent: FC = () => {
               </a>
               .
             </li>
-            <li><a class="refnote" href="#ref_4">↑</a>
+            <li><a className="refnote" href="#ref_4">↑</a>
               Gerbaudo, Paulo (2019),{' '}
               <em>The Digital Party, Political Organisation and Online Democracy</em>, Pluto Press.
             </li>
-            <li><a class="refnote" href="#ref_5">↑</a>
+            <li><a className="refnote" href="#ref_5">↑</a>
               Gibson, Rachel K.,{' '}
               <em>
                 When the Nerds Go Marching In: How Digital Technology Moved from the Margins to the
@@ -823,7 +823,7 @@ const StoryComponent: FC = () => {
               </a>
               .
             </li>
-            <li><a class="refnote" href="#ref_6">↑</a>
+            <li><a className="refnote" href="#ref_6">↑</a>
               Stromer-Galley, Jennifer, <em>Presidential Campaigning in the Internet Age</em>,
               Oxford Studies in Digital Politics (2014; online edn, Oxford Academic, 16 Apr. 2014),{' '}
               <a
