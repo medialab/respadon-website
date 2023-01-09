@@ -2,6 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import cx from 'classnames';
 import { BsArrowsAngleExpand } from 'react-icons/bs';
 import { AiOutlineCloudDownload } from 'react-icons/ai';
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 const FullscreenPicture: FC<{
   src: string;
@@ -31,9 +32,15 @@ const FullscreenPicture: FC<{
   const [isFullScreen, setIsFullScreen] = useState(false);
   const textClassName = story ? `text-${story}-2` : 'text-white';
 
+  const setIsFullScreenDisablingScroll = isFS => {
+    setIsFullScreen(isFS);
+    if (isFS) disableBodyScroll(document.body);
+    else enableBodyScroll(document.body);
+  };
+
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (e.code === 'Escape') setIsFullScreen(false);
+      if (e.code === 'Escape') setIsFullScreenDisablingScroll(false);
     };
     document.body.addEventListener('keydown', handler);
     return () => {
@@ -45,7 +52,7 @@ const FullscreenPicture: FC<{
     <div className={className}>
       <div className="position-relative">
         <img src={src} alt={alt || ''} className={imgClassName} />
-        <div className="picture-overlay" onClick={() => setIsFullScreen(true)}>
+        <div className="picture-overlay" onClick={() => setIsFullScreenDisablingScroll(true)}>
           <div className={`bg bg-${story || 'primary'}`} />
           <button className={`position-relative btn btn-${story || 'primary'}`}>
             Agrandir <BsArrowsAngleExpand />
@@ -56,7 +63,7 @@ const FullscreenPicture: FC<{
         <div className="fullscreen-picture">
           <div
             className={cx('bg', `bg-${story || 'primary'}`)}
-            onClick={() => setIsFullScreen(false)}
+            onClick={() => setIsFullScreenDisablingScroll(false)}
           />
           <div className="content">
             {title && <p className={cx('h4 mb-2 text-center', textClassName)}>{title}</p>}
@@ -103,7 +110,7 @@ const FullscreenPicture: FC<{
             type="button"
             className="btn-close btn-close-white"
             aria-label="Fermer"
-            onClick={() => setIsFullScreen(false)}
+            onClick={() => setIsFullScreenDisablingScroll(false)}
           />
         </div>
       )}
