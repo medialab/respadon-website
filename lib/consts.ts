@@ -150,15 +150,15 @@ export const STORY_COMPONENTS: Record<string, ComponentType> = {
 
 export const NAV_PAGES = [
   { id: 'home', path: BASE_PATH + '/', label: 'Accueil' },
-  { id: 'context', path: BASE_PATH + '/context', label: 'Contexte' },
+  { id: 'context', path: BASE_PATH + '/contexte', label: 'Contexte' },
   { id: 'stories', path: BASE_PATH + '/stories', label: 'Stories' },
-  { id: 'method', path: BASE_PATH + '/method', label: 'Méthodologie' },
+  { id: 'method', path: BASE_PATH + '/methodo', label: 'Méthodologie' },
   { id: 'making-of', path: BASE_PATH + '/making-of', label: 'Making-of' },
 ] as const;
 
 export const FOOTER_PAGES = [
   { id: 'credits', path: BASE_PATH + '/credits', label: 'Crédits' },
-  { id: 'legals', path: BASE_PATH + '/legals', label: 'Mentions légales' },
+  { id: 'legals', path: BASE_PATH + '/mentions-legales', label: 'Mentions légales' },
 ] as const;
 
 export type FooterPage = typeof FOOTER_PAGES[number]['id'];

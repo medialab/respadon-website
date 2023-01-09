@@ -124,7 +124,7 @@ const StoryComponent: FC = () => {
                  le corpus{' '}
               </a>
               de départ exploré en utilisant l’outil{' '}
-              <a href={`${BASE_PATH}/context#hyphe-curation-corpus`}>Hyphe</a>
+              <a href={`${BASE_PATH}/contexte#hyphe-curation-corpus`}>Hyphe</a>
             </p>
             <p>
               Trois collectes sont lancées dans les archives du web sur des fenêtres temporelles de
