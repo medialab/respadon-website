@@ -42,20 +42,20 @@ const StoryComponent: FC = () => {
             </p>
             <ul>
               <li>
-                l’émergence de “partis plateformes” (Gerbaudo, 2019<sup class="footnote"><a id="ref_4" href="#biblio">[ref]</a></sup>), c’est-à-dire des organisations
+                l’émergence de “partis plateformes” (Gerbaudo, 2019<sup className="footnote"><a id="ref_4" href="#biblio">[ref]</a></sup>), c’est-à-dire des organisations
                 politiques labiles, constituées autour de plateformes numériques, structurées autour
                 d’un leader et d’une masse de sympathisants ;
               </li>
               <li>
                 un recours plus important à la mobilisation électorale des sympathisants sur les
                 réseaux sociaux, notamment après les campagnes de Barack Obama en 2008 et 2012
-                (Stromer-Galley, 2014<sup class="footnote"><a id="ref_6" href="#biblio">[ref]</a></sup> ; Gibson, 2020<sup class="footnote"><a id="ref_5" href="#biblio">[ref]</a></sup>) ;
+                (Stromer-Galley, 2014<sup className="footnote"><a id="ref_6" href="#biblio">[ref]</a></sup> ; Gibson, 2020<sup className="footnote"><a id="ref_5" href="#biblio">[ref]</a></sup>) ;
               </li>
               <li>
                 historiquement en France, une présence importante des communautés numériques de
-                gauche lors des campagnes présidentielles (Cardon et alii, 2011<sup class="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>), puis, ces
+                gauche lors des campagnes présidentielles (Cardon et alii, 2011<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>), puis, ces
                 dernières années, un fort dynamisme des communautés politiques de droite et
-                d’extrême droite sur Twitter (Chavalarias, Gaumont et Panahi, 2019<sup class="footnote"><a id="ref_3" href="#biblio">[ref]</a></sup>).
+                d’extrême droite sur Twitter (Chavalarias, Gaumont et Panahi, 2019<sup className="footnote"><a id="ref_3" href="#biblio">[ref]</a></sup>).
               </li>
             </ul>
 
