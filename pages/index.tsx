@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
       {/* INTRO TEXT BLOCKS */}
       <div className="container pt-4">
-        <div className="row d-flex flex-column">
+        <div className="row d-flex flex-column position-relative">
           <h2 className="text-white">Le datasprint</h2>
           <div className="text-block">
             <p>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
             </p>
           </div>
 
-          <div className="info-block info-block-bottom small">
+          <div className="info-block info-block-right small">
             Soutenu par le GIS CollEx-Persée et porté par l’université de Lille et la Bibliothèque
             nationale de France (BnF), en partenariat avec Sciences Po et le campus Condorcet, le
             projet ResPaDon propose une analyse des usages des archives du web constituées par la
