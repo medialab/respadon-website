@@ -682,7 +682,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/melenchon_2012_formes.svg'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2012_bw.png'}
                 caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2012"
                 targetXL={{
                   type: 'iframe',
@@ -699,7 +699,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/melenchon_2017_formes.svg'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2017_bw.png'}
                 caption="Répartition des web entités par forme éditoriale en 2017"
                 caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2017"
                 targetXL={{
@@ -717,7 +717,7 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="politique"
-                src={BASE_PATH + '/pictures/story-politique/melenchon_2022_formes.svg'}
+                src={BASE_PATH + '/pictures/story-politique/melenchon_2022_bw.png'}
                 caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2022"
                 targetXL={{
                   type: 'iframe',
