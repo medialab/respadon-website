@@ -32,7 +32,7 @@ const FullscreenPicture: FC<{
   const [isFullScreen, setIsFullScreen] = useState(false);
   const textClassName = story ? `text-${story}-2` : 'text-white';
 
-  const setIsFullScreenDisablingScroll = isFS => {
+  const setIsFullScreenDisablingScroll = (isFS: boolean) => {
     setIsFullScreen(isFS);
     if (isFS) disableBodyScroll(document.body);
     else enableBodyScroll(document.body);
