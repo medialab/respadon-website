@@ -326,7 +326,7 @@ const StoryComponent: FC = () => {
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Ftriptyque_2012_to_2017_noverlapped.gexf&s=o&sa[]=o&sa[]=r&ca[]=ig-s&ca[]=f&ca[]=a&ca[]=pe&ca[]=ca%20&st[]=f&st[]=a&st[]=pe&nr=0.659&er=0.591&ec=o&ed=d&lt=2.216&ds=1'
                 }}
                 downloadLink={{
-                  text: 'Télécharger le graphe',
+                  text: 'Télécharger le graphe au format GEXF',
                   href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/triptyque_2012_to_2017_noverlapped.gexf'
                 }}
               />
@@ -366,7 +366,7 @@ const StoryComponent: FC = () => {
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Ftriptyque_2017_to_2022_noverlapped.gexf&s=o&sa[]=o&sa[]=r&ca[]=ig-s&ca[]=f&ca[]=a&ca[]=pe&ca[]=ca%20&st[]=f&st[]=a&st[]=pe&nr=0.659&er=0.591&ec=o&ed=d&lt=2.216&ds=1'
                 }}
                 downloadLink={{
-                  text: 'Télécharger le graphe',
+                  text: 'Télécharger le graphe au format GEXF',
                   href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/triptyque_2017_to_2022_noverlapped.gexf'
                 }}
               />
@@ -689,7 +689,7 @@ const StoryComponent: FC = () => {
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
                 }}
                 downloadLink={{
-                  text: 'Télécharger le graphe',
+                  text: 'Télécharger le graphe au format GEXF',
                   href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2012.gexf'
                 }}
               />
@@ -707,7 +707,7 @@ const StoryComponent: FC = () => {
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
                 }}
                 downloadLink={{
-                  text: 'Télécharger le graphe',
+                  text: 'Télécharger le graphe au format GEXF',
                   href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2017.gexf'
                 }}
               />
@@ -724,7 +724,7 @@ const StoryComponent: FC = () => {
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
                 }}
                 downloadLink={{
-                  text: 'Télécharger le graphe',
+                  text: 'Télécharger le graphe au format GEXF',
                   href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2022.gexf'
                 }}
               />
