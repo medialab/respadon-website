@@ -15,17 +15,31 @@ const Credits: FC = () => (
 
       <div className="row">
         <h2 className="h4 mt-4">Partenaires du projet ResPaDon</h2>
-        <div>Service commun de documentation (SCD), université de Lille</div>
-        <div>Bibliothèque nationale de France</div>
-        <div>Direction des ressources et de l’information scientifique (DRIS), Sciences Po</div>
-        <div>Grand équipement documentaire (GED), Campus Condorcet</div>
-        <div>médialab, Sciences Po</div>
-        <div>Geriico, université de Lille</div>
+        <div>
+          <a target="_blank" href="https://scd.univ-lille.fr/">Service commun de documentation (SCD)</a>, université de Lille
+        </div>
+        <div>
+          <a target="_blank" href="https://www.bnf.fr/">Bibliothèque nationale de France</a>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.sciencespo.fr/bibliotheque/">Direction des ressources et de l’information scientifique (DRIS)</a>, Sciences Po
+        </div>
+        <div>
+          <a target="_blank" href="https://www.campus-condorcet.fr/fr/pour-la-recherche/humatheque-condorcet">Humathèque Condorcet</a>, grand équipement documentaire (GED)
+        </div>
+        <div>
+          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab</a>, Sciences Po
+        </div>
+        <div>
+          <a target="_blank" href="https://geriico.univ-lille.fr/">Geriico</a>, université de Lille
+        </div>
       </div>
 
       <div className="row">
         <h2 className="h4 mt-4">Partenaire financeur</h2>
-        <div>CollEx-Persée</div>
+        <div>
+          <a target="_blank" href="https://www.collexpersee.eu/">CollEx-Persée</a>
+        </div>
       </div>
 
       <div className="row">
@@ -49,21 +63,21 @@ const Credits: FC = () => (
       <div className="row">
         <h2 className="h4 mt-4">Prestataire de développement informatique</h2>
         <div>
-          <a href="https://ouestware.com">OuestWare</a> : Paul Girard et Alexis Jacomy
+          <a target="_blank" href="https://ouestware.com">OuestWare</a> : Paul Girard et Alexis Jacomy
         </div>
       </div>
 
       <div className="row">
         <h2 className="h4 mt-4">Graphisme</h2>
         <div>
-          <a href="https://www.emiliecoquard.fr/">Émilie Coquard</a>
+          <a target="_blank" href="https://www.emiliecoquard.fr/">Émilie Coquard</a>
         </div>
       </div>
 
       <div className="row">
         <h2 className="h4 mt-4">Hébergement</h2>
         <div>
-          <a href="https://medialab.sciencespo.fr//">médialab</a>, Sciences-Po
+          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab, Sciences Po</a>
         </div>
       </div>
 
