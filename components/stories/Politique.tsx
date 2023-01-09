@@ -663,7 +663,7 @@ const StoryComponent: FC = () => {
                 legendData={editorialColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf',
+                  src: 'https://medialab.github.io/minivan/#/embeded-network?bundle=https:%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fminivans%2Fminivan_bundle_melenchon_2012.json&color=forme+%C3%A9ditoriale&lockNavigation=false&name=&ratio=0.9484890352941177&showLink=true&size=undirected_degree&x=0.4803112501262081&y=0.7253895701566266'
                 }}
               />
             </figure>
