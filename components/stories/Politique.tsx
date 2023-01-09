@@ -239,6 +239,10 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/nombre_web_entites_par_annee.svg'}
                 caption="Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022"
+                downloadLink={{
+                  text: 'Consulter les données',
+                  href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=937479108'
+                }}
               />
               <figcaption className="h6 text-black mt-3">
                 Évolution du nombre de web entités traitées dans les 3 corpus en 2012, 2017 et 2022
@@ -251,8 +255,8 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/nombre_pages_liens_par_annee.svg'}
                 caption="Évolution du nombre de pages web crawlées et détectées et des liens trouvés dans les 3 corpus en 2012, 2017 et 2022"
                 downloadLink={{
-                  text: 'Télécharger les données',
-                  href: BASE_PATH + '/data/story-politique/comparaison-corpus.csv',
+                  text: 'Consulter les données',
+                  href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=0'
                 }}
               />
               <figcaption className="h6 text-black mt-3">
@@ -266,34 +270,6 @@ const StoryComponent: FC = () => {
 
       <div className="container sections">
         <section>
-          {false &&            <Note>
-              <>
-                L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles
-                formes de représentation graphique non disponibles dans Hyphe ou dans des outils
-                traditionnels.
-              </>
-              <>
-                Visualisations dynamiques de réseaux disponibles en ligne via l'outil Nansi :
-                <ul>
-                  <li>
-                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf">
-                      corpus 2012
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf">
-                      corpus 2017
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf">
-                      corpus 2022
-                    </a>
-                  </li>
-                </ul>
-              </>
-            </Note>
-          }
           <p>
             L’analyse comparative de ces trois corpus nécessite d’expérimenter de nouvelles
             formes de représentation graphique non disponibles dans Hyphe ou dans des outils
@@ -408,6 +384,10 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/part_formes_editoriales.svg'}
                 caption="Part des formes éditoriales des web entités entre 2012 et 2022"
+                downloadLink={{
+                  text: 'Consulter les données',
+                  href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=1365370115'
+                }}
               />
             </figure>
           </div>
@@ -445,6 +425,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2012_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2012"
                 legendData={editorialColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&r=v&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -455,6 +439,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2017_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2017"
                 legendData={editorialColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&r=v&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -465,6 +453,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2022_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2022"
                 legendData={editorialColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&r=v&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
           </div>
@@ -497,6 +489,10 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/acteurs.svg'}
                 caption="Histogramme comparatif des acteurs entre 2012 et 2017"
+                downloadLink={{
+                  text: 'Consulter les données',
+                  href: 'https://docs.google.com/spreadsheets/d/1e28rzZsbzYLk_Kb_APqh8dirbVacff4JAYDQAujHeNY/edit#gid=929478153'
+                }}
               />
             </figure>
           </div>
@@ -567,6 +563,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2012_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2012"
                 legendData={actorsColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&r=v&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -577,6 +577,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2017_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2017"
                 legendData={actorsColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&r=v&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
@@ -587,6 +591,10 @@ const StoryComponent: FC = () => {
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2022_acteurs.svg'}
                 caption="Répartition des web entités par type d’acteur en 2022"
                 legendData={actorsColors}
+                downloadLink={{
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  href: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&r=v&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
               />
             </figure>
           </div>
@@ -659,11 +667,14 @@ const StoryComponent: FC = () => {
                 imgClassName="img-fluid w-100"
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2012_formes.svg'}
-                caption="Répartition des web entités par forme éditoriale en 2012"
-                legendData={editorialColors}
+                caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2012"
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://medialab.github.io/minivan/#/embeded-network?bundle=https:%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fminivans%2Fminivan_bundle_melenchon_2012.json&color=forme+%C3%A9ditoriale&lockNavigation=false&name=&ratio=0.9484890352941177&showLink=true&size=undirected_degree&x=0.4803112501262081&y=0.7253895701566266'
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2012.gexf'
                 }}
               />
             </figure>
@@ -674,10 +685,14 @@ const StoryComponent: FC = () => {
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2017_formes.svg'}
                 caption="Répartition des web entités par forme éditoriale en 2017"
-                legendData={editorialColors}
+                caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2017"
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2017.gexf'
                 }}
               />
             </figure>
@@ -687,11 +702,14 @@ const StoryComponent: FC = () => {
                 imgClassName="img-fluid w-100"
                 story="politique"
                 src={BASE_PATH + '/pictures/story-politique/melenchon_2022_formes.svg'}
-                caption="Répartition des web entités par forme éditoriale en 2022"
-                legendData={editorialColors}
+                caption="Communautés web de la campagne de Jean-Luc Mélenchon en 2022"
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Fraw.githubusercontent.com%2Fmedialab%2Frespadon-datasprint-2022%2Fmaster%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/melenchon_2022.gexf'
                 }}
               />
             </figure>

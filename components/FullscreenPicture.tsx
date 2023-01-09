@@ -100,7 +100,7 @@ const FullscreenPicture: FC<{
             )}
             {downloadLink && (
               <p className="text-center mt-2">
-                <a href={downloadLink.href} className="text-white">
+                <a href={downloadLink.href} className="text-white" target="_blank" rel="noreferrer">
                   <AiOutlineCloudDownload /> {downloadLink.text}
                 </a>
               </p>
