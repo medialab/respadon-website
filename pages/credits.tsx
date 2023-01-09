@@ -22,13 +22,13 @@ const Credits: FC = () => (
           <a target="_blank" href="https://www.bnf.fr/">Bibliothèque nationale de France</a>
         </div>
         <div>
-          <a target="_blank" href="https://www.sciencespo.fr/bibliotheque/">Direction des ressources et de l’information scientifique (DRIS)</a>, Sciences Po
+          <a target="_blank" href="https://www.sciencespo.fr/bibliotheque/">Direction des ressources et de l’information scientifique (DRIS)</a>, Sciences&nbsp;Po
         </div>
         <div>
           <a target="_blank" href="https://www.campus-condorcet.fr/fr/pour-la-recherche/humatheque-condorcet">Humathèque Condorcet</a>, grand équipement documentaire (GED)
         </div>
         <div>
-          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab</a>, Sciences Po
+          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab</a>, Sciences&nbsp;Po
         </div>
         <div>
           <a target="_blank" href="https://geriico.univ-lille.fr/">Geriico</a>, université de Lille
@@ -77,14 +77,14 @@ const Credits: FC = () => (
       <div className="row">
         <h2 className="h4 mt-4">Hébergement</h2>
         <div>
-          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab, Sciences Po</a>
+          <a target="_blank" href="https://medialab.sciencespo.fr/">médialab, Sciences&nbsp;Po</a>
         </div>
       </div>
 
       <div className="row">
         <h2 className="h4 mt-4">Crédit photographique</h2>
-        <div>© Caroline Maufroid / Sciences Po</div>
-        <div>© Mélanie Leroy-Terquem / BnF</div>
+        <div>© Caroline Maufroid, Sciences&nbsp;Po</div>
+        <div>© Mélanie Leroy-Terquem, BnF</div>
       </div>
 
       <div className="row">

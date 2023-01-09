@@ -148,7 +148,7 @@ const Context: FC = () => (
             restitution publique. De plus, chaque groupe doit rédiger{' '}
             <a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view?usp=sharing">
               un compte rendu d’expérimentation
-            </a>
+            </a>{' '}
             et organiser données et visualisations de sorte que le travail accompli puisse être
             réapproprié et mobilisé dans le site web présentant les résultats.
           </p>
@@ -250,7 +250,7 @@ const Context: FC = () => (
               leur thème (la littérature, le développement durable...) ou de leur rapport à un
               événement (les élections, les Jeux olympiques, l’épidémie de Covid-19…). Les listes
               des sites sélectionnés pour ces collectes ciblées sont consultables librement en ligne
-              sur le
+              sur le{' '}
               <a href="https://api.bnf.fr/fr/recherche?f%5B0%5D=sources%3A195">
                 portail API et jeux de données
               </a>{' '}

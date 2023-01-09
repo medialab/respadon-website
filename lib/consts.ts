@@ -63,14 +63,14 @@ export const STORIES: StoryType[] = [
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCommunautesPol.jpg',
       alt: '',
-      credit: '@ Caroline Maufroid, Sciences Po',
+      credit: '@ Caroline Maufroid, Sciences\u00A0Po',
     },
     authors: [
       { name: 'Fabienne Greffet', org: 'IRENEE, Univ. Lorraine' },
       { name: 'Sara Aubry', org: 'BnF' },
-      { name: 'Cyril Heude', org: 'DRIS, Sciences Po' },
-      { name: 'Robin de Mourat', org: 'médialab, Sciences Po' },
-      { name: 'Benjamin Ooghe - Tabanou', org: 'médialab, Sciences Po' },
+      { name: 'Cyril Heude', org: 'DRIS, Sciences\u00A0Po' },
+      { name: 'Robin de Mourat', org: 'médialab, Sciences\u00A0Po' },
+      { name: 'Benjamin Ooghe-Tabanou', org: 'médialab, Sciences\u00A0Po' },
     ],
   },
   {
@@ -83,11 +83,11 @@ export const STORIES: StoryType[] = [
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCritiqueSpectacle.jpg',
       alt: '',
-      credit: '@ Caroline Maufroid, Sciences Po',
+      credit: '@ Caroline Maufroid, Sciences\u00A0Po',
     },
     authors: [
-      { name: 'Béatrice Mazoyer', org: 'Sciences Po' },
-      { name: 'Guillaume Plique', org: 'Sciences Po' },
+      { name: 'Béatrice Mazoyer', org: 'médialab, Sciences\u00A0Po' },
+      { name: 'Guillaume Plique', org: 'médialab, Sciences\u00A0Po' },
       { name: 'Antoine De Sacy', org: 'BnF, Huma-Num' },
       { name: 'Cristina Tosetto', org: 'Université Sorbonne Nouvelle' },
       { name: 'Clara Wiatrowski', org: 'BnF' },
@@ -102,11 +102,11 @@ export const STORIES: StoryType[] = [
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeCovid.jpg',
       alt: '',
-      credit: '@ Caroline Maufroid, Sciences Po',
+      credit: '@ Caroline Maufroid, Sciences\u00A0Po',
     },
     authors: [
       { name: 'Leslie Bellony', org: 'BnF' },
-      { name: 'Guillaume Brioudes', org: 'médialab, Sciences Po' },
+      { name: 'Guillaume Brioudes', org: 'médialab, Sciences\u00A0Po' },
       { name: 'Isabelle Degrange', org: 'BnF' },
       { name: 'Alexandre Faye' },
       { name: 'Alexis Jacomy', org: 'OuestWare' },
@@ -125,12 +125,12 @@ export const STORIES: StoryType[] = [
     image: {
       path: BASE_PATH + '/pictures/illustrationGpeGenome.jpg',
       alt: '',
-      credit: '@ Caroline Maufroid, Sciences Po',
+      credit: '@ Caroline Maufroid, Sciences\u00A0Po',
     },
     authors: [
       { name: ' Dorothée Benhamou-Suesser', org: 'BnF' },
       { name: 'Paul Girard', org: 'OuestWare' },
-      { name: 'Guillaume Levrier', org: 'Sciences Po' },
+      { name: 'Guillaume Levrier', org: 'CEVIPOF, Sciences\u00A0Po' },
       { name: 'Jennifer Morival', org: 'Université de Lille' },
       { name: 'Zeynep Pehlivan', org: 'INA' },
     ],

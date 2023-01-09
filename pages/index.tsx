@@ -28,19 +28,19 @@ const Home: NextPage = () => {
       </div>
       <div className="container text-end mb-4">
         <a className="small" href="https://twitter.com/mleroyterquem/status/1512451629315993603">
-          © Mélanie Leroy-Terquem, BnF.
+          © Mélanie Leroy-Terquem, BnF
         </a>
       </div>
 
       {/* INTRO TEXT BLOCKS */}
       <div className="container pt-4">
         <div className="row d-flex flex-column position-relative">
-          <h2 className="text-white">Le datasprint</h2>
+          <h2>Le datasprint</h2>
           <div className="text-block">
             <p>
               Du 4 au 8 avril 2022, s’est déroulé à Paris au BnF DataLab, le DataSprint ResPaDon.
               Cette expérimentation, pilotée par le médialab et la Direction des ressources et de
-              l’information scientifique de Sciences Po en collaboration avec la Bibliothèque
+              l’information scientifique de Sciences&nbsp;Po en collaboration avec la Bibliothèque
               nationale de France, s’inscrit dans la continuité des initiatives menées autour de la
               collection des archives de l’internet de la BnF dans le cadre du projet ResPaDon.
             </p>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
 
           <div className="info-block info-block-right small">
             Soutenu par le GIS CollEx-Persée et porté par l’université de Lille et la Bibliothèque
-            nationale de France (BnF), en partenariat avec Sciences Po et le campus Condorcet, le
+            nationale de France (BnF), en partenariat avec Sciences&nbsp;Po et le campus Condorcet, le
             projet ResPaDon propose une analyse des usages des archives du web constituées par la
             BnF et des corpus numériques pour expérimenter de nouvelles modalités d’accès et
             d’exploitation de ces collections numériques.
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
                   potentielles qu’elle a pu impliquer entre les différents acteurs de ce réseau.
                 </div>
                 <div className="small">
-                  Béatrice Mazoyer (Sciences Po), Guillaume Plique (Sciences Po), Antoine De Sacy
+                  Béatrice Mazoyer (Sciences&nbsp;Po), Guillaume Plique (Sciences&nbsp;Po), Antoine De Sacy
                   (BnF, Huma-Num), Cristina Tosetto (Université Sorbonne Nouvelle), Clara Wiatrowski
                   (BnF).
                 </div>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                   qui traitent de la crise de la covid-19 entre décembre 2019 et avril 2022.
                 </div>
                 <div className="small">
-                  Leslie Bellony (BnF), Guillaume Brioudes (Sciences Po), Isabelle Degrange (BnF),
+                  Leslie Bellony (BnF), Guillaume Brioudes (Sciences&nbsp;Po), Isabelle Degrange (BnF),
                   Alexandre Faye (BnF), Alexis Jacomy (Ouestware), Kevin Locoh-Donou (BnF,
                   Université de Lyon), Caroline Sala (Unistra).
                 </div>
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="small">
                   Sara Aubry (BnF), Fabienne Greffet (Université de Nancy), Cyril Heude (Sciences
-                  Po), Robin De Mourat (Sciences Po), Benjamin Ooghe-Tabanou (Sciences Po).
+                  Po), Robin De Mourat (Sciences&nbsp;Po), Benjamin Ooghe-Tabanou (Sciences&nbsp;Po).
                 </div>
               </li>
 
