@@ -38,7 +38,7 @@ Les stories sont des listes de `<section>`. A chaque changement de section l'ali
 
 Pour ajouter des illustrations il faut insérer des composants `FullscreenPicture` agancées dans une div `figure-container` en voisin des `container sections`.
 
-````jsx
+```jsx
 <div className="figure-container">
     <div className="container">
         <div className="row">
