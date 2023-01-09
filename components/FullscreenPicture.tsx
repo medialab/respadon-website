@@ -77,7 +77,7 @@ const FullscreenPicture: FC<{
                 <iframe allowFullScreen src={targetXL.src} />
               </div>
             ) : (
-              <div className="img-wrapper">
+              <div className="img-wrapper" onClick={() => setIsFullScreenDisablingScroll(false)}>
                 <img src={targetXL?.src || src} alt={alt || ''} />
               </div>
             )}
