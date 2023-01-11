@@ -1,6 +1,6 @@
 # ResPaDon 2022
 
-Découvrir le projet : [https://medialab.github.io/respadon-website/](https://medialab.github.io/respadon-website/)
+Découvrir le projet : [https://respadon.medialab.sciencespo.fr/](https://respadon.medialab.sciencespo.fr/)
 
 Ce dépôt contient le code et les contenu du site relatant les expérimentations et les enseignements méthologiques de l'atelier ResPadon ayant eu lieu à la BNF en Avril 2022.
 
@@ -53,7 +53,7 @@ Pour ajouter des illustrations il faut insérer des composants `FullscreenPictur
                 src={BASE_PATH + '/pictures/story-covid/networks_2020_2022_acteurs.png'}
                 targetXL={{
                     type: 'iframe',
-                    src: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-sans-2021/',
+                    src: 'https://respadon.medialab.sciencespo.fr/covid/time-networks/build-15-04-sans-2021/',
                 }}
                 legendData={domaineThemeLegend}
                 downloadLink={{
@@ -105,11 +105,11 @@ npm run dev
 yarn dev
 ````
 
-Ouvrir [http://localhost:3000/respadon-website/](http://localhost:3000/respadon-website/) dans un navigateur.
+Ouvrir [http://localhost:3000/](http://localhost:3000/) dans un navigateur.
 
 ## A propos du **base path**
 
-Si le site venait à devoir changer de chemin de publication (actuellement `/respadon-website`), le ``basePath` doit être mis à jour:
+Si le site venait à devoir changer de chemin de publication (actuellement `/`), le ``basePath` doit être mis à jour:
 
 1. ce fichier `README.md`
 2. dans `next.config.js`, pour `"basePath"` et `"assetPrefix"`

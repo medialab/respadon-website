@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
-  basePath: '/respadon-website',
-  assetPrefix: '/respadon-website',
+  basePath: '',
+  assetPrefix: '',
 };
 
 module.exports = nextConfig;
