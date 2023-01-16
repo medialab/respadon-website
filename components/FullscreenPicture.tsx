@@ -15,7 +15,7 @@ const FullscreenPicture: FC<{
   className?: string;
   imgClassName?: string;
   legendData?: { color: string; label: string }[];
-  downloadLink?: { text: string; href: string };
+  downloadLink?: { text: string; href: string; legend?: string };
 }> = ({
   src,
   targetXL,
