@@ -381,9 +381,9 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <p>
-              Le réseau montre des théâtres, principalement publiques (Operadeparis,
+              Le réseau montre des théâtres, principalement publics (OperaDeParis,
               Chatelet-Theatre), proposant de la danse classique, contemporaine et urbaine et des
-              sites de critiques de danse animés notamment par des amateurs
+              sites de critiques de danse animés notamment par des amateurs.
             </p>
           </div>
         </section>
@@ -498,47 +498,69 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter les réseaux d'une manière ou d'une autre</h2>
+            <h2>Évolution de la structuration du réseau au fil du temps</h2>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black mt-3">
+                Réseau issu de la collecte n-2 (03/02/2016 <BsArrowRight /> 31/01/2018)
+              </figcaption>
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                className="spectacles"
+                story="spectacles"
+                src={BASE_PATH + '/pictures/story-spectacles/theatre_critique_n-2_fixed.png'}
+                caption="Réseau issu de la collecte n-2 (03/02/2016 -> 31/01/2018)"
+                legendData={typeColors}
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n-2_fixed.gexf&c=t&s=r&sa[]=pgc&sa[]=r&sa[]=ig-n&sa[]=o-n&sa[]=pgt&ca[]=t&ca[]=ig-n&ca[]=o-n&ca[]=cae&ca[]=s&ca[]=ca&ca[]=nt&ca[]=r&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=ca&st[]=ca%20&st[]=h&nr=0.851&er=0.744&ed=d&lt=1.423'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://respadon.medialab.sciencespo.fr/data/story-spectacles/theatre_critique_n-2_fixed.gexf'
+                }}
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
+              <figcaption className="h6 text-black mt-3">
+                Réseau issu de la collecte n-1 (02/02/2018 <BsArrowRight /> 31/01/2020)
+              </figcaption>
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                className="spectacles"
+                story="spectacles"
+                src={BASE_PATH + '/pictures/story-spectacles/theatre_critique_n-1_fixed.png'}
+                caption="Réseau issu de la collecte n-1 (02/02/2018 -> 31/01/2020)"
+                legendData={typeColors}
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n-1_fixed.gexf&c=t&s=r&sa[]=pgc&sa[]=r&sa[]=ig-n&sa[]=o-n&sa[]=pgt&ca[]=t&ca[]=ig-n&ca[]=o-n&ca[]=cae&ca[]=s&ca[]=ca&ca[]=nt&ca[]=r&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=ca&st[]=ca%20&st[]=h&nr=0.851&er=0.744&ed=d&lt=1.423'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://respadon.medialab.sciencespo.fr/data/story-spectacles/theatre_critique_n-1_fixed.gexf'
+                }}
+              />
+            </figure>
             <figure className="text-center col-12 col-lg-4">
-              <FullscreenPicture
-                imgClassName="img-fluid w-100"
-                story="spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/nombre_web_entites_par_annee.svg'}
-                caption=" Réseau issu de la collecte n0 collecte n0 (période covid -> 2022-01-31)"
-              />
               <figcaption className="h6 text-black mt-3">
-                Réseau issu de la collecte n0 (période covid <BsArrowRight /> 2022-01-31)
+                Réseau issu de la collecte n0 (période covid <BsArrowRight /> 31/01/2022)
               </figcaption>
-            </figure>
-            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
+                className="spectacles"
                 story="spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/nombre_pages_liens_par_annee.svg'}
-                caption="Réseau issu de la collecte n-1 (02/02/2018  - 31/01/2020) "
+                src={BASE_PATH + '/pictures/story-spectacles/theatre_critique_n0_fixed.png'}
+                caption="Réseau issu de la collecte n0 collecte n0 (période covid -> 31/01/2022)"
+                legendData={typeColors}
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf&c=t&s=r&sa[]=pgc&sa[]=r&sa[]=ig-n&sa[]=o-n&sa[]=pgt&ca[]=t&ca[]=ig-n&ca[]=o-n&ca[]=cae&ca[]=s&ca[]=ca&ca[]=nt&ca[]=r&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=ca&st[]=ca%20&st[]=h&nr=0.851&er=0.744&ed=d&lt=1.423'
+                }}
                 downloadLink={{
-                  text: 'Télécharger les données',
-                  href: BASE_PATH + '/data/story-spectacles/comparaison-corpus.csv',
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://respadon.medialab.sciencespo.fr/data/story-spectacles/theatre_critique_n0_fixed.gexf'
                 }}
               />
-              <figcaption className="h6 text-black mt-3">
-                Réseau issu de la collecte n-1 (02/02/2018 - 31/01/2020)
-              </figcaption>
-            </figure>
-            <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
-              <FullscreenPicture
-                imgClassName="img-fluid w-100"
-                story="spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/nombre_pages_liens_par_annee.svg'}
-                caption=" Réseau issu de la collecte n-2 (03/02/2016  - 31/01/2018)"
-                downloadLink={{
-                  text: 'Télécharger les données',
-                  href: BASE_PATH + '/data/story-politique/comparaison-corpus.csv',
-                }}
-              />
-              <figcaption className="h6 text-black mt-3">
-                Réseau issu de la collecte n-2 (03/02/2016 - 31/01/2018)
-              </figcaption>
             </figure>
           </div>
         </div>
