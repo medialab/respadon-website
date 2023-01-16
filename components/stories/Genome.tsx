@@ -36,7 +36,7 @@ const StoryComponent: FC = () => {
                 <>l'application BnF Collecte du web (BCweb)</>
                 <>
                   <a href="https://collecteweb.bnf.fr/login">https://collecteweb.bnf.fr/login</a>
-                  <h6> Qu'est-ce que BnF Collecte du web ?</h6>
+                  <h6> Qu'est-ce que BnF Collecte du web&nbsp;?</h6>
                   <p>
                     L'application BnF Collecte du web (BCweb) est destinée à gérer des ensembles de
                     sites web devant être capturés, conservés et communiqués par la Bibliothèque
@@ -44,7 +44,7 @@ const StoryComponent: FC = () => {
                     permet aux agents de la BnF et de ses partenaires de sélectionner et de gérer
                     (saisir, modifier, inactiver, contrôler) des sites à collecter.
                   </p>
-                  <h6>Comment consulter les sites collectés ? </h6>
+                  <h6>Comment consulter les sites collectés&nbsp;? </h6>
                   <p>
                     Les listes de sites sélectionnés sont disponibles sous licence ouverte sur le
                     site BnF API et jeux de données ainsi que sur la plateforme{' '}
@@ -147,7 +147,7 @@ const StoryComponent: FC = () => {
                   dix-sept thèmes ont été retenues pour la suite.
                 </>
               </Note>{' '}
-              chacun regroupant une série de mots le caractérisant : téléthon, bayer, bioéthique,
+              chacun regroupant une série de mots le caractérisant&nbsp;: téléthon, bayer, bioéthique,
               clonage, gène, chrétien, embryon, ogm, brevets, adn, vache folle, eugénisme, souches,
               transgénique, génome, FIV et avortement.{' '}
             </p>
@@ -365,7 +365,7 @@ const StoryComponent: FC = () => {
             <p>
               Pour 4 des thèmes nous présentons les résultats de notre mesure de densité thématique
               sur le réseau hypertexte du corpus Élections 2002. Nous avons volontairement masqué
-              les labels sur ces visualisations :
+              les labels sur ces visualisations&nbsp;:
             </p>
             <ul>
               <li>d'une part pour faciliter la comparaison des empreintes thématiques;</li>
@@ -398,7 +398,7 @@ const StoryComponent: FC = () => {
             <ul>
               <li>
                 De nombreuses pages n’étaient pas trouvables par Hyphe dans l’archive. Il a fallu
-                produire un script permettant de reconstruire les permaliens comme suit :
+                produire un script permettant de reconstruire les permaliens comme suit&nbsp;:
                 http://www.u-m-p.org/lesfaits.html?idArticle=125 <BsArrowRight className="mx-2" />
                 <span>
                   <b>http://archivesinternet.bnf.fr/20020613144957/</b>
@@ -432,7 +432,7 @@ const StoryComponent: FC = () => {
               s’évaluent et s’enrichissent l’une l’autre.
             </p>
             <p>
-              Un grand nombre de ces problématiques sont toujours d’actualité : il est toujours
+              Un grand nombre de ces problématiques sont toujours d’actualité&nbsp;: il est toujours
               question en 2022 de FIV, d’eugénisme, de brevets, de bioéthique, d’avortement, d’OGM,
               de Bayer et de cellules souches. Cependant, certaines catégories apparaissent propres
               à la période étudiée, notamment la panique morale autour des questions de clonage

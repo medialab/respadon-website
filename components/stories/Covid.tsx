@@ -17,7 +17,7 @@ const StoryComponent: FC = () => {
             </p>
             <p>
               Il s’agit de comprendre comment circule l’information sur la covid-19 entre les
-              différents types d’acteurs identifiés : collectivités territoriales, établissements de
+              différents types d’acteurs identifiés&nbsp;: collectivités territoriales, établissements de
               santé, presse et plateforme médicale, presse généraliste et locale, syndicats et
               associations dans le domaine de la santé, blogs, sites de vulgarisation, médias
               influence / infox…
@@ -42,8 +42,8 @@ const StoryComponent: FC = () => {
               de 2021. Une dernière cartographie a été établie en crawlant directement le web vivant
               et représente ainsi un dernier état pour l’année 2022. L’objectif est de pouvoir
               comparer dans le temps les résultats obtenus à partir d’une même base de départ. Il y
-              a donc trois corpus réalisés avec Hyphe : deux corpus représentent une cartographie
-              des archives de la BnF sur le thème du covid pour 2020 et 2021 ; un troisième corpus
+              a donc trois corpus réalisés avec Hyphe&nbsp;: deux corpus représentent une cartographie
+              des archives de la BnF sur le thème du covid pour 2020 et 2021&nbsp;; un troisième corpus
               représente une cartographie du web vivant pour 2022. Les questionnements sur la nature
               des données représentées à travers ces trois différents corpus, les archives de la BnF
               ou le web vivant, sont un élément méthodologique central de cette expérimentation qui
@@ -102,7 +102,7 @@ const StoryComponent: FC = () => {
                 <Note style={{ maxWidth: '800px' }}>
                   <>sites web</>
                   <>
-                    <h6>Comment consulter les sites collectés ? </h6>
+                    <h6>Comment consulter les sites collectés&nbsp;? </h6>
                     <p>
                       Les listes de sites sélectionnés sont disponibles sous licence ouverte sur le
                       site BnF API et jeux de données ainsi que sur la plateforme{' '}
@@ -169,8 +169,8 @@ const StoryComponent: FC = () => {
                     un tableau de suivi
                   </a>{' '}
                   afin d’avoir une vue complète des données et de bien distinguer les différents
-                  corpus (corpus 1, la première partie de la pandémie : janvier 2020 à juillet 2020,
-                  corpus 2 : l’intégralité de l’année 2021, corpus 3 : le web vivant en 2022).{' '}
+                  corpus (corpus 1, la première partie de la pandémie&nbsp;: janvier 2020 à juillet 2020,
+                  corpus 2&nbsp;: l’intégralité de l’année 2021, corpus 3&nbsp;: le web vivant en 2022).{' '}
                 </p>
                 <p>
                   Ce tableau a permis d’optimiser l’activité d'étiquetage des données. Hyphe permet
@@ -424,7 +424,7 @@ const StoryComponent: FC = () => {
             <p>
               En 2020, “Méditerranée infection” cite les acteurs institutionnels “CNRS” et
               “defense.gouv.fr”. On observe que les nœuds présents en 2020 et 2022 ne sont pas les
-              mêmes : même si les institutions restent les nœuds centraux, il y a un resserrement
+              mêmes&nbsp;: même si les institutions restent les nœuds centraux, il y a un resserrement
               sur Sante.fr.
             </p>
             <p>

@@ -34,24 +34,24 @@ const StoryComponent: FC = () => {
             </p>
             <p>
               Après discussion, le groupe de travail a formulé plusieurs problématiques qui ont
-              guidé cette expérimentation :
+              guidé cette expérimentation&nbsp;:
             </p>
             <ul>
               <li>
-                dans quelle mesure les sites de critique parviennent-ils à créer des communautés ?
+                dans quelle mesure les sites de critique parviennent-ils à créer des communautés&nbsp;?
               </li>
               <li>
-                les réseaux se structurent-ils différemment selon les disciplines : arts de la rue,
-                de la marionnette, cirque, danse, music hall, stand-up, opéra et théâtre ?
+                les réseaux se structurent-ils différemment selon les disciplines&nbsp;: arts de la rue,
+                de la marionnette, cirque, danse, music hall, stand-up, opéra et théâtre&nbsp;?
               </li>
               <li>
                 les types de critique (critique amateur, professionnelle, académique, presse)
-                diffèrent-elles selon les acteurs liés ?{' '}
+                diffèrent-elles selon les acteurs liés&nbsp;?{' '}
               </li>
               <li>
                 la fermeture des salles de spectacle a-t-elle eu une influence sur la structuration
                 de la critique et cela se traduit-il par un changement observable dans la
-                structuration du réseau ?{' '}
+                structuration du réseau&nbsp;?{' '}
               </li>
             </ul>
           </div>
@@ -66,34 +66,34 @@ const StoryComponent: FC = () => {
               compte l’ensemble de la structuration, l’autre diachronique, essayant de mettre en
               évidence les évolutions et la restructuration du phénomène à l’étude. L’idée étant
               d’analyser les représentations graphiques des trois corpus construits afin de voir
-              dans quelle mesure il est possible de de vérifier ou d’infirmer ces hypothèses :
+              dans quelle mesure il est possible de de vérifier ou d’infirmer ces hypothèses&nbsp;:
             </p>
             <ul>
               <li>
-                Point de vue synchronique :
+                Point de vue synchronique&nbsp;:
                 <ul>
                   <li>
-                    Hypothèse globale : Une structuration claire des acteurs et de leurs relations
-                    ou rôles respectifs ressort-elle des réseaux ?
+                    Hypothèse globale&nbsp;: Une structuration claire des acteurs et de leurs relations
+                    ou rôles respectifs ressort-elle des réseaux&nbsp;?
                   </li>
                   <li>
-                    Hypothèse disciplinaire : Est-il possible à travers les réseaux de retrouver une
-                    structuration disciplinaire au sein des arts du spectacle ?
+                    Hypothèse disciplinaire&nbsp;: Est-il possible à travers les réseaux de retrouver une
+                    structuration disciplinaire au sein des arts du spectacle&nbsp;?
                   </li>
                   <li>
-                    Hypothèse académique : Est-ce que la critique académique parvient à se
+                    Hypothèse académique&nbsp;: Est-ce que la critique académique parvient à se
                     positionner comme un acteur intérieur au réseau de la critique ou bien
-                    reste-t-elle en marge de ce réseau ?
+                    reste-t-elle en marge de ce réseau&nbsp;?
                   </li>
                 </ul>
               </li>
               <li className="mt-2">
-                Point de vue diachronique sur l’ensemble des différentes collectes n0, n1, n-2 :
+                Point de vue diachronique sur l’ensemble des différentes collectes n0, n1, n-2&nbsp;:
                 <ul>
                   <li>
-                    Hypothèse Covid : Est-ce que la pandémie a bouleversé la structuration de notre
-                    réseau d’acteurs ? Peut-on observer une restructuration des relations à la suite
-                    de la pandémie ?
+                    Hypothèse Covid&nbsp;: Est-ce que la pandémie a bouleversé la structuration de notre
+                    réseau d’acteurs&nbsp;? Peut-on observer une restructuration des relations à la suite
+                    de la pandémie&nbsp;?
                   </li>
                 </ul>
               </li>
@@ -119,28 +119,26 @@ const StoryComponent: FC = () => {
                 </>
               </Note>
               , 102 sites sont choisis et le corpus est complété avec 50 nouvelles urls. L’ensemble
-              de ces 152 urls constitue
-              <a href="https://hyphe.medialab.sciences-po.fr/respadon-sprint/%23/project/theatre_critique-1/monitorCrawls">
-                 le corpus{' '}
-              </a>
+              de ces 152 urls constitue{' '}
+              <a href="https://hyphe.medialab.sciences-po.fr/respadon-sprint/%23/project/theatre_critique-1/monitorCrawls">le corpus</a>{' '}
               de départ exploré en utilisant l’outil{' '}
-              <a href={`${BASE_PATH}/contexte#hyphe-curation-corpus`}>Hyphe</a>
+              <a href={`${BASE_PATH}/contexte#hyphe-curation-corpus`}>Hyphe</a>.
             </p>
             <p>
               Trois collectes sont lancées dans les archives du web sur des fenêtres temporelles de
-              deux ans :
+              deux ans&nbsp;:
             </p>
             <ul>
               <li>
                 La première collecte n0 (fenêtre temporelle de 2020-02-03 à 2022-01-31, profondeur
                 1) se positionne pendant la vague de confinements et de restrictions sanitaires
                 liés au Covid. Après curation de cette collecte de 8536 pages crawlées, le corpus
-                comprend 303 web entités.{' '}
+                comprend 303 web entités.
               </li>
               <li>
                 La seconde collecte n-1 (fenêtre temporelle de 2018-02-02 à 2020-01-31, profondeur
                 1) se positionne pendant la période pré-Covid. 17058 pages sont crawlées et le
-                corpus est constitué de 317 web entités.{' '}
+                corpus est constitué de 317 web entités.
               </li>
               <li>
                 La troisième et dernière collecte n-2 (fenêtre temporelle de 2016-02-03 à
@@ -150,15 +148,14 @@ const StoryComponent: FC = () => {
               </li>
             </ul>
             <p>
-              Les trois corpus collectés sont ensuite taggués dans Hyphe selon deux typologies
+              Les trois corpus collectés sont ensuite tagués dans Hyphe selon deux typologies
               différentes et complémentaires qui faciliteront l’analyse des représentations
-              graphiques :
+              graphiques&nbsp;:
             </p>
             <ul>
-              <li>Les types d’acteurs : Critique, Théâtre, Institutionnel, Festival, Edition;</li>
-
+              <li>Les types d’acteurs&nbsp;: Critique, Théâtre, Institutionnel, Festival, Edition.</li>
               <li>
-                La nature de la critique : Individu ( individus ou collectifs d’individus sans
+                La nature de la critique&nbsp;: Individu ( individus ou collectifs d’individus sans
                 activité professionnelle liée au spectacle vivant) , Professionnel (les
                 journalistes et personnes inscrites au syndicat, ainsi que des professionnels du
                 spectacle vivant), Presse (les journaux avec une périodicité inférieure à 1 mois),
@@ -176,25 +173,25 @@ const StoryComponent: FC = () => {
           <div className="content">
             <h2 className="text-spectacles">3. Analyse synchronique</h2>
             <h3>
-              a) Hypothèse globale : existe-t-il une structuration claire des acteurs et de leurs
-              relations ou rôles respectifs ?
+              a) Hypothèse globale&nbsp;: existe-t-il une structuration claire des acteurs et de leurs
+              relations ou rôles respectifs&nbsp;?
             </h3>
             <p>
-              Les représentations graphiques en réseau ci-après montre :
+              Les représentations graphiques en réseau ci-après montrent&nbsp;:
             </p>
             <ul>
               <li>
                 Une distinction claire entre acteurs privés et acteurs publics qui se retrouve
-                dans la spatialisation des graphes;
+                dans la spatialisation des graphes&nbsp;;
               </li>
               <li>
                 Les sites importants de critique des arts du spectacle apparaissent davantage liés
-                aux théâtres publics et se retrouvent donc proches dans les représentations;.
+                aux théâtres publics et se retrouvent donc proches dans les représentations&nbsp;;
               </li>
               <li>
                 Certains sites de critiques semblent avoir une place prépondérante et des liens
                 très forts avec les théâtres privés (deux acteurs, en particulier), et certains
-                acteurs professionnels envers le théâtre public.{' '}
+                acteurs professionnels envers le théâtre public&nbsp;;
               </li>
               <li>
                 Il y a des liens entre les sites de critiques et une communauté qui se construit
@@ -276,7 +273,7 @@ const StoryComponent: FC = () => {
               le monde du théâtre public. Les trois sites de critique Journal-Laterrasse,
               Lestroiscoups et Sceneweb émergent du réseau alors qu’ils n’étaient pas dans la
               collecte ciblée. Certains théâtres publics apparaissent comme très cités par les sites
-              de critique : Theatre-Odeon, Comedie-Francaise, Theatredelaville, Colline,
+              de critique&nbsp;: Theatre-Odeon, Comedie-Francaise, Theatredelaville, Colline,
               Theatre-Chaillot.
             </p>
           </div>
@@ -334,19 +331,19 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <h3>
-              b) Hypothèse disciplinaire : est-il possible à travers l’analyse du réseau de
+              b) Hypothèse disciplinaire&nbsp;: est-il possible à travers l’analyse du réseau de
               retrouver une structuration disciplinaire au sein des “arts du spectacle”?
             </h3>
             <ul>
               <li>
                 On observe dans les représentations graphiques une structuration disciplinaire
-                pour la danse, discipline qui est bien couverte par des sites spécialisés ;
+                pour la danse, discipline qui est bien couverte par des sites spécialisés&nbsp;;
               </li>
               <li>
                 La durée, très courte, de l’expérience du data sprint n’a pas permis de
-                diversifier les points de vue disciplinaires : des sites spécialisés dans
+                diversifier les points de vue disciplinaires&nbsp;: des sites spécialisés dans
                 l'illusionnisme, le stand-up, le music-hall ont été sélectionnés mais n’ont pu
-                être intégrés aux collectes ;
+                être intégrés aux collectes&nbsp;;
               </li>
               <li>
                 Enfin, il s’est révélé difficile d’identifier des sites de critique spécialisés
@@ -393,9 +390,9 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <h3>
-              c) Hypothèse académique : est-ce que la critique académique parvient à se positionner
+              c) Hypothèse académique&nbsp;: est-ce que la critique académique parvient à se positionner
               comme un acteur intérieur au réseau de la critique ou bien reste-t-elle en marge de ce
-              réseau ?
+              réseau&nbsp;?
             </h3>
           </div>
         </section>
@@ -469,7 +466,7 @@ const StoryComponent: FC = () => {
           <div className="content">
             <p>
               Cette matrice permet de voir qui cite qui parmi l’ensemble des entités de la collecte
-              n0 :
+              n0&nbsp;:
             </p>
             <ul>
               <li>les sites académiques citent surtout d’autres sites académiques, </li>
@@ -484,7 +481,7 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <h2 className="text-spectacles">
-              4. Approche diachronique : observer les phénomènes de structuration et d’évolution
+              4. Approche diachronique&nbsp;: observer les phénomènes de structuration et d’évolution
             </h2>
             <p>
               D’un point de vue diachronique, l’idée est de voir s’il existe une évolution claire,
@@ -598,7 +595,7 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière ?</h2>
+            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
                 Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0
@@ -636,7 +633,7 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière ?</h2>
+            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
                 Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1
@@ -669,7 +666,7 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière ?</h2>
+            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
                 Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0
@@ -700,7 +697,7 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière ?</h2>
+            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
                 Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1
@@ -786,7 +783,7 @@ const StoryComponent: FC = () => {
               Larre David, Reiss Myrto, Robert Catherine, « Situation de la critique théâtrale en
               ligne », in Marion Chénetier-Alev et Valérie Vignaux (dir.),{' '}
               <i>
-                Le texte critique : Expérimenter le théâtre et le cinéma aux XX
+                Le texte critique&nbsp;: Expérimenter le théâtre et le cinéma aux XX
                 <sup>e</sup>
                 -XXI
                 <sup>e</sup>
@@ -796,14 +793,14 @@ const StoryComponent: FC = () => {
             </li>
             <li>
               {' '}
-              Liste des sites de critique en ligne :{' '}
+              Liste des sites de critique en ligne&nbsp;:{' '}
               <a href="https://books.openedition.org/pufr/7574?lang%3Dfr">
                 https://books.openedition.org/pufr/7574?lang=fr
               </a>
             </li>
             <li>
               Sélection de blogs et de site consacrés à l'art dramatique proposée par le magazine{' '}
-              <i>Théâtre(s)</i> :{' '}
+              <i>Théâtre(s)</i>&nbsp;:{' '}
               <a
                 className="c20"
                 href="https://www.google.com/url?q=https://www.magazinetheatres.com/blogs-sites&sa=D&source=editors&ust=1669302635413863&usg=AOvVaw3_VguJN38OmzKSEWos0mlj"

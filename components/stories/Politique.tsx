@@ -38,18 +38,18 @@ const StoryComponent: FC = () => {
 
             <p>
               La littérature internationale pointe différentes ruptures intervenues dans les usages
-              politiques du web en campagne électorale :
+              politiques du web en campagne électorale&nbsp;:
             </p>
             <ul>
               <li>
                 l’émergence de “partis plateformes” (Gerbaudo, 2019<sup className="footnote"><a id="ref_4" href="#biblio">[ref]</a></sup>), c’est-à-dire des organisations
                 politiques labiles, constituées autour de plateformes numériques, structurées autour
-                d’un leader et d’une masse de sympathisants ;
+                d’un leader et d’une masse de sympathisants&nbsp;;
               </li>
               <li>
                 un recours plus important à la mobilisation électorale des sympathisants sur les
                 réseaux sociaux, notamment après les campagnes de Barack Obama en 2008 et 2012
-                (Stromer-Galley, 2014<sup className="footnote"><a id="ref_6" href="#biblio">[ref]</a></sup> ; Gibson, 2020<sup className="footnote"><a id="ref_5" href="#biblio">[ref]</a></sup>) ;
+                (Stromer-Galley, 2014<sup className="footnote"><a id="ref_6" href="#biblio">[ref]</a></sup>&nbsp;; Gibson, 2020<sup className="footnote"><a id="ref_5" href="#biblio">[ref]</a></sup>)&nbsp;;
               </li>
               <li>
                 historiquement en France, une présence importante des communautés numériques de
@@ -61,22 +61,22 @@ const StoryComponent: FC = () => {
 
             <p>
               Concernant le cas d’étude longitudinale des communautés soutenant Jean-Luc Mélenchon,
-              les hypothèses identifiées et à tester étaient :
+              les hypothèses identifiées et à tester étaient&nbsp;:
             </p>
             <ol>
               <li>
                 que la structuration de la communauté politique qui soutient Jean-Luc Mélenchon est
-                révélatrice des configurations politiques dans lesquelles il a évolué : soutien
+                révélatrice des configurations politiques dans lesquelles il a évolué&nbsp;: soutien
                 d’une coalition de partis “traditionnels” en 2012, constitution d’un “parti
                 plateforme” (La France insoumise) avec le soutien d’un parti traditionnel (le Parti
                 communiste français) en 2017, soutien d’un parti plateforme uniquement en 2022 (LFI
-                seule) ;
+                seule)&nbsp;;
               </li>
               <li>
                 que les modes d’organisation de la campagne en ligne reposent sur des supports
                 dynamiques qui évoluent avec les usages du numérique, marquant un passage de
                 campagnes électorales associées plutôt à des sites et des blogs (années 2010) à des
-                campagnes reposant plutôt sur les réseaux sociaux (depuis 2017) ;
+                campagnes reposant plutôt sur les réseaux sociaux (depuis 2017)&nbsp;;
               </li>
               <li>
                 que l’amplitude de la mobilisation des communautés politiques numériques de gauche
@@ -102,7 +102,7 @@ const StoryComponent: FC = () => {
               Dans l’optique de pouvoir comparer les représentations obtenues, un ensemble de pages
               web de départ ont été définies pour extraire les premiers liens vers les communautés
               recherchées. Ainsi, 4 pages wikipedia communes aux trois scrutins dont deux sont
-              archivées dans les sélections de la BnF, ont été identifiées :
+              archivées dans les sélections de la BnF, ont été identifiées&nbsp;:
             </p>
             <ul>
               <li>
@@ -195,14 +195,14 @@ const StoryComponent: FC = () => {
 
             <p>
               Enfin, les web entités sont étiquetées en fonction de deux typologies permettant un
-              regard différencié sur les données représentées :
+              regard différencié sur les données représentées&nbsp;:
             </p>
             <ul>
               <li>
-                type d’acteur (individu ou organisation) : candidat, professionnel de la politique,
-                formation politique, association, militant, site de campagne ;
+                type d’acteur (individu ou organisation)&nbsp;: candidat, professionnel de la politique,
+                formation politique, association, militant, site de campagne&nbsp;;
               </li>
-              <li>forme éditoriale : blog, réseau social, site, plateforme vidéo.</li>
+              <li>forme éditoriale&nbsp;: blog, réseau social, site, plateforme vidéo.</li>
             </ul>
           </div>
         </section>
@@ -533,12 +533,12 @@ const StoryComponent: FC = () => {
             Les résultats concernant le type d’acteurs présents sur le web soutenant Jean-Luc
             Mélenchon permettent de confirmer certains éléments propres au contexte français et de
             mettre en perspective les acquis de la littérature internationale sur les campagnes
-            numériques :
+            numériques&nbsp;:
           </p>
 
           <ul>
             <li>
-              La “professionnalisation” des campagnes numériques semble se renforcer : les supports
+              La “professionnalisation” des campagnes numériques semble se renforcer&nbsp;: les supports
               de campagne, développés spécialement pour l’élection présidentielle, sont
               proportionnellement plus nombreux et très connectés à l’univers de soutien au
               candidat. Ce qui signifie que, dans le cas de Jean-Luc Mélenchon au moins, son équipe
@@ -550,7 +550,7 @@ const StoryComponent: FC = () => {
               du candidat et de sa campagne se renforce nettement, au détriment des formations
               politiques. Cela peut apparaître comme logique au regard du fait que le Front de
               gauche de 2012 était un large rassemblement de partis, chaque parti disposant de
-              supports de communication ; alors que ce nombre d’organisations était plus restreint
+              supports de communication&nbsp;; alors que ce nombre d’organisations était plus restreint
               en 2017 avec l’émergence de La France insoumise. Néanmoins, en 2022, le passage
               désormais institutionnalisé au “parti plateforme” n’entraîne pas (ou pas encore) de
               refocalisation des supports de communication autour d’une organisation politique
@@ -560,7 +560,7 @@ const StoryComponent: FC = () => {
             </li>
             <li>
               Contrairement à ce qui est généralement pointé depuis la campagne Obama, le poids des
-              internautes engagés est de moins en moins perceptible d’une élection à l’autre : les
+              internautes engagés est de moins en moins perceptible d’une élection à l’autre&nbsp;: les
               supports militants sont de moins en moins repérables. Cela peut-être dû à des limites
               méthodologiques de l’étude et/ou à une migration de la bataille présidentielle vers
               les réseaux sociaux.
@@ -568,7 +568,7 @@ const StoryComponent: FC = () => {
             <li>
               Il est très intéressant et significatif de voir émerger en 2022 la catégorie “média
               ami” (avec Lemedia.fr). Dans un contexte de désaffection à l’égard de la forme parti,
-              les acteurs politiques et les organisations investissent d’autres formes : celle du
+              les acteurs politiques et les organisations investissent d’autres formes&nbsp;: celle du
               mouvement citoyen, celle du média.
             </li>
           </ul>
@@ -646,22 +646,22 @@ const StoryComponent: FC = () => {
           <p>
             Les différentes visualisations présentées ci-dessus et issues des crawls faits avec
             Hyphe montrent bien comment l’espace numérique de soutien à Jean-Luc Mélenchon s’est
-            restructuré sur dix ans, autour :
+            restructuré sur dix ans, autour&nbsp;:
           </p>
 
           <ul>
             <li>
-              des réseaux sociaux au détriment des sites (qui restent présents) et blogs ; avec une
-              transition très perceptible dans les résultats 2017 par rapport à 2012 ;
+              des réseaux sociaux au détriment des sites (qui restent présents) et blogs&nbsp;; avec une
+              transition très perceptible dans les résultats 2017 par rapport à 2012&nbsp;;
             </li>
             <li>
               des sites personnels de Jean-Luc Mélenchon, de ses sites de campagne et du site de La
-              France Insoumise, au détriment des partis plus institutionnalisés (PCF, PG) ;
+              France Insoumise, au détriment des partis plus institutionnalisés (PCF, PG)&nbsp;;
             </li>
             <li>
               de la personnalisation de la communication (ce point est à nuancer car c’est peut-être
               un phénomène propre à l’élection présidentielle), au détriment des militants et des
-              partis ;
+              partis&nbsp;;
             </li>
             <li>
               de l’apparition en 2022 de “médias amis” qui montrent l’investissement par La France
@@ -679,10 +679,10 @@ const StoryComponent: FC = () => {
           </p>
 
           <p>
-            Plusieurs phénomènes visibles dans les résultats obtenus sont étonnants, notamment :
+            Plusieurs phénomènes visibles dans les résultats obtenus sont étonnants, notamment&nbsp;:
           </p>
           <ul>
-            <li>l’arrivée de la “forme média” en 2022 ;</li>
+            <li>l’arrivée de la “forme média” en 2022&nbsp;;</li>
             <li>la place finalement faible des sites/blogs/comptes militants.</li>
           </ul>
           <p>
@@ -699,7 +699,7 @@ const StoryComponent: FC = () => {
 
           <p>
             D’un point de vue méthodologique, les points d’attention que soulève cette
-            expérimentation sont les suivants :
+            expérimentation sont les suivants&nbsp;:
           </p>
 
           <ul>
@@ -708,12 +708,12 @@ const StoryComponent: FC = () => {
               même méthodologie de création et curation des corpus web pour chaque occurrence
               (points de départ, paramètres de crawl, critères de sélection des entités IN, etc.).
               Concernant les points de départ, il peut être difficile de trouver une source
-              cohérente et pérenne à travers le temps ; les pages wikipedia dédiées au sujet se sont
+              cohérente et pérenne à travers le temps&nbsp;; les pages wikipedia dédiées au sujet se sont
               avérées en conséquence un bon compromis.
             </li>
             <li>
               Crawler les archives du web ajoute de nouvelles contraintes relatives à la précision
-              temporelle : l’idéal pour ce cas d’étude aurait été d’accéder au web correspondant
+              temporelle&nbsp;: l’idéal pour ce cas d’étude aurait été d’accéder au web correspondant
               précisément aux semaines ayant précédé la campagne en 2012 et 2017. Cependant, comme
               de nombreux sites ne sont archivés qu’une fois par an à une date potentiellement trop
               en amont ou en aval de l’événement considéré, il a été nécessaire d’élargir beaucoup
@@ -758,8 +758,8 @@ const StoryComponent: FC = () => {
             <li>
               Valérie Beaudouin, Zeynep Pehlivan.{' '}
               <em>
-                Cartographie de la Grande Guerre sur le Web : Rapport final de la phase 2 du projet
-                « Le devenir en ligne du patrimoine numérisé : l’exemple de la Grande Guerre »
+                Cartographie de la Grande Guerre sur le Web&nbsp;: Rapport final de la phase 2 du projet
+                « Le devenir en ligne du patrimoine numérisé&nbsp;: l’exemple de la Grande Guerre »
               </em>
               . [Rapport de recherche] Bibliothèque nationale de France; Bibliothèque de
               documentation internationale contemporaine; Télécom ParisTech. 2017. ffhal-01425600f.{' '}
@@ -783,10 +783,10 @@ const StoryComponent: FC = () => {
             <li><a className="refnote" href="#ref_3">↑</a>
               David Chavalarias, Noe Gaumont, Maziyar Panahi.{' '}
               <em>
-                Hostilité et prosélytisme des communautés politiques : Le militantisme politique à
+                Hostilité et prosélytisme des communautés politiques&nbsp;: Le militantisme politique à
                 l’ère des réseaux sociaux
               </em>
-              . Réseaux : communication, technologie, société, Lavoisier, La Découverte, 2019,
+              . Réseaux&nbsp;: communication, technologie, société, Lavoisier, La Découverte, 2019,
               Enquêter à partir des traces textuelles du web, pp.67. ff10.3917/res.214.0067ff.
               ffhal-02429929f.{' '}
               <a
