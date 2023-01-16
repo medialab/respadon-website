@@ -237,12 +237,12 @@ const Context: FC = () => (
           </p>
           <ul>
             <li>
-              Collecte large : Effectuée une fois par an avec l’objectif de réaliser un échantillon
+              Collecte large : effectuée une fois par an avec l’objectif de réaliser un échantillon
               de plusieurs millions de sites web en s’appuyant sur des listes établies par des
               partenaires comme l’Afnic et OVH.
             </li>
             <li>
-              Collectes ciblées (courantes ou d’urgence) : Effectuées en fonction des besoins en
+              <a href="https://www.bnf.fr/fr/collectes-ciblees-de-linternet-francais>Collectes ciblées</a>{' '}(courantes ou d’urgence) : effectuées en fonction des besoins en
               s’appuyant sur les listes établies par des bibliothécaires de la BnF et des
               bibliothèques partenaires en région ainsi que par des chercheurs ou des spécialistes
               d’un sujet. Ces collectes permettent de constituer des archives plus complètes et plus
@@ -263,7 +263,7 @@ const Context: FC = () => (
             bibliothèque de Recherche de la BnF et des bibliothèques partenaires en région.
           </p>
           <p>
-            En savoir plus sur les conditions d’accès, les collections et l’actualité sur les
+            Pour en savoir plus sur les conditions d’accès, les collections et l’actualité sur les
             archives du web de la BnF :
           </p>
           <div>
@@ -300,8 +300,10 @@ const Context: FC = () => (
             (BnF et Internet Archive) aussi bien que ceux du web vivant.
           </p>
           <p>
-            En savoir plus sur Hyphe :{' '}
+            Pour en savoir plus sur Hyphe :{' '}
             <a href="https://hyphe.medialab.sciences-po.fr/">hyphe.medialab.sciences-po.fr</a>
+            Pour tester le crawler Hyphe en version démo : {' '}
+            <a href="https://hyphe.medialab.sciences-po.fr/demo/#/login">https://hyphe.medialab.sciences-po.fr/demo/#/login</a>
           </p>
         </div>
       </section>
