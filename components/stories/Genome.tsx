@@ -422,7 +422,7 @@ const StoryComponent: FC = () => {
                   (accessed 16 January 2023).
             </li>
             <li><a className="refnote" href="#ref_2">↑</a>
-                Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). 
+                Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.(2018). 
               <em>
                It’s a Trie... it’s a Graph... it’s a Traph!
               </em>
