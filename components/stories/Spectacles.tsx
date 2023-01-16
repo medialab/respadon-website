@@ -129,46 +129,46 @@ const StoryComponent: FC = () => {
             <p>
               Trois collectes sont lancées dans les archives du web sur des fenêtres temporelles de
               deux ans :
-              <ul>
-                <li>
-                  La première collecte n0 (fenêtre temporelle de 2020-02-03 à 2022-01-31, profondeur
-                  1) se positionne pendant la vague de confinements et de restrictions sanitaires
-                  liés au Covid. Après curation de cette collecte de 8536 pages crawlées, le corpus
-                  comprend 303 web entités.{' '}
-                </li>
-                <li>
-                  La seconde collecte n-1 (fenêtre temporelle de 2018-02-02 à 2020-01-31, profondeur
-                  1) se positionne pendant la période pré-Covid. 17058 pages sont crawlées et le
-                  corpus est constitué de 317 web entités.{' '}
-                </li>
-                <li>
-                  La troisième et dernière collecte n-2 (fenêtre temporelle de 2016-02-03 à
-                  2018-01-31, profondeur 0) permet d’avoir une vue sur les données plus anciennes,
-                  hors pandémie. 15226 pages sont crawlées et le corpus compte au final 317 web
-                  entités.
-                </li>
-              </ul>
             </p>
+            <ul>
+              <li>
+                La première collecte n0 (fenêtre temporelle de 2020-02-03 à 2022-01-31, profondeur
+                1) se positionne pendant la vague de confinements et de restrictions sanitaires
+                liés au Covid. Après curation de cette collecte de 8536 pages crawlées, le corpus
+                comprend 303 web entités.{' '}
+              </li>
+              <li>
+                La seconde collecte n-1 (fenêtre temporelle de 2018-02-02 à 2020-01-31, profondeur
+                1) se positionne pendant la période pré-Covid. 17058 pages sont crawlées et le
+                corpus est constitué de 317 web entités.{' '}
+              </li>
+              <li>
+                La troisième et dernière collecte n-2 (fenêtre temporelle de 2016-02-03 à
+                2018-01-31, profondeur 0) permet d’avoir une vue sur les données plus anciennes,
+                hors pandémie. 15226 pages sont crawlées et le corpus compte au final 317 web
+                entités.
+              </li>
+            </ul>
             <p>
               Les trois corpus collectés sont ensuite taggués dans Hyphe selon deux typologies
               différentes et complémentaires qui faciliteront l’analyse des représentations
               graphiques :
-              <ul>
-                <li>Les types d’acteurs : Critique, Théâtre, Institutionnel, Festival, Edition;</li>
+            </p>
+            <ul>
+              <li>Les types d’acteurs : Critique, Théâtre, Institutionnel, Festival, Edition;</li>
 
-                <li>
-                  La nature de la critique : Individu ( individus ou collectifs d’individus sans
-                  activité professionnelle liée au spectacle vivant) , Professionnel (les
-                  journalistes et personnes inscrites au syndicat, ainsi que des professionnels du
-                  spectacle vivant), Presse (les journaux avec une périodicité inférieure à 1 mois),
-                  Académique (des revues animées par des chercheurs et chercheuses).
-                </li>
-              </ul>
-              <p>
-                L’intérêt est de pouvoir caractériser les liens entre les différentes entités du
-                réseau et de pouvoir, éventuellement, observer une structuration claire des acteurs
-                et de leurs relations ou rôles respectifs.
-              </p>
+              <li>
+                La nature de la critique : Individu ( individus ou collectifs d’individus sans
+                activité professionnelle liée au spectacle vivant) , Professionnel (les
+                journalistes et personnes inscrites au syndicat, ainsi que des professionnels du
+                spectacle vivant), Presse (les journaux avec une périodicité inférieure à 1 mois),
+                Académique (des revues animées par des chercheurs et chercheuses).
+              </li>
+            </ul>
+            <p>
+              L’intérêt est de pouvoir caractériser les liens entre les différentes entités du
+              réseau et de pouvoir, éventuellement, observer une structuration claire des acteurs
+              et de leurs relations ou rôles respectifs.
             </p>
           </div>
         </section>
@@ -181,26 +181,26 @@ const StoryComponent: FC = () => {
             </h3>
             <p>
               Les représentations graphiques en réseau ci-après montre :
-              <ul>
-                <li>
-                  Une distinction claire entre acteurs privés et acteurs publics qui se retrouve
-                  dans la spatialisation des graphes;
-                </li>
-                <li>
-                  Les sites importants de critique des arts du spectacle apparaissent davantage liés
-                  aux théâtres publics et se retrouvent donc proches dans les représentations;.
-                </li>
-                <li>
-                  Certains sites de critiques semblent avoir une place prépondérante et des liens
-                  très forts avec les théâtres privés (deux acteurs, en particulier), et certains
-                  acteurs professionnels envers le théâtre public.{' '}
-                </li>
-                <li>
-                  Il y a des liens entre les sites de critiques et une communauté qui se construit
-                  entre eux.
-                </li>
-              </ul>
             </p>
+            <ul>
+              <li>
+                Une distinction claire entre acteurs privés et acteurs publics qui se retrouve
+                dans la spatialisation des graphes;
+              </li>
+              <li>
+                Les sites importants de critique des arts du spectacle apparaissent davantage liés
+                aux théâtres publics et se retrouvent donc proches dans les représentations;.
+              </li>
+              <li>
+                Certains sites de critiques semblent avoir une place prépondérante et des liens
+                très forts avec les théâtres privés (deux acteurs, en particulier), et certains
+                acteurs professionnels envers le théâtre public.{' '}
+              </li>
+              <li>
+                Il y a des liens entre les sites de critiques et une communauté qui se construit
+                entre eux.
+              </li>
+            </ul>
           </div>
         </section>
       </div>
@@ -337,27 +337,26 @@ const StoryComponent: FC = () => {
               b) Hypothèse disciplinaire : est-il possible à travers l’analyse du réseau de
               retrouver une structuration disciplinaire au sein des “arts du spectacle”?
             </h3>
-            <p>
-              <ul>
-                <li>
-                  On observe dans les représentations graphiques une structuration disciplinaire
-                  pour la danse, discipline qui est bien couverte par des sites spécialisés ;
-                </li>
-                <li>
-                  La durée, très courte, de l’expérience du data sprint n’a pas permis de
-                  diversifier les points de vue disciplinaires : des sites spécialisés dans
-                  l'illusionnisme, le stand-up, le music-hall ont été sélectionnés mais n’ont pu
-                  être intégrés aux collectes ;
-                </li>
-                <li>
-                  Enfin, il s’est révélé difficile d’identifier des sites de critique spécialisés
-                  dans les arts de la rue, du cirque et de la marionnette.
-                </li>
-              </ul>
-            </p>
+            <ul>
+              <li>
+                On observe dans les représentations graphiques une structuration disciplinaire
+                pour la danse, discipline qui est bien couverte par des sites spécialisés ;
+              </li>
+              <li>
+                La durée, très courte, de l’expérience du data sprint n’a pas permis de
+                diversifier les points de vue disciplinaires : des sites spécialisés dans
+                l'illusionnisme, le stand-up, le music-hall ont été sélectionnés mais n’ont pu
+                être intégrés aux collectes ;
+              </li>
+              <li>
+                Enfin, il s’est révélé difficile d’identifier des sites de critique spécialisés
+                dans les arts de la rue, du cirque et de la marionnette.
+              </li>
+            </ul>
           </div>
         </section>
       </div>
+
       <div className="figure-container">
         <div className="container">
           <div className="row">
@@ -471,15 +470,15 @@ const StoryComponent: FC = () => {
             <p>
               Cette matrice permet de voir qui cite qui parmi l’ensemble des entités de la collecte
               n0 :
-              <ul>
-                <li>les sites académiques citent surtout d’autres sites académiques, </li>
-                <li>
-                  les sites tenus par des individus ou collectifs d’individus sans activité
-                  professionnelle liée au spectacle vivant citent des sites de presse ou d’autres
-                  sites tagués individu.
-                </li>
-              </ul>
             </p>
+            <ul>
+              <li>les sites académiques citent surtout d’autres sites académiques, </li>
+              <li>
+                les sites tenus par des individus ou collectifs d’individus sans activité
+                professionnelle liée au spectacle vivant citent des sites de presse ou d’autres
+                sites tagués individu.
+              </li>
+            </ul>
           </div>
         </section>
         <section>
@@ -547,6 +546,7 @@ const StoryComponent: FC = () => {
           </div>
         </div>
       </div>
+
       <div className="container sections">
         <section></section>
         <section>
@@ -730,45 +730,43 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <h2 className="text-spectacles">5. Points d’attention</h2>
-            <p>
-              <ul>
-                <li>
-                  Dans cette expérimentation, lesentités web présentes dans les trois collectes sont
-                  à peu près stables dans le temps car lesentités collectées sont issues d’une même
-                  liste d’URLs initiale archivée. Cependant, prendre les archives web comme source
-                  de collecte ne garantit pas d’avoir l’ensemble des données que l’on souhaite
-                  disponibles à un instant précis.
-                </li>
-                <li>
-                  Le choix de l’échelle temporelle a un impact important sur la structure des
-                  réseaux et l’interprétation que l’on peut en faire. Ainsi, dans cette
-                  expérimentation il aurait peut-être été pertinent de faire seulement deux
-                  collectes au lieu de trois avec un focus avant l’épidémie de covid et un autre
-                  après.
-                </li>
-                <li>
-                  Il est regrettable de ne pas avoir eu accès à plus de métadonnées sur la collecte
-                  ciblée ayant servi d’URLs de départ des collectes afin de renforcer et d’appuyer
-                  les interprétations des visualisations. Par exemple, il aurait été judicieux
-                  d’avoir des informations techniques telle que la profondeur de la collecte ciblée,
-                  qui n’est pas la même profondeur de collecte que celles réalisées via Hyphe.
-                </li>
-                <li>
-                  Un autre point d’attention important est que Hyphe ne propose pas de suivi des
-                  ajouts d’entités web dans l’activité de prospection. Ainsi, il est compliqué de
-                  garder traces et de documenter la manière dont on modifie la couverture du corpus
-                  initial. A l’avenir, il pourrait être intéressant d’avoir accès à des logs
-                  permettant d’identifier clairement l’ensemble des opérations faites sur les
-                  corpus, y compris l’ajout ou la suppression d’entités web. Cela rendrait la
-                  méthodologie proposée par l’outil plus robuste et reproductible.
-                </li>
-                <li>
-                  Enfin, la comparaison des trois collectes dans le temps souligne le manque
-                  d’outils simples à prendre en main pour mettre en évidence et montrer l’apparition
-                  et/ou la disparition de liens.
-                </li>
-              </ul>
-            </p>
+            <ul>
+              <li>
+                Dans cette expérimentation, lesentités web présentes dans les trois collectes sont
+                à peu près stables dans le temps car lesentités collectées sont issues d’une même
+                liste d’URLs initiale archivée. Cependant, prendre les archives web comme source
+                de collecte ne garantit pas d’avoir l’ensemble des données que l’on souhaite
+                disponibles à un instant précis.
+              </li>
+              <li>
+                Le choix de l’échelle temporelle a un impact important sur la structure des
+                réseaux et l’interprétation que l’on peut en faire. Ainsi, dans cette
+                expérimentation il aurait peut-être été pertinent de faire seulement deux
+                collectes au lieu de trois avec un focus avant l’épidémie de covid et un autre
+                après.
+              </li>
+              <li>
+                Il est regrettable de ne pas avoir eu accès à plus de métadonnées sur la collecte
+                ciblée ayant servi d’URLs de départ des collectes afin de renforcer et d’appuyer
+                les interprétations des visualisations. Par exemple, il aurait été judicieux
+                d’avoir des informations techniques telle que la profondeur de la collecte ciblée,
+                qui n’est pas la même profondeur de collecte que celles réalisées via Hyphe.
+              </li>
+              <li>
+                Un autre point d’attention important est que Hyphe ne propose pas de suivi des
+                ajouts d’entités web dans l’activité de prospection. Ainsi, il est compliqué de
+                garder traces et de documenter la manière dont on modifie la couverture du corpus
+                initial. A l’avenir, il pourrait être intéressant d’avoir accès à des logs
+                permettant d’identifier clairement l’ensemble des opérations faites sur les
+                corpus, y compris l’ajout ou la suppression d’entités web. Cela rendrait la
+                méthodologie proposée par l’outil plus robuste et reproductible.
+              </li>
+              <li>
+                Enfin, la comparaison des trois collectes dans le temps souligne le manque
+                d’outils simples à prendre en main pour mettre en évidence et montrer l’apparition
+                et/ou la disparition de liens.
+              </li>
+            </ul>
           </div>
         </section>
       </div>
