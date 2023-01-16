@@ -4,6 +4,14 @@ import { BASE_PATH } from '../../lib/consts';
 import FullscreenPicture from '../FullscreenPicture';
 import Note from '../Note';
 
+const typeColors = [
+  { color: '#89d6c5', label: 'critique' },
+  { color: '#e1add3', label: 'théâtre' },
+  { color: '#cdce98', label: 'institutionnel' },
+  { color: '#94c1e9', label: 'festival' },
+  { color: '#e7ad94', label: 'édition' },
+];
+
 const StoryComponent: FC = () => {
   return (
     <>

@@ -5,19 +5,19 @@ import { BASE_PATH } from '../../lib/consts';
 import Note from '../Note';
 
 const actorsColors = [
-  { color: '#0265fa', label: 'militant' },
-  { color: '#b6abff', label: 'candidat' },
-  { color: '#e7de00', label: 'professionnel de la politique' },
-  { color: '#69ffe4', label: 'campagne' },
-  { color: '#009f70', label: 'formation politique' },
-  { color: '#ff6516', label: 'autre' },
-  { color: '#ff4bc8', label: 'association' },
-  { color: '#ff005a', label: 'média ami' },
+  { color: '#e8a9ab', label: 'militant' },
+  { color: '#cdce98', label: 'candidat' },
+  { color: '#8ed8c3', label: 'professionnel de la politique' },
+  { color: '#ceb3e4', label: 'campagne' },
+  { color: '#86d2ce', label: 'formation politique' },
+  { color: '#7fc5e6', label: 'autre' },
+  { color: '#e6b28f', label: 'association' },
+  { color: '#ceb3e4', label: 'média ami' },
 ];
 const editorialColors = [
-  { color: '#d05744', label: 'site' },
-  { color: '#984db8', label: 'blog' },
-  { color: '#97c654', label: 'réseau social' },
+  { color: '#d2b1d5', label: 'site' },
+  { color: '#d5c695', label: 'blog' },
+  { color: '#86d2ce', label: 'réseau social' },
 ];
 
 const StoryComponent: FC = () => {
