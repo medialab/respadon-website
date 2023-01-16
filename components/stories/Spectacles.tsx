@@ -511,7 +511,11 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>Évolution de la structuration du réseau au fil du temps</h2>
+            <p className="text-center h5 text-black">
+              Évolution de la structuration du réseau au fil du temps
+            </p>
+          </div>
+          <div className="row">
             <figure className="text-center col-12 col-lg-4 mt-4 mt-lg-0">
               <figcaption className="h6 text-black mt-3">
                 Réseau issu de la collecte n-2 (03/02/2016 <BsArrowRight /> 31/01/2018)
@@ -638,9 +642,8 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
-                className="spectacles"
                 story="spectacles"
-                className="maxw-600 m-auto"
+                className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/n-1_n0.png'}
                 caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0 et n-1
                 "
@@ -677,9 +680,8 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
-                className="spectacles"
                 story="spectacles"
-                className="maxw-600 m-auto"
+                className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
                 caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1 et n-2                "
               />
@@ -711,9 +713,8 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
-                className="spectacles"
                 story="spectacles"
-                className="maxw-600 m-auto"
+                className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
                 caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0 et n-1
                 "
@@ -743,9 +744,8 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
-                className="spectacles"
                 story="spectacles"
-                className="maxw-600 m-auto"
+                className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
                 caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1 et n-2"
               />
