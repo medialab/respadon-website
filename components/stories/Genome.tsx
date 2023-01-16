@@ -200,8 +200,7 @@ const StoryComponent: FC = () => {
               fourni par les index de la BNF. Si ces domaines correspondent bien au site web indexé,
               les domaines ne représentent pas tout le temps le bon niveau d'étude pour les
               productions web. C'est la raison pour laquelle Hyphe fonctionne sur le concept de Web
-              Entité (Ooghe-Tabanou et al., 2018<sup className="footnote"><a id="ref_1" href="#biblio">[ref]</a></sup>)
-              .
+              Entité (Ooghe-Tabanou et al., 2018<sup className="footnote"><a id="ref_1" href="#biblio">[ref]</a></sup>).
             </p>
             <p>
               Par ailleurs les webs entitées de notre corpus ont non seulsement des tailles
@@ -409,7 +408,31 @@ const StoryComponent: FC = () => {
       <div className="container sections">
         <section className="large small">
           <h3 id="biblio" className="text-genome">Références</h3>
-         change
+         <ul>
+            <li><a className="refnote" href="#ref_1">↑</a>
+              Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.</b> (2018). 
+                <em>Hyperlink is not dead!.</em>
+                  Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018. Paris, France: ACM Press, pp. 12–18 doi:
+                  <a href="https://doi.org/10.1145/3240431.3240434">
+                    10.1145/3240431.3240434
+                  </a>.
+                  <a href="http://dl.acm.org/citation.cfm?doid=3240431.3240434">
+                    http://dl.acm.org/citation.cfm?doid=3240431.3240434
+                  </a>
+                  (accessed 16 January 2023).
+            </li>
+            <li><a className="refnote" href="#ref_2">↑</a>
+                Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). 
+              <em>
+               It’s a Trie... it’s a Graph... it’s a Traph!
+              </em>
+                Free and Open Source Software Developers’ European Meeting
+                <a href="https://fosdem.org/2018/schedule/event/multi_level_graph_index/">
+                  https://fosdem.org/2018/schedule/event/multi_level_graph_index/
+                </a>
+                .
+            </li>
+          </ul>
         </section>
       </div>
     </>
