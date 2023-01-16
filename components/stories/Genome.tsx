@@ -415,18 +415,18 @@ const StoryComponent: FC = () => {
                   Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018. Paris, France: ACM Press, pp. 12–18 doi:
                   <a href="https://doi.org/10.1145/3240431.3240434">
                     10.1145/3240431.3240434
-                  </a>.
+                  </a>.{' '}
                   <a href="http://dl.acm.org/citation.cfm?doid=3240431.3240434">
                     http://dl.acm.org/citation.cfm?doid=3240431.3240434
                   </a>
-                  (accessed 16 January 2023).
+                  {' '}(accessed 16 January 2023).
             </li>
             <li><a className="refnote" href="#ref_2">↑</a>
                 Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.(2018). 
               <em>
                It’s a Trie... it’s a Graph... it’s a Traph!
               </em>
-                Free and Open Source Software Developers’ European Meeting
+                Free and Open Source Software Developers’ European Meeting {' '}
                 <a href="https://fosdem.org/2018/schedule/event/multi_level_graph_index/">
                   https://fosdem.org/2018/schedule/event/multi_level_graph_index/
                 </a>
