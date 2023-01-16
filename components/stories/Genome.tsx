@@ -421,17 +421,7 @@ const StoryComponent: FC = () => {
                   </a>
                   (accessed 16 January 2023).
             </li>
-            <li><a className="refnote" href="#ref_2">↑</a>
-                Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). 
-              <em>
-               It’s a Trie... it’s a Graph... it’s a Traph!
-              </em>
-                Free and Open Source Software Developers’ European Meeting
-                <a href="https://fosdem.org/2018/schedule/event/multi_level_graph_index/">
-                  https://fosdem.org/2018/schedule/event/multi_level_graph_index/
-                </a>
-                .
-            </li>
+            
           </ul>
         </section>
       </div>
