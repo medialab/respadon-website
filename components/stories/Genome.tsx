@@ -73,7 +73,7 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <h2 className="text-genome">
-              2. Un corpus Hyphe <i>“génom*”</i>
+              2. Aspects méthodologiques et représentations
             </h2>
             <p>
               L’exploration de la collecte Elections 2002 via Solr Wayback a été d’une grande aide.
@@ -90,9 +90,9 @@ const StoryComponent: FC = () => {
               l’outil Hyphe. Un crawl de profondeur 0 est lancé afin de ne pas s’éloigner du sujet.
             </p>
             <p>
-              Une prospection classique avec Hyphe en allant voir à la main les web entités
+              La piste la plus intéressante à étudier consiste à mener une prospection classique avec Hyphe en allant voir à la main les web entités
               découvertes par l’outil. Cependant, il convient de noter que les sites des candidats
-              sont crawlés à une profondeur 1 afin d’avoir un peu plus de matière.
+              sont eux crawlés à une profondeur 1 afin d’avoir un peu plus de matière.
             </p>
           </div>
         </section>
@@ -196,45 +196,39 @@ const StoryComponent: FC = () => {
               domaine citent ce thème.
             </p>
             <p>
-              Pour réaliser cette visualisation nous avons utilisé la classification par domaine
-              fourni par les index de la BNF. Si ces domaines correspondent bien au site web indexé,
+              Pour réaliser cette visualisation, la classification par domaine
+              fourni par les index de la BnF a été utilisée. Si ces domaines correspondent bien au site web indexé,
               les domaines ne représentent pas tout le temps le bon niveau d'étude pour les
               productions web. C'est la raison pour laquelle Hyphe fonctionne sur le concept de Web
               Entité (Ooghe-Tabanou et al., 2018<sup className="footnote"><a id="ref_1" href="#biblio">[ref]</a></sup>).
             </p>
             <p>
-              Par ailleurs les webs entitées de notre corpus ont non seulsement des tailles
-              variables mais elles ont également été crawlées et indexées partiellement. Aussi
-              comparé des nombres de pages absolues peut amenés de nombeux biais d'interprétation.
+              Par ailleurs, les webs entités de ce corpus ont non seulement des tailles
+              variables mais elles ont également été crawlées et indexées partiellement. Aussi,
+              comparer des nombres de pages absolues n'a pas d'intérêt et mènerait à de nombreux biais d'interprétation.
             </p>
             <p>Afin d'avancer dans l'enquête, il reste donc deux problèmes à résoudre:</p>
             <ol>
-              <li>faire le lien entre les URLs de l'indexation SOLR et les web entités de Hyphe (Plique et al., 2018<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>),</li>
+              <li>faire le lien entre les URLs de l'indexation Solr et les web entités de Hyphe (Plique et al., 2018<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>),</li>
               <li>pondérer au mieux les résultats des thèmes par le nombre de pages indexées.</li>
             </ol>
             <p>
-              Pour approximer le nombre de page par web entité contenant des mots de thèmes retenus
-              nous devons donc générer une requête SOLR par web entité qui restreint la recherche
+              Pour approximer le nombre de pages par web entité contenant les mots de thèmes retenus
+              il convient de générer une requête Solr par web entité qui restreint la recherche
               aux URLs des pages qui commencent par l'un des préfixes de celle-ci. Il est important
               de noter qu'il s'agit d'une approximation qui ne prend pas en compte le cas où deux
-              web entités sont apparentées: le journal Le Monde et un article du Monde sur le
-              génome. Dans ce cas les stats sur l’article seront bonnes mais les stats sur la web
-              entité Le Monde compteront aussi celles de l’article. Faire mieux n'est pas faisable
-              facilement, on décide donc de faire avec ce biais.
+              web entités sont apparentées : le journal Le Monde et un article du Monde sur le
+              génome. Dans ce cas, les statistiques sur l’article seront correctes mais les statistiques sur la web
+              entité Le Monde compteront égalemnt celles de l’article.
             </p>
             <p>
-              Pour la normalisation, on peut utiliser le système de facettes de l'indexation SOLR
-              qui nous permet de récupérer en une seule requête le nombre total de page
-              correspondant à une web entité ainsi que le nombre de page pour chaque thème (c.a.d.
-              qui contient un des mots du thème). Encore une fois il y a un biais dans ce compte car
-              une page peut être comptées dans plusieurs thèmes. Cependant cela nous permet de
-              calculer une estimation de la densité des mentions des thémes pour chaque web entité
-              en rapportant le nombre de page par thème au nombre total de pages indexées pour
+              Concernant la normalisation, le système de facettes de l'indexation Solr
+               permet de récupérer, en une seule requête, le nombre total de pages
+              correspondant à une web entité ainsi que le nombre de pages pour chaque thème (c'est-à-dire
+              qui contient un des mots du thème). Il existe également un biais dans ce compte car
+              une page peut être comptabilisée dans plusieurs thèmes. Cependant, cela permet d'avoir une estimation de la densité des mentions des thèmes pour chaque web entité
+              en rapportant le nombre de pages par thème au nombre total de pages indexées pour
               chaque web entité.
-            </p>
-            <p>
-              Nous avons pris soin de bien distinguer les web entités pour lesquelles ce calcul n'a
-              pas été possible par une absence de résultats dans les indexs plein texte.
             </p>
           </div>
         </section>
@@ -308,29 +302,27 @@ const StoryComponent: FC = () => {
         <section>
           <div className="content">
             <p>
-              Pour 4 des thèmes nous présentons les résultats de notre mesure de densité thématique
-              sur le réseau hypertexte du corpus Élections 2002. Nous avons volontairement masqué
-              les labels sur ces visualisations&nbsp;:
+              Les visualisations ci-dessus présentent les résultats de la mesure de densité sur quatre des thèmes
+               du corpus Élections 2002. Les labels sur ces visualisations&nbsp; ont été volontairement masqués :
             </p>
             <ul>
-              <li>d'une part pour faciliter la comparaison des empreintes thématiques;</li>
+              <li>d'une part pour faciliter la comparaison des empreintes thématiques,</li>
               <li>
                 de l'autre pour ne pas susciter une démarche interprétative qui demanderait un
                 travail des données plus profond.
               </li>
             </ul>
             <p>
-              En effet si nous constatons bien des variations importantes de ces empreintes
-              thématiques (or zone de données indisponible), le temps de l'expérimentation ne nous a
-              pas permis de suffisament travailler les enjeux méthodologiques discutées. Ces
-              résultats montrent l'intérêt du croisement des analyses hypertextuelles et d'analyse
-              de contenus sans pour autant nous permettre d'analyser finement les profils
+              En effet, s'il est aisé de constater des variations importantes de ces empreintes
+              thématiques (or zone de données indisponible), le temps de l'expérimentation de datasprint, très court, ne permet pas de pousser très loin le travail. Ces
+              résultats montrent l'intérêt du croisement d'analyses hypertextuelles et d'analyses
+              de contenus sans pour autant étudier finement les profils
               thématiques des web entités et la dispersion thématique dans le réseau.
             </p>
             <p>
-              Nous mettons à disposition{' '}
+ 
               <a href={`${BASE_PATH}/data/story-genome/election2002_final_tagged.gexf`}>
-                le réseau hypertext Élections 2002 complet au format gexf
+                Le réseau hypertext Élections 2002 est mis à disposition, au complet et au format gexf
               </a>
               . Il contient toutes les web entités <i>IN</i>, <i>OUT</i> et <i>DISCOVERED</i> ainsi
               que les variables thématiques.
@@ -354,7 +346,7 @@ const StoryComponent: FC = () => {
                 Par ailleurs, il existe de multiples versions des pages du moteur de recherche plein
                 texte Solr en raison des différentes versions archivées à différents moments de la
                 collecte faite par la BnF. Par conséquent, exploiter les résultats indexés par le
-                moteur de recherche demande de prendre en compte les fréquences de collecte, voire
+                moteur de recherche demande de prendre en compte les fréquences de collecte, voir
                 même à imaginer un système de dédoublonnage des pages archivées. Cet aspect n’a pas
                 pu être pris en charge dans l’expérimentation par faute de temps.
               </li>
