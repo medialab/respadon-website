@@ -410,7 +410,7 @@ const StoryComponent: FC = () => {
           <h3 id="biblio" className="text-genome">Références</h3>
          <ul>
             <li><a className="refnote" href="#ref_1">↑</a>
-              Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.</b> (2018). 
+              Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.(2018). 
                 <em>Hyperlink is not dead!.</em>
                   Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018. Paris, France: ACM Press, pp. 12–18 doi:
                   <a href="https://doi.org/10.1145/3240431.3240434">
