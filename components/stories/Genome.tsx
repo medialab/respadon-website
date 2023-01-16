@@ -210,8 +210,8 @@ const StoryComponent: FC = () => {
             </p>
             <p>Afin d'avancer dans l'enquête, il reste donc deux problèmes à résoudre:</p>
             <ol>
-              <li>faire le lien entre les URLs de l'indexation SOLR et les web entités de Hyphe (Plique et al., 2018<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>)</li>
-              <li>pondérer au mieux les résultats des thèmes par le nombre de pages indexées</li>
+              <li>faire le lien entre les URLs de l'indexation SOLR et les web entités de Hyphe (Plique et al., 2018<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>),</li>
+              <li>pondérer au mieux les résultats des thèmes par le nombre de pages indexées.</li>
             </ol>
             <p>
               Pour approximer le nombre de page par web entité contenant des mots de thèmes retenus
