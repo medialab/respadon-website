@@ -301,7 +301,7 @@ const Context: FC = () => (
           </p>
           <p>
             Pour en savoir plus sur Hyphe :{' '}
-            <a href="https://hyphe.medialab.sciences-po.fr/">hyphe.medialab.sciences-po.fr</a>
+            <a href="https://hyphe.medialab.sciences-po.fr/">hyphe.medialab.sciences-po.fr</a></br>
             Pour tester le crawler Hyphe en version démo : {' '}
             <a href="https://hyphe.medialab.sciences-po.fr/demo/#/login">https://hyphe.medialab.sciences-po.fr/demo/#/login</a>
           </p>
