@@ -242,7 +242,7 @@ const Context: FC = () => (
               partenaires comme l’Afnic et OVH.
             </li>
             <li>
-              <a href="https://www.bnf.fr/fr/collectes-ciblees-de-linternet-francais>Collectes ciblées</a>{' '}(courantes ou d’urgence) : effectuées en fonction des besoins en
+              <a href="https://www.bnf.fr/fr/collectes-ciblees-de-linternet-francais">Collectes ciblées</a>{' '}(courantes ou d’urgence) : effectuées en fonction des besoins en
               s’appuyant sur les listes établies par des bibliothécaires de la BnF et des
               bibliothèques partenaires en région ainsi que par des chercheurs ou des spécialistes
               d’un sujet. Ces collectes permettent de constituer des archives plus complètes et plus
