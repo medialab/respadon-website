@@ -197,8 +197,8 @@ const StoryComponent: FC = () => {
             </p>
             <p>
               Pour réaliser cette visualisation, la classification par domaine
-              fourni par les index de la BnF a été utilisée. Si ces domaines correspondent bien au site web indexé,
-              les domaines ne représentent pas tout le temps le bon niveau d'étude pour les
+              fournie par les index de la BnF a été utilisée. Si ces domaines correspondent bien au site web indexé,
+              ils ne représentent pas toujours le niveau nécessaire pour observer correctement les
               productions web. C'est la raison pour laquelle Hyphe fonctionne sur le concept de Web
               Entité (Ooghe-Tabanou et al., 2018<sup className="footnote"><a id="ref_1" href="#biblio">[ref]</a></sup>).
             </p>
