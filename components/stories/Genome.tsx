@@ -200,36 +200,7 @@ const StoryComponent: FC = () => {
               fourni par les index de la BNF. Si ces domaines correspondent bien au site web indexé,
               les domaines ne représentent pas tout le temps le bon niveau d'étude pour les
               productions web. C'est la raison pour laquelle Hyphe fonctionne sur le concept de Web
-              Entité{' '}
-              <Note>
-                <>(Ooghe-Tabanou et al. 2018)</>
-                <>
-                  <div
-                    className="csl-bib-body"
-                    style={{ lineHeight: '1.35', marginLeft: '2em', textIndent: '-2em' }}
-                  >
-                    <div className="csl-entry">
-                      <b>Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.</b> (2018).
-                      Hyperlink is not dead!.{' '}
-                      <i>
-                        Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018
-                      </i>
-                      . Paris, France: ACM Press, pp. 12–18 doi:
-                      <a href="https://doi.org/10.1145/3240431.3240434">
-                        10.1145/3240431.3240434
-                      </a>.{' '}
-                      <a href="http://dl.acm.org/citation.cfm?doid=3240431.3240434">
-                        http://dl.acm.org/citation.cfm?doid=3240431.3240434
-                      </a>{' '}
-                      (accessed 4 February 2019).
-                    </div>
-                    <span
-                      className="Z3988"
-                      title="url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_id=info%3Adoi%2F10.1145%2F3240431.3240434&rft_id=urn%3Aisbn%3A978-1-4503-6438-6&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=proceeding&rft.atitle=Hyperlink%20is%20not%20dead!&rft.btitle=Proceedings%20of%20the%202nd%20International%20Conference%20on%20Web%20Studies%20%20-%20WS.2%202018&rft.place=Paris%2C%20France&rft.publisher=ACM%20Press&rft.aufirst=Benjamin&rft.aulast=Ooghe-Tabanou&rft.au=Benjamin%20Ooghe-Tabanou&rft.au=Mathieu%20Jacomy&rft.au=Paul%20Girard&rft.au=Guillaume%20Plique&rft.date=2018&rft.pages=12-18&rft.spage=12&rft.epage=18&rft.isbn=978-1-4503-6438-6&rft.language=en"
-                    />
-                  </div>
-                </>
-              </Note>
+              Entité (Ooghe-Tabanou et al., 2018<sup className="footnote"><a id="ref_1" href="#biblio">[ref]</a></sup>)
               .
             </p>
             <p>
@@ -237,34 +208,9 @@ const StoryComponent: FC = () => {
               variables mais elles ont également été crawlées et indexées partiellement. Aussi
               comparé des nombres de pages absolues peut amenés de nombeux biais d'interprétation.
             </p>
-            <p>Afin d'avancer dans notre enquête nous avons donc deux problèmes à résoudre:</p>
+            <p>Afin d'avancer dans l'enquête, il reste donc deux problèmes à résoudre:</p>
             <ol>
-              <li>
-                <Note>
-                  <>faire le lien entre les URLs de l'indexation SOLR et les web entités de Hyphe</>
-                  <>
-                    <p>
-                      Problème au cœur de Hyphe qui est très compliqué à résoudre efficacement avec
-                      des structures mémoires usuelles.
-                    </p>
-                    <>
-                      <div className="csl-entry">
-                        <b>Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). It’s
-                        a Trie... it’s a Graph... it’s a Traph!{' '}
-                        <i>Free and Open Source Software Developers’ European Meeting</i>{' '}
-                        <a href="https://fosdem.org/2018/schedule/event/multi_level_graph_index/">
-                          https://fosdem.org/2018/schedule/event/multi_level_graph_index/
-                        </a>
-                        .
-                      </div>
-                      <span
-                        className="Z3988"
-                        title="url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&rft.type=webpage&rft.title=It's%20a%20Trie...%20it's%20a%20Graph...%20it's%20a%20Traph!&rft.description=Hyphe%2C%20a%20web%20crawler%20for%20social%20scientists%20developed%20by%20the%20SciencesPo%20m%C3%A9dialab%2C%20introduced%20the%20novel%20concept%20of%20web%20entities%20to%20provide%20a%20flexible%20and%20evolutive%20way%20of%20grouping%20web%20pages%20in%20situations%20where%20the%20notion%20of%20website%20is%20not%20relevant%20enough%20(either%20too%20large%2C%20for%20instance%20with%20Twitter%20accounts%2C%20newspaper%20articles%20or%20Wikipedia%20pages%2C%20or%20too%20constrained%20to%20group%20together%20multiple%20domains%20or%20TLDs...).%20This%20comes%20with%20technical%20challenges%20since%20indexing%20a%20graph%20of%20linked%20web%20entities%20as%20a%20dynamic%20layer%20based%20on%20a%20large%20number%20of%20URLs%20is%20not%20as%20straightforward%20as%20it%20may%20seem.%0A%0AWe%20aim%20at%20providing%20the%20graph%20community%20with%20some%20feedback%20about%20the%20design%20of%20an%20on-file%20index%20-%20part%20Graph%2C%20part%20Trie%20-%20named%20the%20%22Traph%22%2C%20to%20solve%20this%20peculiar%20use-case.%20Additionally%20we%20propose%20to%20retrace%20the%20path%20we%20followed%2C%20from%20an%20old%20Lucene%20index%2C%20to%20our%20experiments%20with%20Neo4j%2C%20and%20lastly%20to%20our%20conclusion%20that%20we%20needed%20to%20develop%20our%20own%20data%20structure%20in%20order%20to%20be%20able%20to%20scale%20up.&rft.identifier=https%3A%2F%2Ffosdem.org%2F2018%2Fschedule%2Fevent%2Fmulti_level_graph_index%2F&rft.aufirst=Guillaume&rft.aulast=Plique&rft.au=Guillaume%20Plique&rft.au=Mathieu%20Jacomy&rft.au=Benjamin%20Ooghe-Tabanou&rft.au=Paul%20Girard&rft.date=2018-02-03"
-                      />
-                    </>
-                  </>
-                </Note>
-              </li>
+              <li>faire le lien entre les URLs de l'indexation SOLR et les web entités de Hyphe (Plique et al., 2018<sup className="footnote"><a id="ref_2" href="#biblio">[ref]</a></sup>)</li>
               <li>pondérer au mieux les résultats des thèmes par le nombre de pages indexées</li>
             </ol>
             <p>
@@ -462,46 +408,30 @@ const StoryComponent: FC = () => {
 
       <div className="container sections">
         <section className="large small">
-          <h3 className="text-genome">Références</h3>
+          <h3 id="biblio" className="text-genome">Références</h3>
           <ul>
-            <li>
-              <div
-                className="csl-bib-body"
-                style={{ lineHeight: '1.35', marginLeft: '2em', textIndent: '-2em' }}
-              >
-                <div className="csl-entry">
-                  <b>Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.</b> (2018). Hyperlink
-                  is not dead!.{' '}
-                  <i>Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018</i>
-                  . Paris, France: ACM Press, pp. 12–18 doi:
+            <li><a className="refnote" href="#ref_1">↑</a>
+              Ooghe-Tabanou, B., Jacomy, M., Girard, P. and Plique, G.</b> (2018). 
+                <em>Hyperlink is not dead!.</em>
+                  Proceedings of the 2nd International Conference on Web Studies  - WS.2 2018. Paris, France: ACM Press, pp. 12–18 doi:
                   <a href="https://doi.org/10.1145/3240431.3240434">
                     10.1145/3240431.3240434
-                  </a>.{' '}
+                  </a>.
                   <a href="http://dl.acm.org/citation.cfm?doid=3240431.3240434">
                     http://dl.acm.org/citation.cfm?doid=3240431.3240434
-                  </a>{' '}
-                  (accessed 4 February 2019).
-                </div>
-                <span
-                  className="Z3988"
-                  title="url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_id=info%3Adoi%2F10.1145%2F3240431.3240434&rft_id=urn%3Aisbn%3A978-1-4503-6438-6&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=proceeding&rft.atitle=Hyperlink%20is%20not%20dead!&rft.btitle=Proceedings%20of%20the%202nd%20International%20Conference%20on%20Web%20Studies%20%20-%20WS.2%202018&rft.place=Paris%2C%20France&rft.publisher=ACM%20Press&rft.aufirst=Benjamin&rft.aulast=Ooghe-Tabanou&rft.au=Benjamin%20Ooghe-Tabanou&rft.au=Mathieu%20Jacomy&rft.au=Paul%20Girard&rft.au=Guillaume%20Plique&rft.date=2018&rft.pages=12-18&rft.spage=12&rft.epage=18&rft.isbn=978-1-4503-6438-6&rft.language=en"
-                />
-              </div>
+                  </a>
+                  (accessed 16 January 2023).
             </li>
-            <li>
-              <div className="csl-entry">
-                <b>Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). It’s a
-                Trie... it’s a Graph... it’s a Traph!{' '}
-                <i>Free and Open Source Software Developers’ European Meeting</i>{' '}
+            <li><a className="refnote" href="#ref_2">↑</a>
+                Plique, G., Jacomy, M., Ooghe-Tabanou, B. and Girard, P.</b> (2018). 
+              <em>
+               It’s a Trie... it’s a Graph... it’s a Traph!
+              </em>
+                Free and Open Source Software Developers’ European Meeting
                 <a href="https://fosdem.org/2018/schedule/event/multi_level_graph_index/">
                   https://fosdem.org/2018/schedule/event/multi_level_graph_index/
                 </a>
                 .
-              </div>
-              <span
-                className="Z3988"
-                title="url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&rft.type=webpage&rft.title=It's%20a%20Trie...%20it's%20a%20Graph...%20it's%20a%20Traph!&rft.description=Hyphe%2C%20a%20web%20crawler%20for%20social%20scientists%20developed%20by%20the%20SciencesPo%20m%C3%A9dialab%2C%20introduced%20the%20novel%20concept%20of%20web%20entities%20to%20provide%20a%20flexible%20and%20evolutive%20way%20of%20grouping%20web%20pages%20in%20situations%20where%20the%20notion%20of%20website%20is%20not%20relevant%20enough%20(either%20too%20large%2C%20for%20instance%20with%20Twitter%20accounts%2C%20newspaper%20articles%20or%20Wikipedia%20pages%2C%20or%20too%20constrained%20to%20group%20together%20multiple%20domains%20or%20TLDs...).%20This%20comes%20with%20technical%20challenges%20since%20indexing%20a%20graph%20of%20linked%20web%20entities%20as%20a%20dynamic%20layer%20based%20on%20a%20large%20number%20of%20URLs%20is%20not%20as%20straightforward%20as%20it%20may%20seem.%0A%0AWe%20aim%20at%20providing%20the%20graph%20community%20with%20some%20feedback%20about%20the%20design%20of%20an%20on-file%20index%20-%20part%20Graph%2C%20part%20Trie%20-%20named%20the%20%22Traph%22%2C%20to%20solve%20this%20peculiar%20use-case.%20Additionally%20we%20propose%20to%20retrace%20the%20path%20we%20followed%2C%20from%20an%20old%20Lucene%20index%2C%20to%20our%20experiments%20with%20Neo4j%2C%20and%20lastly%20to%20our%20conclusion%20that%20we%20needed%20to%20develop%20our%20own%20data%20structure%20in%20order%20to%20be%20able%20to%20scale%20up.&rft.identifier=https%3A%2F%2Ffosdem.org%2F2018%2Fschedule%2Fevent%2Fmulti_level_graph_index%2F&rft.aufirst=Guillaume&rft.aulast=Plique&rft.au=Guillaume%20Plique&rft.au=Mathieu%20Jacomy&rft.au=Benjamin%20Ooghe-Tabanou&rft.au=Paul%20Girard&rft.date=2018-02-03"
-              />
             </li>
           </ul>
         </section>
