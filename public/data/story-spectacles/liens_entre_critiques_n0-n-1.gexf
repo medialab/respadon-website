@@ -1,0 +1,3688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="status" title="status" type="string"/>
+      <attribute id="pages_total" title="pages_total" type="integer"/>
+      <attribute id="undirected_degree" title="undirected_degree" type="integer"/>
+      <attribute id="crawling_status" title="crawling_status" type="string"/>
+      <attribute id="indegree" title="indegree" type="integer"/>
+      <attribute id="outdegree" title="outdegree" type="integer"/>
+      <attribute id="creation_date" title="creation_date" type="double"/>
+      <attribute id="indexing_status" title="indexing_status" type="string"/>
+      <attribute id="crawled" title="crawled" type="boolean"/>
+      <attribute id="last_modification_date" title="last_modification_date" type="double"/>
+      <attribute id="pages_crawled" title="pages_crawled" type="integer"/>
+      <attribute id="homepage" title="homepage" type="string"/>
+      <attribute id="name" title="name" type="string"/>
+      <attribute id="Crawl Source" title="Crawl Source" type="string"/>
+      <attribute id="Crawl" title="Crawl" type="string"/>
+      <attribute id="Type" title="Type" type="string"/>
+      <attribute id="Nature" title="Nature" type="string"/>
+      <attribute id="ipysigma_kwarg_node_size" title="ipysigma_kwarg_node_size" type="integer"/>
+      <attribute id="Papier" title="Papier" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="time" title="time" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="Abrideabattue.blogspot.com" label="Abrideabattue.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4428"/>
+          <attvalue for="undirected_degree" value="530"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="529"/>
+          <attvalue for="creation_date" value="1649322113633"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322332383"/>
+          <attvalue for="pages_crawled" value="286"/>
+          <attvalue for="homepage" value="http://abrideabattue.blogspot.com"/>
+          <attvalue for="name" value="Abrideabattue.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Crawl" value="Problématique"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-126.74481381209033" y="31.964561991572026"/>
+      </node>
+      <node id="Aubalcon.fr" label="Aubalcon.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="7104"/>
+          <attvalue for="undirected_degree" value="12"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="9"/>
+          <attvalue for="creation_date" value="1649247045700"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247550886"/>
+          <attvalue for="pages_crawled" value="24"/>
+          <attvalue for="homepage" value="http://www.aubalcon.fr/articles-redaction"/>
+          <attvalue for="name" value="Aubalcon.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="-73.87836496472681" y="88.78032273698156"/>
+      </node>
+      <node id="Lestroiscoups.fr" label="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3157"/>
+          <attvalue for="undirected_degree" value="221"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="216"/>
+          <attvalue for="creation_date" value="1649322136455"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323674484"/>
+          <attvalue for="pages_crawled" value="204"/>
+          <attvalue for="homepage" value="http://lestroiscoups.fr"/>
+          <attvalue for="name" value="Lestroiscoups.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="6"/>
+        </attvalues>
+        <viz:position x="-53.500608186963234" y="-10.479617179795511"/>
+      </node>
+      <node id="Journal-Laterrasse.fr" label="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="714"/>
+          <attvalue for="undirected_degree" value="40"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="19"/>
+          <attvalue for="outdegree" value="21"/>
+          <attvalue for="creation_date" value="1649322129399"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322938861"/>
+          <attvalue for="pages_crawled" value="53"/>
+          <attvalue for="homepage" value="https://www.journal-laterrasse.fr"/>
+          <attvalue for="name" value="Journal-Laterrasse.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="8"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="36.33542096170622" y="21.06992809101417"/>
+      </node>
+      <node id="Annetheatrepassion.blogspot.com" label="Annetheatrepassion.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3118"/>
+          <attvalue for="undirected_degree" value="369"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="369"/>
+          <attvalue for="creation_date" value="1649247043904"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247550486"/>
+          <attvalue for="pages_crawled" value="424"/>
+          <attvalue for="homepage" value="https://annetheatrepassion.blogspot.com"/>
+          <attvalue for="name" value="Annetheatrepassion.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="10.444407693301663" y="87.6927736131509"/>
+      </node>
+      <node id="Loeildolivier.fr" label="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="11"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322138772"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323874248"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.loeildolivier.fr"/>
+          <attvalue for="name" value="Loeildolivier.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="23.934049288598416" y="5.937420392740371"/>
+      </node>
+      <node id="Regardencoulisse.com" label="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="567"/>
+          <attvalue for="undirected_degree" value="78"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="74"/>
+          <attvalue for="creation_date" value="1649247085829"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247557054"/>
+          <attvalue for="pages_crawled" value="61"/>
+          <attvalue for="homepage" value="http://www.regardencoulisse.com"/>
+          <attvalue for="name" value="Regardencoulisse.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="6.3464575143153965" y="39.04914893630292"/>
+      </node>
+      <node id="Sceneweb.fr" label="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1679"/>
+          <attvalue for="undirected_degree" value="26"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="14"/>
+          <attvalue for="outdegree" value="14"/>
+          <attvalue for="creation_date" value="1649322149747"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064109"/>
+          <attvalue for="pages_crawled" value="112"/>
+          <attvalue for="homepage" value="https://www.sceneweb.fr"/>
+          <attvalue for="name" value="Sceneweb.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="9"/>
+        </attvalues>
+        <viz:position x="34.713997140829065" y="95.42266224625044"/>
+      </node>
+      <node id="Theatreauvent.com" label="Theatreauvent.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2684"/>
+          <attvalue for="undirected_degree" value="47"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="46"/>
+          <attvalue for="creation_date" value="1649247091469"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247557909"/>
+          <attvalue for="pages_crawled" value="135"/>
+          <attvalue for="homepage" value="http://www.theatreauvent.com"/>
+          <attvalue for="name" value="Theatreauvent.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="18.257857574684408" y="138.3729480747848"/>
+      </node>
+      <node id="Theatreonline.com" label="Theatreonline.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="7261"/>
+          <attvalue for="undirected_degree" value="17"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="16"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="creation_date" value="1649322153673"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064418"/>
+          <attvalue for="pages_crawled" value="122"/>
+          <attvalue for="homepage" value="http://www.theatreonline.com"/>
+          <attvalue for="name" value="Theatreonline.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+        </attvalues>
+        <viz:position x="-21.58285716612752" y="66.17817015695184"/>
+      </node>
+      <node id="Tunantes.fr" label="Tunantes.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="242"/>
+          <attvalue for="undirected_degree" value="43"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="42"/>
+          <attvalue for="creation_date" value="1649247094324"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649248029280"/>
+          <attvalue for="pages_crawled" value="63"/>
+          <attvalue for="homepage" value="http://www.tunantes.fr"/>
+          <attvalue for="name" value="Tunantes.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="68.39007488026479" y="-29.506087923067923"/>
+      </node>
+      <node id="Resmusica.com" label="Resmusica.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3328"/>
+          <attvalue for="undirected_degree" value="14"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="11"/>
+          <attvalue for="creation_date" value="1649322184682"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324069341"/>
+          <attvalue for="pages_crawled" value="184"/>
+          <attvalue for="homepage" value="http://www.resmusica.com"/>
+          <attvalue for="name" value="Resmusica.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="90.02045713395613" y="-53.30351214988545"/>
+      </node>
+      <node id="Lejdd.fr /.../Spectacle" label="Lejdd.fr /.../Spectacle">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="798"/>
+          <attvalue for="undirected_degree" value="55"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="50"/>
+          <attvalue for="creation_date" value="1649322226519"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324073723"/>
+          <attvalue for="pages_crawled" value="60"/>
+          <attvalue for="homepage" value="http://www.lejdd.fr/Culture/Theatre"/>
+          <attvalue for="name" value="Lejdd.fr /.../Spectacle"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="32.30140685263818" y="-67.10064426469464"/>
+      </node>
+      <node id="Associationcritiquetmd.com" label="Associationcritiquetmd.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="212"/>
+          <attvalue for="undirected_degree" value="126"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="124"/>
+          <attvalue for="creation_date" value="1649247045282"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247550834"/>
+          <attvalue for="pages_crawled" value="37"/>
+          <attvalue for="homepage" value="http://associationcritiquetmd.com"/>
+          <attvalue for="name" value="Associationcritiquetmd.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="77.14692097633619" y="20.45319730303236"/>
+      </node>
+      <node id="ddumasenmargedutheatre.Blogspirit.com" label="ddumasenmargedutheatre.Blogspirit.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="92"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="creation_date" value="1649322116738"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322392000"/>
+          <attvalue for="pages_crawled" value="63"/>
+          <attvalue for="homepage" value="http://ddumasenmargedutheatre.blogspirit.com"/>
+          <attvalue for="name" value="ddumasenmargedutheatre.Blogspirit.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="36.68999480303657" y="-21.591773624496426"/>
+      </node>
+      <node id="Chroniquesdedanse.com" label="Chroniquesdedanse.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="164"/>
+          <attvalue for="undirected_degree" value="43"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="42"/>
+          <attvalue for="creation_date" value="1649247049318"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649248504080"/>
+          <attvalue for="pages_crawled" value="24"/>
+          <attvalue for="homepage" value="http://www.chroniquesdedanse.com"/>
+          <attvalue for="name" value="Chroniquesdedanse.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="128.33760246328825" y="31.460789870042404"/>
+      </node>
+      <node id="critiphotodanse.E-Monsite.com" label="critiphotodanse.E-Monsite.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="243"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="creation_date" value="1649247053891"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247552054"/>
+          <attvalue for="pages_crawled" value="28"/>
+          <attvalue for="homepage" value="http://critiphotodanse.e-monsite.com"/>
+          <attvalue for="name" value="critiphotodanse.E-Monsite.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="118.49666264057613" y="25.41461285634192"/>
+      </node>
+      <node id="agon.Ens-Lyon.fr" label="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="808"/>
+          <attvalue for="undirected_degree" value="16"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="9"/>
+          <attvalue for="creation_date" value="1649322122431"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322455676"/>
+          <attvalue for="pages_crawled" value="22"/>
+          <attvalue for="homepage" value="http://www.agon.ens-lyon.fr"/>
+          <attvalue for="name" value="agon.Ens-Lyon.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="6"/>
+        </attvalues>
+        <viz:position x="102.90223968786195" y="86.02966208460768"/>
+      </node>
+      <node id="Iogazette.fr" label="Iogazette.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2576"/>
+          <attvalue for="undirected_degree" value="80"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="77"/>
+          <attvalue for="creation_date" value="1649322128777"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322938789"/>
+          <attvalue for="pages_crawled" value="195"/>
+          <attvalue for="homepage" value="http://www.iogazette.fr"/>
+          <attvalue for="name" value="Iogazette.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="31.38662923688507" y="42.05461050665039"/>
+      </node>
+      <node id="Kourandart.com" label="Kourandart.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="creation_date" value="1649247061256"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247553376"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="https://kourandart.com"/>
+          <attvalue for="name" value="Kourandart.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Crawl" value="Parking"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="128.75954660640912" y="20.29672776806308"/>
+      </node>
+      <node id="Revue-Frictions.net" label="Revue-Frictions.net">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="7"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322148999"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064058"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="https://www.revue-frictions.net"/>
+          <attvalue for="name" value="Revue-Frictions.net"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="48.57184351013437" y="-24.408946018635135"/>
+      </node>
+      <node id="Theatral-Magazine.com" label="Theatral-Magazine.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="291"/>
+          <attvalue for="undirected_degree" value="26"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="23"/>
+          <attvalue for="creation_date" value="1649322152551"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064310"/>
+          <attvalue for="pages_crawled" value="57"/>
+          <attvalue for="homepage" value="http://www.theatral-magazine.com"/>
+          <attvalue for="name" value="Theatral-Magazine.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="60.7833996759319" y="-0.2923608266733311"/>
+      </node>
+      <node id="Ubu-Apite.org" label="Ubu-Apite.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="172"/>
+          <attvalue for="undirected_degree" value="9"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="creation_date" value="1649247095342"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247841697"/>
+          <attvalue for="pages_crawled" value="23"/>
+          <attvalue for="homepage" value="http://www.ubu-apite.org"/>
+          <attvalue for="name" value="Ubu-Apite.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="120.47189714014534" y="12.75191136876191"/>
+      </node>
+      <node id="Webtheatre.fr" label="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1784"/>
+          <attvalue for="undirected_degree" value="41"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="35"/>
+          <attvalue for="creation_date" value="1649322159219"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064898"/>
+          <attvalue for="pages_crawled" value="125"/>
+          <attvalue for="homepage" value="http://www.webtheatre.fr"/>
+          <attvalue for="name" value="Webtheatre.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="14.057897989714547" y="63.85501836204415"/>
+      </node>
+      <node id="hierautheatre.Wordpress.com" label="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="38"/>
+          <attvalue for="undirected_degree" value="8"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="creation_date" value="1649322161308"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324065064"/>
+          <attvalue for="pages_crawled" value="14"/>
+          <attvalue for="homepage" value="https://hierautheatre.wordpress.com"/>
+          <attvalue for="name" value="hierautheatre.Wordpress.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+        </attvalues>
+        <viz:position x="-22.958627413326813" y="19.04116627471622"/>
+      </node>
+      <node id="Mouvement.net" label="Mouvement.net">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="808"/>
+          <attvalue for="undirected_degree" value="44"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="15"/>
+          <attvalue for="outdegree" value="34"/>
+          <attvalue for="creation_date" value="1649322184047"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324069199"/>
+          <attvalue for="pages_crawled" value="110"/>
+          <attvalue for="homepage" value="http://mouvement.net"/>
+          <attvalue for="name" value="Mouvement.net"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="6"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="52.787702316735135" y="-45.232791913229235"/>
+      </node>
+      <node id="Ruedutheatre.eu" label="Ruedutheatre.eu">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3064"/>
+          <attvalue for="undirected_degree" value="58"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="55"/>
+          <attvalue for="creation_date" value="1649247768362"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649255007553"/>
+          <attvalue for="pages_crawled" value="141"/>
+          <attvalue for="homepage" value="http://www.ruedutheatre.eu"/>
+          <attvalue for="name" value="Ruedutheatre.eu"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="65.27830042163525" y="71.05282896024626"/>
+      </node>
+      <node id="Aupoulailler.com" label="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="17"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322185119"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324069058"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.aupoulailler.com"/>
+          <attvalue for="name" value="Aupoulailler.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="-28.287050152768483" y="-8.402224945773796"/>
+      </node>
+      <node id="letheatredansunfauteuil.blogs.Nouvelobs.com" label="letheatredansunfauteuil.blogs.Nouvelobs.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649320344855"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649321854270"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="name" value="letheatredansunfauteuil.blogs.Nouvelobs.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="119.22633091862174" y="37.98403891323976"/>
+      </node>
+      <node id="France.tv" label="France.tv">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="14"/>
+          <attvalue for="undirected_degree" value="5"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649319597362"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649321002687"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.france.tv/spectacles-et-culture"/>
+          <attvalue for="name" value="France.tv"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="153.79374022164558" y="-45.155882080839504"/>
+      </node>
+      <node id="blog.Lefigaro.fr /theatre" label="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1985"/>
+          <attvalue for="undirected_degree" value="37"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="33"/>
+          <attvalue for="creation_date" value="1649322133203"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323354246"/>
+          <attvalue for="pages_crawled" value="23"/>
+          <attvalue for="homepage" value="http://blog.lefigaro.fr/theatre"/>
+          <attvalue for="name" value="blog.Lefigaro.fr /theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-70.91587359772998" y="32.30931010326933"/>
+      </node>
+      <node id="Theatrotheque.com" label="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="721"/>
+          <attvalue for="undirected_degree" value="85"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="81"/>
+          <attvalue for="creation_date" value="1649322154000"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064446"/>
+          <attvalue for="pages_crawled" value="68"/>
+          <attvalue for="homepage" value="http://www.theatrotheque.com"/>
+          <attvalue for="name" value="Theatrotheque.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+        </attvalues>
+        <viz:position x="-35.66693885975885" y="104.99000796716307"/>
+      </node>
+      <node id="Avantscenetheatre.com" label="Avantscenetheatre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="403"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="creation_date" value="1649247046867"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247551064"/>
+          <attvalue for="pages_crawled" value="35"/>
+          <attvalue for="homepage" value="https://www.avantscenetheatre.com"/>
+          <attvalue for="name" value="Avantscenetheatre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-54.113109801070465" y="-193.6497953548365"/>
+      </node>
+      <node id="Lejournaldarmelleheliot.fr" label="Lejournaldarmelleheliot.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="214"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="creation_date" value="1649247066163"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247554243"/>
+          <attvalue for="pages_crawled" value="44"/>
+          <attvalue for="homepage" value="http://lejournaldarmelleheliot.fr"/>
+          <attvalue for="name" value="Lejournaldarmelleheliot.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-49.453026742103546" y="-168.44912706925237"/>
+      </node>
+      <node id="Chercheurs-En-Danse.com" label="Chercheurs-En-Danse.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="97"/>
+          <attvalue for="undirected_degree" value="6"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="creation_date" value="1649247048806"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247551366"/>
+          <attvalue for="pages_crawled" value="14"/>
+          <attvalue for="homepage" value="http://www.chercheurs-en-danse.com/fr"/>
+          <attvalue for="name" value="Chercheurs-En-Danse.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="132.6792347124702" y="166.22082011832384"/>
+      </node>
+      <node id="journals.Openedition.org /danse" label="journals.Openedition.org /danse">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1444"/>
+          <attvalue for="undirected_degree" value="51"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="50"/>
+          <attvalue for="creation_date" value="1649322142888"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063339"/>
+          <attvalue for="pages_crawled" value="45"/>
+          <attvalue for="homepage" value="https://journals.openedition.org/danse/1651"/>
+          <attvalue for="name" value="journals.Openedition.org /danse"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="118.24583652012775" y="148.21153980806915"/>
+      </node>
+      <node id="Ciaovivalaculture.com /.../danse" label="Ciaovivalaculture.com /.../danse">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="creation_date" value="1649247049715"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247551466"/>
+          <attvalue for="pages_crawled" value="2"/>
+          <attvalue for="homepage" value="https://ciaovivalaculture.com/category/danse/"/>
+          <attvalue for="name" value="Ciaovivalaculture.com /.../danse"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-84.24382010904095" y="325.94658778583425"/>
+      </node>
+      <node id="Ciaovivalaculture.com /.../theatre" label="Ciaovivalaculture.com /.../theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="12"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="creation_date" value="1649247050158"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247551552"/>
+          <attvalue for="pages_crawled" value="4"/>
+          <attvalue for="homepage" value="https://ciaovivalaculture.com/category/theatre/"/>
+          <attvalue for="name" value="Ciaovivalaculture.com /.../theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-95.00056569717157" y="323.0313065977872"/>
+      </node>
+      <node id="Coup2theatre.com" label="Coup2theatre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="910"/>
+          <attvalue for="undirected_degree" value="42"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="41"/>
+          <attvalue for="creation_date" value="1649247051009"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247551658"/>
+          <attvalue for="pages_crawled" value="70"/>
+          <attvalue for="homepage" value="https://coup2theatre.com"/>
+          <attvalue for="name" value="Coup2theatre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="187.32282435736346" y="-42.651903144177595"/>
+      </node>
+      <node id="Dansercanalhistorique.fr" label="Dansercanalhistorique.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="755"/>
+          <attvalue for="undirected_degree" value="39"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="36"/>
+          <attvalue for="creation_date" value="1649322121191"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322441514"/>
+          <attvalue for="pages_crawled" value="68"/>
+          <attvalue for="homepage" value="http://www.dansercanalhistorique.fr"/>
+          <attvalue for="name" value="Dansercanalhistorique.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="95.06655209515809" y="-77.70519157583107"/>
+      </node>
+      <node id="Franceculture.fr /.../tous-en-scene" label="Franceculture.fr /.../tous-en-scene">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="80"/>
+          <attvalue for="undirected_degree" value="70"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="70"/>
+          <attvalue for="creation_date" value="1649247056673"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247552563"/>
+          <attvalue for="pages_crawled" value="22"/>
+          <attvalue for="homepage" value="http://www.franceculture.fr/emissions/tous-en-scene"/>
+          <attvalue for="name" value="Franceculture.fr /.../tous-en-scene"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="-80.58614057597535" y="-172.8405979426518"/>
+      </node>
+      <node id="Franceculture.fr /.../la-dispute" label="Franceculture.fr /.../la-dispute">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="365"/>
+          <attvalue for="undirected_degree" value="25"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="20"/>
+          <attvalue for="creation_date" value="1649322124266"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322541891"/>
+          <attvalue for="pages_crawled" value="37"/>
+          <attvalue for="homepage" value="http://www.franceculture.fr/emissions/la-dispute"/>
+          <attvalue for="name" value="Franceculture.fr /.../la-dispute"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-65.62336190021185" y="-139.8974965384895"/>
+      </node>
+      <node id="theothea.com.Free.fr" label="theothea.com.Free.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="616"/>
+          <attvalue for="undirected_degree" value="136"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="135"/>
+          <attvalue for="creation_date" value="1649322126016"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322755195"/>
+          <attvalue for="pages_crawled" value="30"/>
+          <attvalue for="homepage" value="http://www.theothea.com.free.fr"/>
+          <attvalue for="name" value="theothea.com.Free.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-59.866105354942626" y="77.44934001200428"/>
+      </node>
+      <node id="Fousdetheatre.com" label="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="8"/>
+          <attvalue for="undirected_degree" value="5"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322123944"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322541894"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.fousdetheatre.com"/>
+          <attvalue for="name" value="Fousdetheatre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="6"/>
+        </attvalues>
+        <viz:position x="-98.05796481782357" y="39.81170738057163"/>
+      </node>
+      <node id="Libretheatre.fr" label="Libretheatre.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1579"/>
+          <attvalue for="undirected_degree" value="56"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="56"/>
+          <attvalue for="creation_date" value="1649322138278"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323800472"/>
+          <attvalue for="pages_crawled" value="44"/>
+          <attvalue for="homepage" value="http://www.libretheatre.fr"/>
+          <attvalue for="name" value="Libretheatre.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-46.65221985961142" y="142.13654280618402"/>
+      </node>
+      <node id="icima.Hypotheses.org" label="icima.Hypotheses.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="816"/>
+          <attvalue for="undirected_degree" value="105"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="105"/>
+          <attvalue for="creation_date" value="1649322127409"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322848685"/>
+          <attvalue for="pages_crawled" value="145"/>
+          <attvalue for="homepage" value="https://icima.hypotheses.org"/>
+          <attvalue for="name" value="icima.Hypotheses.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="168.33597388579176" y="150.57065564119324"/>
+      </node>
+      <node id="Sht.asso.fr" label="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649247089237"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247557538"/>
+          <attvalue for="pages_crawled" value="2"/>
+          <attvalue for="homepage" value="http://www.sht.asso.fr"/>
+          <attvalue for="name" value="Sht.asso.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="163.302789092554" y="189.77514459145843"/>
+      </node>
+      <node id="puppower.Hypotheses.org" label="puppower.Hypotheses.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="57"/>
+          <attvalue for="undirected_degree" value="23"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="23"/>
+          <attvalue for="creation_date" value="1649319765087"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649321854101"/>
+          <attvalue for="pages_crawled" value="26"/>
+          <attvalue for="name" value="puppower.Hypotheses.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="187.0852687872362" y="159.30282057541453"/>
+      </node>
+      <node id="repex.Hypotheses.org" label="repex.Hypotheses.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="263"/>
+          <attvalue for="undirected_degree" value="17"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="17"/>
+          <attvalue for="creation_date" value="1649247059626"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649319855389"/>
+          <attvalue for="pages_crawled" value="38"/>
+          <attvalue for="homepage" value="https://repex.hypotheses.org/feed"/>
+          <attvalue for="name" value="repex.Hypotheses.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="-284.46766276437427" y="184.35671718845668"/>
+      </node>
+      <node id="zsociologie.Hypotheses.org" label="zsociologie.Hypotheses.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="135"/>
+          <attvalue for="undirected_degree" value="22"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="21"/>
+          <attvalue for="creation_date" value="1649319771147"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649321854169"/>
+          <attvalue for="pages_crawled" value="67"/>
+          <attvalue for="name" value="zsociologie.Hypotheses.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-278.97973373379125" y="192.29610919603726"/>
+      </node>
+      <node id="Laparafe.fr" label="Laparafe.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="352"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="creation_date" value="1649322131533"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323085575"/>
+          <attvalue for="pages_crawled" value="20"/>
+          <attvalue for="homepage" value="https://www.laparafe.fr"/>
+          <attvalue for="name" value="Laparafe.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-49.30736867300272" y="65.2842523476327"/>
+      </node>
+      <node id="Lebruitduoff.com" label="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1238"/>
+          <attvalue for="undirected_degree" value="43"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="37"/>
+          <attvalue for="creation_date" value="1649322132451"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323211917"/>
+          <attvalue for="pages_crawled" value="86"/>
+          <attvalue for="homepage" value="https://lebruitduoff.com"/>
+          <attvalue for="name" value="Lebruitduoff.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="-3.862114710426532" y="98.3291034673442"/>
+      </node>
+      <node id="Le-Theatre-Cote-Coeur.blogspot.com" label="Le-Theatre-Cote-Coeur.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1826"/>
+          <attvalue for="undirected_degree" value="655"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="654"/>
+          <attvalue for="creation_date" value="1649322131967"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323211876"/>
+          <attvalue for="pages_crawled" value="445"/>
+          <attvalue for="homepage" value="https://le-theatre-cote-coeur.blogspot.com"/>
+          <attvalue for="name" value="Le-Theatre-Cote-Coeur.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="-39.54836283909494" y="40.00646224004364"/>
+      </node>
+      <node id="Etoffedessonges.com" label="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322122768"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322455771"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.etoffedessonges.com"/>
+          <attvalue for="name" value="Etoffedessonges.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="-72.92169819971696" y="-6.317010294951629"/>
+      </node>
+      <node id="Mesillusionscomiques.com" label="Mesillusionscomiques.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2676"/>
+          <attvalue for="undirected_degree" value="94"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="92"/>
+          <attvalue for="creation_date" value="1649322140951"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324001405"/>
+          <attvalue for="pages_crawled" value="66"/>
+          <attvalue for="homepage" value="http://www.mesillusionscomiques.com"/>
+          <attvalue for="name" value="Mesillusionscomiques.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Crawl" value="Parking"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-65.60589395538007" y="13.000034613857167"/>
+      </node>
+      <node id="Mordue-De-Theatre.com" label="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1653"/>
+          <attvalue for="undirected_degree" value="26"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="24"/>
+          <attvalue for="creation_date" value="1649322141596"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324001518"/>
+          <attvalue for="pages_crawled" value="105"/>
+          <attvalue for="homepage" value="http://www.mordue-de-theatre.com"/>
+          <attvalue for="name" value="Mordue-De-Theatre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="-82.17720748301865" y="18.128678175106707"/>
+      </node>
+      <node id="Regarts.org" label="Regarts.org">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4221"/>
+          <attvalue for="undirected_degree" value="6"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="creation_date" value="1649247086523"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649249064492"/>
+          <attvalue for="pages_crawled" value="45"/>
+          <attvalue for="homepage" value="http://www.regarts.org"/>
+          <attvalue for="name" value="Regarts.org"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-62.920685013625395" y="97.22562862367268"/>
+      </node>
+      <node id="Unfauteuilpourlorchestre.com" label="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="373"/>
+          <attvalue for="undirected_degree" value="23"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="16"/>
+          <attvalue for="creation_date" value="1649322157167"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064779"/>
+          <attvalue for="pages_crawled" value="40"/>
+          <attvalue for="homepage" value="http://www.unfauteuilpourlorchestre.com"/>
+          <attvalue for="name" value="Unfauteuilpourlorchestre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="-106.69877839443298" y="8.382868996649222"/>
+      </node>
+      <node id="deboraconte.Wordpress.com" label="deboraconte.Wordpress.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649247099483"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247559300"/>
+          <attvalue for="pages_crawled" value="2"/>
+          <attvalue for="homepage" value="http://deboraconte.wordpress.com"/>
+          <attvalue for="name" value="deboraconte.Wordpress.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-95.49397154178254" y="86.58681319124135"/>
+      </node>
+      <node id="theatrices.Wordpress.com" label="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="160"/>
+          <attvalue for="undirected_degree" value="12"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="10"/>
+          <attvalue for="creation_date" value="1649322211602"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324071980"/>
+          <attvalue for="pages_crawled" value="66"/>
+          <attvalue for="homepage" value="http://theatrices.wordpress.com"/>
+          <attvalue for="name" value="theatrices.Wordpress.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="-98.00702371171826" y="21.640190755347056"/>
+      </node>
+      <node id="Dansesaveclaplume.com" label="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="741"/>
+          <attvalue for="undirected_degree" value="216"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="214"/>
+          <attvalue for="creation_date" value="1649322215365"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324072505"/>
+          <attvalue for="pages_crawled" value="78"/>
+          <attvalue for="homepage" value="http://www.dansesaveclaplume.com"/>
+          <attvalue for="name" value="Dansesaveclaplume.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+        </attvalues>
+        <viz:position x="108.57966094158205" y="-117.92337379293099"/>
+      </node>
+      <node id="Lemonde.fr /.../theatre" label="Lemonde.fr /.../theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1815"/>
+          <attvalue for="undirected_degree" value="98"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="98"/>
+          <attvalue for="creation_date" value="1649247066955"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247554349"/>
+          <attvalue for="pages_crawled" value="419"/>
+          <attvalue for="homepage" value="https://www.lemonde.fr/blog/theatre/"/>
+          <attvalue for="name" value="Lemonde.fr /.../theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="0.23335518998537452" y="117.60106878448352"/>
+      </node>
+      <node id="Leschroniquesdunpetitratparisien.com" label="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1346"/>
+          <attvalue for="undirected_degree" value="209"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="208"/>
+          <attvalue for="creation_date" value="1649322135763"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323578280"/>
+          <attvalue for="pages_crawled" value="73"/>
+          <attvalue for="homepage" value="http://www.leschroniquesdunpetitratparisien.com"/>
+          <attvalue for="name" value="Leschroniquesdunpetitratparisien.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="84.09522001241633" y="-124.70969134909424"/>
+      </node>
+      <node id="Lesballetomanesanonymes.fr" label="Lesballetomanesanonymes.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649247067424"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247554441"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="https://www.lesballetomanesanonymes.fr"/>
+          <attvalue for="name" value="Lesballetomanesanonymes.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="77.52377492691194" y="-162.6569560124685"/>
+      </node>
+      <node id="Lesballetonautes.com" label="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="10"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322135415"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323577681"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="https://lesballetonautes.com"/>
+          <attvalue for="name" value="Lesballetonautes.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="99.95418481410591" y="-161.84060520334614"/>
+      </node>
+      <node id="danse-opera.Over-Blog.com" label="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="325"/>
+          <attvalue for="undirected_degree" value="30"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="29"/>
+          <attvalue for="creation_date" value="1649322144311"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063563"/>
+          <attvalue for="pages_crawled" value="32"/>
+          <attvalue for="homepage" value="http://danse-opera.over-blog.com"/>
+          <attvalue for="name" value="danse-opera.Over-Blog.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="118.53939974831998" y="-149.4674709306304"/>
+      </node>
+      <node id="Magazinetheatres.com" label="Magazinetheatres.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="12"/>
+          <attvalue for="undirected_degree" value="38"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="38"/>
+          <attvalue for="creation_date" value="1649247072522"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247555085"/>
+          <attvalue for="pages_crawled" value="8"/>
+          <attvalue for="homepage" value="http://www.magazinetheatres.com"/>
+          <attvalue for="name" value="Magazinetheatres.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-85.31213120834273" y="60.80180613087589"/>
+      </node>
+      <node id="Insense-Scenes.net" label="Insense-Scenes.net">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="176"/>
+          <attvalue for="undirected_degree" value="26"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="25"/>
+          <attvalue for="creation_date" value="1649247060019"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247553138"/>
+          <attvalue for="pages_crawled" value="27"/>
+          <attvalue for="homepage" value="http://www.insense-scenes.net"/>
+          <attvalue for="name" value="Insense-Scenes.net"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-125.52684863931785" y="94.9436293128131"/>
+      </node>
+      <node id="blogs.Lexpress.fr /theatre" label="blogs.Lexpress.fr /theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="482"/>
+          <attvalue for="undirected_degree" value="71"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="70"/>
+          <attvalue for="creation_date" value="1649322136833"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323674531"/>
+          <attvalue for="pages_crawled" value="61"/>
+          <attvalue for="homepage" value="http://www.blogs.lexpress.fr/theatre"/>
+          <attvalue for="name" value="blogs.Lexpress.fr /theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-90.12934097494686" y="-3.5619084601396196"/>
+      </node>
+      <node id="blogs.Mediapart.fr /jean-pierre-thibaudat" label="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="369"/>
+          <attvalue for="undirected_degree" value="22"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="13"/>
+          <attvalue for="creation_date" value="1649322140300"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323960047"/>
+          <attvalue for="pages_crawled" value="36"/>
+          <attvalue for="homepage" value="http://www.blogs.mediapart.fr/jean-pierre-thibaudat"/>
+          <attvalue for="name" value="blogs.Mediapart.fr /jean-pierre-thibaudat"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="6"/>
+        </attvalues>
+        <viz:position x="-133.94703401709637" y="-92.13191164878316"/>
+      </node>
+      <node id="blogs.Mediapart.fr /guillaume-lasserre" label="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="91"/>
+          <attvalue for="undirected_degree" value="21"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="18"/>
+          <attvalue for="creation_date" value="1649322222274"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324073014"/>
+          <attvalue for="pages_crawled" value="11"/>
+          <attvalue for="homepage" value="http://blogs.mediapart.fr/guillaume-lasserre"/>
+          <attvalue for="name" value="blogs.Mediapart.fr /guillaume-lasserre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="-128.42774642171673" y="-112.4173251197646"/>
+      </node>
+      <node id="blogs.Mediapart.fr /martine-silber" label="blogs.Mediapart.fr /martine-silber">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="192"/>
+          <attvalue for="undirected_degree" value="19"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="19"/>
+          <attvalue for="creation_date" value="1649247074184"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649253783489"/>
+          <attvalue for="pages_crawled" value="38"/>
+          <attvalue for="homepage" value="http://www.blogs.mediapart.fr/martine-silber"/>
+          <attvalue for="name" value="blogs.Mediapart.fr /martine-silber"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="-153.84589563985742" y="-123.856517943814"/>
+      </node>
+      <node id="Neigeautheatre.blogspot.com" label="Neigeautheatre.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="350"/>
+          <attvalue for="undirected_degree" value="66"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="65"/>
+          <attvalue for="creation_date" value="1649322141896"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063224"/>
+          <attvalue for="pages_crawled" value="59"/>
+          <attvalue for="homepage" value="http://www.neigeautheatre.blogspot.com"/>
+          <attvalue for="name" value="Neigeautheatre.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-150.88947777552355" y="-63.71873153569865"/>
+      </node>
+      <node id="Offi.fr /theatre" label="Offi.fr /theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="944"/>
+          <attvalue for="undirected_degree" value="55"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="53"/>
+          <attvalue for="creation_date" value="1649322142574"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063291"/>
+          <attvalue for="pages_crawled" value="107"/>
+          <attvalue for="homepage" value="http://www.offi.fr/theatre"/>
+          <attvalue for="name" value="Offi.fr /theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-93.34361241568998" y="-42.04654559905056"/>
+      </node>
+      <node id="Ouvertauxpublics.fr" label="Ouvertauxpublics.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="194"/>
+          <attvalue for="undirected_degree" value="24"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="22"/>
+          <attvalue for="creation_date" value="1649322143229"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063430"/>
+          <attvalue for="pages_crawled" value="31"/>
+          <attvalue for="homepage" value="http://www.ouvertauxpublics.fr"/>
+          <attvalue for="name" value="Ouvertauxpublics.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-28.985577155379726" y="-83.40964132985067"/>
+      </node>
+      <node id="Scoop.it /.../revue-de-presse-theatre" label="Scoop.it /.../revue-de-presse-theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="197230"/>
+          <attvalue for="undirected_degree" value="560"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="560"/>
+          <attvalue for="creation_date" value="1649322150195"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064142"/>
+          <attvalue for="pages_crawled" value="470"/>
+          <attvalue for="homepage" value="http://www.scoop.it/topic/revue-de-presse-theatre"/>
+          <attvalue for="name" value="Scoop.it /.../revue-de-presse-theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Crawl" value="Problématique"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-29.545632537067274" y="-47.46116315118695"/>
+      </node>
+      <node id="Lesechos.fr /.../spectacles-musique" label="Lesechos.fr /.../spectacles-musique">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="376"/>
+          <attvalue for="undirected_degree" value="44"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="42"/>
+          <attvalue for="creation_date" value="1649247068826"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247554625"/>
+          <attvalue for="pages_crawled" value="58"/>
+          <attvalue for="homepage" value="https://www.lesechos.fr/weekend/spectacles-musique/leffet-shechter-aux-abbesses-1397959"/>
+          <attvalue for="name" value="Lesechos.fr /.../spectacles-musique"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-32.07759418126264" y="-97.41032587316204"/>
+      </node>
+      <node id="hottellotheatre.Wordpress.com" label="hottellotheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="41"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="creation_date" value="1649247100279"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247559445"/>
+          <attvalue for="pages_crawled" value="8"/>
+          <attvalue for="homepage" value="https://hottellotheatre.wordpress.com"/>
+          <attvalue for="name" value="hottellotheatre.Wordpress.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-51.777238556989" y="-101.37749953176544"/>
+      </node>
+      <node id="delacouraujardin.Over-Blog.com" label="delacouraujardin.Over-Blog.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="216"/>
+          <attvalue for="undirected_degree" value="24"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="20"/>
+          <attvalue for="creation_date" value="1649322144625"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063657"/>
+          <attvalue for="pages_crawled" value="53"/>
+          <attvalue for="homepage" value="http://www.delacouraujardin.over-blog.com"/>
+          <attvalue for="name" value="delacouraujardin.Over-Blog.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="35.93158073228243" y="-33.663458664416765"/>
+      </node>
+      <node id="Rmtnewsinternational.com" label="Rmtnewsinternational.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1201"/>
+          <attvalue for="undirected_degree" value="79"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="79"/>
+          <attvalue for="creation_date" value="1649247087487"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649249172480"/>
+          <attvalue for="pages_crawled" value="84"/>
+          <attvalue for="homepage" value="http://www.rmtnewsinternational.com"/>
+          <attvalue for="name" value="Rmtnewsinternational.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="176.2037991051521" y="207.2703096743651"/>
+      </node>
+      <node id="Sortiraparis.com /.../theatre" label="Sortiraparis.com /.../theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="71"/>
+          <attvalue for="undirected_degree" value="29"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="29"/>
+          <attvalue for="creation_date" value="1649247089641"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247557684"/>
+          <attvalue for="pages_crawled" value="17"/>
+          <attvalue for="homepage" value="http://www.sortiraparis.com/scenes/theatre"/>
+          <attvalue for="name" value="Sortiraparis.com /.../theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="186.45337012273933" y="-52.065429200310774"/>
+      </node>
+      <node id="Thaetre.com" label="Thaetre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="705"/>
+          <attvalue for="undirected_degree" value="44"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="43"/>
+          <attvalue for="creation_date" value="1649322152079"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064275"/>
+          <attvalue for="pages_crawled" value="43"/>
+          <attvalue for="homepage" value="http://www.thaetre.com"/>
+          <attvalue for="name" value="Thaetre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="118.49153249172996" y="174.26972546425918"/>
+      </node>
+      <node id="revueincise.Theatredegennevilliers.fr" label="revueincise.Theatredegennevilliers.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="43"/>
+          <attvalue for="undirected_degree" value="64"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="64"/>
+          <attvalue for="creation_date" value="1649247091942"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247557947"/>
+          <attvalue for="pages_crawled" value="13"/>
+          <attvalue for="homepage" value="http://www.revueincise.theatredegennevilliers.fr"/>
+          <attvalue for="name" value="revueincise.Theatredegennevilliers.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="39.90538978877491" y="61.584047810914676"/>
+      </node>
+      <node id="theatredublog.Unblog.fr" label="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="68"/>
+          <attvalue for="undirected_degree" value="7"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322156379"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064691"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.theatredublog.unblog.fr"/>
+          <attvalue for="name" value="theatredublog.Unblog.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="5"/>
+        </attvalues>
+        <viz:position x="-11.253069275671933" y="-1.9211194380755359"/>
+      </node>
+      <node id="Unesaisonalopera.fr" label="Unesaisonalopera.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="267"/>
+          <attvalue for="undirected_degree" value="28"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="28"/>
+          <attvalue for="creation_date" value="1649322156716"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064727"/>
+          <attvalue for="pages_crawled" value="24"/>
+          <attvalue for="homepage" value="http://unesaisonalopera.fr"/>
+          <attvalue for="name" value="Unesaisonalopera.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="117.24821336019683" y="-167.08380795264262"/>
+      </node>
+      <node id="percees.Uqam.ca" label="percees.Uqam.ca">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="422"/>
+          <attvalue for="undirected_degree" value="25"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="25"/>
+          <attvalue for="creation_date" value="1649247097386"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649247558910"/>
+          <attvalue for="pages_crawled" value="50"/>
+          <attvalue for="homepage" value="http://www.percees.uqam.ca"/>
+          <attvalue for="name" value="percees.Uqam.ca"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="87.27432237491196" y="114.03597052926438"/>
+      </node>
+      <node id="beletteettheatre.Wordpress.com" label="beletteettheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="386"/>
+          <attvalue for="undirected_degree" value="57"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="55"/>
+          <attvalue for="creation_date" value="1649322159668"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064930"/>
+          <attvalue for="pages_crawled" value="26"/>
+          <attvalue for="homepage" value="http://www.beletteettheatre.wordpress.com"/>
+          <attvalue for="name" value="beletteettheatre.Wordpress.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-73.25363154944498" y="-58.819778722503855"/>
+      </node>
+      <node id="Marsupilamima.blogspot.com" label="Marsupilamima.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322139936"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323960015"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.marsupilamima.blogspot.com"/>
+          <attvalue for="name" value="Marsupilamima.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="-103.08568027882029" y="-64.57067540121082"/>
+      </node>
+      <node id="danse.Univ-Paris8.fr" label="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649333559905"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649333706037"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="name" value="danse.Univ-Paris8.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="3"/>
+        </attvalues>
+        <viz:position x="136.71136211390467" y="126.09757016324221"/>
+      </node>
+      <node id="Inferno-Magazine.com /.../festival-davignon-2018" label="Inferno-Magazine.com /.../festival-davignon-2018">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649326593510"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649333962790"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://inferno-magazine.com/category/festival-davignon-2018/"/>
+          <attvalue for="name" value="Inferno-Magazine.com /.../festival-davignon-2018"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-5.546944627167541" y="148.72748543325088"/>
+      </node>
+      <node id="Cccdanse.com" label="Cccdanse.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322117291"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322401464"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="https://cccdanse.com"/>
+          <attvalue for="name" value="Cccdanse.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="151.41224881096468" y="-132.80457840188177"/>
+      </node>
+      <node id="dansomanie.Pagesperso-Orange.fr" label="dansomanie.Pagesperso-Orange.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322146434"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063817"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.dansomanie.pagesperso-orange.fr"/>
+          <attvalue for="name" value="dansomanie.Pagesperso-Orange.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="149.1396352700118" y="-119.58323128088108"/>
+      </node>
+      <node id="Shabastet.com" label="Shabastet.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="2"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322150532"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064162"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.shabastet.com"/>
+          <attvalue for="name" value="Shabastet.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="141.83777994278574" y="-127.40617805530718"/>
+      </node>
+      <node id="Blogapetitspas.fr" label="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="11"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649323954050"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649336586486"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://blogapetitspas.fr"/>
+          <attvalue for="name" value="Blogapetitspas.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="130.9160322325701" y="-164.31780985161"/>
+      </node>
+      <node id="Impressionsdanse.com" label="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="4"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649323955432"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649336685016"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.impressionsdanse.com"/>
+          <attvalue for="name" value="Impressionsdanse.com"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="4"/>
+        </attvalues>
+        <viz:position x="134.1690129782438" y="-147.5871866408092"/>
+      </node>
+      <node id="Theatrauteurs.com" label="Theatrauteurs.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="5"/>
+          <attvalue for="undirected_degree" value="4"/>
+          <attvalue for="crawling_status" value="UNCRAWLED"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649324770055"/>
+          <attvalue for="indexing_status" value="UNINDEXED"/>
+          <attvalue for="crawled" value="false"/>
+          <attvalue for="last_modification_date" value="1649336835992"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="name" value="Theatrauteurs.com"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-83.52065991238297" y="-78.18229540377015"/>
+      </node>
+      <node id="krinomen.Over-Blog.com" label="krinomen.Over-Blog.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="513"/>
+          <attvalue for="undirected_degree" value="95"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="95"/>
+          <attvalue for="creation_date" value="1649322145121"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063679"/>
+          <attvalue for="pages_crawled" value="38"/>
+          <attvalue for="homepage" value="http://www.krinomen.over-blog.com"/>
+          <attvalue for="name" value="krinomen.Over-Blog.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="academique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="70.36361346285999" y="54.60672761146827"/>
+      </node>
+      <node id="theatreetmondedutravail.Over-Blog.com" label="theatreetmondedutravail.Over-Blog.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1295"/>
+          <attvalue for="undirected_degree" value="59"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="59"/>
+          <attvalue for="creation_date" value="1649322145827"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063753"/>
+          <attvalue for="pages_crawled" value="114"/>
+          <attvalue for="homepage" value="http://theatreetmondedutravail.over-blog.com"/>
+          <attvalue for="name" value="theatreetmondedutravail.Over-Blog.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="58.168444094823386" y="123.4279478410138"/>
+      </node>
+      <node id="blogs.Paris.fr /despiecesetdesbillets" label="blogs.Paris.fr /despiecesetdesbillets">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="502"/>
+          <attvalue for="undirected_degree" value="77"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="77"/>
+          <attvalue for="creation_date" value="1649322146752"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063883"/>
+          <attvalue for="pages_crawled" value="98"/>
+          <attvalue for="homepage" value="http://www.blogs.paris.fr/despiecesetdesbillets"/>
+          <attvalue for="name" value="blogs.Paris.fr /despiecesetdesbillets"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="0"/>
+        </attvalues>
+        <viz:position x="-136.50115917624515" y="-18.858315929394934"/>
+      </node>
+      <node id="Critikator.blogspot.com" label="Critikator.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1564"/>
+          <attvalue for="undirected_degree" value="6"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="creation_date" value="1649322120460"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322441223"/>
+          <attvalue for="pages_crawled" value="170"/>
+          <attvalue for="homepage" value="http://critikator.blogspot.com"/>
+          <attvalue for="name" value="Critikator.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-181.1964998518992" y="-12.009058656482807"/>
+      </node>
+      <node id="Critiques-Theatres-Paris.blogspot.com" label="Critiques-Theatres-Paris.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322120813"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322441350"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.critiques-theatres-paris.blogspot.com"/>
+          <attvalue for="name" value="Critiques-Theatres-Paris.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-183.83724927023343" y="-22.121493274924873"/>
+      </node>
+      <node id="odile-quirot.blogs.Nouvelobs.com" label="odile-quirot.blogs.Nouvelobs.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="6"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322142247"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063275"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.odile-quirot.blogs.nouvelobs.com"/>
+          <attvalue for="name" value="odile-quirot.blogs.Nouvelobs.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-115.92499071200953" y="-54.13050483769018"/>
+      </node>
+      <node id="attractions-visuelles.Over-Blog.com" label="attractions-visuelles.Over-Blog.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="469"/>
+          <attvalue for="undirected_degree" value="31"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="29"/>
+          <attvalue for="creation_date" value="1649322143625"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063457"/>
+          <attvalue for="pages_crawled" value="53"/>
+          <attvalue for="homepage" value="http://www.attractions-visuelles.over-blog.com"/>
+          <attvalue for="name" value="attractions-visuelles.Over-Blog.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="2"/>
+        </attvalues>
+        <viz:position x="-113.57337923851352" y="-41.71213198109356"/>
+      </node>
+      <node id="Vusurscene.com" label="Vusurscene.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322158784"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324064866"/>
+          <attvalue for="pages_crawled" value="0"/>
+          <attvalue for="homepage" value="http://www.vusurscene.com"/>
+          <attvalue for="name" value="Vusurscene.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Crawl" value="Parking"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-179.57644866382282" y="-31.858557881755942"/>
+      </node>
+      <node id="Allegrotheatre.blogspot.com" label="Allegrotheatre.blogspot.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="1283"/>
+          <attvalue for="undirected_degree" value="3"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="creation_date" value="1649322113938"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322332523"/>
+          <attvalue for="pages_crawled" value="144"/>
+          <attvalue for="homepage" value="http://allegrotheatre.blogspot.com"/>
+          <attvalue for="name" value="Allegrotheatre.blogspot.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-9.43339276053905" y="-93.24356399186053"/>
+      </node>
+      <node id="Apartestheatre.com" label="Apartestheatre.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="5"/>
+          <attvalue for="undirected_degree" value="2"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322114573"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322357501"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.apartestheatre.com/vous-avez-le-coeur-tourmente"/>
+          <attvalue for="name" value="Apartestheatre.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="individu"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-29.73286177099225" y="-108.12760926165475"/>
+      </node>
+      <node id="Artistikrezo.com /spectacle" label="Artistikrezo.com /spectacle">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="54"/>
+          <attvalue for="undirected_degree" value="28"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="27"/>
+          <attvalue for="creation_date" value="1649322115162"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322357765"/>
+          <attvalue for="pages_crawled" value="16"/>
+          <attvalue for="homepage" value="https://www.artistikrezo.com/spectacle"/>
+          <attvalue for="name" value="Artistikrezo.com /spectacle"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-20.421514421323042" y="-94.93337561243649"/>
+      </node>
+      <node id="Evene.fr /theatre" label="Evene.fr /theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="3"/>
+          <attvalue for="undirected_degree" value="1"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="creation_date" value="1649322123600"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649322541697"/>
+          <attvalue for="pages_crawled" value="1"/>
+          <attvalue for="homepage" value="http://www.evene.fr/theatre"/>
+          <attvalue for="name" value="Evene.fr /theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="a decider"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-54.86450701534483" y="-90.79779740352882"/>
+      </node>
+      <node id="La-Croix.com /.../Theatre" label="La-Croix.com /.../Theatre">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="188"/>
+          <attvalue for="undirected_degree" value="45"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="40"/>
+          <attvalue for="creation_date" value="1649322130235"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649323020956"/>
+          <attvalue for="pages_crawled" value="19"/>
+          <attvalue for="homepage" value="https://www.la-croix.com/Culture/Theatre"/>
+          <attvalue for="name" value="La-Croix.com /.../Theatre"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="presse"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+          <attvalue for="Papier" value="oui"/>
+        </attvalues>
+        <viz:position x="-43.208681642951305" y="-93.38956123983954"/>
+      </node>
+      <node id="Mlascene-Blog-Theatre.fr" label="Mlascene-Blog-Theatre.fr">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="425"/>
+          <attvalue for="undirected_degree" value="31"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="29"/>
+          <attvalue for="creation_date" value="1649322141285"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324001463"/>
+          <attvalue for="pages_crawled" value="72"/>
+          <attvalue for="homepage" value="http://www.mlascene-blog-theatre.fr"/>
+          <attvalue for="name" value="Mlascene-Blog-Theatre.fr"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="professionelle"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-41.335880528609145" y="-105.07332648292982"/>
+      </node>
+      <node id="Profession-Spectacle.com" label="Profession-Spectacle.com">
+        <attvalues>
+          <attvalue for="status" value="IN"/>
+          <attvalue for="pages_total" value="816"/>
+          <attvalue for="undirected_degree" value="74"/>
+          <attvalue for="crawling_status" value="FINISHED"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="71"/>
+          <attvalue for="creation_date" value="1649322147435"/>
+          <attvalue for="indexing_status" value="FINISHED"/>
+          <attvalue for="crawled" value="true"/>
+          <attvalue for="last_modification_date" value="1649324063938"/>
+          <attvalue for="pages_crawled" value="104"/>
+          <attvalue for="homepage" value="http://www.profession-spectacle.com"/>
+          <attvalue for="name" value="Profession-Spectacle.com"/>
+          <attvalue for="Crawl Source" value="archivesinternet.bnf.fr"/>
+          <attvalue for="Type" value="critique"/>
+          <attvalue for="Nature" value="a decider"/>
+          <attvalue for="ipysigma_kwarg_node_size" value="1"/>
+        </attvalues>
+        <viz:position x="-18.594990641407744" y="-105.24900227703498"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="geid_55_0" source="Abrideabattue.blogspot.com" target="Aubalcon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_1" source="Abrideabattue.blogspot.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_2" source="Lestroiscoups.fr" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_3" source="Annetheatrepassion.blogspot.com" target="Aubalcon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_4" source="Annetheatrepassion.blogspot.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_5" source="Annetheatrepassion.blogspot.com" target="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_6" source="Annetheatrepassion.blogspot.com" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_7" source="Annetheatrepassion.blogspot.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_8" source="Annetheatrepassion.blogspot.com" target="Theatreauvent.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_9" source="Annetheatrepassion.blogspot.com" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_10" source="Loeildolivier.fr" target="Tunantes.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_11" source="Regardencoulisse.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_12" source="Regardencoulisse.com" target="Lejdd.fr /.../Spectacle">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_13" source="Tunantes.fr" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_14" source="Associationcritiquetmd.com" target="ddumasenmargedutheatre.Blogspirit.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_15" source="Associationcritiquetmd.com" target="Chroniquesdedanse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_16" source="Associationcritiquetmd.com" target="critiphotodanse.E-Monsite.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_17" source="Associationcritiquetmd.com" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_18" source="Associationcritiquetmd.com" target="Iogazette.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_19" source="Associationcritiquetmd.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_20" source="Associationcritiquetmd.com" target="Kourandart.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_21" source="Associationcritiquetmd.com" target="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_22" source="Associationcritiquetmd.com" target="Revue-Frictions.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_23" source="Associationcritiquetmd.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_24" source="Associationcritiquetmd.com" target="Theatral-Magazine.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_25" source="Associationcritiquetmd.com" target="Ubu-Apite.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_26" source="Associationcritiquetmd.com" target="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_27" source="Associationcritiquetmd.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_28" source="Associationcritiquetmd.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_29" source="Associationcritiquetmd.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_30" source="Associationcritiquetmd.com" target="Ruedutheatre.eu">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_31" source="Associationcritiquetmd.com" target="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_32" source="Associationcritiquetmd.com" target="letheatredansunfauteuil.blogs.Nouvelobs.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_33" source="Theatral-Magazine.com" target="France.tv">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_34" source="Webtheatre.fr" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_35" source="Webtheatre.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_36" source="Webtheatre.fr" target="Ruedutheatre.eu">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_37" source="Theatrotheque.com" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_38" source="Theatrotheque.com" target="Libretheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_39" source="Theatrotheque.com" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_40" source="Theatrotheque.com" target="Theatral-Magazine.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_41" source="Avantscenetheatre.com" target="Lejournaldarmelleheliot.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_42" source="Lejournaldarmelleheliot.fr" target="Avantscenetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_43" source="Chercheurs-En-Danse.com" target="journals.Openedition.org /danse">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_44" source="journals.Openedition.org /danse" target="Chercheurs-En-Danse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_45" source="journals.Openedition.org /danse" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_46" source="journals.Openedition.org /danse" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_47" source="journals.Openedition.org /danse" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_48" source="Ciaovivalaculture.com /.../danse" target="Ciaovivalaculture.com /.../theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_49" source="Ciaovivalaculture.com /.../theatre" target="Ciaovivalaculture.com /.../danse">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_50" source="Coup2theatre.com" target="France.tv">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_51" source="Dansercanalhistorique.fr" target="France.tv">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_52" source="Franceculture.fr /.../tous-en-scene" target="Franceculture.fr /.../la-dispute">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_53" source="theothea.com.Free.fr" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_54" source="theothea.com.Free.fr" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_55" source="theothea.com.Free.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_56" source="Libretheatre.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_57" source="icima.Hypotheses.org" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_58" source="icima.Hypotheses.org" target="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_59" source="icima.Hypotheses.org" target="puppower.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_60" source="icima.Hypotheses.org" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_61" source="puppower.Hypotheses.org" target="icima.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_62" source="repex.Hypotheses.org" target="zsociologie.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_63" source="Laparafe.fr" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_64" source="Lebruitduoff.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_65" source="Lebruitduoff.com" target="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_66" source="Lebruitduoff.com" target="Inferno-Magazine.com /.../festival-davignon-2018">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_67" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Associationcritiquetmd.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_68" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Aubalcon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_69" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_70" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_71" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_72" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_73" source="Le-Theatre-Cote-Coeur.blogspot.com" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_74" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_75" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_76" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mesillusionscomiques.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_77" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_78" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_79" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regarts.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_80" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_81" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_82" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_83" source="Le-Theatre-Cote-Coeur.blogspot.com" target="deboraconte.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_84" source="Le-Theatre-Cote-Coeur.blogspot.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_85" source="Le-Theatre-Cote-Coeur.blogspot.com" target="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_86" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_87" source="Mesillusionscomiques.com" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_88" source="Mesillusionscomiques.com" target="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_89" source="Mesillusionscomiques.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_90" source="Mordue-De-Theatre.com" target="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_91" source="Mordue-De-Theatre.com" target="Le-Theatre-Cote-Coeur.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_92" source="Mordue-De-Theatre.com" target="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_93" source="Dansesaveclaplume.com" target="Cccdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_94" source="Dansesaveclaplume.com" target="Dansercanalhistorique.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_95" source="Dansesaveclaplume.com" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_96" source="Dansesaveclaplume.com" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_97" source="Dansesaveclaplume.com" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_98" source="Dansesaveclaplume.com" target="dansomanie.Pagesperso-Orange.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_99" source="Dansesaveclaplume.com" target="Shabastet.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_100" source="Dansesaveclaplume.com" target="Unesaisonalopera.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_101" source="Dansesaveclaplume.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_102" source="Dansesaveclaplume.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_103" source="Dansesaveclaplume.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_104" source="Dansesaveclaplume.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_105" source="Lemonde.fr /.../theatre" target="Iogazette.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_106" source="Lemonde.fr /.../theatre" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_107" source="Leschroniquesdunpetitratparisien.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_108" source="Leschroniquesdunpetitratparisien.com" target="Lesballetomanesanonymes.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_109" source="Leschroniquesdunpetitratparisien.com" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_110" source="Leschroniquesdunpetitratparisien.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_111" source="Leschroniquesdunpetitratparisien.com" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_112" source="Leschroniquesdunpetitratparisien.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_113" source="Leschroniquesdunpetitratparisien.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_114" source="Leschroniquesdunpetitratparisien.com" target="Lejdd.fr /.../Spectacle">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_115" source="Leschroniquesdunpetitratparisien.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_116" source="Leschroniquesdunpetitratparisien.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_117" source="danse-opera.Over-Blog.com" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_118" source="danse-opera.Over-Blog.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_119" source="danse-opera.Over-Blog.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_120" source="danse-opera.Over-Blog.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_121" source="Magazinetheatres.com" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_122" source="Magazinetheatres.com" target="Insense-Scenes.net">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_123" source="Magazinetheatres.com" target="Laparafe.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_124" source="Magazinetheatres.com" target="Le-Theatre-Cote-Coeur.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_125" source="Magazinetheatres.com" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_126" source="Magazinetheatres.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_127" source="Magazinetheatres.com" target="blogs.Lexpress.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_128" source="Magazinetheatres.com" target="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_129" source="Magazinetheatres.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_130" source="Magazinetheatres.com" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_131" source="Magazinetheatres.com" target="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_132" source="Magazinetheatres.com" target="deboraconte.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_133" source="Magazinetheatres.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_134" source="Magazinetheatres.com" target="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_135" source="Magazinetheatres.com" target="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_136" source="blogs.Mediapart.fr /jean-pierre-thibaudat" target="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_137" source="blogs.Mediapart.fr /guillaume-lasserre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_138" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_139" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_140" source="Neigeautheatre.blogspot.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_141" source="Neigeautheatre.blogspot.com" target="Offi.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_142" source="Offi.fr /theatre" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_143" source="Offi.fr /theatre" target="Theatrauteurs.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_144" source="Ouvertauxpublics.fr" target="Scoop.it /.../revue-de-presse-theatre">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_145" source="Scoop.it /.../revue-de-presse-theatre" target="Lejournaldarmelleheliot.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_146" source="Scoop.it /.../revue-de-presse-theatre" target="Lesechos.fr /.../spectacles-musique">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_147" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_148" source="Scoop.it /.../revue-de-presse-theatre" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_149" source="Scoop.it /.../revue-de-presse-theatre" target="hottellotheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_150" source="Scoop.it /.../revue-de-presse-theatre" target="Allegrotheatre.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_151" source="Scoop.it /.../revue-de-presse-theatre" target="Apartestheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_152" source="Scoop.it /.../revue-de-presse-theatre" target="Artistikrezo.com /spectacle">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_153" source="Scoop.it /.../revue-de-presse-theatre" target="ddumasenmargedutheatre.Blogspirit.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_154" source="Scoop.it /.../revue-de-presse-theatre" target="Dansercanalhistorique.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_155" source="Scoop.it /.../revue-de-presse-theatre" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_156" source="Scoop.it /.../revue-de-presse-theatre" target="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_157" source="Scoop.it /.../revue-de-presse-theatre" target="Evene.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_158" source="Scoop.it /.../revue-de-presse-theatre" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_159" source="Scoop.it /.../revue-de-presse-theatre" target="Franceculture.fr /.../la-dispute">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_160" source="Scoop.it /.../revue-de-presse-theatre" target="Iogazette.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_161" source="Scoop.it /.../revue-de-presse-theatre" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_162" source="Scoop.it /.../revue-de-presse-theatre" target="La-Croix.com /.../Theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_163" source="Scoop.it /.../revue-de-presse-theatre" target="Laparafe.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_164" source="Scoop.it /.../revue-de-presse-theatre" target="Le-Theatre-Cote-Coeur.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_165" source="Scoop.it /.../revue-de-presse-theatre" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_166" source="Scoop.it /.../revue-de-presse-theatre" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_167" source="Scoop.it /.../revue-de-presse-theatre" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_168" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Lexpress.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_169" source="Scoop.it /.../revue-de-presse-theatre" target="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_170" source="Scoop.it /.../revue-de-presse-theatre" target="Marsupilamima.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_171" source="Scoop.it /.../revue-de-presse-theatre" target="Mesillusionscomiques.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_172" source="Scoop.it /.../revue-de-presse-theatre" target="Mlascene-Blog-Theatre.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_173" source="Scoop.it /.../revue-de-presse-theatre" target="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_174" source="Scoop.it /.../revue-de-presse-theatre" target="odile-quirot.blogs.Nouvelobs.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_175" source="Scoop.it /.../revue-de-presse-theatre" target="Offi.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_176" source="Scoop.it /.../revue-de-presse-theatre" target="Ouvertauxpublics.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_177" source="Scoop.it /.../revue-de-presse-theatre" target="attractions-visuelles.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_178" source="Scoop.it /.../revue-de-presse-theatre" target="delacouraujardin.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_179" source="Scoop.it /.../revue-de-presse-theatre" target="Profession-Spectacle.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_180" source="Scoop.it /.../revue-de-presse-theatre" target="Revue-Frictions.net">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_181" source="Scoop.it /.../revue-de-presse-theatre" target="Theatral-Magazine.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_182" source="Scoop.it /.../revue-de-presse-theatre" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_183" source="Scoop.it /.../revue-de-presse-theatre" target="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_184" source="Scoop.it /.../revue-de-presse-theatre" target="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_185" source="Scoop.it /.../revue-de-presse-theatre" target="beletteettheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_186" source="Scoop.it /.../revue-de-presse-theatre" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_187" source="Scoop.it /.../revue-de-presse-theatre" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_188" source="Scoop.it /.../revue-de-presse-theatre" target="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_189" source="Scoop.it /.../revue-de-presse-theatre" target="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_190" source="Scoop.it /.../revue-de-presse-theatre" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_191" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_192" source="Scoop.it /.../revue-de-presse-theatre" target="Lejdd.fr /.../Spectacle">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_193" source="Scoop.it /.../revue-de-presse-theatre" target="Theatrauteurs.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_194" source="delacouraujardin.Over-Blog.com" target="Associationcritiquetmd.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_195" source="Rmtnewsinternational.com" target="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_196" source="Sortiraparis.com /.../theatre" target="France.tv">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_197" source="Thaetre.com" target="journals.Openedition.org /danse">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_198" source="Thaetre.com" target="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_199" source="revueincise.Theatredegennevilliers.fr" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_200" source="revueincise.Theatredegennevilliers.fr" target="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_201" source="revueincise.Theatredegennevilliers.fr" target="Ruedutheatre.eu">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_202" source="Unesaisonalopera.fr" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_203" source="Unesaisonalopera.fr" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_204" source="Unesaisonalopera.fr" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_205" source="Unesaisonalopera.fr" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_206" source="Unesaisonalopera.fr" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_207" source="Unesaisonalopera.fr" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_208" source="percees.Uqam.ca" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_209" source="percees.Uqam.ca" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_210" source="beletteettheatre.Wordpress.com" target="Marsupilamima.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_211" source="beletteettheatre.Wordpress.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_212" source="beletteettheatre.Wordpress.com" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_213" source="beletteettheatre.Wordpress.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_214" source="beletteettheatre.Wordpress.com" target="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_215" source="krinomen.Over-Blog.com" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_216" source="krinomen.Over-Blog.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_217" source="krinomen.Over-Blog.com" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_218" source="krinomen.Over-Blog.com" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_219" source="krinomen.Over-Blog.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_220" source="krinomen.Over-Blog.com" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_221" source="theatreetmondedutravail.Over-Blog.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_222" source="theatreetmondedutravail.Over-Blog.com" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_223" source="theatreetmondedutravail.Over-Blog.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_224" source="theatreetmondedutravail.Over-Blog.com" target="Thaetre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_225" source="blogs.Paris.fr /despiecesetdesbillets" target="Abrideabattue.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_226" source="blogs.Paris.fr /despiecesetdesbillets" target="Critikator.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_227" source="blogs.Paris.fr /despiecesetdesbillets" target="Critiques-Theatres-Paris.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_228" source="blogs.Paris.fr /despiecesetdesbillets" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_229" source="blogs.Paris.fr /despiecesetdesbillets" target="theothea.com.Free.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_230" source="blogs.Paris.fr /despiecesetdesbillets" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_231" source="blogs.Paris.fr /despiecesetdesbillets" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_232" source="blogs.Paris.fr /despiecesetdesbillets" target="Marsupilamima.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_233" source="blogs.Paris.fr /despiecesetdesbillets" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_234" source="blogs.Paris.fr /despiecesetdesbillets" target="Neigeautheatre.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_235" source="blogs.Paris.fr /despiecesetdesbillets" target="odile-quirot.blogs.Nouvelobs.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_236" source="blogs.Paris.fr /despiecesetdesbillets" target="attractions-visuelles.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_237" source="blogs.Paris.fr /despiecesetdesbillets" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_238" source="blogs.Paris.fr /despiecesetdesbillets" target="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_239" source="blogs.Paris.fr /despiecesetdesbillets" target="Vusurscene.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_55_240" source="blogs.Paris.fr /despiecesetdesbillets" target="beletteettheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
