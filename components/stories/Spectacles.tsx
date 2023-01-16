@@ -213,12 +213,13 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-800 m-auto"
+                className="maxw-800 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/public_prive.png'}
                 caption="Réseau issu de la collecte n0 montrant la structuration des acteurs identifiés comme privés/publics"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  legend: 'Réglages Nodes: color = Type | size = indegree',
+                  href: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf'
                 }}
               />
             </figure>
@@ -253,12 +254,13 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-800 m-auto"
+                className="maxw-800 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/public.png'}
                 caption="Réseau issu de la collecte n0 montrant la structuration des acteurs identifiés comme publics/critiques"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  legend: 'Réglages Nodes: color = Type | size = indegree',
+                  href: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf'
                 }}
               />
             </figure>
@@ -290,12 +292,13 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-800 m-auto"
+                className="maxw-800 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/critiques_indiv_acteurs_prives.png'}
                 caption=" Réseau issu de la collecte n0 montrant la structuration des acteurs identifiés comme privés/critiques"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  legend: 'Réglages Nodes: color = Type | size = outdegree | Edges: size = count',
+                  href: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf'
                 }}
               />
             </figure>
@@ -364,12 +367,13 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-800 m-auto"
+                className="maxw-800 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/danse.png'}
                 caption="Réseau issu de la collecte n0 montrant les sites qui s’intéressent à la danse"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  legend: 'Réglages Nodes: color = Type | size = indegree',
+                  href: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf'
                 }}
               />
             </figure>
@@ -409,12 +413,13 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-800 m-auto"
+                className="maxw-800 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/academique.png'}
                 caption=" Réseau issu de la collecte n0 montrant les sites de critique académique (des revues animées par des chercheurs et chercheuses)"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Explorer une version interactive et télécharger le graphe',
+                  legend: 'Réglages Nodes: color = Nature | size = indegree',
+                  href: 'https://medialab.github.io/nansi/?graph=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Ftheatre_critique_n0_fixed.gexf'
                 }}
               />
             </figure>
@@ -446,14 +451,14 @@ const StoryComponent: FC = () => {
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
-                className="maxw-600 m-auto"
+                className="maxw-600 m-auto spectacles"
                 src={
                   BASE_PATH + '/pictures/story-spectacles/heatmap_critique_nature_normalized_n0.png'
                 }
                 caption="Matrice heatmap normalisée réalisée avec les données de la collecte n0, taguées selon la nature de la critique"
                 downloadLink={{
-                  text: 'Télécharger le réseau',
-                  href: BASE_PATH + '/data/story-spectacles/theatre_critique_n0_fixed.gexf',
+                  text: 'Consulter les données et le code source de cette visualisation',
+                  href: 'https://github.com/medialab/respadon-datasprint-2022/blob/master/critique_theatrale/notebooks/Projections.ipynb'
                 }}
               />
             </figure>
@@ -625,6 +630,7 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
+                className="spectacles"
                 story="spectacles"
                 className="maxw-600 m-auto"
                 src={BASE_PATH + '/pictures/story-spectacles/n-1_n0.png'}
@@ -663,6 +669,7 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
+                className="spectacles"
                 story="spectacles"
                 className="maxw-600 m-auto"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
@@ -696,6 +703,7 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
+                className="spectacles"
                 story="spectacles"
                 className="maxw-600 m-auto"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
@@ -727,6 +735,7 @@ const StoryComponent: FC = () => {
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
+                className="spectacles"
                 story="spectacles"
                 className="maxw-600 m-auto"
                 src={BASE_PATH + '/pictures/story-spectacles/todo.png'}

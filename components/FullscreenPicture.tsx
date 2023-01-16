@@ -98,10 +98,18 @@ const FullscreenPicture: FC<{
                 </span>
               </p>
             )}
-            {downloadLink && (
+            {downloadLink && !downloadLink.legend && (
               <p className="text-center mt-2">
                 <a href={downloadLink.href} className="text-white" target="_blank" rel="noreferrer">
                   <AiOutlineCloudDownload /> {downloadLink.text}
+                </a>
+              </p>
+            )}
+            {downloadLink && downloadLink.legend && (
+              <p className="text-center mt-2">
+                <a href={downloadLink.href} className="text-white" target="_blank" rel="noreferrer">
+                  <AiOutlineCloudDownload /> {downloadLink.text}
+                    <br/><small>({downloadLink.legend})</small>
                 </a>
               </p>
             )}
