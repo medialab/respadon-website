@@ -67,7 +67,6 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: mettre à jour l'image </h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">Schéma méthodologique</figcaption>
               <FullscreenPicture
