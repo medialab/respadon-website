@@ -510,6 +510,53 @@ const StoryComponent: FC = () => {
           </p>
         </section>
       </div>
+      
+           <div className="container">
+        <div className="row">
+          <hr />
+        </div>
+      </div>
+
+      <div className="container sections">
+        <section className="large small">
+          <h3 id="biblio" className="text-politique">Références</h3>
+          <ul>
+            <li>
+              Boullier Dominique, Crépel Maxime, Jacomy Mathieu.{' '}
+              <em>
+                Zoomer n’est pas explorer. Spatialiser les graphes, catégoriser et (dé)construire les réseaux
+              </em>
+              . , Réseaux, 2016/1 (n° 195), p. 131-161. DOI : 10.3917/res.195.0131. {' '}
+              <a className="link-politique fw-bold" href="https://www.cairn.info/revue-reseaux-2016-1-page-131.htm">
+                Lire
+              </a>
+              .
+            </li>
+            <li>
+              Benoist, David ; Faye, Alexandre ; Tanesie, Pascal ; Gebeil, Sophie ; Schafer, Valérie. {' '}
+              <em>Exploring special web archive collections related to COVID-19: The case of the French National Library (BnF),{' '}</em>
+                WARCnet Papers, Niels Brügger, Jane Winters, Valérie Schafer, Kees Teszelszky, Peter Webster and Michael Kurzmeier, 2020. {' '}
+
+              <a className="link-politique fw-bold" href="https://hal.archives-ouvertes.fr/hal-03066879">
+                Lire
+              </a>
+            .
+            </li>
+            <li>
+              Faye, Alexandre.{' '}
+              <em>
+                Dans les coulisses de la collecte COVID-19. Entretien sur les pratiques des correspondants du DLWeb 
+              </em>
+              ,{' '}Web Corpora, 16 novembre 2020.{' '}
+              <a className="link-politique fw-bold" href="https://webcorpora.hypotheses.org/953">
+                Lire
+              </a>
+              .
+            </li>
+            
+          </ul>
+        </section>
+      </div>
     </>
   );
 };
