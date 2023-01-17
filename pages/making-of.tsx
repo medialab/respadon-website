@@ -20,9 +20,8 @@ const Legals: FC = () => (
         <div className="row pt-4 pb-4 mb-4">
           <h1 className="h2 pt-4 pb-4">Making of</h1>
           <p className="fs-5">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation.
+            L’ensemble des photos présentées ci-dessous ont été prises pendant le data sprint du workpackage 4 du projet ResPaDon du 4 au 8 avril 2022 dans les locaux du datalab de la BnF. Elles illustrent les dynamiques des différents groupes, leur composition, témoignent de leurs temps forts ainsi que les divers outils mis en œuvre dans le cadre de cette expérimentation.
+
           </p>
         </div>
 
