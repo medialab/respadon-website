@@ -23,7 +23,7 @@ const Legals: FC = () => (
             L’ensemble des photos présentées ci-dessous ont été prises pendant le data sprint du workpackage 4 du projet ResPaDon du 4 au 8 avril 2022 dans les locaux du datalab de la BnF. Elles illustrent les dynamiques des différents groupes, leur composition, témoignent de leurs temps forts ainsi que les divers outils mis en œuvre dans le cadre de cette expérimentation.
 
           </p>
-          <p>Crédit photos : @Caroline Maufroid/ Sciences Po</p>
+     
         </div>
 
         <div className="row">
