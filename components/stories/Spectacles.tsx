@@ -608,6 +608,9 @@ const StoryComponent: FC = () => {
               <a href="https://d3js.org/">D3.js</a>.
             </p>
             <p>
+              Le code source ayant permis de réaliser les prochains graphes est <a href="https://github.com/medialab/respadon-datasprint-2022/blob/master/critique_theatrale/notebooks/common_edges.ipynb">accessible en ligne</a>.
+            </p>
+            <p>
               Dans le cadre de cette étude, l’objectif est de pouvoir comparer les contenus de trois
               réseaux différents dans le temps (n0, n-1 et n-2) afin d’en mesurer la pérennité
               (stabilité des acteurs et des liens dans le temps) et l’évolution (apparition et
@@ -634,23 +637,37 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0
-                et n-1
+                Réseau mettant en lumière l'évolution des liens<br/>entre les sites de critique entre les réseaux n0 et n-1
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
                 className="maxw-600 m-auto spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/n-1_n0.png'}
-                caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0 et n-1
-                "
+                src={BASE_PATH + '/pictures/story-spectacles/liens_entre_critiques_n0-n-1.png'}
+                caption="Réseau mettant en lumière l'évolution des liens entre les sites de critique dans les réseaux n0 et n-1"
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Fliens_entre_critiques_n0-n-1.gexf&s=ip-n&sa[]=u&sa[]=o&sa[]=pgc&sa[]=r&sa[]=ip-n&sa[]=pgt&sa[]=ing-n&ca[]=cae&ca[]=nt&ca[]=ip-n&ca[]=r&ca[]=ing-n&ca[]=o&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=h&nr=0.744&er=5.114&ec=o&ed=d&lt=0.637'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://respadon.medialab.sciencespo.fr/data/story-spectacles/liens_entre_critiques_n0-n-1.gexf'
+                }}
               />
             </figure>
           </div>
         </div>
+      </div>
+
+      <div className="container sections">
+        <section></section>
+        <section>
+          <div className="content">
+            <p>En 2020 et 2021, les sites de critique en ligne ont créé peu de nouveaux liens</p>
+          </div>
+        </section>
       </div>
 
       <div className="container sections">
@@ -672,93 +689,36 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1
-                et n-2
+                Réseau mettant en lumière l'évolution des liens<br/>entre les sites de critique entre les réseaux n-1 et n-2
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="spectacles"
                 className="maxw-600 m-auto spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
-                caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1 et n-2                "
+                src={BASE_PATH + '/pictures/story-spectacles/liens_entre_critiques_n-1-n-2.png'}
+                caption="Réseau mettant en lumière l'évolution des liens entre les sites de critique dans les réseaux n-1 et n-2"
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Fliens_entre_critiques_n-1-n-2.gexf&s=ip-n&sa[]=u&sa[]=o&sa[]=pgc&sa[]=r&sa[]=ip-n&sa[]=pgt&sa[]=ing-n&ca[]=cae&ca[]=nt&ca[]=ip-n&ca[]=r&ca[]=ing-n&ca[]=o&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=h&nr=0.744&er=5.114&ec=o&ed=d&lt=0.637'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://respadon.medialab.sciencespo.fr/data/story-spectacles/liens_entre_critiques_n-1-n-2.gexf'
+                }}
               />
             </figure>
           </div>
         </div>
       </div>
 
-      <div className="container sections">
-        <section></section>
-        <section>
-          <div className="content">
-            <p>
-              Entre 2016 et 2019 les liens entre les sites de critique en ligne ont beaucoup
-              augmenté par rapport à la période 2018-2021.
-            </p>
-          </div>
-        </section>
-      </div>
-
-      <div className="figure-container">
-        <div className="container">
-          <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
-            <figure className="text-center">
-              <figcaption className="h6 text-black">
-                Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0
-                et n-1
-              </figcaption>
-              <FullscreenPicture
-                imgClassName="img-fluid w-100"
-                story="spectacles"
-                className="maxw-600 m-auto spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
-                caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n0 et n-1
-                "
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
 
       <div className="container sections">
         <section></section>
         <section>
           <div className="content">
-            <p>En 2020 et 2021 les sites de critique en ligne ont créé peu de nouveaux liens</p>
-          </div>
-        </section>
-      </div>
-
-      <div className="figure-container">
-        <div className="container">
-          <div className="row">
-            <h2>TODO: ajouter le réseau d'une autre manière&nbsp;?</h2>
-            <figure className="text-center">
-              <figcaption className="h6 text-black">
-                Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1
-                et n-2
-              </figcaption>
-              <FullscreenPicture
-                imgClassName="img-fluid w-100"
-                story="spectacles"
-                className="maxw-600 m-auto spectacles"
-                src={BASE_PATH + '/pictures/story-spectacles/todo.png'}
-                caption="Réseau mettant en lumière les liens entre les sites de critique dans les réseaux n-1 et n-2"
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
-
-      <div className="container sections">
-        <section></section>
-        <section>
-          <div className="content">
-            En 2018 et en 2019 les sites de critique en ligne ont créé beaucoup de nouveaux liens
+            En 2018 et en 2019, les sites de critique en ligne ont créé beaucoup de nouveaux liens
             par rapport à 2016 et 2017.
           </div>
         </section>
@@ -768,8 +728,8 @@ const StoryComponent: FC = () => {
             <h2 className="text-spectacles">5. Points d’attention</h2>
             <ul>
               <li>
-                Dans cette expérimentation, lesentités web présentes dans les trois collectes sont
-                à peu près stables dans le temps car lesentités collectées sont issues d’une même
+                Dans cette expérimentation, les entités web présentes dans les trois collectes sont
+                à peu près stables dans le temps car les entités collectées sont issues d’une même
                 liste d’URLs initiale archivée. Cependant, prendre les archives web comme source
                 de collecte ne garantit pas d’avoir l’ensemble des données que l’on souhaite
                 disponibles à un instant précis.
