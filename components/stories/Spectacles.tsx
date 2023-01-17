@@ -819,7 +819,7 @@ const StoryComponent: FC = () => {
           <ul>
             <li>
               {' '}
-              Larre David, Reiss Myrto, Robert Catherine, « Situation de la critique théâtrale en
+              Larre David, Reiss Myrto, Robert Catherine. « Situation de la critique théâtrale en
               ligne », in Marion Chénetier-Alev et Valérie Vignaux (dir.),{' '}
               <i>
                 Le texte critique&nbsp;: Expérimenter le théâtre et le cinéma aux XX
