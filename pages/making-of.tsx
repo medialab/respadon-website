@@ -10,7 +10,7 @@ import FullscreenPicture from '../components/FullscreenPicture';
 const Legals: FC = () => (
   <Layout page="making-of">
     <Head>
-      <title>Respadon | Making of</title>
+      <title>Respadon | Making-of</title>
       <meta name="description" content="Respadon | Making of" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
@@ -18,7 +18,7 @@ const Legals: FC = () => (
     <div className="making-of pt-4">
       <div className="container pt-4">
         <div className="row pt-4 pb-4 mb-4">
-          <h1 className="h2 pt-4 pb-4">Making of</h1>
+          <h1 className="h2 pt-4 pb-4">Making-of</h1>
           <p className="fs-5">
             L’ensemble des photos présentées ci-dessous ont été prises pendant le data sprint du workpackage 4 du projet ResPaDon du 4 au 8 avril 2022 dans les locaux du datalab de la BnF. Elles illustrent les dynamiques des différents groupes, leur composition, témoignent de leurs temps forts ainsi que les divers outils mis en œuvre dans le cadre de cette expérimentation.
 
