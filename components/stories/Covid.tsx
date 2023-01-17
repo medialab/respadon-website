@@ -533,7 +533,7 @@ const StoryComponent: FC = () => {
               .
             </li>
             <li>
-              Benoist, David ; Faye, Alexandre ; Tanesie, Pascal ; Gebeil, Sophie ; Schafer, Valérie. {' '}
+              Benoist David , Faye Alexandre , Tanesie Pascal , Gebeil Sophie , Schafer, Valérie. {' '}
               <em>Exploring special web archive collections related to COVID-19: The case of the French National Library (BnF),{' '}</em>
                 WARCnet Papers, Niels Brügger, Jane Winters, Valérie Schafer, Kees Teszelszky, Peter Webster and Michael Kurzmeier, 2020. {' '}
 
