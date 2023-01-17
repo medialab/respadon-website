@@ -74,7 +74,7 @@ const StoryComponent: FC = () => {
                 imgClassName="img-fluid w-100"
                 story="covid"
                 className="maxw-800 m-auto"
-                src={BASE_PATH + '/pictures/story-covid/methodo.png'}
+                src={BASE_PATH + '/pictures/story-covid/schema_covid.jpg'}
                 caption="Schéma méthodologique"
               />
             </figure>
