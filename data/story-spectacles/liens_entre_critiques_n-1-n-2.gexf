@@ -48,7 +48,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="18.684925079345703" y="-101.83416748046875"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.986456704973" y="579.7323315864137"/>
       </node>
       <node id="Aubalcon.fr" label="Aubalcon.fr">
         <attvalues>
@@ -70,7 +72,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="-50.99555206298828" y="-74.9640884399414"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="7.5"/>
+        <viz:position x="931.62084673768" y="579.5893468633376"/>
       </node>
       <node id="Lestroiscoups.fr" label="Lestroiscoups.fr">
         <attvalues>
@@ -92,7 +96,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="6.1667656898498535" y="-30.05746078491211"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.9212821144167" y="579.3551674747083"/>
       </node>
       <node id="Annetheatrepassion.blogspot.com" label="Annetheatrepassion.blogspot.com">
         <attvalues>
@@ -114,7 +120,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="-85.46211242675781" y="-61.48109817504883"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="3"/>
+        <viz:position x="931.439699862846" y="579.5175776267961"/>
       </node>
       <node id="Journal-Laterrasse.fr" label="Journal-Laterrasse.fr">
         <attvalues>
@@ -137,7 +145,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="8"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="-31.068126678466797" y="14.292586326599121"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="15"/>
+        <viz:position x="931.7271578020419" y="579.1196953453668"/>
       </node>
       <node id="Loeildolivier.fr" label="Loeildolivier.fr">
         <attvalues>
@@ -159,7 +169,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="-65.17298889160156" y="-54.45328140258789"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="9"/>
+        <viz:position x="931.5461529877366" y="579.4808675019087"/>
       </node>
       <node id="Regardencoulisse.com" label="Regardencoulisse.com">
         <attvalues>
@@ -181,7 +193,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-79.33948516845703" y="-122.37678527832031"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.4711097417955" y="579.8384716611665"/>
       </node>
       <node id="Sceneweb.fr" label="Sceneweb.fr">
         <attvalues>
@@ -203,7 +217,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="7"/>
         </attvalues>
-        <viz:position x="-48.3716926574707" y="-6.297478199005127"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="13.5"/>
+        <viz:position x="931.6369820437804" y="579.2277656091248"/>
       </node>
       <node id="Theatreonline.com" label="Theatreonline.com">
         <attvalues>
@@ -225,7 +241,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="6"/>
         </attvalues>
-        <viz:position x="-33.561649322509766" y="-96.29550170898438"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="12"/>
+        <viz:position x="931.7123095914283" y="579.7014536606546"/>
       </node>
       <node id="Associationcritiquetmd.com" label="Associationcritiquetmd.com">
         <attvalues>
@@ -247,7 +265,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="4.004431247711182" y="40.41457748413086"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="931.9135341201371" y="578.9816003896093"/>
       </node>
       <node id="ddumasenmargedutheatre.Blogspirit.com" label="ddumasenmargedutheatre.Blogspirit.com">
         <attvalues>
@@ -269,7 +289,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="35.76372528076172" y="23.072772979736328"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="932.0796938751538" y="579.0740955085918"/>
       </node>
       <node id="Chroniquesdedanse.com" label="Chroniquesdedanse.com">
         <attvalues>
@@ -291,7 +313,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="16.837642669677734" y="86.13026428222656"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.9801962565467" y="578.7396581436607"/>
       </node>
       <node id="critiphotodanse.E-Monsite.com" label="critiphotodanse.E-Monsite.com">
         <attvalues>
@@ -313,7 +337,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="10.150216102600098" y="74.04817962646484"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.9503308881673" y="578.802766134351"/>
       </node>
       <node id="agon.Ens-Lyon.fr" label="agon.Ens-Lyon.fr">
         <attvalues>
@@ -335,7 +361,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="99.11949920654297" y="84.59458923339844"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="10.5"/>
+        <viz:position x="932.4125404392828" y="578.7510431378247"/>
       </node>
       <node id="Iogazette.fr" label="Iogazette.fr">
         <attvalues>
@@ -358,7 +386,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="40.3055305480957" y="33.857906341552734"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="932.1041490205968" y="579.0177742071733"/>
       </node>
       <node id="Kourandart.com" label="Kourandart.com">
         <attvalues>
@@ -380,7 +410,9 @@
           <attvalue for="Type" value="critique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-2.738405704498291" y="74.16038513183594"/>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.8846538789239" y="578.802637632555"/>
       </node>
       <node id="Revue-Frictions.net" label="Revue-Frictions.net">
         <attvalues>
@@ -403,7 +435,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="47.920658111572266" y="26.5851993560791"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="932.1439678390916" y="579.0562482811506"/>
       </node>
       <node id="Theatral-Magazine.com" label="Theatral-Magazine.com">
         <attvalues>
@@ -426,7 +460,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="-20.40620231628418" y="-91.03245544433594"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.7825070629141" y="579.6746679610964"/>
       </node>
       <node id="Ubu-Apite.org" label="Ubu-Apite.org">
         <attvalues>
@@ -449,7 +485,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="21.187088012695312" y="77.18585205078125"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.0063161145345" y="578.7855909721054"/>
       </node>
       <node id="Webtheatre.fr" label="Webtheatre.fr">
         <attvalues>
@@ -471,7 +509,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="-35.676002502441406" y="-27.482067108154297"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="7.5"/>
+        <viz:position x="931.7047510680578" y="579.3392646046893"/>
       </node>
       <node id="hierautheatre.Wordpress.com" label="hierautheatre.Wordpress.com">
         <attvalues>
@@ -493,7 +533,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-8.71090030670166" y="-36.91535568237305"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.843601671073" y="579.389309831829"/>
       </node>
       <node id="Mouvement.net" label="Mouvement.net">
         <attvalues>
@@ -515,7 +557,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="6"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="55.22261047363281" y="62.71333312988281"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="12"/>
+        <viz:position x="932.1806444051471" y="578.8664293001699"/>
       </node>
       <node id="Ruedutheatre.eu" label="Ruedutheatre.eu">
         <attvalues>
@@ -537,7 +581,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="-76.48747253417969" y="-20.798812866210938"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="931.4893484871105" y="579.3029052603994"/>
       </node>
       <node id="Resmusica.com" label="Resmusica.com">
         <attvalues>
@@ -558,7 +604,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="-53.105262756347656" y="109.93302917480469"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="7.5"/>
+        <viz:position x="931.6097748281119" y="578.617763812962"/>
       </node>
       <node id="Aupoulailler.com" label="Aupoulailler.com">
         <attvalues>
@@ -580,7 +628,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="81.94459533691406" y="8.821574211120605"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.3220218991523" y="579.1499022396456"/>
       </node>
       <node id="letheatredansunfauteuil.blogs.Nouvelobs.com" label="letheatredansunfauteuil.blogs.Nouvelobs.com">
         <attvalues>
@@ -601,7 +651,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="6.355326175689697" y="83.21498107910156"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.9249886848686" y="578.7537768017713"/>
       </node>
       <node id="blog.Lefigaro.fr /theatre" label="blog.Lefigaro.fr /theatre">
         <attvalues>
@@ -624,7 +676,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="24.308704376220703" y="-71.7294692993164"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="9"/>
+        <viz:position x="932.0173693670541" y="579.5734581642446"/>
       </node>
       <node id="Theatrotheque.com" label="Theatrotheque.com">
         <attvalues>
@@ -646,7 +700,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="-70.92357635498047" y="-145.65753173828125"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="9"/>
+        <viz:position x="931.5157816410023" y="579.9612640190986"/>
       </node>
       <node id="Chercheurs-En-Danse.com" label="Chercheurs-En-Danse.com">
         <attvalues>
@@ -668,7 +724,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="139.78392028808594" y="150.05389404296875"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.6262092695804" y="578.4065132835941"/>
       </node>
       <node id="journals.Openedition.org /danse" label="journals.Openedition.org /danse">
         <attvalues>
@@ -690,7 +748,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="124.39955139160156" y="141.89205932617188"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="6"/>
+        <viz:position x="932.5454303711936" y="578.4494796113486"/>
       </node>
       <node id="danse.Univ-Paris8.fr" label="danse.Univ-Paris8.fr">
         <attvalues>
@@ -711,7 +771,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="138.12586975097656" y="125.92687225341797"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="9"/>
+        <viz:position x="932.6174375864288" y="578.5338001935625"/>
       </node>
       <node id="Ciaovivalaculture.com /.../danse" label="Ciaovivalaculture.com /.../danse">
         <attvalues>
@@ -733,7 +795,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-323.8826599121094" y="12.281173706054688"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="930.1850011614919" y="579.1694016545397"/>
       </node>
       <node id="Ciaovivalaculture.com /.../theatre" label="Ciaovivalaculture.com /.../theatre">
         <attvalues>
@@ -755,7 +819,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-323.7421875" y="5.60907506942749"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="930.1857402977558" y="579.2045158792532"/>
       </node>
       <node id="Franceculture.fr /.../tous-en-scene" label="Franceculture.fr /.../tous-en-scene">
         <attvalues>
@@ -777,7 +843,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="188.03402709960938" y="1.3152095079421997"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="3"/>
+        <viz:position x="932.8794566549283" y="579.1937201433269"/>
       </node>
       <node id="Franceculture.fr /.../la-dispute" label="Franceculture.fr /.../la-dispute">
         <attvalues>
@@ -799,7 +867,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="153.3997344970703" y="-5.09306001663208"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="932.6971482056977" y="579.2262489537324"/>
       </node>
       <node id="theothea.com.Free.fr" label="theothea.com.Free.fr">
         <attvalues>
@@ -821,7 +891,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-49.955345153808594" y="-140.91566467285156"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.6257280799566" y="579.9363686327442"/>
       </node>
       <node id="Fousdetheatre.com" label="Fousdetheatre.com">
         <attvalues>
@@ -843,7 +915,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-27.160634994506836" y="-128.52711486816406"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.7455988042155" y="579.8714856231825"/>
       </node>
       <node id="Libretheatre.fr" label="Libretheatre.fr">
         <attvalues>
@@ -865,7 +939,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-91.50055694580078" y="-171.43775939941406"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.4073846905072" y="580.0968693428855"/>
       </node>
       <node id="icima.Hypotheses.org" label="icima.Hypotheses.org">
         <attvalues>
@@ -887,7 +963,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="158.61102294921875" y="152.81199645996094"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.7256138638822" y="578.3930057015024"/>
       </node>
       <node id="Sht.asso.fr" label="Sht.asso.fr">
         <attvalues>
@@ -909,7 +987,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="133.90643310546875" y="181.65650939941406"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.5959815188929" y="578.2407216394649"/>
       </node>
       <node id="puppower.Hypotheses.org" label="puppower.Hypotheses.org">
         <attvalues>
@@ -930,7 +1010,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="176.20709228515625" y="164.37791442871094"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.8182157710929" y="578.3324134716821"/>
       </node>
       <node id="repex.Hypotheses.org" label="repex.Hypotheses.org">
         <attvalues>
@@ -952,7 +1034,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-305.4485778808594" y="-113.86827087402344"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="930.293147411033" y="579.8383266600772"/>
       </node>
       <node id="zsociologie.Hypotheses.org" label="zsociologie.Hypotheses.org">
         <attvalues>
@@ -973,7 +1057,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-307.4066467285156" y="-107.4794692993164"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="930.2820118727999" y="579.8049744424749"/>
       </node>
       <node id="Laparafe.fr" label="Laparafe.fr">
         <attvalues>
@@ -995,7 +1081,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-14.453774452209473" y="-1.48674738407135"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.815839169852" y="579.2019045000728"/>
       </node>
       <node id="Lebruitduoff.com" label="Lebruitduoff.com">
         <attvalues>
@@ -1017,7 +1105,9 @@
           <attvalue for="Nature" value="presse"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="-66.93182373046875" y="-6.386373043060303"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="9"/>
+        <viz:position x="931.5395434748635" y="579.2273822188382"/>
       </node>
       <node id="Inferno-Magazine.com /.../festival-davignon-2018" label="Inferno-Magazine.com /.../festival-davignon-2018">
         <attvalues>
@@ -1038,7 +1128,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-112.54824829101562" y="2.6212410926818848"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.299724507764" y="579.1789044433873"/>
       </node>
       <node id="Le-Theatre-Cote-Coeur.blogspot.com" label="Le-Theatre-Cote-Coeur.blogspot.com">
         <attvalues>
@@ -1060,7 +1152,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="-37.94955062866211" y="-52.635292053222656"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="7.5"/>
+        <viz:position x="931.6889719821199" y="579.4717620798249"/>
       </node>
       <node id="Etoffedessonges.com" label="Etoffedessonges.com">
         <attvalues>
@@ -1082,7 +1176,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="-6.5785813331604" y="-63.367549896240234"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="9"/>
+        <viz:position x="931.8540099507276" y="579.5289366676922"/>
       </node>
       <node id="Mesillusionscomiques.com" label="Mesillusionscomiques.com">
         <attvalues>
@@ -1104,7 +1200,9 @@
           <attvalue for="Type" value="critique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="0.40458330512046814" y="-84.8798828125"/>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="6"/>
+        <viz:position x="931.8908682868926" y="579.6415780461289"/>
       </node>
       <node id="Mordue-De-Theatre.com" label="Mordue-De-Theatre.com">
         <attvalues>
@@ -1126,7 +1224,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="-15.375432968139648" y="-73.76437377929688"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="9"/>
+        <viz:position x="931.8072194528271" y="579.5832295997757"/>
       </node>
       <node id="Regarts.org" label="Regarts.org">
         <attvalues>
@@ -1148,7 +1248,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="3.198350191116333" y="-131.49488830566406"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="931.904689301656" y="579.8875812258233"/>
       </node>
       <node id="Unfauteuilpourlorchestre.com" label="Unfauteuilpourlorchestre.com">
         <attvalues>
@@ -1170,7 +1272,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="44.092689514160156" y="-84.74604034423828"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.1205396040982" y="579.6424430747757"/>
       </node>
       <node id="deboraconte.Wordpress.com" label="deboraconte.Wordpress.com">
         <attvalues>
@@ -1192,7 +1296,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-100.29835510253906" y="-54.23238754272461"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.3614547100832" y="579.4790251008866"/>
       </node>
       <node id="theatrices.Wordpress.com" label="theatrices.Wordpress.com">
         <attvalues>
@@ -1214,7 +1320,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="15.398481369018555" y="-48.24983596801758"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="931.9702500223636" y="579.4499404797119"/>
       </node>
       <node id="Dansesaveclaplume.com" label="Dansesaveclaplume.com">
         <attvalues>
@@ -1236,7 +1344,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="8"/>
         </attvalues>
-        <viz:position x="-63.188446044921875" y="144.79141235351562"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="15"/>
+        <viz:position x="931.5529784366279" y="578.4361863193495"/>
       </node>
       <node id="Cccdanse.com" label="Cccdanse.com">
         <attvalues>
@@ -1258,7 +1368,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-42.12635040283203" y="174.28323364257812"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.6629452287261" y="578.2801123977234"/>
       </node>
       <node id="Dansercanalhistorique.fr" label="Dansercanalhistorique.fr">
         <attvalues>
@@ -1280,7 +1392,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="-8.69249153137207" y="88.27356719970703"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="6"/>
+        <viz:position x="931.8386433019818" y="578.7355219193438"/>
       </node>
       <node id="Lesballetonautes.com" label="Lesballetonautes.com">
         <attvalues>
@@ -1302,7 +1416,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="6"/>
         </attvalues>
-        <viz:position x="-99.00614166259766" y="193.10623168945312"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="12"/>
+        <viz:position x="931.3631451450676" y="578.1828190754757"/>
       </node>
       <node id="Leschroniquesdunpetitratparisien.com" label="Leschroniquesdunpetitratparisien.com">
         <attvalues>
@@ -1324,7 +1440,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-93.81632995605469" y="127.86762237548828"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.3925172608252" y="578.5258667632563"/>
       </node>
       <node id="danse-opera.Over-Blog.com" label="danse-opera.Over-Blog.com">
         <attvalues>
@@ -1346,7 +1464,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="6"/>
         </attvalues>
-        <viz:position x="-99.04012298583984" y="164.3616943359375"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="12"/>
+        <viz:position x="931.363918243382" y="578.3340353803225"/>
       </node>
       <node id="dansomanie.Pagesperso-Orange.fr" label="dansomanie.Pagesperso-Orange.fr">
         <attvalues>
@@ -1368,7 +1488,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-47.27851104736328" y="182.0305633544922"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.635229445397" y="578.2395246980259"/>
       </node>
       <node id="Shabastet.com" label="Shabastet.com">
         <attvalues>
@@ -1390,7 +1512,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-72.15904998779297" y="187.08277893066406"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.5045931524796" y="578.213772151301"/>
       </node>
       <node id="Unesaisonalopera.fr" label="Unesaisonalopera.fr">
         <attvalues>
@@ -1412,7 +1536,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-90.1266098022461" y="179.21644592285156"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.4103312797839" y="578.2556127535446"/>
       </node>
       <node id="Blogapetitspas.fr" label="Blogapetitspas.fr">
         <attvalues>
@@ -1433,7 +1559,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-113.90218353271484" y="176.9439239501953"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.2853028400348" y="578.2683258806096"/>
       </node>
       <node id="Impressionsdanse.com" label="Impressionsdanse.com">
         <attvalues>
@@ -1454,7 +1582,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-117.64984893798828" y="160.73709106445312"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.266097501033" y="578.3537030197638"/>
       </node>
       <node id="Lesballetomanesanonymes.fr" label="Lesballetomanesanonymes.fr">
         <attvalues>
@@ -1476,7 +1606,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-132.42245483398438" y="124.58403015136719"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.1894516959103" y="578.5441398711807"/>
       </node>
       <node id="Lejdd.fr /.../Spectacle" label="Lejdd.fr /.../Spectacle">
         <attvalues>
@@ -1499,7 +1631,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="-34.43616485595703" y="72.31980895996094"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="6"/>
+        <viz:position x="931.7049189915313" y="578.8175647560415"/>
       </node>
       <node id="blogs.Mediapart.fr /jean-pierre-thibaudat" label="blogs.Mediapart.fr /jean-pierre-thibaudat">
         <attvalues>
@@ -1521,7 +1655,9 @@
           <attvalue for="Nature" value="presse"/>
           <attvalue for="ipysigma_kwarg_node_size" value="6"/>
         </attvalues>
-        <viz:position x="141.13241577148438" y="-101.87709045410156"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="12"/>
+        <viz:position x="932.6309686937149" y="579.7340892629621"/>
       </node>
       <node id="blogs.Mediapart.fr /guillaume-lasserre" label="blogs.Mediapart.fr /guillaume-lasserre">
         <attvalues>
@@ -1542,7 +1678,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="162.472412109375" y="-94.35986328125"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.7433512875774" y="579.6949015544018"/>
       </node>
       <node id="blogs.Mediapart.fr /martine-silber" label="blogs.Mediapart.fr /martine-silber">
         <attvalues>
@@ -1564,7 +1702,9 @@
           <attvalue for="Nature" value="presse"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="179.91110229492188" y="-107.25636291503906"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.8349003712137" y="579.7630586500208"/>
       </node>
       <node id="Neigeautheatre.blogspot.com" label="Neigeautheatre.blogspot.com">
         <attvalues>
@@ -1586,7 +1726,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="104.58245849609375" y="-142.70440673828125"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4381729157477" y="579.9483579586907"/>
       </node>
       <node id="Offi.fr /theatre" label="Offi.fr /theatre">
         <attvalues>
@@ -1609,7 +1751,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="35.997920989990234" y="-138.9647979736328"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.0774541260772" y="579.9274407888217"/>
       </node>
       <node id="Theatrauteurs.com" label="Theatrauteurs.com">
         <attvalues>
@@ -1629,7 +1773,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="55.436431884765625" y="-104.28763580322266"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="932.1802731308837" y="579.7452364023494"/>
       </node>
       <node id="delacouraujardin.Over-Blog.com" label="delacouraujardin.Over-Blog.com">
         <attvalues>
@@ -1651,7 +1797,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="1.5621917247772217" y="-7.274762153625488"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="931.8995560239889" y="579.2334104976163"/>
       </node>
       <node id="krinomen.Over-Blog.com" label="krinomen.Over-Blog.com">
         <attvalues>
@@ -1673,7 +1821,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="74.41506958007812" y="41.29337692260742"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="3"/>
+        <viz:position x="932.2821473202691" y="578.9788656417674"/>
       </node>
       <node id="theatredublog.Unblog.fr" label="theatredublog.Unblog.fr">
         <attvalues>
@@ -1695,7 +1845,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="4"/>
         </attvalues>
-        <viz:position x="104.27264404296875" y="-45.580875396728516"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="9"/>
+        <viz:position x="932.4378161536374" y="579.4370209709749"/>
       </node>
       <node id="theatreetmondedutravail.Over-Blog.com" label="theatreetmondedutravail.Over-Blog.com">
         <attvalues>
@@ -1717,7 +1869,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="-31.469707489013672" y="52.544105529785156"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="3"/>
+        <viz:position x="931.7280014639439" y="578.9178556907859"/>
       </node>
       <node id="Thaetre.com" label="Thaetre.com">
         <attvalues>
@@ -1739,7 +1893,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="81.45790100097656" y="143.13522338867188"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3203675538649" y="578.4425096032853"/>
       </node>
       <node id="blogs.Paris.fr /despiecesetdesbillets" label="blogs.Paris.fr /despiecesetdesbillets">
         <attvalues>
@@ -1761,7 +1917,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="76.8040542602539" y="-120.61030578613281"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="3"/>
+        <viz:position x="932.2923021340332" y="579.8317387451391"/>
       </node>
       <node id="Critikator.blogspot.com" label="Critikator.blogspot.com">
         <attvalues>
@@ -1783,7 +1941,9 @@
           <attvalue for="Nature" value="presse"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="93.66283416748047" y="-162.3433074951172"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3803749247752" y="580.0516209741783"/>
       </node>
       <node id="Critiques-Theatres-Paris.blogspot.com" label="Critiques-Theatres-Paris.blogspot.com">
         <attvalues>
@@ -1805,7 +1965,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="103.48382568359375" y="-159.5004425048828"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4320811836442" y="580.036795696695"/>
       </node>
       <node id="Marsupilamima.blogspot.com" label="Marsupilamima.blogspot.com">
         <attvalues>
@@ -1827,7 +1989,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="3"/>
         </attvalues>
-        <viz:position x="109.1312026977539" y="-77.01759338378906"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="7.5"/>
+        <viz:position x="932.4629874527507" y="579.6027028205361"/>
       </node>
       <node id="odile-quirot.blogs.Nouvelobs.com" label="odile-quirot.blogs.Nouvelobs.com">
         <attvalues>
@@ -1850,7 +2014,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="92.52924346923828" y="-91.0992431640625"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="6"/>
+        <viz:position x="932.3754617882382" y="579.6766202169028"/>
       </node>
       <node id="attractions-visuelles.Over-Blog.com" label="attractions-visuelles.Over-Blog.com">
         <attvalues>
@@ -1872,7 +2038,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="83.55294799804688" y="-86.84856414794922"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="932.3283006634009" y="579.6541328843524"/>
       </node>
       <node id="Vusurscene.com" label="Vusurscene.com">
         <attvalues>
@@ -1894,7 +2062,9 @@
           <attvalue for="Type" value="critique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="65.25310516357422" y="-163.21876525878906"/>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="6"/>
+        <viz:position x="932.2309246392534" y="580.0557004345029"/>
       </node>
       <node id="beletteettheatre.Wordpress.com" label="beletteettheatre.Wordpress.com">
         <attvalues>
@@ -1916,7 +2086,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="2"/>
         </attvalues>
-        <viz:position x="119.20039367675781" y="-47.42387008666992"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="6"/>
+        <viz:position x="932.5163280249174" y="579.4470518789702"/>
       </node>
       <node id="Rmtnewsinternational.com" label="Rmtnewsinternational.com">
         <attvalues>
@@ -1938,7 +2110,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="144.0846405029297" y="202.90126037597656"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="3"/>
+        <viz:position x="932.6496479822277" y="578.1293045206404"/>
       </node>
       <node id="Scoop.it /.../revue-de-presse-theatre" label="Scoop.it /.../revue-de-presse-theatre">
         <attvalues>
@@ -1961,7 +2135,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="53.690608978271484" y="-25.421127319335938"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="3"/>
+        <viz:position x="932.1720319140906" y="579.330368805927"/>
       </node>
       <node id="Allegrotheatre.blogspot.com" label="Allegrotheatre.blogspot.com">
         <attvalues>
@@ -1983,7 +2159,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="108.32660675048828" y="-2.0502912998199463"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4598914866523" y="579.2095811798843"/>
       </node>
       <node id="Apartestheatre.com" label="Apartestheatre.com">
         <attvalues>
@@ -2005,7 +2183,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="91.1107177734375" y="-9.3440580368042"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3689494646381" y="579.2451000010931"/>
       </node>
       <node id="Artistikrezo.com /spectacle" label="Artistikrezo.com /spectacle">
         <attvalues>
@@ -2027,7 +2207,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="109.29840850830078" y="-21.559621810913086"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4645957525626" y="579.311060036153"/>
       </node>
       <node id="Evene.fr /theatre" label="Evene.fr /theatre">
         <attvalues>
@@ -2049,7 +2231,9 @@
           <attvalue for="Nature" value="a decider"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="95.14005279541016" y="-0.6557080149650574"/>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3906030018286" y="579.1995019283133"/>
       </node>
       <node id="La-Croix.com /.../Theatre" label="La-Croix.com /.../Theatre">
         <attvalues>
@@ -2072,7 +2256,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="93.37571716308594" y="-20.147441864013672"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3805269109741" y="579.3027289969627"/>
       </node>
       <node id="blogs.Lexpress.fr /theatre" label="blogs.Lexpress.fr /theatre">
         <attvalues>
@@ -2095,7 +2281,9 @@
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="91.18473052978516" y="-35.446922302246094"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.3692114461314" y="579.383370708448"/>
       </node>
       <node id="Mlascene-Blog-Theatre.fr" label="Mlascene-Blog-Theatre.fr">
         <attvalues>
@@ -2117,7 +2305,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="112.92951965332031" y="-11.78274917602539"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4840588579098" y="579.2599295137964"/>
       </node>
       <node id="Ouvertauxpublics.fr" label="Ouvertauxpublics.fr">
         <attvalues>
@@ -2139,7 +2329,9 @@
           <attvalue for="Nature" value="professionelle"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="101.9291763305664" y="-12.077428817749023"/>
+        <viz:color r="255" g="151" b="112"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4255334126553" y="579.261334553075"/>
       </node>
       <node id="Profession-Spectacle.com" label="Profession-Spectacle.com">
         <attvalues>
@@ -2161,7 +2353,9 @@
           <attvalue for="Nature" value="a decider"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="101.56980895996094" y="6.349542617797852"/>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.4261613091525" y="579.1644761989687"/>
       </node>
       <node id="hottellotheatre.Wordpress.com" label="hottellotheatre.Wordpress.com">
         <attvalues>
@@ -2183,7 +2377,9 @@
           <attvalue for="Nature" value="individu"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="99.93275451660156" y="-26.94935417175293"/>
+        <viz:color r="155" g="240" b="255"/>
+        <viz:size value="4.5"/>
+        <viz:position x="932.415181008804" y="579.338822004119"/>
       </node>
       <node id="Tunantes.fr" label="Tunantes.fr">
         <attvalues>
@@ -2205,7 +2401,9 @@
           <attvalue for="Nature" value="academique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="0"/>
         </attvalues>
-        <viz:position x="72.25260925292969" y="95.5214614868164"/>
+        <viz:color r="1" g="220" b="190"/>
+        <viz:size value="3"/>
+        <viz:position x="932.2706618444513" y="578.6935747742178"/>
       </node>
       <node id="Theatre-Contemporain.net" label="Theatre-Contemporain.net">
         <attvalues>
@@ -2226,7 +2424,9 @@
           <attvalue for="Type" value="critique"/>
           <attvalue for="ipysigma_kwarg_node_size" value="5"/>
         </attvalues>
-        <viz:position x="-83.2914810180664" y="-85.4622802734375"/>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="10.5"/>
+        <viz:position x="931.4512974616047" y="579.6437991480856"/>
       </node>
       <node id="Aucirque.com" label="Aucirque.com">
         <attvalues>
@@ -2248,7 +2448,9 @@
           <attvalue for="Nature" value="a decider"/>
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
         </attvalues>
-        <viz:position x="-29.992380142211914" y="-175.216796875"/>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.7298216452025" y="580.1172763594204"/>
       </node>
       <node id="Magazinetheatres.com" label="Magazinetheatres.com">
         <attvalues>
@@ -2271,1214 +2473,1698 @@
           <attvalue for="ipysigma_kwarg_node_size" value="1"/>
           <attvalue for="Papier" value="oui"/>
         </attvalues>
-        <viz:position x="-40.303382873535156" y="-174.94032287597656"/>
+        <viz:color r="255" g="183" b="223"/>
+        <viz:size value="4.5"/>
+        <viz:position x="931.6755955707708" y="580.115702704188"/>
       </node>
     </nodes>
     <edges>
-      <edge id="geid_56_0" source="Abrideabattue.blogspot.com" target="Aubalcon.fr">
+      <edge id="geid_201_0" source="Abrideabattue.blogspot.com" target="Aubalcon.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_1" source="Abrideabattue.blogspot.com" target="Lestroiscoups.fr">
+      <edge id="geid_201_1" source="Abrideabattue.blogspot.com" target="Lestroiscoups.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_2" source="Aubalcon.fr" target="Etoffedessonges.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_3" source="Aubalcon.fr" target="Le-Theatre-Cote-Coeur.blogspot.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_4" source="Aubalcon.fr" target="Loeildolivier.fr">
+      <edge id="geid_201_2" source="Aubalcon.fr" target="Etoffedessonges.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_5" source="Aubalcon.fr" target="Mordue-De-Theatre.com">
+      <edge id="geid_201_3" source="Aubalcon.fr" target="Le-Theatre-Cote-Coeur.blogspot.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_6" source="Aubalcon.fr" target="delacouraujardin.Over-Blog.com">
+      <edge id="geid_201_4" source="Aubalcon.fr" target="Loeildolivier.fr">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_7" source="Aubalcon.fr" target="Sceneweb.fr">
+      <edge id="geid_201_5" source="Aubalcon.fr" target="Mordue-De-Theatre.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_8" source="Aubalcon.fr" target="Theatral-Magazine.com">
+      <edge id="geid_201_6" source="Aubalcon.fr" target="delacouraujardin.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_9" source="Aubalcon.fr" target="Theatreonline.com">
+      <edge id="geid_201_7" source="Aubalcon.fr" target="Sceneweb.fr">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_10" source="Aubalcon.fr" target="hierautheatre.Wordpress.com">
+      <edge id="geid_201_8" source="Aubalcon.fr" target="Theatral-Magazine.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_11" source="Annetheatrepassion.blogspot.com" target="Aubalcon.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_12" source="Annetheatrepassion.blogspot.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_13" source="Annetheatrepassion.blogspot.com" target="Loeildolivier.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_14" source="Annetheatrepassion.blogspot.com" target="Regardencoulisse.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_15" source="Annetheatrepassion.blogspot.com" target="Sceneweb.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_16" source="Annetheatrepassion.blogspot.com" target="Theatreonline.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_17" source="Associationcritiquetmd.com" target="ddumasenmargedutheatre.Blogspirit.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_18" source="Associationcritiquetmd.com" target="Chroniquesdedanse.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_19" source="Associationcritiquetmd.com" target="critiphotodanse.E-Monsite.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_20" source="Associationcritiquetmd.com" target="agon.Ens-Lyon.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_21" source="Associationcritiquetmd.com" target="Iogazette.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_22" source="Associationcritiquetmd.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_23" source="Associationcritiquetmd.com" target="Kourandart.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_24" source="Associationcritiquetmd.com" target="Revue-Frictions.net">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_25" source="Associationcritiquetmd.com" target="Sceneweb.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_26" source="Associationcritiquetmd.com" target="Theatral-Magazine.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_27" source="Associationcritiquetmd.com" target="Ubu-Apite.org">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_28" source="Associationcritiquetmd.com" target="Webtheatre.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_29" source="Associationcritiquetmd.com" target="hierautheatre.Wordpress.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_30" source="Associationcritiquetmd.com" target="Mouvement.net">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_31" source="Associationcritiquetmd.com" target="Ruedutheatre.eu">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_32" source="Associationcritiquetmd.com" target="Resmusica.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_33" source="Associationcritiquetmd.com" target="Aupoulailler.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_34" source="Associationcritiquetmd.com" target="letheatredansunfauteuil.blogs.Nouvelobs.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_35" source="Webtheatre.fr" target="blog.Lefigaro.fr /theatre">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_36" source="Webtheatre.fr" target="Theatrotheque.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_37" source="Webtheatre.fr" target="Ruedutheatre.eu">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_38" source="Ruedutheatre.eu" target="Theatre-Contemporain.net">
+      <edge id="geid_201_9" source="Aubalcon.fr" target="Theatreonline.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_39" source="Theatrotheque.com" target="Fousdetheatre.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_40" source="Theatrotheque.com" target="Libretheatre.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_41" source="Theatrotheque.com" target="Regardencoulisse.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_42" source="Theatrotheque.com" target="Theatral-Magazine.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_43" source="Chercheurs-En-Danse.com" target="journals.Openedition.org /danse">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_44" source="Chercheurs-En-Danse.com" target="danse.Univ-Paris8.fr">
+      <edge id="geid_201_10" source="Aubalcon.fr" target="hierautheatre.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_45" source="journals.Openedition.org /danse" target="Chercheurs-En-Danse.com">
+      <edge id="geid_201_11" source="Annetheatrepassion.blogspot.com" target="Aubalcon.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_46" source="journals.Openedition.org /danse" target="agon.Ens-Lyon.fr">
+      <edge id="geid_201_12" source="Annetheatrepassion.blogspot.com" target="Journal-Laterrasse.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_47" source="journals.Openedition.org /danse" target="danse.Univ-Paris8.fr">
+      <edge id="geid_201_13" source="Annetheatrepassion.blogspot.com" target="Loeildolivier.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_48" source="Ciaovivalaculture.com /.../danse" target="Ciaovivalaculture.com /.../theatre">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_49" source="Ciaovivalaculture.com /.../theatre" target="Ciaovivalaculture.com /.../danse">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_50" source="Franceculture.fr /.../tous-en-scene" target="Franceculture.fr /.../la-dispute">
+      <edge id="geid_201_14" source="Annetheatrepassion.blogspot.com" target="Regardencoulisse.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_51" source="theothea.com.Free.fr" target="Regardencoulisse.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_52" source="theothea.com.Free.fr" target="Theatreonline.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_53" source="theothea.com.Free.fr" target="Theatrotheque.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_54" source="theothea.com.Free.fr" target="Theatre-Contemporain.net">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_55" source="Fousdetheatre.com" target="Aucirque.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_56" source="Fousdetheatre.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_57" source="Fousdetheatre.com" target="Magazinetheatres.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_58" source="Fousdetheatre.com" target="Offi.fr /theatre">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_59" source="Fousdetheatre.com" target="Regardencoulisse.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_60" source="Fousdetheatre.com" target="Theatral-Magazine.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_61" source="Fousdetheatre.com" target="Theatrotheque.com">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_62" source="Fousdetheatre.com" target="Theatre-Contemporain.net">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_63" source="Libretheatre.fr" target="Theatrotheque.com">
+      <edge id="geid_201_15" source="Annetheatrepassion.blogspot.com" target="Sceneweb.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_64" source="icima.Hypotheses.org" target="agon.Ens-Lyon.fr">
+      <edge id="geid_201_16" source="Annetheatrepassion.blogspot.com" target="Theatreonline.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_65" source="icima.Hypotheses.org" target="Sht.asso.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_66" source="icima.Hypotheses.org" target="puppower.Hypotheses.org">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_67" source="icima.Hypotheses.org" target="danse.Univ-Paris8.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_68" source="puppower.Hypotheses.org" target="icima.Hypotheses.org">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_69" source="repex.Hypotheses.org" target="zsociologie.Hypotheses.org">
+      <edge id="geid_201_17" source="Associationcritiquetmd.com" target="ddumasenmargedutheatre.Blogspirit.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_70" source="zsociologie.Hypotheses.org" target="repex.Hypotheses.org">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_71" source="Laparafe.fr" target="Lebruitduoff.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_72" source="Lebruitduoff.com" target="Sceneweb.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_73" source="Lebruitduoff.com" target="Webtheatre.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_74" source="Lebruitduoff.com" target="Inferno-Magazine.com /.../festival-davignon-2018">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_75" source="Lebruitduoff.com" target="Theatre-Contemporain.net">
-        <attvalues>
-          <attvalue for="time" value="n-2"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_76" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Associationcritiquetmd.com">
+      <edge id="geid_201_18" source="Associationcritiquetmd.com" target="Chroniquesdedanse.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_77" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Aubalcon.fr">
+      <edge id="geid_201_19" source="Associationcritiquetmd.com" target="critiphotodanse.E-Monsite.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_78" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Etoffedessonges.com">
+      <edge id="geid_201_20" source="Associationcritiquetmd.com" target="agon.Ens-Lyon.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_79" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Fousdetheatre.com">
+      <edge id="geid_201_21" source="Associationcritiquetmd.com" target="Iogazette.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_80" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Journal-Laterrasse.fr">
+      <edge id="geid_201_22" source="Associationcritiquetmd.com" target="Journal-Laterrasse.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_81" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lebruitduoff.com">
+      <edge id="geid_201_23" source="Associationcritiquetmd.com" target="Kourandart.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_82" source="Le-Theatre-Cote-Coeur.blogspot.com" target="blog.Lefigaro.fr /theatre">
+      <edge id="geid_201_24" source="Associationcritiquetmd.com" target="Revue-Frictions.net">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_83" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lestroiscoups.fr">
+      <edge id="geid_201_25" source="Associationcritiquetmd.com" target="Sceneweb.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_84" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Loeildolivier.fr">
+      <edge id="geid_201_26" source="Associationcritiquetmd.com" target="Theatral-Magazine.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_85" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mesillusionscomiques.com">
+      <edge id="geid_201_27" source="Associationcritiquetmd.com" target="Ubu-Apite.org">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_86" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mordue-De-Theatre.com">
+      <edge id="geid_201_28" source="Associationcritiquetmd.com" target="Webtheatre.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_87" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regardencoulisse.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_88" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regarts.org">
+      <edge id="geid_201_29" source="Associationcritiquetmd.com" target="hierautheatre.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_89" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Sceneweb.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_90" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Theatreonline.com">
+      <edge id="geid_201_30" source="Associationcritiquetmd.com" target="Mouvement.net">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_91" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Unfauteuilpourlorchestre.com">
+      <edge id="geid_201_31" source="Associationcritiquetmd.com" target="Ruedutheatre.eu">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_92" source="Le-Theatre-Cote-Coeur.blogspot.com" target="deboraconte.Wordpress.com">
+      <edge id="geid_201_32" source="Associationcritiquetmd.com" target="Resmusica.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_93" source="Le-Theatre-Cote-Coeur.blogspot.com" target="hierautheatre.Wordpress.com">
+      <edge id="geid_201_33" source="Associationcritiquetmd.com" target="Aupoulailler.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_94" source="Le-Theatre-Cote-Coeur.blogspot.com" target="theatrices.Wordpress.com">
+      <edge id="geid_201_34" source="Associationcritiquetmd.com" target="letheatredansunfauteuil.blogs.Nouvelobs.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_95" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Dansesaveclaplume.com">
+      <edge id="geid_201_35" source="Webtheatre.fr" target="blog.Lefigaro.fr /theatre">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_96" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Theatre-Contemporain.net">
+      <edge id="geid_201_36" source="Webtheatre.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_37" source="Webtheatre.fr" target="Ruedutheatre.eu">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_38" source="Ruedutheatre.eu" target="Theatre-Contemporain.net">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_97" source="Mesillusionscomiques.com" target="Fousdetheatre.com">
+      <edge id="geid_201_39" source="Theatrotheque.com" target="Fousdetheatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_98" source="Mesillusionscomiques.com" target="Mordue-De-Theatre.com">
+      <edge id="geid_201_40" source="Theatrotheque.com" target="Libretheatre.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_99" source="Mesillusionscomiques.com" target="hierautheatre.Wordpress.com">
+      <edge id="geid_201_41" source="Theatrotheque.com" target="Regardencoulisse.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_100" source="Mordue-De-Theatre.com" target="Etoffedessonges.com">
+      <edge id="geid_201_42" source="Theatrotheque.com" target="Theatral-Magazine.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_101" source="Mordue-De-Theatre.com" target="Le-Theatre-Cote-Coeur.blogspot.com">
+      <edge id="geid_201_43" source="Chercheurs-En-Danse.com" target="journals.Openedition.org /danse">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_102" source="Dansesaveclaplume.com" target="Cccdanse.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_103" source="Dansesaveclaplume.com" target="Dansercanalhistorique.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_104" source="Dansesaveclaplume.com" target="Lesballetonautes.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_105" source="Dansesaveclaplume.com" target="Leschroniquesdunpetitratparisien.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_106" source="Dansesaveclaplume.com" target="danse-opera.Over-Blog.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_107" source="Dansesaveclaplume.com" target="dansomanie.Pagesperso-Orange.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_108" source="Dansesaveclaplume.com" target="Shabastet.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_109" source="Dansesaveclaplume.com" target="Unesaisonalopera.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_110" source="Dansesaveclaplume.com" target="Mouvement.net">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_111" source="Dansesaveclaplume.com" target="Resmusica.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_112" source="Dansesaveclaplume.com" target="Blogapetitspas.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_113" source="Dansesaveclaplume.com" target="Impressionsdanse.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_114" source="Leschroniquesdunpetitratparisien.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_115" source="Leschroniquesdunpetitratparisien.com" target="Lesballetomanesanonymes.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_116" source="Leschroniquesdunpetitratparisien.com" target="Lesballetonautes.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_117" source="Leschroniquesdunpetitratparisien.com" target="Lestroiscoups.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_118" source="Leschroniquesdunpetitratparisien.com" target="danse-opera.Over-Blog.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_119" source="Leschroniquesdunpetitratparisien.com" target="Resmusica.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_120" source="Leschroniquesdunpetitratparisien.com" target="Dansesaveclaplume.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_121" source="Leschroniquesdunpetitratparisien.com" target="Lejdd.fr /.../Spectacle">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_122" source="Leschroniquesdunpetitratparisien.com" target="Blogapetitspas.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_123" source="Leschroniquesdunpetitratparisien.com" target="Impressionsdanse.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_124" source="danse-opera.Over-Blog.com" target="Leschroniquesdunpetitratparisien.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_125" source="danse-opera.Over-Blog.com" target="Dansesaveclaplume.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_126" source="danse-opera.Over-Blog.com" target="Blogapetitspas.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_127" source="danse-opera.Over-Blog.com" target="Impressionsdanse.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_128" source="Shabastet.com" target="Lesballetonautes.com">
+      <edge id="geid_201_44" source="Chercheurs-En-Danse.com" target="danse.Univ-Paris8.fr">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_129" source="Shabastet.com" target="danse-opera.Over-Blog.com">
+      <edge id="geid_201_45" source="journals.Openedition.org /danse" target="Chercheurs-En-Danse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_46" source="journals.Openedition.org /danse" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_47" source="journals.Openedition.org /danse" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_48" source="Ciaovivalaculture.com /.../danse" target="Ciaovivalaculture.com /.../theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_49" source="Ciaovivalaculture.com /.../theatre" target="Ciaovivalaculture.com /.../danse">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_50" source="Franceculture.fr /.../tous-en-scene" target="Franceculture.fr /.../la-dispute">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_51" source="theothea.com.Free.fr" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_52" source="theothea.com.Free.fr" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_53" source="theothea.com.Free.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_54" source="theothea.com.Free.fr" target="Theatre-Contemporain.net">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_130" source="Shabastet.com" target="Dansesaveclaplume.com">
+      <edge id="geid_201_55" source="Fousdetheatre.com" target="Aucirque.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_131" source="Unesaisonalopera.fr" target="Lesballetonautes.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_132" source="Unesaisonalopera.fr" target="Leschroniquesdunpetitratparisien.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_133" source="Unesaisonalopera.fr" target="danse-opera.Over-Blog.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_134" source="Unesaisonalopera.fr" target="Dansesaveclaplume.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_135" source="Unesaisonalopera.fr" target="Blogapetitspas.fr">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_136" source="Unesaisonalopera.fr" target="Impressionsdanse.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_137" source="Blogapetitspas.fr" target="Lesballetonautes.com">
+      <edge id="geid_201_56" source="Fousdetheatre.com" target="Journal-Laterrasse.fr">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_138" source="Blogapetitspas.fr" target="Leschroniquesdunpetitratparisien.com">
+      <edge id="geid_201_57" source="Fousdetheatre.com" target="Magazinetheatres.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_139" source="Blogapetitspas.fr" target="danse-opera.Over-Blog.com">
+      <edge id="geid_201_58" source="Fousdetheatre.com" target="Offi.fr /theatre">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_140" source="Blogapetitspas.fr" target="Dansesaveclaplume.com">
+      <edge id="geid_201_59" source="Fousdetheatre.com" target="Regardencoulisse.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_141" source="Blogapetitspas.fr" target="Impressionsdanse.com">
+      <edge id="geid_201_60" source="Fousdetheatre.com" target="Theatral-Magazine.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_142" source="Impressionsdanse.com" target="Lesballetonautes.com">
+      <edge id="geid_201_61" source="Fousdetheatre.com" target="Theatrotheque.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_143" source="Impressionsdanse.com" target="Leschroniquesdunpetitratparisien.com">
+      <edge id="geid_201_62" source="Fousdetheatre.com" target="Theatre-Contemporain.net">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_144" source="Impressionsdanse.com" target="danse-opera.Over-Blog.com">
+      <edge id="geid_201_63" source="Libretheatre.fr" target="Theatrotheque.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_64" source="icima.Hypotheses.org" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_65" source="icima.Hypotheses.org" target="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_66" source="icima.Hypotheses.org" target="puppower.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_67" source="icima.Hypotheses.org" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_68" source="puppower.Hypotheses.org" target="icima.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_69" source="repex.Hypotheses.org" target="zsociologie.Hypotheses.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_70" source="zsociologie.Hypotheses.org" target="repex.Hypotheses.org">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_145" source="Impressionsdanse.com" target="Dansesaveclaplume.com">
+      <edge id="geid_201_71" source="Laparafe.fr" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_72" source="Lebruitduoff.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_73" source="Lebruitduoff.com" target="Webtheatre.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_74" source="Lebruitduoff.com" target="Inferno-Magazine.com /.../festival-davignon-2018">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_75" source="Lebruitduoff.com" target="Theatre-Contemporain.net">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_146" source="Impressionsdanse.com" target="Blogapetitspas.fr">
+      <edge id="geid_201_76" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Associationcritiquetmd.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_77" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Aubalcon.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_78" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_79" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Fousdetheatre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_80" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_81" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_82" source="Le-Theatre-Cote-Coeur.blogspot.com" target="blog.Lefigaro.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_83" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_84" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Loeildolivier.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_85" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mesillusionscomiques.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_86" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Mordue-De-Theatre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_87" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regardencoulisse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_88" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Regarts.org">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_89" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_90" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_91" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Unfauteuilpourlorchestre.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_92" source="Le-Theatre-Cote-Coeur.blogspot.com" target="deboraconte.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_93" source="Le-Theatre-Cote-Coeur.blogspot.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_94" source="Le-Theatre-Cote-Coeur.blogspot.com" target="theatrices.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_95" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_96" source="Le-Theatre-Cote-Coeur.blogspot.com" target="Theatre-Contemporain.net">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_147" source="blogs.Mediapart.fr /jean-pierre-thibaudat" target="blogs.Mediapart.fr /guillaume-lasserre">
+      <edge id="geid_201_97" source="Mesillusionscomiques.com" target="Fousdetheatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_148" source="blogs.Mediapart.fr /guillaume-lasserre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+      <edge id="geid_201_98" source="Mesillusionscomiques.com" target="Mordue-De-Theatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_149" source="blogs.Mediapart.fr /guillaume-lasserre" target="blogs.Mediapart.fr /martine-silber">
+      <edge id="geid_201_99" source="Mesillusionscomiques.com" target="hierautheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_100" source="Mordue-De-Theatre.com" target="Etoffedessonges.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_101" source="Mordue-De-Theatre.com" target="Le-Theatre-Cote-Coeur.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_102" source="Dansesaveclaplume.com" target="Cccdanse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_103" source="Dansesaveclaplume.com" target="Dansercanalhistorique.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_104" source="Dansesaveclaplume.com" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_105" source="Dansesaveclaplume.com" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_106" source="Dansesaveclaplume.com" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_107" source="Dansesaveclaplume.com" target="dansomanie.Pagesperso-Orange.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_108" source="Dansesaveclaplume.com" target="Shabastet.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_109" source="Dansesaveclaplume.com" target="Unesaisonalopera.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_110" source="Dansesaveclaplume.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_111" source="Dansesaveclaplume.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_112" source="Dansesaveclaplume.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_113" source="Dansesaveclaplume.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_114" source="Leschroniquesdunpetitratparisien.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_115" source="Leschroniquesdunpetitratparisien.com" target="Lesballetomanesanonymes.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_116" source="Leschroniquesdunpetitratparisien.com" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_117" source="Leschroniquesdunpetitratparisien.com" target="Lestroiscoups.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_118" source="Leschroniquesdunpetitratparisien.com" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_119" source="Leschroniquesdunpetitratparisien.com" target="Resmusica.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_120" source="Leschroniquesdunpetitratparisien.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_121" source="Leschroniquesdunpetitratparisien.com" target="Lejdd.fr /.../Spectacle">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_122" source="Leschroniquesdunpetitratparisien.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_123" source="Leschroniquesdunpetitratparisien.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_124" source="danse-opera.Over-Blog.com" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_125" source="danse-opera.Over-Blog.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_126" source="danse-opera.Over-Blog.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_127" source="danse-opera.Over-Blog.com" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_128" source="Shabastet.com" target="Lesballetonautes.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_150" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_151" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /guillaume-lasserre">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_152" source="Neigeautheatre.blogspot.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_153" source="Neigeautheatre.blogspot.com" target="Offi.fr /theatre">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_154" source="Offi.fr /theatre" target="Theatreonline.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_155" source="Offi.fr /theatre" target="Theatrauteurs.com">
-        <attvalues>
-          <attvalue for="time" value="all"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_156" source="Offi.fr /theatre" target="Regarts.org">
+      <edge id="geid_201_129" source="Shabastet.com" target="danse-opera.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_157" source="Offi.fr /theatre" target="Vusurscene.com">
+      <edge id="geid_201_130" source="Shabastet.com" target="Dansesaveclaplume.com">
         <attvalues>
           <attvalue for="time" value="n-2"/>
         </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_158" source="delacouraujardin.Over-Blog.com" target="Associationcritiquetmd.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_159" source="krinomen.Over-Blog.com" target="agon.Ens-Lyon.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_160" source="krinomen.Over-Blog.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_161" source="krinomen.Over-Blog.com" target="Theatreonline.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_162" source="krinomen.Over-Blog.com" target="theatredublog.Unblog.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_163" source="krinomen.Over-Blog.com" target="Mouvement.net">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_164" source="krinomen.Over-Blog.com" target="danse.Univ-Paris8.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_165" source="theatreetmondedutravail.Over-Blog.com" target="Journal-Laterrasse.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_166" source="theatreetmondedutravail.Over-Blog.com" target="Lebruitduoff.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_167" source="theatreetmondedutravail.Over-Blog.com" target="Sceneweb.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_168" source="theatreetmondedutravail.Over-Blog.com" target="Thaetre.com">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_169" source="Thaetre.com" target="journals.Openedition.org /danse">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_170" source="Thaetre.com" target="Sht.asso.fr">
-        <attvalues>
-          <attvalue for="time" value="n-1"/>
-        </attvalues>
-      </edge>
-      <edge id="geid_56_171" source="blogs.Paris.fr /despiecesetdesbillets" target="Abrideabattue.blogspot.com">
+      <edge id="geid_201_131" source="Unesaisonalopera.fr" target="Lesballetonautes.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_172" source="blogs.Paris.fr /despiecesetdesbillets" target="Critikator.blogspot.com">
+      <edge id="geid_201_132" source="Unesaisonalopera.fr" target="Leschroniquesdunpetitratparisien.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_173" source="blogs.Paris.fr /despiecesetdesbillets" target="Critiques-Theatres-Paris.blogspot.com">
+      <edge id="geid_201_133" source="Unesaisonalopera.fr" target="danse-opera.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_174" source="blogs.Paris.fr /despiecesetdesbillets" target="Fousdetheatre.com">
+      <edge id="geid_201_134" source="Unesaisonalopera.fr" target="Dansesaveclaplume.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_175" source="blogs.Paris.fr /despiecesetdesbillets" target="theothea.com.Free.fr">
+      <edge id="geid_201_135" source="Unesaisonalopera.fr" target="Blogapetitspas.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_176" source="blogs.Paris.fr /despiecesetdesbillets" target="blog.Lefigaro.fr /theatre">
+      <edge id="geid_201_136" source="Unesaisonalopera.fr" target="Impressionsdanse.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_177" source="blogs.Paris.fr /despiecesetdesbillets" target="Lestroiscoups.fr">
+      <edge id="geid_201_137" source="Blogapetitspas.fr" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_138" source="Blogapetitspas.fr" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_139" source="Blogapetitspas.fr" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_140" source="Blogapetitspas.fr" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_141" source="Blogapetitspas.fr" target="Impressionsdanse.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_142" source="Impressionsdanse.com" target="Lesballetonautes.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_143" source="Impressionsdanse.com" target="Leschroniquesdunpetitratparisien.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_144" source="Impressionsdanse.com" target="danse-opera.Over-Blog.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_145" source="Impressionsdanse.com" target="Dansesaveclaplume.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_146" source="Impressionsdanse.com" target="Blogapetitspas.fr">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_147" source="blogs.Mediapart.fr /jean-pierre-thibaudat" target="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_148" source="blogs.Mediapart.fr /guillaume-lasserre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_149" source="blogs.Mediapart.fr /guillaume-lasserre" target="blogs.Mediapart.fr /martine-silber">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_150" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_151" source="blogs.Mediapart.fr /martine-silber" target="blogs.Mediapart.fr /guillaume-lasserre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_152" source="Neigeautheatre.blogspot.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_153" source="Neigeautheatre.blogspot.com" target="Offi.fr /theatre">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_154" source="Offi.fr /theatre" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_155" source="Offi.fr /theatre" target="Theatrauteurs.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_178" source="blogs.Paris.fr /despiecesetdesbillets" target="Marsupilamima.blogspot.com">
+      <edge id="geid_201_156" source="Offi.fr /theatre" target="Regarts.org">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_157" source="Offi.fr /theatre" target="Vusurscene.com">
+        <attvalues>
+          <attvalue for="time" value="n-2"/>
+        </attvalues>
+        <viz:color r="201" g="101" b="78"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_158" source="delacouraujardin.Over-Blog.com" target="Associationcritiquetmd.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_159" source="krinomen.Over-Blog.com" target="agon.Ens-Lyon.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_160" source="krinomen.Over-Blog.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_161" source="krinomen.Over-Blog.com" target="Theatreonline.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_162" source="krinomen.Over-Blog.com" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_163" source="krinomen.Over-Blog.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_164" source="krinomen.Over-Blog.com" target="danse.Univ-Paris8.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_165" source="theatreetmondedutravail.Over-Blog.com" target="Journal-Laterrasse.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_166" source="theatreetmondedutravail.Over-Blog.com" target="Lebruitduoff.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_167" source="theatreetmondedutravail.Over-Blog.com" target="Sceneweb.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_168" source="theatreetmondedutravail.Over-Blog.com" target="Thaetre.com">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_169" source="Thaetre.com" target="journals.Openedition.org /danse">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_170" source="Thaetre.com" target="Sht.asso.fr">
+        <attvalues>
+          <attvalue for="time" value="n-1"/>
+        </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_171" source="blogs.Paris.fr /despiecesetdesbillets" target="Abrideabattue.blogspot.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_179" source="blogs.Paris.fr /despiecesetdesbillets" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+      <edge id="geid_201_172" source="blogs.Paris.fr /despiecesetdesbillets" target="Critikator.blogspot.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_180" source="blogs.Paris.fr /despiecesetdesbillets" target="Neigeautheatre.blogspot.com">
+      <edge id="geid_201_173" source="blogs.Paris.fr /despiecesetdesbillets" target="Critiques-Theatres-Paris.blogspot.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_181" source="blogs.Paris.fr /despiecesetdesbillets" target="odile-quirot.blogs.Nouvelobs.com">
+      <edge id="geid_201_174" source="blogs.Paris.fr /despiecesetdesbillets" target="Fousdetheatre.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_182" source="blogs.Paris.fr /despiecesetdesbillets" target="attractions-visuelles.Over-Blog.com">
+      <edge id="geid_201_175" source="blogs.Paris.fr /despiecesetdesbillets" target="theothea.com.Free.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_183" source="blogs.Paris.fr /despiecesetdesbillets" target="theatredublog.Unblog.fr">
+      <edge id="geid_201_176" source="blogs.Paris.fr /despiecesetdesbillets" target="blog.Lefigaro.fr /theatre">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_184" source="blogs.Paris.fr /despiecesetdesbillets" target="Unfauteuilpourlorchestre.com">
+      <edge id="geid_201_177" source="blogs.Paris.fr /despiecesetdesbillets" target="Lestroiscoups.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_185" source="blogs.Paris.fr /despiecesetdesbillets" target="Vusurscene.com">
+      <edge id="geid_201_178" source="blogs.Paris.fr /despiecesetdesbillets" target="Marsupilamima.blogspot.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_186" source="blogs.Paris.fr /despiecesetdesbillets" target="beletteettheatre.Wordpress.com">
+      <edge id="geid_201_179" source="blogs.Paris.fr /despiecesetdesbillets" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_187" source="beletteettheatre.Wordpress.com" target="Marsupilamima.blogspot.com">
+      <edge id="geid_201_180" source="blogs.Paris.fr /despiecesetdesbillets" target="Neigeautheatre.blogspot.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_188" source="beletteettheatre.Wordpress.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+      <edge id="geid_201_181" source="blogs.Paris.fr /despiecesetdesbillets" target="odile-quirot.blogs.Nouvelobs.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_189" source="beletteettheatre.Wordpress.com" target="theatredublog.Unblog.fr">
+      <edge id="geid_201_182" source="blogs.Paris.fr /despiecesetdesbillets" target="attractions-visuelles.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_190" source="beletteettheatre.Wordpress.com" target="Mouvement.net">
+      <edge id="geid_201_183" source="blogs.Paris.fr /despiecesetdesbillets" target="theatredublog.Unblog.fr">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_191" source="beletteettheatre.Wordpress.com" target="Aupoulailler.com">
+      <edge id="geid_201_184" source="blogs.Paris.fr /despiecesetdesbillets" target="Unfauteuilpourlorchestre.com">
         <attvalues>
           <attvalue for="time" value="all"/>
         </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_192" source="Rmtnewsinternational.com" target="Sht.asso.fr">
+      <edge id="geid_201_185" source="blogs.Paris.fr /despiecesetdesbillets" target="Vusurscene.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_186" source="blogs.Paris.fr /despiecesetdesbillets" target="beletteettheatre.Wordpress.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_187" source="beletteettheatre.Wordpress.com" target="Marsupilamima.blogspot.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_188" source="beletteettheatre.Wordpress.com" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_189" source="beletteettheatre.Wordpress.com" target="theatredublog.Unblog.fr">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_190" source="beletteettheatre.Wordpress.com" target="Mouvement.net">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_191" source="beletteettheatre.Wordpress.com" target="Aupoulailler.com">
+        <attvalues>
+          <attvalue for="time" value="all"/>
+        </attvalues>
+        <viz:color r="149" g="140" b="200"/>
+        <viz:size value="3"/>
+      </edge>
+      <edge id="geid_201_192" source="Rmtnewsinternational.com" target="Sht.asso.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_193" source="Scoop.it /.../revue-de-presse-theatre" target="Allegrotheatre.blogspot.com">
+      <edge id="geid_201_193" source="Scoop.it /.../revue-de-presse-theatre" target="Allegrotheatre.blogspot.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_194" source="Scoop.it /.../revue-de-presse-theatre" target="Apartestheatre.com">
+      <edge id="geid_201_194" source="Scoop.it /.../revue-de-presse-theatre" target="Apartestheatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_195" source="Scoop.it /.../revue-de-presse-theatre" target="Artistikrezo.com /spectacle">
+      <edge id="geid_201_195" source="Scoop.it /.../revue-de-presse-theatre" target="Artistikrezo.com /spectacle">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_196" source="Scoop.it /.../revue-de-presse-theatre" target="ddumasenmargedutheatre.Blogspirit.com">
+      <edge id="geid_201_196" source="Scoop.it /.../revue-de-presse-theatre" target="ddumasenmargedutheatre.Blogspirit.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_197" source="Scoop.it /.../revue-de-presse-theatre" target="Dansercanalhistorique.fr">
+      <edge id="geid_201_197" source="Scoop.it /.../revue-de-presse-theatre" target="Dansercanalhistorique.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_198" source="Scoop.it /.../revue-de-presse-theatre" target="agon.Ens-Lyon.fr">
+      <edge id="geid_201_198" source="Scoop.it /.../revue-de-presse-theatre" target="agon.Ens-Lyon.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_199" source="Scoop.it /.../revue-de-presse-theatre" target="Etoffedessonges.com">
+      <edge id="geid_201_199" source="Scoop.it /.../revue-de-presse-theatre" target="Etoffedessonges.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_200" source="Scoop.it /.../revue-de-presse-theatre" target="Evene.fr /theatre">
+      <edge id="geid_201_200" source="Scoop.it /.../revue-de-presse-theatre" target="Evene.fr /theatre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_201" source="Scoop.it /.../revue-de-presse-theatre" target="Fousdetheatre.com">
+      <edge id="geid_201_201" source="Scoop.it /.../revue-de-presse-theatre" target="Fousdetheatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_202" source="Scoop.it /.../revue-de-presse-theatre" target="Franceculture.fr /.../la-dispute">
+      <edge id="geid_201_202" source="Scoop.it /.../revue-de-presse-theatre" target="Franceculture.fr /.../la-dispute">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_203" source="Scoop.it /.../revue-de-presse-theatre" target="Iogazette.fr">
+      <edge id="geid_201_203" source="Scoop.it /.../revue-de-presse-theatre" target="Iogazette.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_204" source="Scoop.it /.../revue-de-presse-theatre" target="Journal-Laterrasse.fr">
+      <edge id="geid_201_204" source="Scoop.it /.../revue-de-presse-theatre" target="Journal-Laterrasse.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_205" source="Scoop.it /.../revue-de-presse-theatre" target="La-Croix.com /.../Theatre">
+      <edge id="geid_201_205" source="Scoop.it /.../revue-de-presse-theatre" target="La-Croix.com /.../Theatre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_206" source="Scoop.it /.../revue-de-presse-theatre" target="Laparafe.fr">
+      <edge id="geid_201_206" source="Scoop.it /.../revue-de-presse-theatre" target="Laparafe.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_207" source="Scoop.it /.../revue-de-presse-theatre" target="Le-Theatre-Cote-Coeur.blogspot.com">
+      <edge id="geid_201_207" source="Scoop.it /.../revue-de-presse-theatre" target="Le-Theatre-Cote-Coeur.blogspot.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_208" source="Scoop.it /.../revue-de-presse-theatre" target="Lebruitduoff.com">
+      <edge id="geid_201_208" source="Scoop.it /.../revue-de-presse-theatre" target="Lebruitduoff.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_209" source="Scoop.it /.../revue-de-presse-theatre" target="blog.Lefigaro.fr /theatre">
+      <edge id="geid_201_209" source="Scoop.it /.../revue-de-presse-theatre" target="blog.Lefigaro.fr /theatre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_210" source="Scoop.it /.../revue-de-presse-theatre" target="Lestroiscoups.fr">
+      <edge id="geid_201_210" source="Scoop.it /.../revue-de-presse-theatre" target="Lestroiscoups.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_211" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Lexpress.fr /theatre">
+      <edge id="geid_201_211" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Lexpress.fr /theatre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_212" source="Scoop.it /.../revue-de-presse-theatre" target="Loeildolivier.fr">
+      <edge id="geid_201_212" source="Scoop.it /.../revue-de-presse-theatre" target="Loeildolivier.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_213" source="Scoop.it /.../revue-de-presse-theatre" target="Marsupilamima.blogspot.com">
+      <edge id="geid_201_213" source="Scoop.it /.../revue-de-presse-theatre" target="Marsupilamima.blogspot.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_214" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
+      <edge id="geid_201_214" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /jean-pierre-thibaudat">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_215" source="Scoop.it /.../revue-de-presse-theatre" target="Mesillusionscomiques.com">
+      <edge id="geid_201_215" source="Scoop.it /.../revue-de-presse-theatre" target="Mesillusionscomiques.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_216" source="Scoop.it /.../revue-de-presse-theatre" target="Mlascene-Blog-Theatre.fr">
+      <edge id="geid_201_216" source="Scoop.it /.../revue-de-presse-theatre" target="Mlascene-Blog-Theatre.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_217" source="Scoop.it /.../revue-de-presse-theatre" target="Mordue-De-Theatre.com">
+      <edge id="geid_201_217" source="Scoop.it /.../revue-de-presse-theatre" target="Mordue-De-Theatre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_218" source="Scoop.it /.../revue-de-presse-theatre" target="odile-quirot.blogs.Nouvelobs.com">
+      <edge id="geid_201_218" source="Scoop.it /.../revue-de-presse-theatre" target="odile-quirot.blogs.Nouvelobs.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_219" source="Scoop.it /.../revue-de-presse-theatre" target="Offi.fr /theatre">
+      <edge id="geid_201_219" source="Scoop.it /.../revue-de-presse-theatre" target="Offi.fr /theatre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_220" source="Scoop.it /.../revue-de-presse-theatre" target="Ouvertauxpublics.fr">
+      <edge id="geid_201_220" source="Scoop.it /.../revue-de-presse-theatre" target="Ouvertauxpublics.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_221" source="Scoop.it /.../revue-de-presse-theatre" target="attractions-visuelles.Over-Blog.com">
+      <edge id="geid_201_221" source="Scoop.it /.../revue-de-presse-theatre" target="attractions-visuelles.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_222" source="Scoop.it /.../revue-de-presse-theatre" target="delacouraujardin.Over-Blog.com">
+      <edge id="geid_201_222" source="Scoop.it /.../revue-de-presse-theatre" target="delacouraujardin.Over-Blog.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_223" source="Scoop.it /.../revue-de-presse-theatre" target="Profession-Spectacle.com">
+      <edge id="geid_201_223" source="Scoop.it /.../revue-de-presse-theatre" target="Profession-Spectacle.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_224" source="Scoop.it /.../revue-de-presse-theatre" target="Revue-Frictions.net">
+      <edge id="geid_201_224" source="Scoop.it /.../revue-de-presse-theatre" target="Revue-Frictions.net">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_225" source="Scoop.it /.../revue-de-presse-theatre" target="Sceneweb.fr">
+      <edge id="geid_201_225" source="Scoop.it /.../revue-de-presse-theatre" target="Sceneweb.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_226" source="Scoop.it /.../revue-de-presse-theatre" target="Theatral-Magazine.com">
+      <edge id="geid_201_226" source="Scoop.it /.../revue-de-presse-theatre" target="Theatral-Magazine.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_227" source="Scoop.it /.../revue-de-presse-theatre" target="theatredublog.Unblog.fr">
+      <edge id="geid_201_227" source="Scoop.it /.../revue-de-presse-theatre" target="theatredublog.Unblog.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_228" source="Scoop.it /.../revue-de-presse-theatre" target="Unfauteuilpourlorchestre.com">
+      <edge id="geid_201_228" source="Scoop.it /.../revue-de-presse-theatre" target="Unfauteuilpourlorchestre.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_229" source="Scoop.it /.../revue-de-presse-theatre" target="Webtheatre.fr">
+      <edge id="geid_201_229" source="Scoop.it /.../revue-de-presse-theatre" target="Webtheatre.fr">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_230" source="Scoop.it /.../revue-de-presse-theatre" target="beletteettheatre.Wordpress.com">
+      <edge id="geid_201_230" source="Scoop.it /.../revue-de-presse-theatre" target="beletteettheatre.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_231" source="Scoop.it /.../revue-de-presse-theatre" target="hierautheatre.Wordpress.com">
+      <edge id="geid_201_231" source="Scoop.it /.../revue-de-presse-theatre" target="hierautheatre.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_232" source="Scoop.it /.../revue-de-presse-theatre" target="hottellotheatre.Wordpress.com">
+      <edge id="geid_201_232" source="Scoop.it /.../revue-de-presse-theatre" target="hottellotheatre.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_233" source="Scoop.it /.../revue-de-presse-theatre" target="Mouvement.net">
+      <edge id="geid_201_233" source="Scoop.it /.../revue-de-presse-theatre" target="Mouvement.net">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_234" source="Scoop.it /.../revue-de-presse-theatre" target="Aupoulailler.com">
+      <edge id="geid_201_234" source="Scoop.it /.../revue-de-presse-theatre" target="Aupoulailler.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_235" source="Scoop.it /.../revue-de-presse-theatre" target="theatrices.Wordpress.com">
+      <edge id="geid_201_235" source="Scoop.it /.../revue-de-presse-theatre" target="theatrices.Wordpress.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_236" source="Scoop.it /.../revue-de-presse-theatre" target="Dansesaveclaplume.com">
+      <edge id="geid_201_236" source="Scoop.it /.../revue-de-presse-theatre" target="Dansesaveclaplume.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_237" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /guillaume-lasserre">
+      <edge id="geid_201_237" source="Scoop.it /.../revue-de-presse-theatre" target="blogs.Mediapart.fr /guillaume-lasserre">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_238" source="Scoop.it /.../revue-de-presse-theatre" target="Lejdd.fr /.../Spectacle">
+      <edge id="geid_201_238" source="Scoop.it /.../revue-de-presse-theatre" target="Lejdd.fr /.../Spectacle">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_239" source="Scoop.it /.../revue-de-presse-theatre" target="Theatrauteurs.com">
+      <edge id="geid_201_239" source="Scoop.it /.../revue-de-presse-theatre" target="Theatrauteurs.com">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
-      <edge id="geid_56_240" source="Tunantes.fr" target="Mouvement.net">
+      <edge id="geid_201_240" source="Tunantes.fr" target="Mouvement.net">
         <attvalues>
           <attvalue for="time" value="n-1"/>
         </attvalues>
+        <viz:color r="132" g="162" b="71"/>
+        <viz:size value="3"/>
       </edge>
     </edges>
   </graph>
