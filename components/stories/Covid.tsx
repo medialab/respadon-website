@@ -140,8 +140,8 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Nuage de mots clés associant mots clés et fiches réalisées par les chargés de
-                collection de la BnF sur le coronavirus.
+                Nuage de mots clés associant mots clés et fiches réalisées<br/>par les chargés de
+                collection de la BnF sur le coronavirus
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
@@ -313,7 +313,7 @@ const StoryComponent: FC = () => {
               représentation sous la forme de graphe pourrait être à la fois une bonne solution de
               documentation mais aussi une piste pertinente pour naviguer dans l’archive BnF.
             </p>
-            <h3>Quelques Observations</h3>
+            <h3>Quelques observations</h3>
             <p>
               Plusieurs observations ont été faites à partir des cartographies du web archivé et du
               web vivant.
@@ -332,15 +332,19 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Représentation des graphes des 2 corpus 2020 et 2022 où le type d’acteurs
-                sélectionné est “vulgarisation”
+                Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “vulgarisation”
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="covid"
                 className="maxw-800 m-auto"
                 src={BASE_PATH + '/pictures/story-covid/networks_2020_2022_vulgarisation.png'}
-                caption="Représentation des graphes des 3 corpus 2020, 2021 et 2022 où le type d’acteurs sélectionné est “vulgarisation”"
+                caption="Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “vulgarisation”"
+                downloadLink={{
+                  text: 'Explorer la version interactive et télécharger les graphes',
+                  legend: 'Réglage "By actor types" et survol à la souris de "vulgarisation"',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/'
+                }}
               />
             </figure>
           </div>
@@ -371,15 +375,19 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Représentation des graphes des 2 corpus 2020 et 2022 où le type d’acteurs
-                sélectionné est “institution”
+                Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “institutionnel”
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="covid"
                 className="maxw-800 m-auto"
                 src={BASE_PATH + '/pictures/story-covid/networks_2020_2021_2022_institutions.png'}
-                caption="Représentation des graphes des 3 corpus 2020, 2021 et 2022 où le type d’acteurs sélectionné est “institution”"
+                caption="Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “institutionnel”"
+                downloadLink={{
+                  text: 'Explorer la version interactive et télécharger les graphes',
+                  legend: 'Réglage "By actor types" et survol à la souris de "institutionnel"',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/'
+                }}
               />
             </figure>
           </div>
@@ -391,15 +399,19 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Représentation des graphes des 2 corpus 2020 et 2022 où le type d’acteurs
-                sélectionné est “établissement de santé”
+                Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “établissement de santé”
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="covid"
                 className="maxw-800 m-auto"
                 src={BASE_PATH + '/pictures/story-covid/networks_2020_2021_2022_sante.png'}
-                caption="Représentation des graphes des 3 corpus 2020, 2021 et 2022 où le type d’acteurs sélectionné est “établissement de santé”"
+                caption="Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “établissement de santé”"
+                downloadLink={{
+                  text: 'Explorer la version interactive et télécharger les graphes',
+                  legend: 'Réglage "By actor types" et survol à la souris de "établissement de santé"',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/'
+                }}
               />
             </figure>
           </div>
