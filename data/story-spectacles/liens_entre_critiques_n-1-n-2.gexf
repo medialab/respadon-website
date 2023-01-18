@@ -50,7 +50,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.986456704973" y="579.7323315864137"/>
+        <viz:position x="931.986456704973" y="-579.7323315864137"/>
       </node>
       <node id="Aubalcon.fr" label="Aubalcon.fr">
         <attvalues>
@@ -74,7 +74,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="7.5"/>
-        <viz:position x="931.62084673768" y="579.5893468633376"/>
+        <viz:position x="931.62084673768" y="-579.5893468633376"/>
       </node>
       <node id="Lestroiscoups.fr" label="Lestroiscoups.fr">
         <attvalues>
@@ -98,7 +98,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.9212821144167" y="579.3551674747083"/>
+        <viz:position x="931.9212821144167" y="-579.3551674747083"/>
       </node>
       <node id="Annetheatrepassion.blogspot.com" label="Annetheatrepassion.blogspot.com">
         <attvalues>
@@ -122,7 +122,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="3"/>
-        <viz:position x="931.439699862846" y="579.5175776267961"/>
+        <viz:position x="931.439699862846" y="-579.5175776267961"/>
       </node>
       <node id="Journal-Laterrasse.fr" label="Journal-Laterrasse.fr">
         <attvalues>
@@ -147,7 +147,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="15"/>
-        <viz:position x="931.7271578020419" y="579.1196953453668"/>
+        <viz:position x="931.7271578020419" y="-579.1196953453668"/>
       </node>
       <node id="Loeildolivier.fr" label="Loeildolivier.fr">
         <attvalues>
@@ -171,7 +171,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="9"/>
-        <viz:position x="931.5461529877366" y="579.4808675019087"/>
+        <viz:position x="931.5461529877366" y="-579.4808675019087"/>
       </node>
       <node id="Regardencoulisse.com" label="Regardencoulisse.com">
         <attvalues>
@@ -195,7 +195,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.4711097417955" y="579.8384716611665"/>
+        <viz:position x="931.4711097417955" y="-579.8384716611665"/>
       </node>
       <node id="Sceneweb.fr" label="Sceneweb.fr">
         <attvalues>
@@ -219,7 +219,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="13.5"/>
-        <viz:position x="931.6369820437804" y="579.2277656091248"/>
+        <viz:position x="931.6369820437804" y="-579.2277656091248"/>
       </node>
       <node id="Theatreonline.com" label="Theatreonline.com">
         <attvalues>
@@ -243,7 +243,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="12"/>
-        <viz:position x="931.7123095914283" y="579.7014536606546"/>
+        <viz:position x="931.7123095914283" y="-579.7014536606546"/>
       </node>
       <node id="Associationcritiquetmd.com" label="Associationcritiquetmd.com">
         <attvalues>
@@ -267,7 +267,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="931.9135341201371" y="578.9816003896093"/>
+        <viz:position x="931.9135341201371" y="-578.9816003896093"/>
       </node>
       <node id="ddumasenmargedutheatre.Blogspirit.com" label="ddumasenmargedutheatre.Blogspirit.com">
         <attvalues>
@@ -291,7 +291,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="932.0796938751538" y="579.0740955085918"/>
+        <viz:position x="932.0796938751538" y="-579.0740955085918"/>
       </node>
       <node id="Chroniquesdedanse.com" label="Chroniquesdedanse.com">
         <attvalues>
@@ -315,7 +315,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.9801962565467" y="578.7396581436607"/>
+        <viz:position x="931.9801962565467" y="-578.7396581436607"/>
       </node>
       <node id="critiphotodanse.E-Monsite.com" label="critiphotodanse.E-Monsite.com">
         <attvalues>
@@ -339,7 +339,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.9503308881673" y="578.802766134351"/>
+        <viz:position x="931.9503308881673" y="-578.802766134351"/>
       </node>
       <node id="agon.Ens-Lyon.fr" label="agon.Ens-Lyon.fr">
         <attvalues>
@@ -363,7 +363,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="10.5"/>
-        <viz:position x="932.4125404392828" y="578.7510431378247"/>
+        <viz:position x="932.4125404392828" y="-578.7510431378247"/>
       </node>
       <node id="Iogazette.fr" label="Iogazette.fr">
         <attvalues>
@@ -388,7 +388,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="932.1041490205968" y="579.0177742071733"/>
+        <viz:position x="932.1041490205968" y="-579.0177742071733"/>
       </node>
       <node id="Kourandart.com" label="Kourandart.com">
         <attvalues>
@@ -412,7 +412,7 @@
         </attvalues>
         <viz:color r="153" g="153" b="153"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.8846538789239" y="578.802637632555"/>
+        <viz:position x="931.8846538789239" y="-578.802637632555"/>
       </node>
       <node id="Revue-Frictions.net" label="Revue-Frictions.net">
         <attvalues>
@@ -437,7 +437,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="932.1439678390916" y="579.0562482811506"/>
+        <viz:position x="932.1439678390916" y="-579.0562482811506"/>
       </node>
       <node id="Theatral-Magazine.com" label="Theatral-Magazine.com">
         <attvalues>
@@ -462,7 +462,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.7825070629141" y="579.6746679610964"/>
+        <viz:position x="931.7825070629141" y="-579.6746679610964"/>
       </node>
       <node id="Ubu-Apite.org" label="Ubu-Apite.org">
         <attvalues>
@@ -487,7 +487,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.0063161145345" y="578.7855909721054"/>
+        <viz:position x="932.0063161145345" y="-578.7855909721054"/>
       </node>
       <node id="Webtheatre.fr" label="Webtheatre.fr">
         <attvalues>
@@ -511,7 +511,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="7.5"/>
-        <viz:position x="931.7047510680578" y="579.3392646046893"/>
+        <viz:position x="931.7047510680578" y="-579.3392646046893"/>
       </node>
       <node id="hierautheatre.Wordpress.com" label="hierautheatre.Wordpress.com">
         <attvalues>
@@ -535,7 +535,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.843601671073" y="579.389309831829"/>
+        <viz:position x="931.843601671073" y="-579.389309831829"/>
       </node>
       <node id="Mouvement.net" label="Mouvement.net">
         <attvalues>
@@ -559,7 +559,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="12"/>
-        <viz:position x="932.1806444051471" y="578.8664293001699"/>
+        <viz:position x="932.1806444051471" y="-578.8664293001699"/>
       </node>
       <node id="Ruedutheatre.eu" label="Ruedutheatre.eu">
         <attvalues>
@@ -583,7 +583,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="931.4893484871105" y="579.3029052603994"/>
+        <viz:position x="931.4893484871105" y="-579.3029052603994"/>
       </node>
       <node id="Resmusica.com" label="Resmusica.com">
         <attvalues>
@@ -606,7 +606,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="7.5"/>
-        <viz:position x="931.6097748281119" y="578.617763812962"/>
+        <viz:position x="931.6097748281119" y="-578.617763812962"/>
       </node>
       <node id="Aupoulailler.com" label="Aupoulailler.com">
         <attvalues>
@@ -630,7 +630,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.3220218991523" y="579.1499022396456"/>
+        <viz:position x="932.3220218991523" y="-579.1499022396456"/>
       </node>
       <node id="letheatredansunfauteuil.blogs.Nouvelobs.com" label="letheatredansunfauteuil.blogs.Nouvelobs.com">
         <attvalues>
@@ -653,7 +653,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.9249886848686" y="578.7537768017713"/>
+        <viz:position x="931.9249886848686" y="-578.7537768017713"/>
       </node>
       <node id="blog.Lefigaro.fr /theatre" label="blog.Lefigaro.fr /theatre">
         <attvalues>
@@ -678,7 +678,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="9"/>
-        <viz:position x="932.0173693670541" y="579.5734581642446"/>
+        <viz:position x="932.0173693670541" y="-579.5734581642446"/>
       </node>
       <node id="Theatrotheque.com" label="Theatrotheque.com">
         <attvalues>
@@ -702,7 +702,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="9"/>
-        <viz:position x="931.5157816410023" y="579.9612640190986"/>
+        <viz:position x="931.5157816410023" y="-579.9612640190986"/>
       </node>
       <node id="Chercheurs-En-Danse.com" label="Chercheurs-En-Danse.com">
         <attvalues>
@@ -726,7 +726,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.6262092695804" y="578.4065132835941"/>
+        <viz:position x="932.6262092695804" y="-578.4065132835941"/>
       </node>
       <node id="journals.Openedition.org /danse" label="journals.Openedition.org /danse">
         <attvalues>
@@ -750,7 +750,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="6"/>
-        <viz:position x="932.5454303711936" y="578.4494796113486"/>
+        <viz:position x="932.5454303711936" y="-578.4494796113486"/>
       </node>
       <node id="danse.Univ-Paris8.fr" label="danse.Univ-Paris8.fr">
         <attvalues>
@@ -773,7 +773,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="9"/>
-        <viz:position x="932.6174375864288" y="578.5338001935625"/>
+        <viz:position x="932.6174375864288" y="-578.5338001935625"/>
       </node>
       <node id="Ciaovivalaculture.com /.../danse" label="Ciaovivalaculture.com /.../danse">
         <attvalues>
@@ -797,7 +797,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="930.1850011614919" y="579.1694016545397"/>
+        <viz:position x="930.1850011614919" y="-579.1694016545397"/>
       </node>
       <node id="Ciaovivalaculture.com /.../theatre" label="Ciaovivalaculture.com /.../theatre">
         <attvalues>
@@ -821,7 +821,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="930.1857402977558" y="579.2045158792532"/>
+        <viz:position x="930.1857402977558" y="-579.2045158792532"/>
       </node>
       <node id="Franceculture.fr /.../tous-en-scene" label="Franceculture.fr /.../tous-en-scene">
         <attvalues>
@@ -845,7 +845,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="3"/>
-        <viz:position x="932.8794566549283" y="579.1937201433269"/>
+        <viz:position x="932.8794566549283" y="-579.1937201433269"/>
       </node>
       <node id="Franceculture.fr /.../la-dispute" label="Franceculture.fr /.../la-dispute">
         <attvalues>
@@ -869,7 +869,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="932.6971482056977" y="579.2262489537324"/>
+        <viz:position x="932.6971482056977" y="-579.2262489537324"/>
       </node>
       <node id="theothea.com.Free.fr" label="theothea.com.Free.fr">
         <attvalues>
@@ -893,7 +893,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.6257280799566" y="579.9363686327442"/>
+        <viz:position x="931.6257280799566" y="-579.9363686327442"/>
       </node>
       <node id="Fousdetheatre.com" label="Fousdetheatre.com">
         <attvalues>
@@ -917,7 +917,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.7455988042155" y="579.8714856231825"/>
+        <viz:position x="931.7455988042155" y="-579.8714856231825"/>
       </node>
       <node id="Libretheatre.fr" label="Libretheatre.fr">
         <attvalues>
@@ -941,7 +941,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.4073846905072" y="580.0968693428855"/>
+        <viz:position x="931.4073846905072" y="-580.0968693428855"/>
       </node>
       <node id="icima.Hypotheses.org" label="icima.Hypotheses.org">
         <attvalues>
@@ -965,7 +965,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.7256138638822" y="578.3930057015024"/>
+        <viz:position x="932.7256138638822" y="-578.3930057015024"/>
       </node>
       <node id="Sht.asso.fr" label="Sht.asso.fr">
         <attvalues>
@@ -989,7 +989,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.5959815188929" y="578.2407216394649"/>
+        <viz:position x="932.5959815188929" y="-578.2407216394649"/>
       </node>
       <node id="puppower.Hypotheses.org" label="puppower.Hypotheses.org">
         <attvalues>
@@ -1012,7 +1012,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.8182157710929" y="578.3324134716821"/>
+        <viz:position x="932.8182157710929" y="-578.3324134716821"/>
       </node>
       <node id="repex.Hypotheses.org" label="repex.Hypotheses.org">
         <attvalues>
@@ -1036,7 +1036,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="930.293147411033" y="579.8383266600772"/>
+        <viz:position x="930.293147411033" y="-579.8383266600772"/>
       </node>
       <node id="zsociologie.Hypotheses.org" label="zsociologie.Hypotheses.org">
         <attvalues>
@@ -1059,7 +1059,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="930.2820118727999" y="579.8049744424749"/>
+        <viz:position x="930.2820118727999" y="-579.8049744424749"/>
       </node>
       <node id="Laparafe.fr" label="Laparafe.fr">
         <attvalues>
@@ -1083,7 +1083,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.815839169852" y="579.2019045000728"/>
+        <viz:position x="931.815839169852" y="-579.2019045000728"/>
       </node>
       <node id="Lebruitduoff.com" label="Lebruitduoff.com">
         <attvalues>
@@ -1107,7 +1107,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="9"/>
-        <viz:position x="931.5395434748635" y="579.2273822188382"/>
+        <viz:position x="931.5395434748635" y="-579.2273822188382"/>
       </node>
       <node id="Inferno-Magazine.com /.../festival-davignon-2018" label="Inferno-Magazine.com /.../festival-davignon-2018">
         <attvalues>
@@ -1130,7 +1130,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.299724507764" y="579.1789044433873"/>
+        <viz:position x="931.299724507764" y="-579.1789044433873"/>
       </node>
       <node id="Le-Theatre-Cote-Coeur.blogspot.com" label="Le-Theatre-Cote-Coeur.blogspot.com">
         <attvalues>
@@ -1154,7 +1154,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="7.5"/>
-        <viz:position x="931.6889719821199" y="579.4717620798249"/>
+        <viz:position x="931.6889719821199" y="-579.4717620798249"/>
       </node>
       <node id="Etoffedessonges.com" label="Etoffedessonges.com">
         <attvalues>
@@ -1178,7 +1178,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="9"/>
-        <viz:position x="931.8540099507276" y="579.5289366676922"/>
+        <viz:position x="931.8540099507276" y="-579.5289366676922"/>
       </node>
       <node id="Mesillusionscomiques.com" label="Mesillusionscomiques.com">
         <attvalues>
@@ -1202,7 +1202,7 @@
         </attvalues>
         <viz:color r="153" g="153" b="153"/>
         <viz:size value="6"/>
-        <viz:position x="931.8908682868926" y="579.6415780461289"/>
+        <viz:position x="931.8908682868926" y="-579.6415780461289"/>
       </node>
       <node id="Mordue-De-Theatre.com" label="Mordue-De-Theatre.com">
         <attvalues>
@@ -1226,7 +1226,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="9"/>
-        <viz:position x="931.8072194528271" y="579.5832295997757"/>
+        <viz:position x="931.8072194528271" y="-579.5832295997757"/>
       </node>
       <node id="Regarts.org" label="Regarts.org">
         <attvalues>
@@ -1250,7 +1250,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="931.904689301656" y="579.8875812258233"/>
+        <viz:position x="931.904689301656" y="-579.8875812258233"/>
       </node>
       <node id="Unfauteuilpourlorchestre.com" label="Unfauteuilpourlorchestre.com">
         <attvalues>
@@ -1274,7 +1274,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.1205396040982" y="579.6424430747757"/>
+        <viz:position x="932.1205396040982" y="-579.6424430747757"/>
       </node>
       <node id="deboraconte.Wordpress.com" label="deboraconte.Wordpress.com">
         <attvalues>
@@ -1298,7 +1298,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.3614547100832" y="579.4790251008866"/>
+        <viz:position x="931.3614547100832" y="-579.4790251008866"/>
       </node>
       <node id="theatrices.Wordpress.com" label="theatrices.Wordpress.com">
         <attvalues>
@@ -1322,7 +1322,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="931.9702500223636" y="579.4499404797119"/>
+        <viz:position x="931.9702500223636" y="-579.4499404797119"/>
       </node>
       <node id="Dansesaveclaplume.com" label="Dansesaveclaplume.com">
         <attvalues>
@@ -1346,7 +1346,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="15"/>
-        <viz:position x="931.5529784366279" y="578.4361863193495"/>
+        <viz:position x="931.5529784366279" y="-578.4361863193495"/>
       </node>
       <node id="Cccdanse.com" label="Cccdanse.com">
         <attvalues>
@@ -1370,7 +1370,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.6629452287261" y="578.2801123977234"/>
+        <viz:position x="931.6629452287261" y="-578.2801123977234"/>
       </node>
       <node id="Dansercanalhistorique.fr" label="Dansercanalhistorique.fr">
         <attvalues>
@@ -1394,7 +1394,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="6"/>
-        <viz:position x="931.8386433019818" y="578.7355219193438"/>
+        <viz:position x="931.8386433019818" y="-578.7355219193438"/>
       </node>
       <node id="Lesballetonautes.com" label="Lesballetonautes.com">
         <attvalues>
@@ -1418,7 +1418,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="12"/>
-        <viz:position x="931.3631451450676" y="578.1828190754757"/>
+        <viz:position x="931.3631451450676" y="-578.1828190754757"/>
       </node>
       <node id="Leschroniquesdunpetitratparisien.com" label="Leschroniquesdunpetitratparisien.com">
         <attvalues>
@@ -1442,7 +1442,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.3925172608252" y="578.5258667632563"/>
+        <viz:position x="931.3925172608252" y="-578.5258667632563"/>
       </node>
       <node id="danse-opera.Over-Blog.com" label="danse-opera.Over-Blog.com">
         <attvalues>
@@ -1466,7 +1466,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="12"/>
-        <viz:position x="931.363918243382" y="578.3340353803225"/>
+        <viz:position x="931.363918243382" y="-578.3340353803225"/>
       </node>
       <node id="dansomanie.Pagesperso-Orange.fr" label="dansomanie.Pagesperso-Orange.fr">
         <attvalues>
@@ -1490,7 +1490,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.635229445397" y="578.2395246980259"/>
+        <viz:position x="931.635229445397" y="-578.2395246980259"/>
       </node>
       <node id="Shabastet.com" label="Shabastet.com">
         <attvalues>
@@ -1514,7 +1514,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.5045931524796" y="578.213772151301"/>
+        <viz:position x="931.5045931524796" y="-578.213772151301"/>
       </node>
       <node id="Unesaisonalopera.fr" label="Unesaisonalopera.fr">
         <attvalues>
@@ -1538,7 +1538,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.4103312797839" y="578.2556127535446"/>
+        <viz:position x="931.4103312797839" y="-578.2556127535446"/>
       </node>
       <node id="Blogapetitspas.fr" label="Blogapetitspas.fr">
         <attvalues>
@@ -1561,7 +1561,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.2853028400348" y="578.2683258806096"/>
+        <viz:position x="931.2853028400348" y="-578.2683258806096"/>
       </node>
       <node id="Impressionsdanse.com" label="Impressionsdanse.com">
         <attvalues>
@@ -1584,7 +1584,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.266097501033" y="578.3537030197638"/>
+        <viz:position x="931.266097501033" y="-578.3537030197638"/>
       </node>
       <node id="Lesballetomanesanonymes.fr" label="Lesballetomanesanonymes.fr">
         <attvalues>
@@ -1608,7 +1608,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.1894516959103" y="578.5441398711807"/>
+        <viz:position x="931.1894516959103" y="-578.5441398711807"/>
       </node>
       <node id="Lejdd.fr /.../Spectacle" label="Lejdd.fr /.../Spectacle">
         <attvalues>
@@ -1633,7 +1633,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="6"/>
-        <viz:position x="931.7049189915313" y="578.8175647560415"/>
+        <viz:position x="931.7049189915313" y="-578.8175647560415"/>
       </node>
       <node id="blogs.Mediapart.fr /jean-pierre-thibaudat" label="blogs.Mediapart.fr /jean-pierre-thibaudat">
         <attvalues>
@@ -1657,7 +1657,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="12"/>
-        <viz:position x="932.6309686937149" y="579.7340892629621"/>
+        <viz:position x="932.6309686937149" y="-579.7340892629621"/>
       </node>
       <node id="blogs.Mediapart.fr /guillaume-lasserre" label="blogs.Mediapart.fr /guillaume-lasserre">
         <attvalues>
@@ -1680,7 +1680,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.7433512875774" y="579.6949015544018"/>
+        <viz:position x="932.7433512875774" y="-579.6949015544018"/>
       </node>
       <node id="blogs.Mediapart.fr /martine-silber" label="blogs.Mediapart.fr /martine-silber">
         <attvalues>
@@ -1704,7 +1704,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.8349003712137" y="579.7630586500208"/>
+        <viz:position x="932.8349003712137" y="-579.7630586500208"/>
       </node>
       <node id="Neigeautheatre.blogspot.com" label="Neigeautheatre.blogspot.com">
         <attvalues>
@@ -1728,7 +1728,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4381729157477" y="579.9483579586907"/>
+        <viz:position x="932.4381729157477" y="-579.9483579586907"/>
       </node>
       <node id="Offi.fr /theatre" label="Offi.fr /theatre">
         <attvalues>
@@ -1753,7 +1753,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.0774541260772" y="579.9274407888217"/>
+        <viz:position x="932.0774541260772" y="-579.9274407888217"/>
       </node>
       <node id="Theatrauteurs.com" label="Theatrauteurs.com">
         <attvalues>
@@ -1775,7 +1775,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="932.1802731308837" y="579.7452364023494"/>
+        <viz:position x="932.1802731308837" y="-579.7452364023494"/>
       </node>
       <node id="delacouraujardin.Over-Blog.com" label="delacouraujardin.Over-Blog.com">
         <attvalues>
@@ -1799,7 +1799,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="931.8995560239889" y="579.2334104976163"/>
+        <viz:position x="931.8995560239889" y="-579.2334104976163"/>
       </node>
       <node id="krinomen.Over-Blog.com" label="krinomen.Over-Blog.com">
         <attvalues>
@@ -1823,7 +1823,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="3"/>
-        <viz:position x="932.2821473202691" y="578.9788656417674"/>
+        <viz:position x="932.2821473202691" y="-578.9788656417674"/>
       </node>
       <node id="theatredublog.Unblog.fr" label="theatredublog.Unblog.fr">
         <attvalues>
@@ -1847,7 +1847,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="9"/>
-        <viz:position x="932.4378161536374" y="579.4370209709749"/>
+        <viz:position x="932.4378161536374" y="-579.4370209709749"/>
       </node>
       <node id="theatreetmondedutravail.Over-Blog.com" label="theatreetmondedutravail.Over-Blog.com">
         <attvalues>
@@ -1871,7 +1871,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="3"/>
-        <viz:position x="931.7280014639439" y="578.9178556907859"/>
+        <viz:position x="931.7280014639439" y="-578.9178556907859"/>
       </node>
       <node id="Thaetre.com" label="Thaetre.com">
         <attvalues>
@@ -1895,7 +1895,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3203675538649" y="578.4425096032853"/>
+        <viz:position x="932.3203675538649" y="-578.4425096032853"/>
       </node>
       <node id="blogs.Paris.fr /despiecesetdesbillets" label="blogs.Paris.fr /despiecesetdesbillets">
         <attvalues>
@@ -1919,7 +1919,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="3"/>
-        <viz:position x="932.2923021340332" y="579.8317387451391"/>
+        <viz:position x="932.2923021340332" y="-579.8317387451391"/>
       </node>
       <node id="Critikator.blogspot.com" label="Critikator.blogspot.com">
         <attvalues>
@@ -1943,7 +1943,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3803749247752" y="580.0516209741783"/>
+        <viz:position x="932.3803749247752" y="-580.0516209741783"/>
       </node>
       <node id="Critiques-Theatres-Paris.blogspot.com" label="Critiques-Theatres-Paris.blogspot.com">
         <attvalues>
@@ -1967,7 +1967,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4320811836442" y="580.036795696695"/>
+        <viz:position x="932.4320811836442" y="-580.036795696695"/>
       </node>
       <node id="Marsupilamima.blogspot.com" label="Marsupilamima.blogspot.com">
         <attvalues>
@@ -1991,7 +1991,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="7.5"/>
-        <viz:position x="932.4629874527507" y="579.6027028205361"/>
+        <viz:position x="932.4629874527507" y="-579.6027028205361"/>
       </node>
       <node id="odile-quirot.blogs.Nouvelobs.com" label="odile-quirot.blogs.Nouvelobs.com">
         <attvalues>
@@ -2016,7 +2016,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="6"/>
-        <viz:position x="932.3754617882382" y="579.6766202169028"/>
+        <viz:position x="932.3754617882382" y="-579.6766202169028"/>
       </node>
       <node id="attractions-visuelles.Over-Blog.com" label="attractions-visuelles.Over-Blog.com">
         <attvalues>
@@ -2040,7 +2040,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="932.3283006634009" y="579.6541328843524"/>
+        <viz:position x="932.3283006634009" y="-579.6541328843524"/>
       </node>
       <node id="Vusurscene.com" label="Vusurscene.com">
         <attvalues>
@@ -2064,7 +2064,7 @@
         </attvalues>
         <viz:color r="153" g="153" b="153"/>
         <viz:size value="6"/>
-        <viz:position x="932.2309246392534" y="580.0557004345029"/>
+        <viz:position x="932.2309246392534" y="-580.0557004345029"/>
       </node>
       <node id="beletteettheatre.Wordpress.com" label="beletteettheatre.Wordpress.com">
         <attvalues>
@@ -2088,7 +2088,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="6"/>
-        <viz:position x="932.5163280249174" y="579.4470518789702"/>
+        <viz:position x="932.5163280249174" y="-579.4470518789702"/>
       </node>
       <node id="Rmtnewsinternational.com" label="Rmtnewsinternational.com">
         <attvalues>
@@ -2112,7 +2112,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="3"/>
-        <viz:position x="932.6496479822277" y="578.1293045206404"/>
+        <viz:position x="932.6496479822277" y="-578.1293045206404"/>
       </node>
       <node id="Scoop.it /.../revue-de-presse-theatre" label="Scoop.it /.../revue-de-presse-theatre">
         <attvalues>
@@ -2137,7 +2137,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="3"/>
-        <viz:position x="932.1720319140906" y="579.330368805927"/>
+        <viz:position x="932.1720319140906" y="-579.330368805927"/>
       </node>
       <node id="Allegrotheatre.blogspot.com" label="Allegrotheatre.blogspot.com">
         <attvalues>
@@ -2161,7 +2161,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4598914866523" y="579.2095811798843"/>
+        <viz:position x="932.4598914866523" y="-579.2095811798843"/>
       </node>
       <node id="Apartestheatre.com" label="Apartestheatre.com">
         <attvalues>
@@ -2185,7 +2185,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3689494646381" y="579.2451000010931"/>
+        <viz:position x="932.3689494646381" y="-579.2451000010931"/>
       </node>
       <node id="Artistikrezo.com /spectacle" label="Artistikrezo.com /spectacle">
         <attvalues>
@@ -2209,7 +2209,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4645957525626" y="579.311060036153"/>
+        <viz:position x="932.4645957525626" y="-579.311060036153"/>
       </node>
       <node id="Evene.fr /theatre" label="Evene.fr /theatre">
         <attvalues>
@@ -2233,7 +2233,7 @@
         </attvalues>
         <viz:color r="149" g="140" b="200"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3906030018286" y="579.1995019283133"/>
+        <viz:position x="932.3906030018286" y="-579.1995019283133"/>
       </node>
       <node id="La-Croix.com /.../Theatre" label="La-Croix.com /.../Theatre">
         <attvalues>
@@ -2258,7 +2258,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3805269109741" y="579.3027289969627"/>
+        <viz:position x="932.3805269109741" y="-579.3027289969627"/>
       </node>
       <node id="blogs.Lexpress.fr /theatre" label="blogs.Lexpress.fr /theatre">
         <attvalues>
@@ -2283,7 +2283,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.3692114461314" y="579.383370708448"/>
+        <viz:position x="932.3692114461314" y="-579.383370708448"/>
       </node>
       <node id="Mlascene-Blog-Theatre.fr" label="Mlascene-Blog-Theatre.fr">
         <attvalues>
@@ -2307,7 +2307,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4840588579098" y="579.2599295137964"/>
+        <viz:position x="932.4840588579098" y="-579.2599295137964"/>
       </node>
       <node id="Ouvertauxpublics.fr" label="Ouvertauxpublics.fr">
         <attvalues>
@@ -2331,7 +2331,7 @@
         </attvalues>
         <viz:color r="255" g="151" b="112"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4255334126553" y="579.261334553075"/>
+        <viz:position x="932.4255334126553" y="-579.261334553075"/>
       </node>
       <node id="Profession-Spectacle.com" label="Profession-Spectacle.com">
         <attvalues>
@@ -2355,7 +2355,7 @@
         </attvalues>
         <viz:color r="149" g="140" b="200"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.4261613091525" y="579.1644761989687"/>
+        <viz:position x="932.4261613091525" y="-579.1644761989687"/>
       </node>
       <node id="hottellotheatre.Wordpress.com" label="hottellotheatre.Wordpress.com">
         <attvalues>
@@ -2379,7 +2379,7 @@
         </attvalues>
         <viz:color r="155" g="240" b="255"/>
         <viz:size value="4.5"/>
-        <viz:position x="932.415181008804" y="579.338822004119"/>
+        <viz:position x="932.415181008804" y="-579.338822004119"/>
       </node>
       <node id="Tunantes.fr" label="Tunantes.fr">
         <attvalues>
@@ -2403,7 +2403,7 @@
         </attvalues>
         <viz:color r="1" g="220" b="190"/>
         <viz:size value="3"/>
-        <viz:position x="932.2706618444513" y="578.6935747742178"/>
+        <viz:position x="932.2706618444513" y="-578.6935747742178"/>
       </node>
       <node id="Theatre-Contemporain.net" label="Theatre-Contemporain.net">
         <attvalues>
@@ -2426,7 +2426,7 @@
         </attvalues>
         <viz:color r="153" g="153" b="153"/>
         <viz:size value="10.5"/>
-        <viz:position x="931.4512974616047" y="579.6437991480856"/>
+        <viz:position x="931.4512974616047" y="-579.6437991480856"/>
       </node>
       <node id="Aucirque.com" label="Aucirque.com">
         <attvalues>
@@ -2450,7 +2450,7 @@
         </attvalues>
         <viz:color r="149" g="140" b="200"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.7298216452025" y="580.1172763594204"/>
+        <viz:position x="931.7298216452025" y="-580.1172763594204"/>
       </node>
       <node id="Magazinetheatres.com" label="Magazinetheatres.com">
         <attvalues>
@@ -2475,7 +2475,7 @@
         </attvalues>
         <viz:color r="255" g="183" b="223"/>
         <viz:size value="4.5"/>
-        <viz:position x="931.6755955707708" y="580.115702704188"/>
+        <viz:position x="931.6755955707708" y="-580.115702704188"/>
       </node>
     </nodes>
     <edges>
