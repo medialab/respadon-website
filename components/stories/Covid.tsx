@@ -332,7 +332,7 @@ const StoryComponent: FC = () => {
           <div className="row">
             <figure className="text-center">
               <figcaption className="h6 text-black">
-                Focus des graphes des 3 corpus de 2020 à 2022 sur les acteurs de type “vulgarisation”
+                Focus des graphes des corpus de 2020 et 2022 sur les acteurs de type “vulgarisation”
               </figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
@@ -343,7 +343,7 @@ const StoryComponent: FC = () => {
                 downloadLink={{
                   text: 'Explorer la version interactive et télécharger les graphes',
                   legend: 'Réglage "By actor types" et survol à la souris de "vulgarisation"',
-                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/'
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-sans-2021/'
                 }}
               />
             </figure>
@@ -461,12 +461,48 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <div className="row">
-            <figure className="text-center">
+            <p className="text-center h5 text-black">
+              Visualisation des liens entre les différents clusters des réseaux
+            </p>
+          </div>
+          <div className="row">
+            <figure className="text-center col-12 col-lg-4">
+              <figcaption className="h6 text-black">en 2020</figcaption>
               <FullscreenPicture
                 imgClassName="img-fluid w-100"
                 story="covid"
-                className="maxw-800 m-auto"
-                src={BASE_PATH + '/pictures/story-covid/Hierarchical edge bundling 2020.png'}
+                src={BASE_PATH + '/pictures/story-covid/hierarchical_edge_bundling_2020.png'}
+                caption="Visualisation des liens entre les différents clusters des réseaux en 2020"
+                downloadLink={{
+                  text: 'Télécharger les données du réseau au format GEXF',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/data/20220415/covid_2020.gexf'
+                }}
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4">
+              <figcaption className="h6 text-black">en 2021</figcaption>
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                story="covid"
+                src={BASE_PATH + '/pictures/story-covid/hierarchical_edge_bundling_2021.png'}
+                caption="Visualisation des liens entre les différents clusters des réseaux en 2021"
+                downloadLink={{
+                  text: 'Télécharger les données du réseau au format GEXF',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/data/20220415/covid_2021.gexf'
+                }}
+              />
+            </figure>
+            <figure className="text-center col-12 col-lg-4">
+              <figcaption className="h6 text-black">en 2022</figcaption>
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                story="covid"
+                src={BASE_PATH + '/pictures/story-covid/hierarchical_edge_bundling_2022.png'}
+                caption="Visualisation des liens entre les différents clusters des réseaux en 2022"
+                downloadLink={{
+                  text: 'Télécharger les données du réseau au format GEXF',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/covid/time-networks/build-15-04-triple/data/20220415/covid_2022.gexf'
+                }}
               />
             </figure>
           </div>
@@ -485,7 +521,7 @@ const StoryComponent: FC = () => {
                   applicable à de grands réseaux.
                 </>
               </Note>
-              .
+              . Le code source permettant de réaliser ces visualisations est <a href="https://github.com/medialab/respadon-datasprint-2022/tree/master/covid/hierarchical-edge-bundling">disponible sous licence libre en ligne</a>.
             </p>
           </div>
         </section>
