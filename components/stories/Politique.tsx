@@ -443,7 +443,7 @@ const StoryComponent: FC = () => {
                 legendData={editorialColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75'
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
@@ -461,7 +461,7 @@ const StoryComponent: FC = () => {
                 legendData={editorialColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75',
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
@@ -479,7 +479,7 @@ const StoryComponent: FC = () => {
                 legendData={editorialColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&c=f&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75',
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
@@ -593,7 +593,7 @@ const StoryComponent: FC = () => {
                 legendData={actorsColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13'
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2012.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75'
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
@@ -611,7 +611,7 @@ const StoryComponent: FC = () => {
                 legendData={actorsColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2017.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75',
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
@@ -629,7 +629,7 @@ const StoryComponent: FC = () => {
                 legendData={actorsColors}
                 targetXL={{
                   type: 'iframe',
-                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Fmelenchon_2022.gexf&c=a&s=r&sa[]=u&sa[]=o&sa[]=pc&sa[]=r&ca[]=a&ca[]=ig-n&ca[]=ca%20&ca[]=f&st[]=f&st[]=a&st[]=r&ed=d&lt=0.552&ls=13&nr=0.75',
                 }}
                 downloadLink={{
                   text: 'Télécharger le graphe au format GEXF',
