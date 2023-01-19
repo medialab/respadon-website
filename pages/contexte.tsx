@@ -284,7 +284,7 @@ const Context: FC = () => (
           </h2>
           <p>
             Publié sous la forme d&apos;un{' '}
-            <a href="https://github.com/medialab/hyphe">logiciel libre publié sur GitHub</a>, Hyphe
+            <a href="https://github.com/medialab/hyphe">logiciel libre diffusé sur GitHub</a>, Hyphe
             a été conçu pour offrir aux chercheurs et étudiants un outil de création et nettoyage de
             corpus web reposant sur un crawler orienté pour la recherche. Les utilisateurs sont
             accompagnés par une méthodologie pour construire leur corpus web de manière à la fois
@@ -295,17 +295,17 @@ const Context: FC = () => (
             collecter les liens sortants et les contenus textuels. Les entités les plus citées
             peuvent ensuite être prospectées manuellement afin d&apos;enrichir le corpus avant de le
             visualiser sous la forme d&apos;un réseau et de l&apos;exporter pour nettoyage dans
-            d’autres outils tel que Gephi. Hyphe a été adapté aux archives web de la BnF pour les
-            besoins du datasprint ResPaDon et permet désormais la curation des corpus web archivés
-            (BnF et Internet Archive) aussi bien que ceux du web vivant.
+            d’autres outils tel que Gephi. Hyphe a été adapté aux archives web de la BnF dans le
+            cadre du projet ResPaDon et permet désormais de constituer des corpus web à partir du 
+            web archivé (BnF et Internet Archive) aussi bien que du web vivant.
           </p>
           <p>
             Pour en savoir plus sur Hyphe :{' '}
             <a href="https://hyphe.medialab.sciences-po.fr/">hyphe.medialab.sciences-po.fr</a>
           </p>
           <p>
-            Pour tester le crawler Hyphe en version démo : {' '}
-            <a href="https://hyphe.medialab.sciences-po.fr/demo/#/login">https://hyphe.medialab.sciences-po.fr/demo/#/login</a>
+            Pour tester le crawler Hyphe en version démo (avec accès aux archives d'Internet Archive) : {' '}
+            <a href="https://hyphe.medialab.sciences-po.fr/demo/">https://hyphe.medialab.sciences-po.fr/demo/</a>
           </p>
         </div>
       </section>
