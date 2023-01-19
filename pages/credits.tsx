@@ -75,7 +75,7 @@ const Credits: FC = () => (
       </div>
 
       <div className="row">
-        <h2 className="h4 mt-4">Hébergement</h2>
+        <h2 className="h4 mt-4">Hébergement et développements complémentaires</h2>
         <div>
           <a target="_blank" rel="noreferrer" href="https://medialab.sciencespo.fr/">médialab, Sciences&nbsp;Po</a>
         </div>
