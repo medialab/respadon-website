@@ -12,6 +12,14 @@ const typeColors = [
   { color: '#e7ad94', label: 'édition' },
 ];
 
+const natureColors = [
+  { color: '#9bf0ff', label: 'individu' },
+  { color: '#ff9770', label: 'professionelle' },
+  { color: '#01dcbe', label: 'académique' },
+  { color: '#ffb7df', label: 'presse' },
+  { color: '#958cc8', label: 'à décider' },
+];
+
 const StoryComponent: FC = () => {
   return (
     <>
@@ -647,6 +655,7 @@ const StoryComponent: FC = () => {
                 className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/liens_entre_critiques_n0-n-1.png'}
                 caption="Réseau mettant en lumière l'évolution des liens entre les sites de critique dans les réseaux n0 et n-1"
+                legendData={natureColors}
                 targetXL={{
                   type: 'iframe',
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Fliens_entre_critiques_n0-n-1.gexf&sa[]=pgt&sa[]=o&sa[]=pgc&sa[]=r&sa[]=ing-n&sa[]=ip-n&ca[]=nt&ca[]=pgt&ca[]=ing-n&ca[]=o&ca[]=cae&ca[]=pgc&ca[]=ca&ca[]=ip-n&ca[]=r&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=h&nr=0.6&er=1&ec=o&lt=1.085&le=18'
@@ -699,6 +708,7 @@ const StoryComponent: FC = () => {
                 className="maxw-600 m-auto spectacles"
                 src={BASE_PATH + '/pictures/story-spectacles/liens_entre_critiques_n-1-n-2.png'}
                 caption="Réseau mettant en lumière l'évolution des liens entre les sites de critique dans les réseaux n-1 et n-2"
+                legendData={natureColors}
                 targetXL={{
                   type: 'iframe',
                   src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-spectacles%2Fliens_entre_critiques_n-1-n-2.gexf&sa[]=pgt&sa[]=o&sa[]=pgc&sa[]=r&sa[]=ing-n&sa[]=ip-n&ca[]=nt&ca[]=pgt&ca[]=ing-n&ca[]=o&ca[]=cae&ca[]=pgc&ca[]=ca&ca[]=ip-n&ca[]=r&st[]=t&st[]=nt&st[]=pp&st[]=r&st[]=h&nr=0.6&er=1&ec=o&lt=1.085&le=18'
