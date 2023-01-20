@@ -5,8 +5,8 @@ import FullscreenPicture from '../FullscreenPicture';
 import Note from '../Note';
 
 const domaineThemeLegend = [
-  { color: '#c8b3d3', label: 'theme' },
-  { color: '#b3cfae', label: 'domaine site web' },
+  { color: '#c8b3d3', label: 'thème' },
+  { color: '#b3cfae', label: 'domaine web' },
 ];
 const themeDensityLegend = [
   { color: '#FFF8F6', label: 'Basse densité' },
@@ -111,7 +111,10 @@ const StoryComponent: FC = () => {
                 className="maxw-800 m-auto"
                 src={BASE_PATH + '/pictures/story-genome/hypertext_webentites.png'}
                 caption="Réseaux hyphe génom* - corpus Elections 2002"
-                legendData={domaineThemeLegend}
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-genome%2Fweb_entities_IN_2002_tagged_by_themes.gexf&c=crae&s=wd&sa[]=pgt&sa[]=u&sa[]=ou&sa[]=pgc&sa[]=wo&sa[]=to&sa[]=bi&sa[]=cl&sa[]=ge&sa[]=ch&sa[]=em&sa[]=v&sa[]=eu&sa[]=so&sa[]=tr&sa[]=go&sa[]=f&sa[]=av&sa[]=r&sa[]=ig-n&sa[]=wi-n&sa[]=wd&sa[]=br&ca[]=crae&ca[]=te-s&ca[]=ba-s&ca[]=og-s&ca[]=ad-s&ca[]=te_&ca[]=ba_&ca[]=bi_&ca[]=cl_&ca[]=ge_&ca[]=ch_&ca[]=em_&ca[]=og_&ca[]=br_&ca[]=ad_&ca[]=v_&ca[]=eu_&ca[]=so_&ca[]=tr_&ca[]=go_&ca[]=f_&ca[]=av_&ca[]=pgt&ca[]=u&ca[]=ig-n&ca[]=ou&ca[]=pgc&ca[]=wi-n&ca[]=wo&ca[]=wd&ca[]=to&ca[]=bi&ca[]=cl&ca[]=ge&ca[]=em&ca[]=ch&ca[]=br&ca[]=v&ca[]=eu&ca[]=so&ca[]=tr&ca[]=go&ca[]=f&ca[]=av&ca[]=pr&ca[]=ca&ca[]=r&st[]=ca&st[]=pr&st[]=h&le=15&nr=0.8'
+                }}
                 downloadLink={{
                   text: 'Télécharger le réseau au format GEXF',
                   href: `${BASE_PATH}/data/story-genome/web_entities_IN_2002_tagged_by_themes.gexf`,
@@ -165,18 +168,22 @@ const StoryComponent: FC = () => {
             <div className="row">
               <figure className="text-center">
                 <figcaption className="h6 text-black">
-                  Réseaux bipartite domaine - thème pondéré par le nombre de page - corpus Elections
+                  Réseau bipartite domaines / thèmes pondéré par le nombre de pages - corpus Elections
                   2002
                 </figcaption>
                 <FullscreenPicture
                   imgClassName="img-fluid w-100"
                   story="genome"
-                  className="maxw-800 m-auto"
+                  className="maxw-800 m-auto text-white"
                   src={BASE_PATH + '/pictures/story-genome/bpartite_themes_domaines_2002.png'}
-                  caption="Réseaux bipartite domaine - thème pondéré par le nombre de page - corpus Elections 2002"
+                  caption="Réseau bipartite domaines / thèmes pondéré par le nombre de pages - corpus Elections 2002"
                   legendData={domaineThemeLegend}
+                  targetXL={{
+                    type: 'iframe',
+                    src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Frespadon.medialab.sciencespo.fr%2Fdata%2Fstory-genome%2Fthemes_domaine_2002.gexf&c=ty&s=wd&sa[]=wo&sa[]=wd&sa[]=to&sa[]=c&sa[]=r&sa[]=wi-n&ca[]=ty&ca[]=wi-n&ca[]=wo&ca[]=wd&ca[]=to&ca[]=r&ca[]=c&st=ty&nr=0.75&ed=u&lt=1.85&ds=1&dc=1&le=14'
+                  }}
                   downloadLink={{
-                    text: 'Télécharger les données sources au format json',
+                    text: 'Télécharger les données sources au format JSON',
                     href: `${BASE_PATH}/data/story-genome/domaine_theme.json`,
                   }}
                 />
@@ -237,7 +244,7 @@ const StoryComponent: FC = () => {
       <div className="figure-container">
         <div className="container">
           <figcaption className="h5 text-black text-center">
-            Densité de mentions des thèmes dans le réseau hypertexte des web entitées
+            Densité de mentions des thèmes dans le réseau hypertexte des web entités
           </figcaption>
           <div className="row">
             <div className="col-6">
