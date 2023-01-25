@@ -798,11 +798,11 @@ const StoryComponent: FC = () => {
               .
             </li>
             <li><a className="refnote" href="#ref_4">↑</a>
-              Gerbaudo, Paulo (2019),{' '}
+              Gerbaudo Paulo (2019),{' '}
               <em>The Digital Party, Political Organisation and Online Democracy</em>, Pluto Press.
             </li>
             <li><a className="refnote" href="#ref_5">↑</a>
-              Gibson, Rachel K.,{' '}
+              Gibson Rachel K.,{' '}
               <em>
                 When the Nerds Go Marching In: How Digital Technology Moved from the Margins to the
                 Mainstream of Political Campaigns
@@ -818,8 +818,8 @@ const StoryComponent: FC = () => {
               .
             </li>
             <li><a className="refnote" href="#ref_6">↑</a>
-              Stromer-Galley, Jennifer, <em>Presidential Campaigning in the Internet Age</em>,
-              Oxford Studies in Digital Politics (2014; online edn, Oxford Academic, 16 Apr. 2014),{' '}
+              Stromer-Galley Jennifer.{' '}(2014).{' '}<em>Presidential Campaigning in the Internet Age</em>,
+              Oxford Studies in Digital Politics (online edn, Oxford Academic, 16 Apr. 2014),{' '}
               <a
                 className="link-politique fw-bold"
                 href="https://doi.org/10.1093/acprof:oso/9780199731930.001.0001"
