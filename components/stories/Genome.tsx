@@ -421,7 +421,7 @@ const StoryComponent: FC = () => {
                   {' '}(accessed 16 January 2023).
             </li>
             <li><a className="refnote" href="#ref_2">↑</a>
-                Plique Guillaume, Jacomy Mathieu, Ooghe-Tabanou Benjamin Girard, Paul.{' '}(2018).{' '}
+                Plique Guillaume, Jacomy Mathieu, Ooghe-Tabanou Benjamin, Girard, Paul.{' '}(2018).{' '}
               <em>
                It’s a Trie... it’s a Graph... it’s a Traph!{' '}</em>
                 Free and Open Source Software Developers’ European Meeting. {' '}
