@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> Structuration des communautés politiques autour
+                  <span className="yellow-dot" /> La structuration des communautés politiques autour
                   des candidats aux élections présidentielles (exemple du candidat Jean-Luc
                   Mélenchon)
                 </div>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> Cartographie de la critique en ligne des arts du
+                  <span className="yellow-dot" /> La cartographie de la critique en ligne des arts du
                   spectacle
                 </div>
                 <div className="fst-italic">
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
 
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> Crise de la COVID-19 : positionnement des acteurs
+                  <span className="yellow-dot" /> La crise de la COVID-19 : positionnement des acteurs
                   du web par rapport aux institutions
                 </div>
                 <div className="fst-italic">
