@@ -17,13 +17,9 @@ const StoriesPage: FC = () => {
         <div className="row">
           <h1 className="h2 my-4 py-4">Stories</h1>
           <p>
-            Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Hyphe. Ut wisi enim
-            ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
-            vulputate velit esse molestie conse- quat, vel illum dolore eu feugiat nulla facilisis
-            at vero eros et ac- cumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-            delenit augue duis dolore te feugait nulla facilisi.
+            Ci-dessous sont présentées quatre expérimentations pilotes faites sur un temps très court par des ingénieur.e.s de recherche, des designers et des chercheur.euse.s.
+            L'objectif était de tester ce qu'il est possible de faire en travaillant sur un sujet qui nécessite à la fois d'enquêter sur web vivant et sur le web archivé, 
+            deux matériaux qui partagent beaucoup et sont pourtant bien différents.
           </p>
         </div>
       </div>
