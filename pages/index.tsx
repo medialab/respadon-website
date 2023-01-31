@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> La structuration des communautés politiques autour
+                  <span className="yellow-dot" /> Structuration des communautés politiques autour
                   des candidats aux élections présidentielles (exemple du candidat Jean-Luc
                   Mélenchon)
                 </div>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> La cartographie de la critique en ligne des arts du
+                  <span className="yellow-dot" /> Cartographie de la critique en ligne des arts du
                   spectacle
                 </div>
                 <div className="fst-italic">
@@ -114,12 +114,11 @@ const Home: NextPage = () => {
 
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> La crise de la COVID-19 : positionnement des acteurs
-                  du web par rapport aux institutions
+                  <span className="yellow-dot" /> Vers une cartographie de la crise de la Covid-19
                 </div>
                 <div className="fst-italic">
                   L’idée principale est de réaliser une cartographie des discours qui permet
-                  d’explorer le positionnement entre les acteurs du web et les sites institutionnels
+                  d’explorer le positionnement entre les divers acteurs du web et les sites institutionnels
                   qui traitent de la crise de la covid-19 entre décembre 2019 et avril 2022.
                 </div>
                 <div className="small participants">
@@ -132,8 +131,7 @@ const Home: NextPage = () => {
               
               <li className="mb-4">
                 <div className="fw-bold">
-                  <span className="yellow-dot" /> La notion de « génome » dans les archives
-                  électorales BnF
+                  <span className="yellow-dot" /> Caractériser les représentations politiques du vivant “génomique” dans les archives du web français
                 </div>
                 <div className="fst-italic">
                   L’objectif du groupe est d’étudier les sources web qui publient des contenus
