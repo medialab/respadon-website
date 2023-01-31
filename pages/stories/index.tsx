@@ -17,8 +17,8 @@ const StoriesPage: FC = () => {
         <div className="row">
           <h1 className="h2 my-4 py-4">Stories</h1>
           <p>
-            Ci-dessous sont présentées quatre expérimentations pilotes faites sur un temps très court par des ingénieur.e.s de recherche, des designers et des chercheur.euse.s.
-            L'objectif était de tester ce qu'il est possible de faire en travaillant sur un sujet qui nécessite à la fois d'enquêter sur web vivant et sur le web archivé, 
+            Ci-dessous sont présentées quatre expérimentations pilotes faites sur un temps très court par des ingénieur.e.s de recherche, des designers et des chercheur.euse.s autour d'un sujet commun.
+            L'objectif était de tester ce qu'il est possible de faire en travaillant sur un sujet qui nécessite à la fois d'enquêter sur web vivant via l'outil Hyphe et sur le web archivé via les archives de la BnF, 
             deux matériaux qui partagent beaucoup et sont pourtant bien différents.
           </p>
         </div>
