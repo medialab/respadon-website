@@ -72,6 +72,27 @@ const Home: NextPage = () => {
           <h2>Les projets</h2>
           <div className="text-block">
             <ul className="list-unstyled">
+              
+              <li className="mb-4">
+                <div className="fw-bold">
+                  <span className="yellow-dot" /> Structuration des communautés politiques autour
+                  des candidats aux élections présidentielles (exemple du candidat Jean-Luc
+                  Mélenchon)
+                </div>
+                <div className="fst-italic">
+                  Il est question d’observer les transformations des communautés politiques de
+                  soutien aux candidats à l’élection présidentielle, à travers l’exemple particulier
+                  des communautés de soutien à Jean-Luc Mélenchon, en analysant notamment les partis
+                  plateformes en 2012, 2017 et 2022 ainsi que l’évolution des formes éditoriales que
+                  prennent ces sites dans le temps.
+                </div>
+                <div className="small participants">
+                  Sara Aubry (BnF), Fabienne Greffet (Université de Nancy), Cyril Heude (Sciences
+                  Po), Robin De Mourat (Sciences&nbsp;Po), Benjamin Ooghe-Tabanou (Sciences&nbsp;Po).
+                </div>
+              </li>
+
+              
               <li className="mb-4">
                 <div className="fw-bold">
                   <span className="yellow-dot" /> Cartographie de la critique en ligne des arts du
@@ -108,25 +129,7 @@ const Home: NextPage = () => {
                 </div>
               </li>
 
-              <li className="mb-4">
-                <div className="fw-bold">
-                  <span className="yellow-dot" /> Structuration des communautés politiques autour
-                  des candidats aux élections présidentielles (exemple du candidat Jean-Luc
-                  Mélenchon)
-                </div>
-                <div className="fst-italic">
-                  Il est question d’observer les transformations des communautés politiques de
-                  soutien aux candidats à l’élection présidentielle, à travers l’exemple particulier
-                  des communautés de soutien à Jean-Luc Mélenchon, en analysant notamment les partis
-                  plateformes en 2012, 2017 et 2022 ainsi que l’évolution des formes éditoriales que
-                  prennent ces sites dans le temps.
-                </div>
-                <div className="small participants">
-                  Sara Aubry (BnF), Fabienne Greffet (Université de Nancy), Cyril Heude (Sciences
-                  Po), Robin De Mourat (Sciences&nbsp;Po), Benjamin Ooghe-Tabanou (Sciences&nbsp;Po).
-                </div>
-              </li>
-
+              
               <li className="mb-4">
                 <div className="fw-bold">
                   <span className="yellow-dot" /> La notion de « génome » dans les archives
