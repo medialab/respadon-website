@@ -79,7 +79,7 @@ const Footer: FC<{ page?: Page }> = ({ page }) => (
         </div>
       </div>
       <div className="col-3 contact-block p-3">
-        <img src="pictures/respadon.png" alt="" width="75" />
+        <img src="/pictures/respadon.png" alt="Logo ResPaDon" width="75" />
         <div>Pour en savoir plus, contactez&nbsp;:</div>
         <div className="fw-bold">Audrey Baneyx</div>
         <div className="smaller">
