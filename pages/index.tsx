@@ -183,7 +183,7 @@ const Home: NextPage = () => {
         <div className="method-block text-center p-5 my-4">
           <h2>Méthodologie</h2>
           <p>
-            Le retour d'expérience du datasprint <a href="https://respadon.medialab.sciencespo.fr/contexte/">ResPaDon</a> et les travaux préliminaires issus des quatre groupes permettent de dégager quelques 
+           Le retour d'expérience du datasprint ResPaDon et les travaux préliminaires issus des quatre groupes permettent de dégager quelques 
           réflexions d'ordre méthodologique pour étudier de manière complémentaire les archives du web et le web vivant à des fins de recherche.
           </p>
           <div className="pb-4">
