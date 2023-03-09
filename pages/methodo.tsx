@@ -31,7 +31,15 @@ const Method: FC = () => (
         <div className="col-xl-9">
           <h2 className="h4 mt-5 pt-4">Constitution du corpus de recherche</h2>
           <p>
-            Les quatre comptes rendus d'expérimentation montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
+            Les quatre{' '}
+<Note style={{ maxWidth: '800px' }}>
+<>comptes rendus d'expérimentation</>
+<>
+<p>
+Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
+<p/>
+ </>
+</Note>{' '}montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
           </p>
 
           <p>
