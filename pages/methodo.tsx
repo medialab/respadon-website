@@ -15,7 +15,7 @@ const Method: FC = () => (
       <div className="row text-center justify-content-center my-4 py-4">
         <h1 className="h2 my-4 py-4">Méthodologie</h1>
         <p className="fs-4 fw-bold text-black col-lg-9 my-4">
-          Le retour d'expérience du datasprint et les travaux préliminaires issus des quatre groupes permettent de dégager quelques 
+          Le retour d'expérience du datasprint <a href="https://respadon.medialab.sciencespo.fr/contexte/">ResPaDon</a> et les travaux préliminaires issus des quatre groupes permettent de dégager quelques 
           réflexions d'ordre méthodologique pour étudier de manière complémentaire les archives du web et le web vivant à des fins de recherche.
 
         </p>
@@ -61,10 +61,36 @@ Or, dans le cadre de recherches sur les archives du web, la dimension temporelle
           </p>
           <p>
             Deux solutions émergent des travaux menés lors du datasprint ResPaDon pour outiller la comparaison entre graphes et rendre compte de l’évolution temporelle des éléments d’un même graphe.
-          
+          </p>
+          <p>
             Le groupe travaillant sur <a href="https://respadon.medialab.sciencespo.fr/stories/politique/">la structuration de communautés politiques</a> propose la mise au point d’un script sur mesure développé pour visualiser des réseaux en “triptyque” permettant de comparer les données dans le temps. Un tel modèle visuel permet de faire ressortir la structure pérenne des entités web communes aux deux périodes mais aussi de visualiser les entités et communautés apparues et disparues entre les deux réseaux.
-          REMETTRE ILLUSTRATION
-            
+          </p>
+          <div className="figure-container">
+        <div className="container">
+          <div className="row">
+            <figure className="text-center">
+              <figcaption className="h6 text-black">
+                Présence des web entités entre 2012 et 2017
+              </figcaption>
+              <FullscreenPicture
+                imgClassName="img-fluid w-100"
+                story="politique"
+                src={BASE_PATH + '/pictures/story-politique/2012%20to%202017.png'}
+                caption="Présence des web entités entre 2012 et 2017"
+                targetXL={{
+                  type: 'iframe',
+                  src: 'https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/embed/?url=https%3A%2F%2Fmedialab.github.io%2Frespadon-datasprint-2022%2Fcommunautes_politiques%2Fdata%2Ftriptyque_2012_to_2017_noverlapped.gexf&s=o&sa[]=o&sa[]=r&ca[]=ig-s&ca[]=f&ca[]=a&ca[]=pe&ca[]=ca%20&st[]=f&st[]=a&st[]=pe&nr=0.659&er=0.591&ec=o&ed=d&lt=2.216&ds=1'
+                }}
+                downloadLink={{
+                  text: 'Télécharger le graphe au format GEXF',
+                  href: 'https://medialab.github.io/respadon-datasprint-2022/communautes_politiques/data/triptyque_2012_to_2017_noverlapped.gexf'
+                }}
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+          <p>
             Le groupe ayant travaillé sur <a href="https://respadon.medialab.sciencespo.fr/stories/covid/">la cartographie de la crise de la Covid-19</a> dans les archives de la BnF s’est concentré, quant à lui, sur la comparaison de deux graphes entre eux, en fixant des nœuds pérennes d’une période temporelle à une autre comme repères dans la spatialisation des graphes successifs. Pouvoir retrouver des mêmes éléments au même endroit dans deux graphes différents facilite l’observation des processus d’évolution des données. Comparer des graphes en maintenant une cohérence dans la spatialisation des nœuds permet également de faire un contrôle qualité sur les données représentées, ce qui s'avère particulièrement utile quand on travaille sur de grands corpus de données et que le processus de collecte a été délégué.
           </p>
           <p>
