@@ -66,7 +66,7 @@ Or, dans le cadre de recherches sur les archives du web, la dimension temporelle
           <p>
             1. Le groupe travaillant sur <a href="https://respadon.medialab.sciencespo.fr/stories/politique/">la structuration de communautés politiques</a> propose la mise au point d’un script sur mesure développé pour visualiser des réseaux en “triptyque” permettant de comparer les données dans le temps. Un tel modèle visuel permet de faire ressortir la structure pérenne des entités web communes aux deux périodes mais aussi de visualiser les entités et communautés apparues et disparues entre les deux réseaux.
          
-           <img src={BASE_PATH + '/pictures/story-politique/2012%20to%202017.png'} style={{width: "1000px", height: "400px"}} />
+           <img src={BASE_PATH + '/pictures/trriptyque-2012to2017-titleMethodo.png'} style={{width: "1000px", height: "400px"}} />
            </p>
         
           <p>
