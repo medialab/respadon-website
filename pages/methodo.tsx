@@ -31,7 +31,16 @@ const Method: FC = () => (
         <div className="col-xl-9">
           <h2 className="h4 mt-5 pt-4">Constitution du corpus de recherche</h2>
           <p>
-            Les quatre montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
+            Les quatre{' '}
+            <Note style={{ maxWidth: '800px' }}>
+             <>comptes rendus d'expérimentation</>
+             <>
+              <p>
+                Un modèle de document, servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
+              <p/>
+              </>
+            </Note>
+            {' '} montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
           </p>
           <p>
           Il est possible de choisir d’étudier une ressource particulière en ligne, fixe dans le temps, comme l’a fait le groupe qui a choisi d’étudier la communauté politique qui soutient Jean-Luc Mélenchon en construisant son corpus de départ sur un ensemble fixe de pages wikipedia. L’avantage de cette démarche est qu’elle facilite la comparaison des évolutions dans le temps du corpus car la structure des pages Wikipedia ne subit pas de changements majeurs et les pages elles-mêmes sont pérennes. Elle nécessite cependant d’avoir dès le début de la démarche de recherche une idée précise de la manière dont le corpus sera circonscrit, ce qui s’oppose en partie à une démarche plus exploratoire. 
