@@ -63,29 +63,17 @@ La démarche adoptée par le groupe qui s’est intéressé à la représentatio
             Or, dans le cadre de recherches sur les archives du web, la dimension temporelle du ou des corpus est un point central à prendre en 
             compte dans les analyses à mener. Si les graphes dynamiques permettent de voir se jouer les évolutions dans les représentations, 
             ils sont bien moins satisfaisants lorsqu’il s’agit de faciliter l’analyse, notamment en raison du caractère mobile et volatile des données 
-            tant d’un point de vue temporel (apparition, disparition d’un noeud) que dans la 
-            
-            spatialisation du graphe 
-            
-       <Note style={{ maxWidth: '800px' }}>
-                  <>sites web</>
+            tant d’un point de vue temporel (apparition, disparition d’un noeud) que dans la{' '} 
+            <Note style={{ maxWidth: '800px' }}>
+               <>spatialisation du graphe</>
                   <>
-                    <h6>Comment consulter les sites collectés&nbsp;? </h6>
                     <p>
-                      Les listes de sites sélectionnés sont disponibles sous licence ouverte sur le
-                      site BnF API et jeux de données ainsi que sur la plateforme{' '}
-                      <a href="http://data.gouv.fr">data.gouv.fr</a>.
-                    </p>
-                    <p>
-                      Les sites collectés sont consultables dans les collections des archives de
-                      l'internet, accessibles sur une application dédiée, dans les salles de
-                      recherche de la BnF et des bibliothèques partenaires en région.
+                       La spatialisation des graphes est généralement réalisée à partir d’algorithmes basés sur les forces. Ils suivent un principe simple : les noeuds reliés s’attirent et les noeuds non reliés se repoussent. 
+                      Ainsi, l'évolution dans les données des corpus représentés a un impact direct sur la place des noeuds dans le graphe.
                     </p>
                   </>
-                </Note>{' '}     
-            
-            
-            (le même noeud ne sera pas représenté à la même place dans le graphe au temps t0 et t1). Qui plus est, ce que l’on cherche à rendre visible dans ce type de corpus sont les phénomènes d’apparition, de permanence, d’instabilité et de disparition de sites et de liens, marqueurs de restructuration de l’espace de la thématique étudiée sur le web à un temps t0, t1, t2.
+                </Note>
+              {' '}(le même noeud ne sera pas représenté à la même place dans le graphe au temps t0 et t1). Qui plus est, ce que l’on cherche à rendre visible dans ce type de corpus sont les phénomènes d’apparition, de permanence, d’instabilité et de disparition de sites et de liens, marqueurs de restructuration de l’espace de la thématique étudiée sur le web à un temps t0, t1, t2.
           </p>
           <p>
             Deux solutions émergent des travaux menés lors du datasprint ResPaDon pour outiller la comparaison entre graphes et rendre compte de l’évolution temporelle des éléments d’un même graphe :
