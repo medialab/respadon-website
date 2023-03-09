@@ -35,7 +35,7 @@ const Method: FC = () => (
                <>comptes rendus d'expérimentation</>
                   <>
                     <p>
-                        Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
+                        Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe, a été réalisé et adapté pour le datasprint ResPaDon.
                     </p>
                   </>
                 </Note>            
