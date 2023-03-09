@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Head from 'next/head';
+import Note from '../Note';
 
 import Layout from '../components/Layout';
 import {BASE_PATH, PICTURES} from '../lib/consts';
