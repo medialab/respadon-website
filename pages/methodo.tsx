@@ -32,16 +32,7 @@ const Method: FC = () => (
         <div className="col-xl-9">
           <h2 className="h4 mt-5 pt-4">Constitution du corpus de recherche</h2>
           <p>
-            Les quatre{' '}
-          <Note style={{ maxWidth: '800px' }}>
-            <>comptes rendus d'expérimentation</>
-            <>
-              <p>
-                Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
-              <p/>
-            </>
-          </Note>
-          {' '}montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
+            Les quatre comptes rendus montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
           </p>
 
           <p>
@@ -66,9 +57,36 @@ La démarche adoptée par le groupe qui s’est intéressé à la représentatio
           
           <h2 className="h4 mt-5 pt-4">Représentation et visualisation des données explorées</h2>
           <p>
-            Les considérations méthodologiques sur la constitution des corpus de recherche amorcées ci-dessus se sont poursuivies, dans chacune des expérimentations citées, par des réflexions portant sur la manière de rendre compte des processus d’évolution et de comparaison entre corpus, entre web archivé et web vivant.
-            L’outil <a href="https://hyphe.medialab.sciences-po.fr/">Hyphe</a>, utilisé pour la curation de corpus, propose de représenter les entités qui le composent (par exemple des pages web) et les liens qu’elles entretiennent les unes (les liens hypertexte) avec les autres sous la forme d’un graphe.
-Or, dans le cadre de recherches sur les archives du web, la dimension temporelle du ou des corpus est un point central à prendre en compte dans les analyses à mener. Si les graphes dynamiques permettent de voir se jouer les évolutions dans les représentations, ils sont bien moins satisfaisants lorsqu’il s’agit de faciliter l’analyse, notamment en raison du caractère mobile et volatile des données tant d’un point de vue temporel (apparition, disparition d’un noeud) que dans la spatialisation du graphe (le même noeud ne sera pas représenté à la même place dans le graphe au temps t0 et t1). Qui plus est, ce que l’on cherche à rendre visible dans ce type de corpus sont les phénomènes d’apparition, de permanence, d’instabilité et de disparition de sites et de liens, marqueurs de restructuration de l’espace de la thématique étudiée sur le web à un temps t0, t1, t2.
+            Les considérations méthodologiques sur la constitution des corpus de recherche amorcées ci-dessus se sont poursuivies, dans chacune des expérimentations citées, 
+            par des réflexions portant sur la manière de rendre compte des processus d’évolution et de comparaison entre corpus, entre web archivé et web vivant.
+            L’outil <a href="https://hyphe.medialab.sciences-po.fr/">Hyphe</a>, utilisé pour la curation de corpus, propose de représenter les entités qui 
+            le composent (par exemple des pages web) et les liens qu’elles entretiennent les unes (les liens hypertexte) avec les autres sous la forme d’un graphe.
+            Or, dans le cadre de recherches sur les archives du web, la dimension temporelle du ou des corpus est un point central à prendre en 
+            compte dans les analyses à mener. Si les graphes dynamiques permettent de voir se jouer les évolutions dans les représentations, 
+            ils sont bien moins satisfaisants lorsqu’il s’agit de faciliter l’analyse, notamment en raison du caractère mobile et volatile des données 
+            tant d’un point de vue temporel (apparition, disparition d’un noeud) que dans la 
+            
+            spatialisation du graphe 
+            
+       <Note style={{ maxWidth: '800px' }}>
+                  <>sites web</>
+                  <>
+                    <h6>Comment consulter les sites collectés&nbsp;? </h6>
+                    <p>
+                      Les listes de sites sélectionnés sont disponibles sous licence ouverte sur le
+                      site BnF API et jeux de données ainsi que sur la plateforme{' '}
+                      <a href="http://data.gouv.fr">data.gouv.fr</a>.
+                    </p>
+                    <p>
+                      Les sites collectés sont consultables dans les collections des archives de
+                      l'internet, accessibles sur une application dédiée, dans les salles de
+                      recherche de la BnF et des bibliothèques partenaires en région.
+                    </p>
+                  </>
+                </Note>{' '}     
+            
+            
+            (le même noeud ne sera pas représenté à la même place dans le graphe au temps t0 et t1). Qui plus est, ce que l’on cherche à rendre visible dans ce type de corpus sont les phénomènes d’apparition, de permanence, d’instabilité et de disparition de sites et de liens, marqueurs de restructuration de l’espace de la thématique étudiée sur le web à un temps t0, t1, t2.
           </p>
           <p>
             Deux solutions émergent des travaux menés lors du datasprint ResPaDon pour outiller la comparaison entre graphes et rendre compte de l’évolution temporelle des éléments d’un même graphe :
