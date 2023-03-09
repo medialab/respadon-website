@@ -183,10 +183,8 @@ const Home: NextPage = () => {
         <div className="method-block text-center p-5 my-4">
           <h2>Méthodologie</h2>
           <p>
-            Texte Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-            commodo consequat. Duis autem vel eum iriure.
+            Le retour d'expérience du datasprint <a href="https://respadon.medialab.sciencespo.fr/contexte/">ResPaDon</a> et les travaux préliminaires issus des quatre groupes permettent de dégager quelques 
+          réflexions d'ordre méthodologique pour étudier de manière complémentaire les archives du web et le web vivant à des fins de recherche.
           </p>
           <div className="pb-4">
             <a href={BASE_PATH + '/methodo'} className="link-unstyled h5">
