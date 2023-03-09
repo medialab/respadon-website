@@ -32,12 +32,6 @@ const Method: FC = () => (
           <h2 className="h4 mt-5 pt-4">Constitution du corpus de recherche</h2>
           <p>Les quatre 
             <Note style={{ maxWidth: '800px' }}>
-             <>bli</>
-             <>
-               <p>
-                bla
-               <p/>
-             </>
             </Note>
              montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
           </p>
