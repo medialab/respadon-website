@@ -65,7 +65,9 @@ Or, dans le cadre de recherches sur les archives du web, la dimension temporelle
           </p>
           <p>
             1. Le groupe travaillant sur <a href="https://respadon.medialab.sciencespo.fr/stories/politique/">la structuration de communautés politiques</a> propose la mise au point d’un script sur mesure développé pour visualiser des réseaux en “triptyque” permettant de comparer les données dans le temps. Un tel modèle visuel permet de faire ressortir la structure pérenne des entités web communes aux deux périodes mais aussi de visualiser les entités et communautés apparues et disparues entre les deux réseaux.
-          </p>
+           </p>
+           <img src={BASE_PATH + '/pictures/story-politique/2012%20to%202017.png'} style={{width: "500px", height: "600px"}} />
+         
         
           <p>
             2. Le groupe étudiant <a href="https://respadon.medialab.sciencespo.fr/stories/covid/">la cartographie de la crise de la Covid-19</a> dans les archives de la BnF s’est concentré, quant à lui, sur la comparaison de deux graphes entre eux, en fixant des nœuds pérennes d’une période temporelle à une autre comme repères dans la spatialisation des graphes successifs. Pouvoir retrouver des mêmes éléments au même endroit dans deux graphes différents facilite l’observation des processus d’évolution des données. Comparer des graphes en maintenant une cohérence dans la spatialisation des nœuds permet également de faire un contrôle qualité sur les données représentées, ce qui s'avère particulièrement utile quand on travaille sur de grands corpus de données et que le processus de collecte a été délégué.
