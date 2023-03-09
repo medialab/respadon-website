@@ -21,9 +21,9 @@ const Method: FC = () => (
 
         </p>
         <div className="mb-4 pb-4">
-          <button className="btn btn-primary rounded-pill font-headings px-4">
-            <a href="https://github.com/medialab/respadon-website/blob/main/public/data/refexionsMethodologiques_Respadon.pdf">Télécharger le document ↓</a>
-          </button>
+          <a href="https://github.com/medialab/respadon-website/blob/main/public/data/refexionsMethodologiques_Respadon.pdf"><button className="btn btn-primary rounded-pill font-headings px-4">
+            Télécharger le document ↓
+          </button></a>
         </div>
       </div>
 
