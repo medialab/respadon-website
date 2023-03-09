@@ -22,7 +22,7 @@ const Method: FC = () => (
 
         </p>
         <div className="mb-4 pb-4">
-          <a href={BASE_PATH + '/data/refexionsMethodologiques_Respadon.pdf'}><button className="btn btn-primary rounded-pill font-headings px-4">
+          <a href="https://drive.google.com/file/d/11jfRnaZFum0eRPetxLb8G0JwuoOBFtps/view?usp=share_link"><button className="btn btn-primary rounded-pill font-headings px-4">
             Télécharger le document ↓
           </button></a>
         </div>
@@ -33,14 +33,15 @@ const Method: FC = () => (
           <h2 className="h4 mt-5 pt-4">Constitution du corpus de recherche</h2>
           <p>
             Les quatre{' '}
-<Note style={{ maxWidth: '800px' }}>
-<>comptes rendus d'expérimentation</>
-<>
-<p>
-Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
-<p/>
- </>
-</Note>{' '}montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
+          <Note style={{ maxWidth: '800px' }}>
+            <>comptes rendus d'expérimentation</>
+            <>
+              <p>
+                Un modèle de document (<a href="https://drive.google.com/file/d/1yNj4TeJoXmfmkjs1Mu6MYNI_m8X9ICCE/view">disponible en ligne</a>), servant de témoin de l'activité de recherche de chaque groupe a été réalisé et adapté pour le datasprint ResPaDon.
+              <p/>
+            </>
+          </Note>
+          {' '}montrent qu'il existe plusieurs manières d'envisager la constitution du corpus de recherche. Il existe des points de tension à interroger entre la volatilité et la stabilité des données du corpus, entre l’apport des approches synchroniques et diachroniques, entre une démarche cherchant à rendre compte de l’évolution entre web archivé et web vivant et une démarche fondée - a contrario - sur l’étude de la complémentarité de ces ressources.
           </p>
 
           <p>
