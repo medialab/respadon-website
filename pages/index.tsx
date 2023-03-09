@@ -192,9 +192,9 @@ const Home: NextPage = () => {
             </a>
           </div>
           <div>
-            <button className="btn btn-primary rounded-pill font-headings px-4">
+             <a href="https://drive.google.com/file/d/11jfRnaZFum0eRPetxLb8G0JwuoOBFtps/view?usp=share_link"><button className="btn btn-primary rounded-pill font-headings px-4">
               Télécharger le document ↓
-            </button>
+               </button></a>
           </div>
         </div>
       </div>
