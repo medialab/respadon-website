@@ -11,8 +11,8 @@ const Home: NextPage = () => {
   return (
     <Layout page="home">
       <Head>
-        <title>Respadon | Accueil</title>
-        <meta name="description" content="Respadon | Accueil" />
+        <title>Respadon — Explorer les archives du web avec Hyphe | Accueil</title>
+        <meta name="description" content="Respadon — Explorer les archives du web avec Hyphe | Accueil" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
